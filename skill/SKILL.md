@@ -1,23 +1,17 @@
 ---
 name: figma-lore
 description: >
-  Expert Figma and UI design knowledge base covering components, auto layout,
+  Expert Figma and UI design knowledge base. Covers components, auto layout,
   design systems, tokens, colour systems, iOS/Android specs, responsive design,
-  mobile UX, and design system auditing. Also covers deep design intelligence:
-  Gestalt psychology, visual perception, heuristic evaluation, typography theory
-  (kerning, optical spacing, type scale, variable fonts), applied colour theory,
-  behavioural design (Hick's Law, Fitts's Law, cognitive bias, dark patterns),
-  and a comprehensive art history library (classical through contemporary digital
-  movements including Bauhaus, Swiss Style, Pop Art, Surrealism, Pixel Art,
-  Glitch Art, Manga/Anime, Kawaii, Vaporwave, Cyberpunk, Psychedelic, Atomic Age,
-  Brutalism, Glassmorphism, Neumorphism, Material Design, Bento Grid, and more).
-  Use this skill whenever the user asks about Figma techniques, building
-  components, design tokens, colour systems, iOS or Android design specs,
-  responsive layouts, component architecture, design system governance, dark mode
-  design, multi-brand systems, slots, variants, auto layout patterns, developer
-  handoff, typography best practices, colour theory, visual perception, cognitive
-  psychology in design, art movements applied to UI/UX, or any visual design
-  question. When in doubt, consult this skill.
+  mobile UX, and system auditing. Also covers Gestalt psychology, visual
+  perception, heuristic evaluation, typography theory (kerning, optical spacing,
+  type scale, variable fonts), applied colour theory, behavioural design
+  (Hick's Law, Fitts's Law, cognitive bias, dark patterns), and 38 art movements
+  from Renaissance to Bento Grid (Bauhaus, Swiss Style, Pop Art, Surrealism,
+  Pixel Art, Glitch Art, Manga, Kawaii, Vaporwave, Cyberpunk, Material Design,
+  and more). Trigger for any question about Figma, design systems, tokens,
+  colour, typography, visual perception, cognitive psychology, platform specs,
+  or aesthetic/art direction.
 ---
 
 # Figma Lore
