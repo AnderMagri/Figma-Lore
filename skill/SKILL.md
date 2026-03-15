@@ -1,38 +1,17 @@
 ---
 name: design-lore
 description: >
-  Expert Figma and UI design knowledge base. Covers components, auto layout,
-  design systems, tokens, colour systems, iOS/Android specs, responsive design,
-  mobile UX, and system auditing. Also covers Gestalt psychology, visual
-  perception, heuristic evaluation, typography theory (kerning, optical spacing,
-  type scale, variable fonts), applied colour theory, behavioural design
-  (Hick's Law, Fitts's Law, cognitive bias, dark patterns), and 38 art movements
-  from Renaissance to Bento Grid (Bauhaus, Swiss Style, Pop Art, Surrealism,
-  Pixel Art, Glitch Art, Manga, Kawaii, Vaporwave, Cyberpunk, Material Design,
-  and more). Also covers design research (personas, journey maps, empathy maps,
-  JTBD, usability testing, interview scripts), UX strategy (competitive analysis,
-  design briefs, north star vision, metrics, opportunity frameworks), interaction
-  design (animation, gestures, micro-interactions, state machines, loading states,
-  error handling), prototyping and testing (A/B tests, heuristic evaluation,
-  wireframes, user flows, accessibility testing), design ops (critiques, QA,
-  sprints, handoff, version control), and designer toolkit (case studies, UX
-  writing, data visualisation, presentations, design system adoption). Covers
-  ecommerce UX (Shopify conversion, product pages, checkout, mobile commerce,
-  trust signals, collection pages, app ecosystem) and crypto/fintech UX (wallet
-  design, exchange trading, DeFi, on-ramp/off-ramp, KYC onboarding, trust &
-  security, error states, WalletConnect). Trigger for any question about Figma,
-  design systems, tokens, colour, typography, visual perception, cognitive
-  psychology, platform specs, aesthetic/art direction, design research, UX
-  strategy, interaction design, prototyping, testing, design ops, UX writing,
-  ecommerce, Shopify, crypto, fintech, Web3, or DeFi. For deep psychological
-  analysis, also covers Activity Theory (Vygotsky, Leontiev, Luria, Bakhtin,
-  Engeström), Jungian depth psychology (archetypes, Shadow, collective
-  unconscious), phenomenology (Husserl, Heidegger, Merleau-Ponty, Ihde),
-  semiotics (Peirce, Saussure, Barthes), psychoanalytic UX (Freud, Lacan,
-  Winnicott), ecological psychology (Gibson affordances), flow and motivation
-  (Csikszentmihalyi, SDT, Maslow), existential design (Sartre, Kierkegaard),
-  narrative psychology (Campbell, Propp, Bateson), and persuasion theory
-  (Lefebvre reflexive control, Pavlov, Bernays, Lasswell, Cialdini, Sun Tzu).
+  Expert design knowledge base. Covers Figma (components, auto layout, tokens,
+  variables), design systems, iOS/Android specs, responsive/mobile UX, Gestalt
+  psychology, typography, colour theory, behavioural design (Hick's, Fitts's,
+  cognitive bias), 38 art movements (Bauhaus to Bento Grid), design research,
+  UX strategy, interaction design, prototyping, design ops, UX writing,
+  ecommerce UX (Shopify, conversion, checkout, mobile commerce), crypto/fintech
+  UX (wallets, exchanges, DeFi, on-ramp, KYC, WalletConnect), and deep UX
+  psychology (Vygotsky, Jung archetypes, Heidegger, Merleau-Ponty, semiotics,
+  Freud, Lacan, Gibson affordances, flow theory, Cialdini, persuasion ethics).
+  Trigger for Figma, design systems, colour, typography, platform specs, art
+  direction, Shopify, ecommerce, crypto, fintech, Web3, DeFi, or UX psychology.
 ---
 
 # Design Lore
