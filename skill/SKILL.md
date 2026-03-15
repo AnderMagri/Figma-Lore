@@ -20,14 +20,24 @@ description: >
   for any question about Figma, design systems, tokens, colour, typography,
   visual perception, cognitive psychology, platform specs, aesthetic/art
   direction, design research, UX strategy, interaction design, prototyping,
-  testing, design ops, or UX writing.
+  testing, design ops, or UX writing. For deep psychological analysis, also
+  covers Activity Theory (Vygotsky, Leontiev, Luria, Bakhtin, Engeström),
+  Jungian depth psychology (archetypes, Shadow, collective unconscious),
+  phenomenology (Husserl, Heidegger, Merleau-Ponty, Ihde), semiotics (Peirce,
+  Saussure, Barthes), psychoanalytic UX (Freud, Lacan, Winnicott), ecological
+  psychology (Gibson affordances), flow and motivation (Csikszentmihalyi, SDT,
+  Maslow), existential design (Sartre, Kierkegaard), narrative psychology
+  (Campbell, Propp, Bateson), and persuasion theory (Lefebvre reflexive
+  control, Pavlov, Bernays, Lasswell, Cialdini, Sun Tzu).
 ---
 
 # Figma Lore
 
 A curated knowledge base of Figma best practices, design system architecture,
 platform specs, UX patterns, design research, UX strategy, interaction design,
-prototyping, design ops, and deep design intelligence.
+prototyping, design ops, deep design intelligence, and advanced UX psychology
+spanning Activity Theory, Jungian archetypes, phenomenology, semiotics,
+psychoanalysis, ecological psychology, and persuasion theory.
 
 ## How to Use This Skill
 
@@ -74,6 +84,11 @@ prototyping, design ops, and deep design intelligence.
 | lore/19-prototyping-testing.jsonl | A/B test design, accessibility testing, click tests, heuristic evaluation, prototype fidelity strategy, test scenarios, user flow diagrams, wireframe specifications | pt-001 → pt-008 |
 | lore/20-design-ops.jsonl | Design critique, QA checklists, review processes, design sprints, developer handoff, team workflows, design version control | do-001 → do-007 |
 | lore/21-designer-toolkit.jsonl | Case studies, design rationale, design system adoption, token audits, presentations, UX writing, data visualisation, illustration style, visual hierarchy | dt-001 → dt-009 |
+
+### Deep UX Psychology (Advanced — access when user requests deep psychological analysis)
+| File | Covers | Key IDs |
+|------|--------|---------|
+| lore/22-deep-ux-psychology.jsonl | **Russian Activity Theory** (Vygotsky ZPD, Leontiev hierarchy, Luria functional systems, Bakhtin dialogism, Engeström contradictions), **Jungian Depth Psychology** (12 archetypes, Shadow/Persona, collective unconscious), **Phenomenology** (Husserl intentionality, Heidegger ready-to-hand, Merleau-Ponty embodiment, Ihde technology relations), **Semiotics** (Peirce icon/index/symbol, Saussure/Barthes mythology), **Psychoanalytic** (Freud drives/defence, Lacan mirror/desire, Winnicott transitional objects), **Ecological & Motivational** (Gibson affordances, Csikszentmihalyi flow, Deci & Ryan SDT, Maslow digital hierarchy), **Existential** (Sartre/Kierkegaard choice anxiety), **Narrative** (Campbell Hero's Journey, Propp morphology, Bateson ecology of mind), **Persuasion & Power** (Lefebvre reflexive control, Pavlov conditioning, Bernays engineering consent, Lasswell communication, Cialdini 7 principles, Sun Tzu misdirection, ethics spectrum), **Integration** (theory-led audit framework, expanded persuasion audit, design as care) | dp-001 → dp-036 |
 
 ---
 
@@ -189,6 +204,25 @@ prototyping, design ops, and deep design intelligence.
 **"Illustration style"** → lore/21-designer-toolkit.jsonl (dt-008)
 **"Visual hierarchy"** → lore/21-designer-toolkit.jsonl (dt-009)
 
+### Deep UX Psychology (use only when deep psychological analysis is requested)
+**"Activity theory / Russian psychology"** → lore/22-deep-ux-psychology.jsonl (dp-001 to dp-006)
+**"Vygotsky / ZPD / scaffolding"** → lore/22-deep-ux-psychology.jsonl (dp-002)
+**"Jung / archetypes / brand personality"** → lore/22-deep-ux-psychology.jsonl (dp-007 to dp-009)
+**"Shadow / dark patterns / unconscious"** → lore/22-deep-ux-psychology.jsonl (dp-008) + lore/14-behavioural-design.jsonl (bd-011)
+**"Phenomenology / Heidegger / embodiment"** → lore/22-deep-ux-psychology.jsonl (dp-010 to dp-013)
+**"Semiotics / signs / icons / symbols"** → lore/22-deep-ux-psychology.jsonl (dp-014, dp-015)
+**"Freud / Lacan / psychoanalytic UX"** → lore/22-deep-ux-psychology.jsonl (dp-016 to dp-018)
+**"Affordances (Gibson) / ecological"** → lore/22-deep-ux-psychology.jsonl (dp-019)
+**"Flow / motivation / SDT / Maslow"** → lore/22-deep-ux-psychology.jsonl (dp-020 to dp-022)
+**"Choice anxiety / existential design"** → lore/22-deep-ux-psychology.jsonl (dp-023)
+**"Hero's journey / narrative UX"** → lore/22-deep-ux-psychology.jsonl (dp-024 to dp-026)
+**"Persuasion / influence / Cialdini"** → lore/22-deep-ux-psychology.jsonl (dp-033)
+**"Reflexive control / Bernays / propaganda"** → lore/22-deep-ux-psychology.jsonl (dp-029, dp-031, dp-032)
+**"Pavlov / conditioning / habits"** → lore/22-deep-ux-psychology.jsonl (dp-030)
+**"Ethics of persuasion / coercion"** → lore/22-deep-ux-psychology.jsonl (dp-035)
+**"Deep UX audit / theory-led analysis"** → lore/22-deep-ux-psychology.jsonl (dp-027, dp-036)
+**"Design as care / ethical design"** → lore/22-deep-ux-psychology.jsonl (dp-028)
+
 ---
 
 ## Key Design Principles (Always Apply)
@@ -206,3 +240,5 @@ prototyping, design ops, and deep design intelligence.
 - **Art history is a library**: Every aesthetic direction has historical precedent — know what you're referencing.
 - **Research before design**: Ground decisions in user evidence, not assumptions.
 - **Document the why**: Every major design decision needs rationale, not just the what.
+- **Know your persuasion level**: Every design choice operates on the ethics spectrum — from education to coercion. Know where you are.
+- **Design for the activity, not the click**: Understand the motive (Leontiev), not just the operation.

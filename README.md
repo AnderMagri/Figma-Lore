@@ -60,6 +60,29 @@ prototyping & testing, design ops, and a complete designer toolkit.
   token audits, presentations, UX writing, data visualisation, illustration
   style, visual hierarchy
 
+### Deep UX Psychology (Module 22 — Advanced)
+- **Russian Activity Theory** — Vygotsky (ZPD, scaffolding), Leontiev (activity
+  hierarchy), Luria (functional systems), Bakhtin (dialogism), Engeström
+  (expansive learning, contradictions)
+- **Jungian Depth Psychology** — 12 brand archetypes, Shadow/Persona dynamics,
+  collective unconscious and universal symbols
+- **Phenomenology** — Husserl (intentionality, lifeworld), Heidegger
+  (ready-to-hand/present-at-hand), Merleau-Ponty (embodied cognition),
+  Don Ihde (4 human-technology relations)
+- **Semiotics** — Peirce (icon/index/symbol), Saussure (signifier/signified),
+  Barthes (denotation/connotation, mythology in UI)
+- **Psychoanalytic** — Freud (drives, defence mechanisms), Lacan (mirror stage,
+  desire, the gaze), Winnicott (transitional objects, potential space)
+- **Ecological & Motivational** — Gibson (real affordance theory),
+  Csikszentmihalyi (flow), Deci & Ryan (self-determination), Maslow (digital
+  hierarchy)
+- **Existential** — Sartre & Kierkegaard (choice anxiety, constrained freedom)
+- **Narrative** — Campbell (Hero's Journey as onboarding), Propp (morphology
+  of product flows), Bateson (ecology of mind, double binds)
+- **Persuasion & Power** — Lefebvre (reflexive control), Pavlov (conditioning),
+  Bernays (engineering consent), Lasswell (communication model), Cialdini
+  (7 principles of influence), Sun Tzu (misdirection), full ethics spectrum
+
 #### Art Styles Covered
 Classical: Renaissance, Baroque, Art Nouveau, Arts & Crafts, Bauhaus, De Stijl,
 Constructivism, Art Deco, Swiss/International Style
@@ -112,7 +135,8 @@ Figma-Lore/
         ├── 18-interaction-design.jsonl
         ├── 19-prototyping-testing.jsonl
         ├── 20-design-ops.jsonl
-        └── 21-designer-toolkit.jsonl
+        ├── 21-designer-toolkit.jsonl
+        └── 22-deep-ux-psychology.jsonl
 ```
 
 ---
@@ -183,6 +207,7 @@ directly to any Claude conversation.
 | A/B tests, usability, wireframes | `19-prototyping-testing.jsonl` |
 | Critiques, sprints, handoff, QA | `20-design-ops.jsonl` |
 | Case studies, UX writing, data viz | `21-designer-toolkit.jsonl` |
+| Deep UX psychology, archetypes, persuasion | `22-deep-ux-psychology.jsonl` |
 
 ---
 
