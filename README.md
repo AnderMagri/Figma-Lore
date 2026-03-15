@@ -4,18 +4,26 @@
 > (install once, works automatically) or as files you attach to any conversation.
 
 Design Lore (formerly Figma Lore) started as a Figma-specific knowledge base
-and has grown into a comprehensive **design intelligence library** covering
-Figma mechanics, design systems, platform specs, visual perception, typography,
-colour theory, behavioural psychology, art history, design research, UX
-strategy, interaction design, prototyping & testing, design ops, a complete
-designer toolkit, ecommerce UX (Shopify), and crypto/fintech UX (wallets,
-exchanges, DeFi, banking apps).
+and has grown into a comprehensive **design intelligence library** split into
+three focused skills for accurate triggering and clean separation of concerns.
+
+---
+
+## Three Skills, One Library
+
+| Skill | ZIP | What it covers | When it triggers |
+|---|---|---|---|
+| **design-lore** | `design-lore-skill.zip` | Figma, design systems, typography, colour, Gestalt, behavioural design, art history, design research, UX strategy, interaction design, prototyping, design ops, toolkit | Figma, design systems, tokens, colour, typography, platform specs, art direction, design process |
+| **design-lore-psychology** | `design-lore-psychology-skill.zip` | Activity Theory, Jung, phenomenology, semiotics, psychoanalysis, ecological psychology, flow, existential design, persuasion theory | Deep UX analysis, psychology, archetypes, theory-led audits, persuasion evaluation |
+| **design-lore-industry** | `design-lore-industry-skill.zip` | Shopify/ecommerce UX, crypto/fintech UX, wallets, exchanges, DeFi, banking apps | Shopify, ecommerce, conversion, crypto, Web3, DeFi, fintech, wallet, banking |
+
+Install all three for complete coverage, or pick only the ones you need.
 
 ---
 
 ## What's Covered
 
-### Figma & Systems (Modules 00–10)
+### Core — Figma & Systems (Modules 00–10)
 - Figma core — frames, constraints, shortcuts, export, boolean ops
 - Auto layout — all sizing modes, padding, alignment, responsive patterns
 - Design tokens — three-layer architecture, variables, aliasing, theming
@@ -28,7 +36,7 @@ exchanges, DeFi, banking apps).
 - Design system governance — library structure, versioning, auditing, handoff
 - Execution recipes — step-by-step guides for components, tokens, DS bootstrap
 
-### Design Intelligence (Modules 11–15)
+### Core — Design Intelligence (Modules 11–15)
 - **Gestalt & Perception** — all 8 Gestalt laws applied to UI, preattentive
   attributes, F/Z scanning patterns, heuristic evaluation methodology
 - **Typography Deep** — type anatomy, classification, optical vs mechanical
@@ -43,7 +51,7 @@ exchanges, DeFi, banking apps).
 - **Art History & Aesthetics** — 38 art movements and aesthetic styles with
   specific UI/design applications for each (see full list below)
 
-### Design Process (Modules 16–21)
+### Core — Design Process (Modules 16–21)
 - **Design Research** — affinity diagrams, card sorting, diary studies, empathy
   maps, interview scripts, Jobs-to-Be-Done, journey maps, interview synthesis,
   usability test plans, user personas
@@ -62,7 +70,7 @@ exchanges, DeFi, banking apps).
   token audits, presentations, UX writing, data visualisation, illustration
   style, visual hierarchy
 
-### Deep UX Psychology (Module 22 — Advanced)
+### Psychology — Deep UX Psychology (Module 22)
 - **Russian Activity Theory** — Vygotsky (ZPD, scaffolding), Leontiev (activity
   hierarchy), Luria (functional systems), Bakhtin (dialogism), Engeström
   (expansive learning, contradictions)
@@ -85,7 +93,7 @@ exchanges, DeFi, banking apps).
   Bernays (engineering consent), Lasswell (communication model), Cialdini
   (7 principles of influence), Sun Tzu (misdirection), full ethics spectrum
 
-### Ecommerce UX (Module 23)
+### Industry — Ecommerce UX (Module 23)
 - **Shopify Conversion** — benchmarks (CVR, add-to-cart rates, abandonment),
   product page anatomy, ATC button placement & UX, checkout flow optimisation
 - **Conversion Psychology** — Cialdini applied to ecommerce, social proof,
@@ -97,7 +105,7 @@ exchanges, DeFi, banking apps).
 - **Shopify Ecosystem** — app performance impact, widget conflicts, audit
   checklist, frontend JavaScript weight
 
-### Crypto & Fintech UX (Module 24)
+### Industry — Crypto & Fintech UX (Module 24)
 - **Crypto Core** — irreversibility as design constraint, complexity abstraction,
   dual-audience problem, high-stakes anxiety
 - **Wallet & Security** — seed phrase UX, address validation, network selection,
@@ -137,111 +145,128 @@ Plus: a framework entry (ah-038) for applying art history to real brand/UI decis
 ```
 Figma-Lore/
 │
-├── README.md                      ← you are here
-├── design-lore-skill.zip          ← pre-built, ready to install
+├── README.md                              ← you are here
 │
-└── skill/                         ← Claude Skill package
-    ├── SKILL.md                   ← skill definition and full module index
-    └── lore/                      ← all knowledge modules
-        ├── 00-figma-core.jsonl
-        ├── 01-auto-layout.jsonl
-        ├── 02-design-system.jsonl
-        ├── 03-components.jsonl
-        ├── 04-ios-design.jsonl
-        ├── 05-android-design.jsonl
-        ├── 06-responsive.jsonl
-        ├── 07-mobile-ux.jsonl
-        ├── 08-organization.jsonl
-        ├── 09-audit-optimization.jsonl
-        ├── 10-execution-recipes.jsonl
-        ├── 11-gestalt-perception.jsonl
-        ├── 12-typography-deep.jsonl
-        ├── 13-colour-theory.jsonl
-        ├── 14-behavioural-design.jsonl
-        ├── 15-art-history-part1.jsonl
-        ├── 15-art-history-part2.jsonl
-        ├── 16-design-research.jsonl
-        ├── 17-ux-strategy.jsonl
-        ├── 18-interaction-design.jsonl
-        ├── 19-prototyping-testing.jsonl
-        ├── 20-design-ops.jsonl
-        ├── 21-designer-toolkit.jsonl
-        ├── 22-deep-ux-psychology.jsonl
+├── design-lore-skill.zip                  ← core skill (modules 00–21)
+├── design-lore-psychology-skill.zip       ← psychology skill (module 22)
+├── design-lore-industry-skill.zip         ← industry skill (modules 23–24)
+│
+├── skill/                                 ← Core: Figma, DS, process
+│   ├── SKILL.md
+│   └── lore/
+│       ├── 00-figma-core.jsonl
+│       ├── 01-auto-layout.jsonl
+│       ├── 02-design-system.jsonl
+│       ├── 03-components.jsonl
+│       ├── 04-ios-design.jsonl
+│       ├── 05-android-design.jsonl
+│       ├── 06-responsive.jsonl
+│       ├── 07-mobile-ux.jsonl
+│       ├── 08-organization.jsonl
+│       ├── 09-audit-optimization.jsonl
+│       ├── 10-execution-recipes.jsonl
+│       ├── 11-gestalt-perception.jsonl
+│       ├── 12-typography-deep.jsonl
+│       ├── 13-colour-theory.jsonl
+│       ├── 14-behavioural-design.jsonl
+│       ├── 15-art-history-part1.jsonl
+│       ├── 15-art-history-part2.jsonl
+│       ├── 16-design-research.jsonl
+│       ├── 17-ux-strategy.jsonl
+│       ├── 18-interaction-design.jsonl
+│       ├── 19-prototyping-testing.jsonl
+│       ├── 20-design-ops.jsonl
+│       └── 21-designer-toolkit.jsonl
+│
+├── skill-psychology/                      ← Psychology: deep UX theory
+│   ├── SKILL.md
+│   └── lore/
+│       └── 22-deep-ux-psychology.jsonl
+│
+└── skill-industry/                        ← Industry: ecommerce & crypto
+    ├── SKILL.md
+    └── lore/
         ├── 23-ecommerce-ux.jsonl
         └── 24-crypto-fintech-ux.jsonl
 ```
 
 ---
 
-## Installing the Skill
+## Installing the Skills
 
 ### Requirements
 - Claude account on any plan (Free, Pro, Max, Team, or Enterprise)
 - **Code execution** enabled: Settings → Capabilities → "Code execution and file creation"
 
-### Option A — Use the pre-built ZIP (easiest)
+### Option A — Use the pre-built ZIPs (easiest)
 
-1. Download `design-lore-skill.zip` from this repo
+1. Download the ZIP(s) you want from this repo:
+   - `design-lore-skill.zip` — core (recommended for everyone)
+   - `design-lore-psychology-skill.zip` — deep psychology (optional)
+   - `design-lore-industry-skill.zip` — ecommerce & crypto (optional)
 2. Go to [claude.ai/customize/skills](https://claude.ai/customize/skills)
-3. Click **"+"** → **"Upload a skill"** → upload the ZIP
-4. Toggle the skill **on**
+3. Click **"+"** → **"Upload a skill"** → upload each ZIP
+4. Toggle the skill(s) **on**
 
-Done. Claude now loads the relevant lore automatically for any Figma, design
-system, typography, colour, aesthetic, research, strategy, or interaction
-design question.
-
-### Option B — Build the ZIP yourself
+### Option B — Build the ZIPs yourself
 
 ```bash
 git clone https://github.com/AnderMagri/Figma-Lore.git
-cd Figma-Lore/skill
-zip -r ../design-lore-skill.zip .
-```
+cd Figma-Lore
 
-Then upload as above. The ZIP must have `SKILL.md` at the root — the `cd skill`
-before zipping is what ensures this.
+# Core
+cd skill && zip -r ../design-lore-skill.zip . && cd ..
+
+# Psychology
+cd skill-psychology && zip -r ../design-lore-psychology-skill.zip . && cd ..
+
+# Industry
+cd skill-industry && zip -r ../design-lore-industry-skill.zip . && cd ..
+```
 
 ### Updating to a new version
 
 ```bash
 git pull
 cd skill && zip -r ../design-lore-skill.zip . && cd ..
+cd skill-psychology && zip -r ../design-lore-psychology-skill.zip . && cd ..
+cd skill-industry && zip -r ../design-lore-industry-skill.zip . && cd ..
 ```
 
-In Claude: Customize → Skills → find the skill → delete → upload the new ZIP.
+In Claude: Customize → Skills → find each skill → delete → upload the new ZIP.
 
 ---
 
 ## Option C — Attach files directly (no install)
 
-For one-off questions, attach individual `.jsonl` files from `skill/lore/`
-directly to any Claude conversation.
+For one-off questions, attach individual `.jsonl` files directly to any Claude
+conversation.
 
 | I want help with… | Attach this file |
 |---|---|
-| Components, variants, slots | `03-components.jsonl` |
-| Auto layout, responsive | `01-auto-layout.jsonl` |
-| Design tokens, variables | `02-design-system.jsonl` |
-| Colour systems, dark mode | `02-design-system.jsonl` + `13-colour-theory.jsonl` |
-| iOS specs / HIG | `04-ios-design.jsonl` |
-| Material 3 / Android | `05-android-design.jsonl` |
-| Mobile UX, gestures, forms | `07-mobile-ux.jsonl` |
-| Design system audit | `09-audit-optimization.jsonl` |
-| Step-by-step recipes | `10-execution-recipes.jsonl` |
-| Gestalt, visual hierarchy | `11-gestalt-perception.jsonl` |
-| Typography theory | `12-typography-deep.jsonl` |
-| Colour theory | `13-colour-theory.jsonl` |
-| Cognitive bias, UX laws | `14-behavioural-design.jsonl` |
-| Art styles, brand aesthetics | `15-art-history-part1.jsonl` + `15-art-history-part2.jsonl` |
-| User research, personas, interviews | `16-design-research.jsonl` |
-| UX strategy, metrics, principles | `17-ux-strategy.jsonl` |
-| Animation, gestures, loading, errors | `18-interaction-design.jsonl` |
-| A/B tests, usability, wireframes | `19-prototyping-testing.jsonl` |
-| Critiques, sprints, handoff, QA | `20-design-ops.jsonl` |
-| Case studies, UX writing, data viz | `21-designer-toolkit.jsonl` |
-| Deep UX psychology, archetypes, persuasion | `22-deep-ux-psychology.jsonl` |
-| Shopify, ecommerce, conversion, product pages | `23-ecommerce-ux.jsonl` |
-| Crypto, fintech, wallets, DeFi, banking apps | `24-crypto-fintech-ux.jsonl` |
+| Components, variants, slots | `skill/lore/03-components.jsonl` |
+| Auto layout, responsive | `skill/lore/01-auto-layout.jsonl` |
+| Design tokens, variables | `skill/lore/02-design-system.jsonl` |
+| Colour systems, dark mode | `skill/lore/02-design-system.jsonl` + `skill/lore/13-colour-theory.jsonl` |
+| iOS specs / HIG | `skill/lore/04-ios-design.jsonl` |
+| Material 3 / Android | `skill/lore/05-android-design.jsonl` |
+| Mobile UX, gestures, forms | `skill/lore/07-mobile-ux.jsonl` |
+| Design system audit | `skill/lore/09-audit-optimization.jsonl` |
+| Step-by-step recipes | `skill/lore/10-execution-recipes.jsonl` |
+| Gestalt, visual hierarchy | `skill/lore/11-gestalt-perception.jsonl` |
+| Typography theory | `skill/lore/12-typography-deep.jsonl` |
+| Colour theory | `skill/lore/13-colour-theory.jsonl` |
+| Cognitive bias, UX laws | `skill/lore/14-behavioural-design.jsonl` |
+| Art styles, brand aesthetics | `skill/lore/15-art-history-part1.jsonl` + `skill/lore/15-art-history-part2.jsonl` |
+| User research, personas | `skill/lore/16-design-research.jsonl` |
+| UX strategy, metrics | `skill/lore/17-ux-strategy.jsonl` |
+| Animation, gestures, loading | `skill/lore/18-interaction-design.jsonl` |
+| A/B tests, usability, wireframes | `skill/lore/19-prototyping-testing.jsonl` |
+| Critiques, sprints, handoff, QA | `skill/lore/20-design-ops.jsonl` |
+| Case studies, UX writing | `skill/lore/21-designer-toolkit.jsonl` |
+| Deep UX psychology, archetypes | `skill-psychology/lore/22-deep-ux-psychology.jsonl` |
+| Shopify, ecommerce, conversion | `skill-industry/lore/23-ecommerce-ux.jsonl` |
+| Crypto, fintech, wallets, DeFi | `skill-industry/lore/24-crypto-fintech-ux.jsonl` |
 
 ---
 
@@ -264,18 +289,19 @@ Each `.jsonl` file contains one JSON object per line:
 
 ## Contributing
 
-**Adding entries:** append to the relevant file in `skill/lore/`, open a PR
-with a description of what was added and why.
+**Adding entries:** append to the relevant file, open a PR with a description
+of what was added and why.
 
-**Adding a module:** create `skill/lore/NN-name.jsonl`, add a row to the
-module index in `skill/SKILL.md`, and update this README.
+**Adding a module:** create the JSONL file in the appropriate skill directory,
+add a row to the module index in that skill's `SKILL.md`, and update this README.
 
 **Fixing errors:** open a PR and cite your source (Apple HIG, Material Design
 docs, Figma release notes, NNG, etc.).
 
 **Scope:** this lore is intentionally broad. Anything that makes a designer's
 or design engineer's work better is in scope — Figma mechanics, psychology,
-art history, typography, colour, platform specs, research, strategy, ops.
+art history, typography, colour, platform specs, research, strategy, ops,
+ecommerce, and fintech.
 
 ---
 
