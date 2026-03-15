@@ -9,15 +9,25 @@ description: >
   (Hick's Law, Fitts's Law, cognitive bias, dark patterns), and 38 art movements
   from Renaissance to Bento Grid (Bauhaus, Swiss Style, Pop Art, Surrealism,
   Pixel Art, Glitch Art, Manga, Kawaii, Vaporwave, Cyberpunk, Material Design,
-  and more). Trigger for any question about Figma, design systems, tokens,
-  colour, typography, visual perception, cognitive psychology, platform specs,
-  or aesthetic/art direction.
+  and more). Also covers design research (personas, journey maps, empathy maps,
+  JTBD, usability testing, interview scripts), UX strategy (competitive analysis,
+  design briefs, north star vision, metrics, opportunity frameworks), interaction
+  design (animation, gestures, micro-interactions, state machines, loading states,
+  error handling), prototyping and testing (A/B tests, heuristic evaluation,
+  wireframes, user flows, accessibility testing), design ops (critiques, QA,
+  sprints, handoff, version control), and designer toolkit (case studies, UX
+  writing, data visualisation, presentations, design system adoption). Trigger
+  for any question about Figma, design systems, tokens, colour, typography,
+  visual perception, cognitive psychology, platform specs, aesthetic/art
+  direction, design research, UX strategy, interaction design, prototyping,
+  testing, design ops, or UX writing.
 ---
 
 # Figma Lore
 
 A curated knowledge base of Figma best practices, design system architecture,
-platform specs, UX patterns, and deep design intelligence.
+platform specs, UX patterns, design research, UX strategy, interaction design,
+prototyping, design ops, and deep design intelligence.
 
 ## How to Use This Skill
 
@@ -55,6 +65,16 @@ platform specs, UX patterns, and deep design intelligence.
 | lore/15-art-history-part1.jsonl | Renaissance, Baroque, Art Nouveau, Bauhaus, De Stijl/Constructivism, Art Deco, Swiss Style, Pop Art, Surrealism, Atomic/Space Age, Psychedelic/Acid, 70s, Punk/Zine, Memphis Group, Hyperrealism, Grunge/90s | ah-001 → ah-016 |
 | lore/15-art-history-part2.jsonl | Manga/Anime, Kawaii, Yami Kawaii, Vaporwave, Cyberpunk, Pixel Art, Glitch Art, Skeuomorphism, Flat Design, Material Design, Neumorphism, Glassmorphism, Web Brutalism, Minimalism, Retrowave/Synthwave, Contemporary Japanese, Maximalism, 3D Illustration, Neo-Brutalism, Bento Grid, Biophilic Design, How to Apply Art History | ah-017 → ah-038 |
 
+### Design Process Modules
+| File | Covers | Key IDs |
+|------|--------|---------|
+| lore/16-design-research.jsonl | Affinity diagrams, card sorting, diary studies, empathy maps, interview scripts, JTBD, journey maps, interview synthesis, usability test plans, user personas | dr-001 → dr-010 |
+| lore/17-ux-strategy.jsonl | Competitive analysis, design briefs, design principles, experience maps, UX metrics (HEART framework), north star vision, opportunity frameworks (RICE, Kano), stakeholder alignment (RACI) | us-001 → us-008 |
+| lore/18-interaction-design.jsonl | Animation principles (easing, duration, choreography), error handling UX, feedback patterns, gesture patterns, loading states (skeleton, optimistic UI), micro-interaction specs, state machines | ix-001 → ix-007 |
+| lore/19-prototyping-testing.jsonl | A/B test design, accessibility testing, click tests, heuristic evaluation, prototype fidelity strategy, test scenarios, user flow diagrams, wireframe specifications | pt-001 → pt-008 |
+| lore/20-design-ops.jsonl | Design critique, QA checklists, review processes, design sprints, developer handoff, team workflows, design version control | do-001 → do-007 |
+| lore/21-designer-toolkit.jsonl | Case studies, design rationale, design system adoption, token audits, presentations, UX writing, data visualisation, illustration style, visual hierarchy | dt-001 → dt-009 |
+
 ---
 
 ## Quick Topic Routing
@@ -79,11 +99,11 @@ platform specs, UX patterns, and deep design intelligence.
 → lore/04-ios-design.jsonl or lore/05-android-design.jsonl
 
 **"Audit a design system"**
-→ lore/09-audit-optimization.jsonl + lore/10-execution-recipes.jsonl (ex-034, ex-035)
+→ lore/09-audit-optimization.jsonl + lore/10-execution-recipes.jsonl (ex-034, ex-035) + lore/21-designer-toolkit.jsonl (dt-004)
 
 ### Typography
 **"Kerning / optical spacing"** → lore/12-typography-deep.jsonl (ty-003, ty-004)
-**"Type scale / hierarchy"** → lore/12-typography-deep.jsonl (ty-006, ty-014)
+**"Type scale / hierarchy"** → lore/12-typography-deep.jsonl (ty-006, ty-014) + lore/21-designer-toolkit.jsonl (dt-009)
 **"Font pairing"** → lore/12-typography-deep.jsonl (ty-009, ty-013)
 **"Accessible type"** → lore/12-typography-deep.jsonl (ty-011, ty-012)
 **"Variable fonts"** → lore/12-typography-deep.jsonl (ty-010)
@@ -95,8 +115,8 @@ platform specs, UX patterns, and deep design intelligence.
 **"Colour harmony / palette"** → lore/13-colour-theory.jsonl (ct-002, ct-008)
 
 ### Perception & Psychology
-**"Gestalt / visual hierarchy"** → lore/11-gestalt-perception.jsonl (gp-001 → gp-009)
-**"Heuristic evaluation"** → lore/11-gestalt-perception.jsonl (gp-013, gp-014, gp-015)
+**"Gestalt / visual hierarchy"** → lore/11-gestalt-perception.jsonl (gp-001 → gp-009) + lore/21-designer-toolkit.jsonl (dt-009)
+**"Heuristic evaluation"** → lore/11-gestalt-perception.jsonl (gp-013, gp-014, gp-015) + lore/19-prototyping-testing.jsonl (pt-004)
 **"Cognitive bias / conversion"** → lore/14-behavioural-design.jsonl (bd-007 to bd-010)
 **"Dark patterns / ethics"** → lore/14-behavioural-design.jsonl (bd-011, bd-012)
 **"UX laws"** → lore/14-behavioural-design.jsonl (bd-003 to bd-006)
@@ -111,6 +131,63 @@ platform specs, UX patterns, and deep design intelligence.
 **"Luxury / premium aesthetic"** → lore/15-art-history-part1.jsonl (ah-002, ah-006)
 **"Retro / vintage"** → lore/15-art-history-part1.jsonl (ah-010, ah-012) + lore/15-art-history-part2.jsonl (ah-031)
 **"Wellness / organic / nature"** → lore/15-art-history-part1.jsonl (ah-003) + lore/15-art-history-part2.jsonl (ah-037)
+
+### Design Research
+**"User personas / archetypes"** → lore/16-design-research.jsonl (dr-010)
+**"Journey map / experience map"** → lore/16-design-research.jsonl (dr-007) + lore/17-ux-strategy.jsonl (us-004)
+**"Empathy map"** → lore/16-design-research.jsonl (dr-004)
+**"Interview script / user interview"** → lore/16-design-research.jsonl (dr-005, dr-008)
+**"Jobs-to-be-done / JTBD"** → lore/16-design-research.jsonl (dr-006)
+**"Card sort / information architecture"** → lore/16-design-research.jsonl (dr-002)
+**"Usability testing / test plan"** → lore/16-design-research.jsonl (dr-009) + lore/19-prototyping-testing.jsonl (pt-006)
+**"Diary study / longitudinal research"** → lore/16-design-research.jsonl (dr-003)
+**"Affinity diagram / synthesis"** → lore/16-design-research.jsonl (dr-001)
+
+### UX Strategy
+**"Competitive analysis / benchmarking"** → lore/17-ux-strategy.jsonl (us-001)
+**"Design brief / project framing"** → lore/17-ux-strategy.jsonl (us-002)
+**"Design principles"** → lore/17-ux-strategy.jsonl (us-003)
+**"UX metrics / KPIs / HEART"** → lore/17-ux-strategy.jsonl (us-005)
+**"North star / product vision"** → lore/17-ux-strategy.jsonl (us-006)
+**"Prioritisation / RICE / Kano"** → lore/17-ux-strategy.jsonl (us-007)
+**"Stakeholder alignment / RACI"** → lore/17-ux-strategy.jsonl (us-008)
+
+### Interaction Design
+**"Animation / motion design / easing"** → lore/18-interaction-design.jsonl (ix-001)
+**"Error handling / error messages"** → lore/18-interaction-design.jsonl (ix-002)
+**"Feedback patterns / toasts / notifications"** → lore/18-interaction-design.jsonl (ix-003)
+**"Gestures / touch / swipe patterns"** → lore/18-interaction-design.jsonl (ix-004)
+**"Loading states / skeleton / optimistic UI"** → lore/18-interaction-design.jsonl (ix-005)
+**"Micro-interactions"** → lore/18-interaction-design.jsonl (ix-006)
+**"State machines / UI states"** → lore/18-interaction-design.jsonl (ix-007)
+
+### Prototyping & Testing
+**"A/B testing / experimentation"** → lore/19-prototyping-testing.jsonl (pt-001)
+**"Accessibility testing"** → lore/19-prototyping-testing.jsonl (pt-002)
+**"Click test / findability"** → lore/19-prototyping-testing.jsonl (pt-003)
+**"Prototype fidelity / strategy"** → lore/19-prototyping-testing.jsonl (pt-005)
+**"User flows / flow diagrams"** → lore/19-prototyping-testing.jsonl (pt-007)
+**"Wireframes / wireframe spec"** → lore/19-prototyping-testing.jsonl (pt-008)
+
+### Design Ops
+**"Design critique / feedback session"** → lore/20-design-ops.jsonl (do-001)
+**"Design QA / implementation check"** → lore/20-design-ops.jsonl (do-002)
+**"Design review process / gates"** → lore/20-design-ops.jsonl (do-003)
+**"Design sprint"** → lore/20-design-ops.jsonl (do-004)
+**"Developer handoff"** → lore/20-design-ops.jsonl (do-005)
+**"Team workflow / rituals"** → lore/20-design-ops.jsonl (do-006)
+**"Design version control"** → lore/20-design-ops.jsonl (do-007)
+
+### Designer Toolkit
+**"Case study / portfolio"** → lore/21-designer-toolkit.jsonl (dt-001)
+**"Design rationale / decision docs"** → lore/21-designer-toolkit.jsonl (dt-002)
+**"Design system adoption"** → lore/21-designer-toolkit.jsonl (dt-003)
+**"Token audit"** → lore/21-designer-toolkit.jsonl (dt-004)
+**"Design presentation / deck"** → lore/21-designer-toolkit.jsonl (dt-005)
+**"UX writing / microcopy"** → lore/21-designer-toolkit.jsonl (dt-006)
+**"Data visualisation / charts"** → lore/21-designer-toolkit.jsonl (dt-007)
+**"Illustration style"** → lore/21-designer-toolkit.jsonl (dt-008)
+**"Visual hierarchy"** → lore/21-designer-toolkit.jsonl (dt-009)
 
 ---
 
@@ -127,3 +204,5 @@ platform specs, UX patterns, and deep design intelligence.
 - **Type scale not arbitrary sizes**: Every type size belongs to a defined scale.
 - **Colour has meaning**: Every colour token has semantic intent, not just aesthetic preference.
 - **Art history is a library**: Every aesthetic direction has historical precedent — know what you're referencing.
+- **Research before design**: Ground decisions in user evidence, not assumptions.
+- **Document the why**: Every major design decision needs rationale, not just the what.

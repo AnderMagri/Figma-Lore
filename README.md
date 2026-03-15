@@ -6,7 +6,8 @@
 Figma Lore started as a Figma-specific knowledge base and has grown into a
 broader **design intelligence library** covering Figma mechanics, design systems,
 platform specs, visual perception, typography, colour theory, behavioural
-psychology, and a full art history reference for aesthetic decision-making.
+psychology, art history, design research, UX strategy, interaction design,
+prototyping & testing, design ops, and a complete designer toolkit.
 
 ---
 
@@ -39,6 +40,25 @@ psychology, and a full art history reference for aesthetic decision-making.
   effect, variable rewards, dark patterns, ethical nudges, emotional design
 - **Art History & Aesthetics** — 38 art movements and aesthetic styles with
   specific UI/design applications for each (see full list below)
+
+### Design Process (Modules 16–21)
+- **Design Research** — affinity diagrams, card sorting, diary studies, empathy
+  maps, interview scripts, Jobs-to-Be-Done, journey maps, interview synthesis,
+  usability test plans, user personas
+- **UX Strategy** — competitive analysis, design briefs, design principles,
+  experience maps, UX metrics (HEART framework), north star vision, opportunity
+  frameworks (RICE, Kano), stakeholder alignment (RACI)
+- **Interaction Design** — animation principles (easing, duration, choreography),
+  error handling UX, feedback patterns, gesture patterns, loading states
+  (skeleton, optimistic UI), micro-interaction specs, state machines
+- **Prototyping & Testing** — A/B test design, accessibility testing, click
+  tests, heuristic evaluation, prototype fidelity strategy, test scenarios,
+  user flow diagrams, wireframe specifications
+- **Design Ops** — design critique, QA checklists, review processes, design
+  sprints, developer handoff, team workflows, design version control
+- **Designer Toolkit** — case studies, design rationale, design system adoption,
+  token audits, presentations, UX writing, data visualisation, illustration
+  style, visual hierarchy
 
 #### Art Styles Covered
 Classical: Renaissance, Baroque, Art Nouveau, Arts & Crafts, Bauhaus, De Stijl,
@@ -86,7 +106,13 @@ Figma-Lore/
         ├── 13-colour-theory.jsonl
         ├── 14-behavioural-design.jsonl
         ├── 15-art-history-part1.jsonl
-        └── 15-art-history-part2.jsonl
+        ├── 15-art-history-part2.jsonl
+        ├── 16-design-research.jsonl
+        ├── 17-ux-strategy.jsonl
+        ├── 18-interaction-design.jsonl
+        ├── 19-prototyping-testing.jsonl
+        ├── 20-design-ops.jsonl
+        └── 21-designer-toolkit.jsonl
 ```
 
 ---
@@ -105,7 +131,8 @@ Figma-Lore/
 4. Toggle the skill **on**
 
 Done. Claude now loads the relevant lore automatically for any Figma, design
-system, typography, colour, or aesthetic question.
+system, typography, colour, aesthetic, research, strategy, or interaction
+design question.
 
 ### Option B — Build the ZIP yourself
 
@@ -150,6 +177,12 @@ directly to any Claude conversation.
 | Colour theory | `13-colour-theory.jsonl` |
 | Cognitive bias, UX laws | `14-behavioural-design.jsonl` |
 | Art styles, brand aesthetics | `15-art-history-part1.jsonl` + `15-art-history-part2.jsonl` |
+| User research, personas, interviews | `16-design-research.jsonl` |
+| UX strategy, metrics, principles | `17-ux-strategy.jsonl` |
+| Animation, gestures, loading, errors | `18-interaction-design.jsonl` |
+| A/B tests, usability, wireframes | `19-prototyping-testing.jsonl` |
+| Critiques, sprints, handoff, QA | `20-design-ops.jsonl` |
+| Case studies, UX writing, data viz | `21-designer-toolkit.jsonl` |
 
 ---
 
@@ -183,7 +216,7 @@ docs, Figma release notes, NNG, etc.).
 
 **Scope:** this lore is intentionally broad. Anything that makes a designer's
 or design engineer's work better is in scope — Figma mechanics, psychology,
-art history, typography, colour, platform specs.
+art history, typography, colour, platform specs, research, strategy, ops.
 
 ---
 
@@ -199,6 +232,7 @@ Norman Group research, and community work including:
 - Don Norman — emotional design framework
 - Thaler & Sunstein — nudge theory
 - Josef Müller-Brockmann — grid systems and Swiss typography
+- [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills) — design research, UX strategy, interaction design, prototyping, design ops, and designer toolkit modules (MIT license)
 
 ---
 
