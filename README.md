@@ -1,125 +1,69 @@
 # Design Lore
 
-> A deep design knowledge base for Claude — available as a persistent **Skill**
+> A deep design knowledge base for Claude — available as persistent **Skills**
 > (install once, works automatically) or as files you attach to any conversation.
 
 Design Lore (formerly Figma Lore) started as a Figma-specific knowledge base
 and has grown into a comprehensive **design intelligence library** split into
-three focused skills for accurate triggering and clean separation of concerns.
+four focused skills for accurate triggering and clean separation of concerns.
 
 ---
 
-## Three Skills, One Library
+## Four Skills, One Library
 
-| Skill | ZIP | What it covers | When it triggers |
+| Skill | ZIP | Modules | When it triggers |
 |---|---|---|---|
-| **design-lore** | `design-lore-skill.zip` | Figma, design systems, typography, colour, Gestalt, behavioural design, art history, design research, UX strategy, interaction design, prototyping, design ops, toolkit | Figma, design systems, tokens, colour, typography, platform specs, art direction, design process |
-| **design-lore-psychology** | `design-lore-psychology-skill.zip` | Activity Theory, Jung, phenomenology, semiotics, psychoanalysis, ecological psychology, flow, existential design, persuasion theory | Deep UX analysis, psychology, archetypes, theory-led audits, persuasion evaluation |
-| **design-lore-industry** | `design-lore-industry-skill.zip` | Shopify/ecommerce UX, crypto/fintech UX, wallets, exchanges, DeFi, banking apps | Shopify, ecommerce, conversion, crypto, Web3, DeFi, fintech, wallet, banking |
+| **figma-lore** | `figma-lore-skill.zip` | 00, 01, 03, 08, 09, 10 | Figma mechanics, auto layout, components, variants, slots, file structure, library management, audits, recipes |
+| **design-lore** | `design-lore-skill.zip` | 02, 04–07, 11–21 | Design systems, tokens, colour, typography, iOS/Android specs, Gestalt, UX laws, art history, research, strategy, interaction, prototyping, ops, UX writing |
+| **design-lore-psychology** | `design-lore-psychology-skill.zip` | 22 | Deep UX analysis, psychology, archetypes, theory-led audits, persuasion, phenomenology, semiotics |
+| **design-lore-industry** | `design-lore-industry-skill.zip` | 23–24 | Shopify, ecommerce, conversion, crypto, Web3, DeFi, fintech, wallets, banking |
 
-Install all three for complete coverage, or pick only the ones you need.
+Install all four for complete coverage, or pick only the ones you need.
 
 ---
 
 ## What's Covered
 
-### Core — Figma & Systems (Modules 00–10)
-- Figma core — frames, constraints, shortcuts, export, boolean ops
-- Auto layout — all sizing modes, padding, alignment, responsive patterns
-- Design tokens — three-layer architecture, variables, aliasing, theming
-- Colour systems — Global → System → Component, light/dark mode, multi-brand
+### Figma Lore (Modules 00, 01, 03, 08–10)
+- Figma core — frames, groups, layers, constraints, boolean ops, masks, export, shortcuts
+- Auto layout — all sizing modes, padding, alignment, responsive patterns, wrap, min/max
 - Components — variants, properties, slots, nesting, naming, architecture
+- Organisation — file structure, library architecture, naming, versioning, governance, handoff
+- Auditing — detached instances, hardcoded values, audit scripts, health scores
+- Execution recipes — step-by-step guides for components, tokens, DS bootstrap, gotchas
+
+### Design Lore (Modules 02, 04–07, 11–21)
+- Design systems — token architecture, variables, theming, colour systems, multi-brand
 - iOS design — HIG specs, safe areas, SF Pro, SF Symbols, touch targets
-- Android / Material 3 — window classes, M3 components, tonal colour, nav
+- Android / Material 3 — window classes, M3 components, tonal colour, navigation
 - Responsive design — breakpoints, pixel density, constraint patterns
 - Mobile UX — gestures, thumb zones, loading states, empty states, forms
-- Design system governance — library structure, versioning, auditing, handoff
-- Execution recipes — step-by-step guides for components, tokens, DS bootstrap
+- **Gestalt & Perception** — all 8 Gestalt laws, preattentive attributes, scanning patterns, heuristic evaluation
+- **Typography Deep** — type anatomy, kerning, tracking, type scale, pairing, variable fonts, accessibility
+- **Colour Theory** — HSL/HSB, harmonies, WCAG contrast, psychology by hue, dark mode, branding
+- **Behavioural Design** — cognitive load, Hick's Law, Fitts's Law, anchoring, dark patterns, emotional design
+- **Art History** — 38 art movements with UI applications (Bauhaus, Swiss Style, Vaporwave, Bento Grid, and more)
+- **Design Research** — affinity diagrams, card sorting, empathy maps, JTBD, journey maps, usability testing
+- **UX Strategy** — competitive analysis, design briefs, HEART framework, RICE, Kano, RACI
+- **Interaction Design** — animation, error handling, gestures, loading states, micro-interactions, state machines
+- **Prototyping & Testing** — A/B tests, accessibility testing, heuristic evaluation, wireframes, user flows
+- **Design Ops** — critique, QA, sprints, handoff, version control
+- **Designer Toolkit** — case studies, UX writing, data visualisation, presentations
 
-### Core — Design Intelligence (Modules 11–15)
-- **Gestalt & Perception** — all 8 Gestalt laws applied to UI, preattentive
-  attributes, F/Z scanning patterns, heuristic evaluation methodology
-- **Typography Deep** — type anatomy, classification, optical vs mechanical
-  spacing, kerning, tracking, leading, type scale, measure, pairing, variable
-  fonts, screen rendering, accessibility, design system type tokens
-- **Colour Theory** — HSL/HSB, harmonies, temperature, WCAG contrast,
-  simultaneous contrast, psychology by hue, palette construction, dark mode
-  colour, light physics, branding, cultural colour context
-- **Behavioural Design** — mental models, cognitive load, Hick's Law,
-  Fitts's Law, Jakob's Law, Miller's Law, anchoring, Peak-End Rule, endowment
-  effect, variable rewards, dark patterns, ethical nudges, emotional design
-- **Art History & Aesthetics** — 38 art movements and aesthetic styles with
-  specific UI/design applications for each (see full list below)
+### Psychology (Module 22)
+- **Russian Activity Theory** — Vygotsky, Leontiev, Luria, Bakhtin, Engeström
+- **Jungian Depth Psychology** — 12 archetypes, Shadow/Persona, collective unconscious
+- **Phenomenology** — Husserl, Heidegger, Merleau-Ponty, Don Ihde
+- **Semiotics** — Peirce, Saussure, Barthes
+- **Psychoanalytic** — Freud, Lacan, Winnicott
+- **Ecological & Motivational** — Gibson, Csikszentmihalyi, Deci & Ryan, Maslow
+- **Existential** — Sartre & Kierkegaard
+- **Narrative** — Campbell, Propp, Bateson
+- **Persuasion & Power** — Lefebvre, Pavlov, Bernays, Cialdini, Sun Tzu, ethics spectrum
 
-### Core — Design Process (Modules 16–21)
-- **Design Research** — affinity diagrams, card sorting, diary studies, empathy
-  maps, interview scripts, Jobs-to-Be-Done, journey maps, interview synthesis,
-  usability test plans, user personas
-- **UX Strategy** — competitive analysis, design briefs, design principles,
-  experience maps, UX metrics (HEART framework), north star vision, opportunity
-  frameworks (RICE, Kano), stakeholder alignment (RACI)
-- **Interaction Design** — animation principles (easing, duration, choreography),
-  error handling UX, feedback patterns, gesture patterns, loading states
-  (skeleton, optimistic UI), micro-interaction specs, state machines
-- **Prototyping & Testing** — A/B test design, accessibility testing, click
-  tests, heuristic evaluation, prototype fidelity strategy, test scenarios,
-  user flow diagrams, wireframe specifications
-- **Design Ops** — design critique, QA checklists, review processes, design
-  sprints, developer handoff, team workflows, design version control
-- **Designer Toolkit** — case studies, design rationale, design system adoption,
-  token audits, presentations, UX writing, data visualisation, illustration
-  style, visual hierarchy
-
-### Psychology — Deep UX Psychology (Module 22)
-- **Russian Activity Theory** — Vygotsky (ZPD, scaffolding), Leontiev (activity
-  hierarchy), Luria (functional systems), Bakhtin (dialogism), Engeström
-  (expansive learning, contradictions)
-- **Jungian Depth Psychology** — 12 brand archetypes, Shadow/Persona dynamics,
-  collective unconscious and universal symbols
-- **Phenomenology** — Husserl (intentionality, lifeworld), Heidegger
-  (ready-to-hand/present-at-hand), Merleau-Ponty (embodied cognition),
-  Don Ihde (4 human-technology relations)
-- **Semiotics** — Peirce (icon/index/symbol), Saussure (signifier/signified),
-  Barthes (denotation/connotation, mythology in UI)
-- **Psychoanalytic** — Freud (drives, defence mechanisms), Lacan (mirror stage,
-  desire, the gaze), Winnicott (transitional objects, potential space)
-- **Ecological & Motivational** — Gibson (real affordance theory),
-  Csikszentmihalyi (flow), Deci & Ryan (self-determination), Maslow (digital
-  hierarchy)
-- **Existential** — Sartre & Kierkegaard (choice anxiety, constrained freedom)
-- **Narrative** — Campbell (Hero's Journey as onboarding), Propp (morphology
-  of product flows), Bateson (ecology of mind, double binds)
-- **Persuasion & Power** — Lefebvre (reflexive control), Pavlov (conditioning),
-  Bernays (engineering consent), Lasswell (communication model), Cialdini
-  (7 principles of influence), Sun Tzu (misdirection), full ethics spectrum
-
-### Industry — Ecommerce UX (Module 23)
-- **Shopify Conversion** — benchmarks (CVR, add-to-cart rates, abandonment),
-  product page anatomy, ATC button placement & UX, checkout flow optimisation
-- **Conversion Psychology** — Cialdini applied to ecommerce, social proof,
-  scarcity, urgency, anchoring, risk reversal
-- **Mobile Commerce** — thumb zones, touch targets, sticky ATC, mobile-first
-  product pages, page speed impact
-- **Store Architecture** — homepage section hierarchy, collection page UX,
-  filtering & navigation, trust signal placement
-- **Shopify Ecosystem** — app performance impact, widget conflicts, audit
-  checklist, frontend JavaScript weight
-
-### Industry — Crypto & Fintech UX (Module 24)
-- **Crypto Core** — irreversibility as design constraint, complexity abstraction,
-  dual-audience problem, high-stakes anxiety
-- **Wallet & Security** — seed phrase UX, address validation, network selection,
-  self-custody onboarding, anti-phishing
-- **Exchange & Trading** — order book hierarchy, chart UX, buy/sell
-  accessibility, order confirmation, real-time feedback
-- **DeFi** — gas fee communication, slippage, smart contract approvals,
-  WalletConnect flow, network switching
-- **Fintech Apps** — banking dashboards, biometric login, credit card UX,
-  portfolio display, risk communication
-- **On/Off-Ramp** — fiat-to-crypto conversion, rate locks, KYC friction,
-  payment method selection, settlement time
-- **Trust & Errors** — regulatory disclosure, proof of reserves, post-FTX
-  expectations, high-stakes error messages
+### Industry (Modules 23–24)
+- **Ecommerce** — Shopify conversion benchmarks, product pages, ATC button, checkout, mobile commerce, trust signals, collection pages, app ecosystem
+- **Crypto & Fintech** — wallet UX, seed phrases, exchange trading, DeFi, on/off-ramp, KYC, fintech dashboards, credit card UX, trust & security, error states, WalletConnect
 
 #### Art Styles Covered
 Classical: Renaissance, Baroque, Art Nouveau, Arts & Crafts, Bauhaus, De Stijl,
@@ -136,8 +80,6 @@ Material Design, Neumorphism, Glassmorphism, Web Brutalism, Minimalism,
 Retrowave/Synthwave, Maximalism, 3D Illustration, Neo-Brutalism, Bento Grid,
 Biophilic/Organic Design
 
-Plus: a framework entry (ah-038) for applying art history to real brand/UI decisions.
-
 ---
 
 ## Repo Structure
@@ -147,24 +89,29 @@ Figma-Lore/
 │
 ├── README.md                              ← you are here
 │
-├── design-lore-skill.zip                  ← core skill (modules 00–21)
+├── figma-lore-skill.zip                   ← Figma tool skill (modules 00,01,03,08–10)
+├── design-lore-skill.zip                  ← design theory skill (modules 02,04–07,11–21)
 ├── design-lore-psychology-skill.zip       ← psychology skill (module 22)
 ├── design-lore-industry-skill.zip         ← industry skill (modules 23–24)
 │
-├── skill/                                 ← Core: Figma, DS, process
+├── skill-figma/                           ← Figma tool mechanics
 │   ├── SKILL.md
 │   └── lore/
 │       ├── 00-figma-core.jsonl
 │       ├── 01-auto-layout.jsonl
-│       ├── 02-design-system.jsonl
 │       ├── 03-components.jsonl
+│       ├── 08-organization.jsonl
+│       ├── 09-audit-optimization.jsonl
+│       └── 10-execution-recipes.jsonl
+│
+├── skill/                                 ← Design theory & process
+│   ├── SKILL.md
+│   └── lore/
+│       ├── 02-design-system.jsonl
 │       ├── 04-ios-design.jsonl
 │       ├── 05-android-design.jsonl
 │       ├── 06-responsive.jsonl
 │       ├── 07-mobile-ux.jsonl
-│       ├── 08-organization.jsonl
-│       ├── 09-audit-optimization.jsonl
-│       ├── 10-execution-recipes.jsonl
 │       ├── 11-gestalt-perception.jsonl
 │       ├── 12-typography-deep.jsonl
 │       ├── 13-colour-theory.jsonl
@@ -178,12 +125,12 @@ Figma-Lore/
 │       ├── 20-design-ops.jsonl
 │       └── 21-designer-toolkit.jsonl
 │
-├── skill-psychology/                      ← Psychology: deep UX theory
+├── skill-psychology/                      ← Deep UX psychology
 │   ├── SKILL.md
 │   └── lore/
 │       └── 22-deep-ux-psychology.jsonl
 │
-└── skill-industry/                        ← Industry: ecommerce & crypto
+└── skill-industry/                        ← Ecommerce & crypto/fintech
     ├── SKILL.md
     └── lore/
         ├── 23-ecommerce-ux.jsonl
@@ -201,7 +148,8 @@ Figma-Lore/
 ### Option A — Use the pre-built ZIPs (easiest)
 
 1. Download the ZIP(s) you want from this repo:
-   - `design-lore-skill.zip` — core (recommended for everyone)
+   - `figma-lore-skill.zip` — Figma mechanics (recommended for Figma users)
+   - `design-lore-skill.zip` — design theory & process (recommended for everyone)
    - `design-lore-psychology-skill.zip` — deep psychology (optional)
    - `design-lore-industry-skill.zip` — ecommerce & crypto (optional)
 2. Go to [claude.ai/customize/skills](https://claude.ai/customize/skills)
@@ -214,7 +162,10 @@ Figma-Lore/
 git clone https://github.com/AnderMagri/Figma-Lore.git
 cd Figma-Lore
 
-# Core
+# Figma
+cd skill-figma && zip -r ../figma-lore-skill.zip . && cd ..
+
+# Design
 cd skill && zip -r ../design-lore-skill.zip . && cd ..
 
 # Psychology
@@ -228,6 +179,7 @@ cd skill-industry && zip -r ../design-lore-industry-skill.zip . && cd ..
 
 ```bash
 git pull
+cd skill-figma && zip -r ../figma-lore-skill.zip . && cd ..
 cd skill && zip -r ../design-lore-skill.zip . && cd ..
 cd skill-psychology && zip -r ../design-lore-psychology-skill.zip . && cd ..
 cd skill-industry && zip -r ../design-lore-industry-skill.zip . && cd ..
@@ -244,15 +196,17 @@ conversation.
 
 | I want help with… | Attach this file |
 |---|---|
-| Components, variants, slots | `skill/lore/03-components.jsonl` |
-| Auto layout, responsive | `skill/lore/01-auto-layout.jsonl` |
+| Figma frames, shortcuts, export | `skill-figma/lore/00-figma-core.jsonl` |
+| Auto layout | `skill-figma/lore/01-auto-layout.jsonl` |
+| Components, variants, slots | `skill-figma/lore/03-components.jsonl` |
+| File structure, libraries | `skill-figma/lore/08-organization.jsonl` |
+| Design system audit | `skill-figma/lore/09-audit-optimization.jsonl` |
+| Step-by-step recipes | `skill-figma/lore/10-execution-recipes.jsonl` |
 | Design tokens, variables | `skill/lore/02-design-system.jsonl` |
-| Colour systems, dark mode | `skill/lore/02-design-system.jsonl` + `skill/lore/13-colour-theory.jsonl` |
 | iOS specs / HIG | `skill/lore/04-ios-design.jsonl` |
 | Material 3 / Android | `skill/lore/05-android-design.jsonl` |
+| Responsive design | `skill/lore/06-responsive.jsonl` |
 | Mobile UX, gestures, forms | `skill/lore/07-mobile-ux.jsonl` |
-| Design system audit | `skill/lore/09-audit-optimization.jsonl` |
-| Step-by-step recipes | `skill/lore/10-execution-recipes.jsonl` |
 | Gestalt, visual hierarchy | `skill/lore/11-gestalt-perception.jsonl` |
 | Typography theory | `skill/lore/12-typography-deep.jsonl` |
 | Colour theory | `skill/lore/13-colour-theory.jsonl` |

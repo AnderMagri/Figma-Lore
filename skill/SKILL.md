@@ -1,27 +1,28 @@
 ---
 name: design-lore
 description: >
-  Expert Figma and UI design knowledge base. Covers Figma (components, auto
-  layout, tokens, variables), design systems, iOS/Android specs, responsive and
-  mobile UX, Gestalt psychology, typography theory (kerning, type scale, variable
-  fonts), colour theory (WCAG, harmonies, dark mode), behavioural design
-  (Hick's Law, Fitts's Law, cognitive bias, dark patterns), 38 art movements
-  (Bauhaus to Bento Grid), design research (personas, JTBD, journey maps),
-  UX strategy (HEART, RICE, Kano), interaction design (animation, gestures,
-  state machines), prototyping, design ops, and UX writing. Trigger for any
-  question about Figma, design systems, tokens, colour, typography, visual
-  perception, platform specs, art direction, or design process.
+  Expert design knowledge base covering design systems (token architecture,
+  variables, theming, colour systems, multi-brand), iOS/Android platform specs
+  (HIG, Material 3, safe areas, touch targets), responsive design, mobile UX
+  (thumb zones, gestures, forms), Gestalt psychology, typography theory (kerning,
+  type scale, variable fonts), colour theory (WCAG, harmonies, dark mode),
+  behavioural design (Hick's Law, Fitts's Law, cognitive bias, dark patterns),
+  38 art movements (Bauhaus to Bento Grid), design research (personas, JTBD,
+  journey maps), UX strategy (HEART, RICE, Kano), interaction design (animation,
+  gestures, state machines), prototyping, design ops, and UX writing. Trigger
+  for design systems, tokens, colour, typography, platform specs, art direction,
+  Gestalt, UX laws, research, strategy, or design process questions.
 ---
 
-# Design Lore — Core
+# Design Lore
 
-A curated knowledge base of Figma best practices, design system architecture,
-platform specs, UX patterns, design research, UX strategy, interaction design,
-prototyping, design ops, and deep design intelligence.
+Design theory, platform specs, perception, aesthetics, and the full design
+process — everything that applies regardless of which design tool you use.
 
-> **Part of the Design Lore family.** For deep UX psychology (Jung, Vygotsky,
-> phenomenology, semiotics, persuasion), install **design-lore-psychology**.
-> For ecommerce and crypto/fintech UX, install **design-lore-industry**.
+> **Part of the Design Lore family.** For Figma-specific mechanics (auto layout,
+> components, file structure, auditing, recipes), use **figma-lore**. For deep
+> UX psychology, use **design-lore-psychology**. For ecommerce and crypto/fintech
+> UX, use **design-lore-industry**.
 
 ## How to Use This Skill
 
@@ -34,22 +35,16 @@ prototyping, design ops, and deep design intelligence.
 
 ## Module Index
 
-### Figma & System Modules
+### Design Systems & Platform Specs
 | File | Covers | Key IDs |
 |------|--------|---------|
-| lore/00-figma-core.jsonl | Frames, groups, layers, constraints, boolean ops, masks, export, shortcuts | fc-001 → fc-041 |
-| lore/01-auto-layout.jsonl | Auto layout direction, sizing, padding, alignment, patterns, responsive | al-001 → al-035 |
 | lore/02-design-system.jsonl | Token architecture, variables, theming, styles, spacing, colour palettes, colour systems, multi-brand | ds-001 → ds-056 |
-| lore/03-components.jsonl | Component creation, variants, properties, slots, nesting, naming, architecture | cp-001 → cp-043 |
 | lore/04-ios-design.jsonl | iPhone/iPad specs, safe areas, SF Pro, SF Symbols, HIG patterns | ios-001 → ios-050 |
 | lore/05-android-design.jsonl | Material 3, Pixel specs, window classes, navigation, M3 components | an-001 → an-052 |
 | lore/06-responsive.jsonl | Breakpoints, constraints, auto layout responsive patterns, pixel density | rs-001 → rs-030 |
 | lore/07-mobile-ux.jsonl | Navigation, thumb zones, gestures, loading states, empty states, forms, dark mode | ux-001 → ux-035 |
-| lore/08-organization.jsonl | File structure, library architecture, naming, versioning, governance, handoff | og-001 → og-027 |
-| lore/09-audit-optimization.jsonl | Detached instances, hardcoded values, audit scripts, health score | au-001 → au-025 |
-| lore/10-execution-recipes.jsonl | Step-by-step recipes for creating components, tokens, DS bootstrap, gotchas | ex-001 → ex-038 |
 
-### Design Intelligence Modules
+### Design Intelligence
 | File | Covers | Key IDs |
 |------|--------|---------|
 | lore/11-gestalt-perception.jsonl | Gestalt laws (proximity, similarity, closure, continuity, figure-ground, symmetry, common fate, prägnanz), preattentive attributes, scanning patterns, heuristic evaluation | gp-001 → gp-016 |
@@ -59,7 +54,7 @@ prototyping, design ops, and deep design intelligence.
 | lore/15-art-history-part1.jsonl | Renaissance, Baroque, Art Nouveau, Bauhaus, De Stijl/Constructivism, Art Deco, Swiss Style, Pop Art, Surrealism, Atomic/Space Age, Psychedelic/Acid, 70s, Punk/Zine, Memphis Group, Hyperrealism, Grunge/90s | ah-001 → ah-016 |
 | lore/15-art-history-part2.jsonl | Manga/Anime, Kawaii, Yami Kawaii, Vaporwave, Cyberpunk, Pixel Art, Glitch Art, Skeuomorphism, Flat Design, Material Design, Neumorphism, Glassmorphism, Web Brutalism, Minimalism, Retrowave/Synthwave, Contemporary Japanese, Maximalism, 3D Illustration, Neo-Brutalism, Bento Grid, Biophilic Design, How to Apply Art History | ah-017 → ah-038 |
 
-### Design Process Modules
+### Design Process
 | File | Covers | Key IDs |
 |------|--------|---------|
 | lore/16-design-research.jsonl | Affinity diagrams, card sorting, diary studies, empathy maps, interview scripts, JTBD, journey maps, interview synthesis, usability test plans, user personas | dr-001 → dr-010 |
@@ -73,10 +68,7 @@ prototyping, design ops, and deep design intelligence.
 
 ## Quick Topic Routing
 
-### Figma & Systems
-**"Build a button / card / input / navbar component"**
-→ lore/10-execution-recipes.jsonl (ex-004 to ex-010) + lore/03-components.jsonl
-
+### Design Systems
 **"Set up design tokens / variables / colour system"**
 → lore/02-design-system.jsonl (ds-001 to ds-015 for tokens, ds-031 to ds-056 for colour)
 
@@ -86,14 +78,8 @@ prototyping, design ops, and deep design intelligence.
 **"Multi-brand colour system"**
 → lore/02-design-system.jsonl (ds-046 to ds-056) + lore/13-colour-theory.jsonl (ct-007, ct-008)
 
-**"Slots in Figma"**
-→ lore/03-components.jsonl (cp-027, cp-027b, cp-028, cp-028b)
-
-**"iOS / Android specs"**
-→ lore/04-ios-design.jsonl or lore/05-android-design.jsonl
-
-**"Audit a design system"**
-→ lore/09-audit-optimization.jsonl + lore/10-execution-recipes.jsonl (ex-034, ex-035) + lore/21-designer-toolkit.jsonl (dt-004)
+### Platform Specs
+**"iOS / Android specs"** → lore/04-ios-design.jsonl or lore/05-android-design.jsonl
 
 ### Typography
 **"Kerning / optical spacing"** → lore/12-typography-deep.jsonl (ty-003, ty-004)
@@ -187,10 +173,6 @@ prototyping, design ops, and deep design intelligence.
 
 ## Key Design Principles (Always Apply)
 
-- **Token chain is sacred**: Component → Semantic → Primitive. Never skip layers.
-- **Auto layout everywhere**: 95%+ of components must use auto layout.
-- **Name everything**: No default layer names (Frame 1, Rectangle 3). Ever.
-- **Variables over hardcode**: All colours, spacing, and radii must use variables.
 - **Mobile-first**: Design at 393×852 (iOS) or 412×915 (Android) as primary.
 - **Touch targets**: 44×44pt iOS, 48×48dp Android. Non-negotiable.
 - **WCAG AA**: 4.5:1 contrast for normal text, 3:1 for large text and UI components.
