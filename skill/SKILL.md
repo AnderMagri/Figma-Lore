@@ -38,7 +38,7 @@ process — everything that applies regardless of which design tool you use.
 ### Design Systems & Platform Specs
 | File | Covers | Key IDs |
 |------|--------|---------|
-| lore/02-design-system.jsonl | Token architecture, variables, theming, styles, spacing, colour palettes, colour systems, multi-brand | ds-001 → ds-056 |
+| lore/02-design-system.jsonl | Token architecture, variables, theming, styles, spacing, colour palettes, colour systems, multi-brand, typography variables, responsive type modes | ds-001 → ds-048 |
 | lore/04-ios-design.jsonl | iPhone/iPad specs, safe areas, SF Pro, SF Symbols, HIG patterns | ios-001 → ios-050 |
 | lore/05-android-design.jsonl | Material 3, Pixel specs, window classes, navigation, M3 components | an-001 → an-052 |
 | lore/06-responsive.jsonl | Breakpoints, constraints, auto layout responsive patterns, pixel density | rs-001 → rs-030 |
@@ -70,7 +70,10 @@ process — everything that applies regardless of which design tool you use.
 
 ### Design Systems
 **"Set up design tokens / variables / colour system"**
-→ lore/02-design-system.jsonl (ds-001 to ds-015 for tokens, ds-031 to ds-056 for colour)
+→ lore/02-design-system.jsonl (ds-001 to ds-015 for tokens, ds-031 to ds-045 for colour)
+
+**"Typography variables / responsive type / font modes"**
+→ lore/02-design-system.jsonl (ds-046, ds-047, ds-048) + lore/12-typography-deep.jsonl
 
 **"Light and dark mode"**
 → lore/02-design-system.jsonl (ds-049 to ds-056) + lore/13-colour-theory.jsonl (ct-009) + lore/07-mobile-ux.jsonl (ux-031, ux-032)
