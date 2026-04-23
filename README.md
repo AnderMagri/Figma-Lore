@@ -104,7 +104,7 @@ Figma-Lore/
 │       ├── 09-audit-optimization.jsonl
 │       └── 10-execution-recipes.jsonl
 │
-├── skill/                                 ← Design theory & process
+├── skill-design/                                 ← Design theory & process
 │   ├── SKILL.md
 │   └── lore/
 │       ├── 02-design-system.jsonl
@@ -202,22 +202,22 @@ conversation.
 | File structure, libraries | `skill-figma/lore/08-organization.jsonl` |
 | Design system audit | `skill-figma/lore/09-audit-optimization.jsonl` |
 | Step-by-step recipes | `skill-figma/lore/10-execution-recipes.jsonl` |
-| Design tokens, variables | `skill/lore/02-design-system.jsonl` |
-| iOS specs / HIG | `skill/lore/04-ios-design.jsonl` |
-| Material 3 / Android | `skill/lore/05-android-design.jsonl` |
-| Responsive design | `skill/lore/06-responsive.jsonl` |
-| Mobile UX, gestures, forms | `skill/lore/07-mobile-ux.jsonl` |
-| Gestalt, visual hierarchy | `skill/lore/11-gestalt-perception.jsonl` |
-| Typography theory | `skill/lore/12-typography-deep.jsonl` |
-| Colour theory | `skill/lore/13-colour-theory.jsonl` |
-| Cognitive bias, UX laws | `skill/lore/14-behavioural-design.jsonl` |
-| Art styles, brand aesthetics | `skill/lore/15-art-history-part1.jsonl` + `skill/lore/15-art-history-part2.jsonl` |
-| User research, personas | `skill/lore/16-design-research.jsonl` |
-| UX strategy, metrics | `skill/lore/17-ux-strategy.jsonl` |
-| Animation, gestures, loading | `skill/lore/18-interaction-design.jsonl` |
-| A/B tests, usability, wireframes | `skill/lore/19-prototyping-testing.jsonl` |
-| Critiques, sprints, handoff, QA | `skill/lore/20-design-ops.jsonl` |
-| Case studies, UX writing | `skill/lore/21-designer-toolkit.jsonl` |
+| Design tokens, variables | `skill-design/lore/02-design-system.jsonl` |
+| iOS specs / HIG | `skill-design/lore/04-ios-design.jsonl` |
+| Material 3 / Android | `skill-design/lore/05-android-design.jsonl` |
+| Responsive design | `skill-design/lore/06-responsive.jsonl` |
+| Mobile UX, gestures, forms | `skill-design/lore/07-mobile-ux.jsonl` |
+| Gestalt, visual hierarchy | `skill-design/lore/11-gestalt-perception.jsonl` |
+| Typography theory | `skill-design/lore/12-typography-deep.jsonl` |
+| Colour theory | `skill-design/lore/13-colour-theory.jsonl` |
+| Cognitive bias, UX laws | `skill-design/lore/14-behavioural-design.jsonl` |
+| Art styles, brand aesthetics | `skill-design/lore/15-art-history-part1.jsonl` + `skill-design/lore/15-art-history-part2.jsonl` |
+| User research, personas | `skill-design/lore/16-design-research.jsonl` |
+| UX strategy, metrics | `skill-design/lore/17-ux-strategy.jsonl` |
+| Animation, gestures, loading | `skill-design/lore/18-interaction-design.jsonl` |
+| A/B tests, usability, wireframes | `skill-design/lore/19-prototyping-testing.jsonl` |
+| Critiques, sprints, handoff, QA | `skill-design/lore/20-design-ops.jsonl` |
+| Case studies, UX writing | `skill-design/lore/21-designer-toolkit.jsonl` |
 | Deep UX psychology, archetypes | `skill-psychology/lore/22-deep-ux-psychology.jsonl` |
 | Shopify, ecommerce, conversion | `skill-industry/lore/23-ecommerce-ux.jsonl` |
 | Crypto, fintech, wallets, DeFi | `skill-industry/lore/24-crypto-fintech-ux.jsonl` |
