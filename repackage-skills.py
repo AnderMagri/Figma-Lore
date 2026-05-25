@@ -9,7 +9,7 @@ import pathlib
 import sys
 import zipfile
 
-PROJECT = pathlib.Path("/Users/andermagri/Documents/GitHub/Figma-Lore")
+PROJECT = pathlib.Path("/Users/andermagri/Documents/GitHub/Skill-stack")
 
 SKILL_DIRS = {
     "skill-design":           PROJECT / "skill-design",
@@ -18,6 +18,8 @@ SKILL_DIRS = {
     "skill-figma-autolayout": PROJECT / "skill-figma-autolayout",
     "skill-industry":         PROJECT / "skill-industry",
     "skill-psychology":       PROJECT / "skill-psychology",
+    "skill-builder-frontend": PROJECT / "skill-builder-frontend",
+    "skill-builder-fde":      PROJECT / "skill-builder-fde",
 }
 
 EXCLUDE_FILES = {".DS_Store"}
