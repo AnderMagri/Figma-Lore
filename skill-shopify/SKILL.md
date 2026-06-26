@@ -1,22 +1,20 @@
 ---
 name: shopify-lore
 description: >
-  Shopify platform knowledge for designing storefronts in Figma. From
-  shopify.dev docs and Horizon theme source analysis. Covers theme
+  Shopify storefront design knowledge for Figma. Covers theme
   architecture (layouts, templates, sections, blocks), selling plans
   (subscriptions, pre-orders, TBYB), best practices (performance,
-  accessibility), pricing (discounts, installments), merchandising
-  (variants, media, recommendations), navigation & search (menus,
-  filtering), Horizon design system (token architecture, colour
-  schemes, fluid typography, spacing, block-first components, settings
-  schema), design feasibility review (Native vs Liquid vs Custom for
-  any UI element), and dev handoff (Figma-to-Shopify mapping, settings
-  schema annotations, variant selector specs, metafield documentation,
-  token naming, responsive breakpoints, edge cases, app block slots).
+  accessibility), pricing, merchandising (variants, media,
+  recommendations), navigation & search, Horizon design system
+  (tokens, colour schemes, typography, spacing, components), design
+  feasibility review (Native vs Liquid vs Custom for any UI element),
+  and dev handoff (Figma-to-Shopify mapping, settings schema
+  annotations, variant selector specs, metafields, token naming,
+  breakpoints, edge cases, app block slots, handoff checklist).
   Trigger for Shopify theme, Liquid, selling plans, sections, blocks,
-  variants, filtering, Horizon, Shopify tokens, storefront design in
-  Figma, design feasibility review, or dev handoff. For general
-  ecommerce UX use ecommerce-lore.
+  variants, filtering, Horizon, tokens, storefront design in Figma,
+  feasibility review, or dev handoff. For ecommerce UX use
+  ecommerce-lore.
 ---
 
 # Shopify Lore
