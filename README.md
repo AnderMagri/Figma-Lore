@@ -17,7 +17,7 @@ focused skills for accurate triggering and clean separation of concerns.
 | **figma-autolayout-lore** | `skill-figma-autolayout.skill` | Auto layout in depth, advanced patterns, component recipes |
 | **figma-prototyping-lore** | `skill-figma-prototyping.skill` | Prototyping interaction model, Smart Animate, transitions, easing and springs, variables and conditionals, Figma Motion timeline, motion systems, build recipes |
 | **design-lore** | `skill-design.skill` | Design systems, tokens, colour, typography, iOS/Android specs, Gestalt, UX laws, art history, research, strategy, interaction, prototyping, ops, UX writing |
-| **design-system-lore** | `skill-design-system.skill` | Token architecture, colour systems, naming conventions, governance |
+| **design-system-lore** | `skill-design-system.skill` | Token architecture, OKLCH colour systems, naming conventions, spacing semantics, icon systems, layering, token pipeline, deprecation, design debt |
 | **layout-lore** | `skill-layout.skill` | Grids, measure, whitespace, alignment, responsive strategy, section rhythm, page archetypes |
 | **design-critique-lore** | `skill-critique.skill` | Heuristic evaluation, critique rubrics per dimension, critique practice and defending decisions |
 | **ai-ux-lore** | `skill-ai-ux.skill` | Agentic experience design, trust calibration, AI persona and voice, evaluation, agent orchestration, prompt architecture |
@@ -74,6 +74,10 @@ Install all of them for complete coverage, or pick only the ones you need.
 ### Industry (Modules 23–24)
 - **Ecommerce** — Shopify conversion benchmarks, product pages, ATC button, checkout, mobile commerce, trust signals, collection pages, app ecosystem
 - **Crypto & Fintech** — wallet UX, seed phrases, exchange trading, DeFi, on/off-ramp, KYC, fintech dashboards, credit card UX, trust & security, error states, WalletConnect
+
+### Design System Foundations & Ops (Modules 49–50)
+- **Token foundations** — spacing semantics (inset / stack / inline / gap, with squish and stretch inset variants), icon system (24px grid, keylines, stroke weight, optical sizing, naming, delivery, accessibility), z-index and layering token scale with the stacking-context gotcha, border and radius including the nested-radius rule, focus-ring tokens, and a token-set completeness checklist
+- **Design system operations** — the token build pipeline (Figma → DTCG → Style Dictionary → platform outputs) and the four decisions that make it work, token and component deprecation lifecycle with migration paths, token audit by coverage / tier-correctness / redundancy, design debt categories, debt scoring (severity × frequency ÷ effort) and the living debt register, and a component specification template
 
 ### Figma Prototyping (Modules 34–39)
 - **Prototyping core** — the interaction model, flows and starting points, all 12 triggers, all 15 actions, overlays (positions, scrim, dismissal, swap vs open), scroll/overflow/fixed/sticky, preserve scroll position, device and presentation settings, hotspot craft, fidelity ladder, testing with prototypes, accessibility limits, handoff, QA checklist
@@ -251,6 +255,8 @@ conversation.
 | AI persona, voice, failure taxonomy, metrics | `skill-ai-ux/lore/46-ai-behaviour-evaluation.jsonl` |
 | Agent roles, handoffs, human-in-the-loop | `skill-ai-ux/lore/47-ai-agent-orchestration.jsonl` |
 | Prompt architecture as design | `skill-ai-ux/lore/48-ai-prompt-architecture.jsonl` |
+| Spacing semantics, icon systems, z-index, focus tokens | `skill-design-system/lore/49-token-foundations.jsonl` |
+| Token pipeline, deprecation, token audit, design debt | `skill-design-system/lore/50-design-system-ops.jsonl` |
 | Deep UX psychology, archetypes | `skill-psychology/lore/22-deep-ux-psychology.jsonl` |
 | Shopify, ecommerce, conversion | `skill-industry/lore/23-ecommerce-ux.jsonl` |
 | Crypto, fintech, wallets, DeFi | `skill-industry/lore/24-crypto-fintech-ux.jsonl` |

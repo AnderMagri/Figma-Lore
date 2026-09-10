@@ -48,6 +48,18 @@ ds-045	lore/02-design-system.jsonl	Design System Maturity Checklist	design-syste
 ds-046	lore/02-design-system.jsonl	Typography Variables — Setup Workflow (Variables + Styles Together)	typography	typography,variables,text-styles,workflow,font-size,line-height,font-family,font-weight
 ds-047	lore/02-design-system.jsonl	Responsive Typography Modes — Desktop and Mobile in a Single Collection	typography	typography,modes,responsive,desktop,mobile,breakpoint,variables,font-size
 ds-048	lore/02-design-system.jsonl	Typography Variable Types and Naming — String vs Number, T-Shirt Scale	typography	typography,variables,naming,string,number,t-shirt,scale,font-family,font-weight
+dsf-001	lore/49-token-foundations.jsonl	Spacing Semantics — Inset, Stack, Inline, and Gap	spacing-semantics	spacing,tokens,naming,semantics,auto-layout,density
+dsf-002	lore/49-token-foundations.jsonl	Icon System — Grid, Keylines, Stroke, and Optical Correction	icon-system-foundations	icons,design-system,grid,stroke,optical-sizing,foundations
+dsf-003	lore/49-token-foundations.jsonl	Icon System — Naming, Size Ramp, and Delivery	icon-system-delivery	icons,naming,accessibility,delivery,design-system,governance
+dsf-004	lore/49-token-foundations.jsonl	Layering — A Z-Index Token Scale	z-index-tokens	z-index,layering,tokens,css,modals,handoff
+dsf-005	lore/49-token-foundations.jsonl	Border, Radius, and Focus-Ring Tokens	border-radius-focus-tokens	border,radius,focus,accessibility,tokens,figma
+dsf-006	lore/49-token-foundations.jsonl	Token Set Completeness — What a Finished Foundation Contains	token-completeness	tokens,design-system,checklist,completeness,foundations
+dso-001	lore/50-design-system-ops.jsonl	Token Build Pipeline — Figma to Platform	token-pipeline	tokens,pipeline,style-dictionary,dtcg,figma,engineering,handoff
+dso-002	lore/50-design-system-ops.jsonl	Token and Component Deprecation Lifecycle	token-deprecation	tokens,deprecation,governance,versioning,migration,design-system
+dso-003	lore/50-design-system-ops.jsonl	Token Audit — Coverage, Gaps, and Redundancy	token-audit-coverage	tokens,audit,coverage,metrics,governance,linting
+dso-004	lore/50-design-system-ops.jsonl	Design Debt — What Counts and How It Accrues	design-debt-categories	design-debt,audit,governance,accessibility,design-system
+dso-005	lore/50-design-system-ops.jsonl	Design Debt Audit — Scoring and the Debt Register	design-debt-register	design-debt,audit,prioritisation,governance,design-ops,metrics
+dso-006	lore/50-design-system-ops.jsonl	Component Specification — The Template	component-spec-template	component-spec,documentation,design-system,accessibility,handoff,template
 ca-001	lore/colour-advanced.jsonl	OKLCH — The Modern Colour Space for Design Systems	oklch	oklch,colour-space,perceptual,modern,css-color-4,oklab
 ca-002	lore/colour-advanced.jsonl	OKLCH vs HSL — Why the Difference Matters	oklch	oklch,hsl,comparison,perceptual,uniform,lightness,colour-scale
 ca-003	lore/colour-advanced.jsonl	Building Colour Scales with OKLCH — Step by Step	oklch	oklch,colour-scale,palette,construction,steps,perceptual,chroma

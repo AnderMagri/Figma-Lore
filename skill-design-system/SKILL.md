@@ -56,6 +56,18 @@ Token architecture, variables, theming, colour, typography, governance, and audi
 
 ## Quick Topic Routing
 
+**"Spacing token names / inset vs stack"** → 49 (dsf-001)
+**"Icon system / icon grid / stroke weight"** → 49 (dsf-002, dsf-003)
+**"Dropdown behind the modal / z-index"** → 49 (dsf-004)
+**"Nested corner radius looks wrong"** → 49 (dsf-005)
+**"Focus ring"** → 49 (dsf-005)
+**"What tokens am I missing?"** → 49 (dsf-006)
+**"Get tokens into code"** → 50 (dso-001)
+**"Retire a token without breaking things"** → 50 (dso-002)
+**"Measure token adoption"** → 50 (dso-003)
+**"Design debt / cleanup capacity"** → 50 (dso-004, dso-005)
+**"Write a component spec"** → 50 (dso-006)
+
 ### Naming Conventions
 **"W3C DTCG format / universal token standard / Token Studio / Style Dictionary"**
 → lore/naming-conventions.jsonl (nc-001)
@@ -293,3 +305,5 @@ Token architecture, variables, theming, colour, typography, governance, and audi
 - **4px base grid**: All spacing tokens must be multiples of 4. No arbitrary pixel values.
 - **WCAG AA is a floor, not a ceiling**: Every colour token combination must pass 4.5:1 for normal text. Verify in all modes.
 - **Governance is a feature**: A DS without a contribution process, deprecation policy, and versioned changelog is not a system — it is a shared file.
+| lore/49-token-foundations.jsonl | Spacing semantics (inset/stack/inline/gap, squish/stretch), icon system (grid, keylines, stroke, optical sizing, naming, delivery), z-index/layering scale, border and radius (nested-radius rule), focus-ring tokens, token-set completeness checklist | dsf-001 → dsf-006 |
+| lore/50-design-system-ops.jsonl | Token build pipeline (Figma → DTCG → Style Dictionary → platforms), deprecation lifecycle, token audit with coverage metrics, design debt categories, debt scoring and the debt register, component specification template | dso-001 → dso-006 |
