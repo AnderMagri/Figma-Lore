@@ -20,9 +20,13 @@ Design theory, platform specs, perception, aesthetics, and the full design
 process — everything that applies regardless of which design tool you use.
 
 > **Part of the Design Lore family.** For Figma-specific mechanics (auto layout,
-> components, file structure, auditing, recipes), use **figma-lore**. For deep
-> UX psychology, use **design-lore-psychology**. For ecommerce and crypto/fintech
-> UX, use **design-lore-industry**.
+> components, file structure, auditing, recipes), use **figma-lore**. For Figma
+> prototyping, Smart Animate, Figma Motion, and motion systems, use
+> **figma-prototyping-lore**. For grids, measure, whitespace, and page
+> archetypes, use **layout-lore**. For heuristic evaluation and structured
+> critique, use **design-critique-lore**. For AI and agentic product design,
+> use **ai-ux-lore**. For deep UX psychology, use **design-lore-psychology**.
+> For ecommerce and crypto/fintech UX, use **design-lore-industry**.
 
 ## How to Use This Skill
 

@@ -5,20 +5,30 @@
 
 Design Lore (formerly Figma Lore) started as a Figma-specific knowledge base
 and has grown into a comprehensive **design intelligence library** split into
-four focused skills for accurate triggering and clean separation of concerns.
+focused skills for accurate triggering and clean separation of concerns.
 
 ---
 
-## Four Skills, One Library
+## The Skill Family
 
-| Skill | ZIP | Modules | When it triggers |
-|---|---|---|---|
-| **figma-lore** | `figma-lore-skill.zip` | 00, 01, 03, 08, 09, 10 | Figma mechanics, auto layout, components, variants, slots, file structure, library management, audits, recipes |
-| **design-lore** | `design-lore-skill.zip` | 02, 04–07, 11–21 | Design systems, tokens, colour, typography, iOS/Android specs, Gestalt, UX laws, art history, research, strategy, interaction, prototyping, ops, UX writing |
-| **design-lore-psychology** | `design-lore-psychology-skill.zip` | 22 | Deep UX analysis, psychology, archetypes, theory-led audits, persuasion, phenomenology, semiotics |
-| **design-lore-industry** | `design-lore-industry-skill.zip` | 23–24 | Shopify, ecommerce, conversion, crypto, Web3, DeFi, fintech, wallets, banking |
+| Skill | Package | Covers |
+|---|---|---|
+| **figma-lore** | `skill-figma.skill` | Figma mechanics, components, variants, slots, file structure, library management, audits, recipes |
+| **figma-autolayout-lore** | `skill-figma-autolayout.skill` | Auto layout in depth, advanced patterns, component recipes |
+| **figma-prototyping-lore** | `skill-figma-prototyping.skill` | Prototyping interaction model, Smart Animate, transitions, easing and springs, variables and conditionals, Figma Motion timeline, motion systems, build recipes |
+| **design-lore** | `skill-design.skill` | Design systems, tokens, colour, typography, iOS/Android specs, Gestalt, UX laws, art history, research, strategy, interaction, prototyping, ops, UX writing |
+| **design-system-lore** | `skill-design-system.skill` | Token architecture, colour systems, naming conventions, governance |
+| **layout-lore** | `skill-layout.skill` | Grids, measure, whitespace, alignment, responsive strategy, section rhythm, page archetypes |
+| **design-critique-lore** | `skill-critique.skill` | Heuristic evaluation, critique rubrics per dimension, critique practice and defending decisions |
+| **ai-ux-lore** | `skill-ai-ux.skill` | Agentic experience design, trust calibration, AI persona and voice, evaluation, agent orchestration, prompt architecture |
+| **design-lore-psychology** | `skill-psychology.skill` | Deep UX psychology, archetypes, theory-led audits, persuasion, phenomenology, semiotics |
+| **ecommerce-lore** | `skill-ecommerce.skill` | Ecommerce UX, conversion benchmarks, CRO |
+| **shopify-lore** | `skill-shopify.skill` | Shopify theme architecture, Horizon, design feasibility, dev handoff |
+| **design-lore-industry** | `skill-industry.skill` | Crypto, Web3, DeFi, fintech, wallets, banking |
+| **frontend-builder-lore** | `skill-builder-frontend.skill` | Frontend engineering builder lore |
+| **fde-builder-lore** | `skill-builder-fde.skill` | Forward-deployed engineering builder lore |
 
-Install all four for complete coverage, or pick only the ones you need.
+Install all of them for complete coverage, or pick only the ones you need.
 
 ---
 
@@ -65,6 +75,31 @@ Install all four for complete coverage, or pick only the ones you need.
 - **Ecommerce** — Shopify conversion benchmarks, product pages, ATC button, checkout, mobile commerce, trust signals, collection pages, app ecosystem
 - **Crypto & Fintech** — wallet UX, seed phrases, exchange trading, DeFi, on/off-ramp, KYC, fintech dashboards, credit card UX, trust & security, error states, WalletConnect
 
+### Figma Prototyping (Modules 34–39)
+- **Prototyping core** — the interaction model, flows and starting points, all 12 triggers, all 15 actions, overlays (positions, scrim, dismissal, swap vs open), scroll/overflow/fixed/sticky, preserve scroll position, device and presentation settings, hotspot craft, fidelity ladder, testing with prototypes, accessibility limits, handoff, QA checklist
+- **Transitions & Smart Animate** — every transition type and what it means, Smart Animate matching rules and supported/unsupported properties, all eight easing presets, all spring presets with stiffness/damping/mass, duration craft, choreography and stagger, platform motion conventions, debugging
+- **Advanced prototyping** — variables (all four types), Set variable, the complete expression syntax, conditionals, variable modes for theming and locale, interactive components and state behaviour, real text input, state modelling, and where the ceiling is
+- **Figma Motion** — the native timeline, keyframes and auto-keyframing, animation styles, animated components, motion variables, export formats, Dev Mode handoff, the `figma.motion` Plugin API, Figma Sites interactions, motion review
+- **Motion systems** — duration and easing tokens, reduced-motion policy, performance (what is cheap and what janks), CSS / motion.dev code mapping, motion spec templates, motion personality by domain
+- **Recipes** — bottom sheets, toasts, Shopify PDP variant pickers, cart drawers, filter panels, multi-step forms with validation, wallet connect and signing flows, AI latency and failure states, live theme toggles, skeleton loading, and state inventories
+
+### Layout (Module 43)
+- Layout first principles, grid systems and their parameters per breakpoint, measure and vertical rhythm, whitespace as micro/macro/active, alignment and optical correction, responsive strategy (seven reflow behaviours), above-the-fold decisions, section rhythm for long pages
+- **Page archetypes** with full anatomy and pitfalls — landing pages, product detail pages, collection and search results, dashboards and data views, forms and multi-step flows, application shells and navigation
+- Layout anti-patterns and how to specify a layout that survives implementation
+
+### Design Critique (Modules 40–42)
+- **Heuristic evaluation** — each of Nielsen's 10 in depth with failure modes, checking methods and domain specifics; severity ratings; the full protocol; finding and report formats; Shneiderman, Gerhardt-Powals, Tognazzini, WCAG-as-heuristics and HEART; dedicated heuristic sets for AI, ecommerce/Shopify, crypto/fintech and accessibility; running an evaluation on a Figma file
+- **Critique rubrics** — the standard pass, then observation / problem / fix rubrics rated pass / minor / major for composition, visual hierarchy, typography, colour, spacing, information density, affordance, copy, brand consistency, responsive behaviour, state completeness, task efficiency, data display and motion
+- **Critique practice** — facilitation, feedback language, design rationale, red-teaming your own assumptions, pre-mortems, defending decisions without being defensive, framing design in product and metric terms, reviewing AI-generated work, review cadence, self-critique techniques
+
+### AI UX (Modules 44–48)
+- **AI interaction design** — what changes when the system is probabilistic, mixed-initiative flow and control handoffs, capability discoverability, latency and streaming as designed states, correction loops and editability, generative UI, context and memory visibility, frustration repair
+- **Trust and alignment** — trust calibration and its five failure modes, the stakes × confidence language matrix, transparency and citation patterns, guardrail and refusal design, consent and agency, harm anticipation, escalation, bias in AI interfaces
+- **Behaviour and evaluation** — persona architecture, tone calibration, error personality, behavioural consistency, failure taxonomies, output quality rubrics, AI metrics that mean something
+- **Agent orchestration** — agent roles, task decomposition, handoff protocols, human-in-the-loop checkpoints, state and observability, failure recovery, agentic anti-patterns
+- **Prompt architecture** — the prompt as a design surface, system prompt structure, constraint specification, examples and few-shot, context engineering, reasoning structure, prompt versioning
+
 #### Art Styles Covered
 Classical: Renaissance, Baroque, Art Nouveau, Arts & Crafts, Bauhaus, De Stijl,
 Constructivism, Art Deco, Swiss/International Style
@@ -85,56 +120,37 @@ Biophilic/Organic Design
 ## Repo Structure
 
 ```
-Figma-Lore/
+Skill-stack/
 │
-├── README.md                              ← you are here
+├── README.md                       ← you are here
+├── repackage-skills.py             ← PostToolUse hook: rebuilds .skill on edit
 │
-├── figma-lore-skill.zip                   ← Figma tool skill (modules 00,01,03,08–10)
-├── design-lore-skill.zip                  ← design theory skill (modules 02,04–07,11–21)
-├── design-lore-psychology-skill.zip       ← psychology skill (module 22)
-├── design-lore-industry-skill.zip         ← industry skill (modules 23–24)
-│
-├── skill-figma/                           ← Figma tool mechanics
-│   ├── SKILL.md
-│   └── lore/
-│       ├── 00-figma-core.jsonl
-│       ├── 01-auto-layout.jsonl
-│       ├── 03-components.jsonl
-│       ├── 08-organization.jsonl
-│       ├── 09-audit-optimization.jsonl
-│       └── 10-execution-recipes.jsonl
-│
-├── skill-design/                                 ← Design theory & process
-│   ├── SKILL.md
-│   └── lore/
-│       ├── 02-design-system.jsonl
-│       ├── 04-ios-design.jsonl
-│       ├── 05-android-design.jsonl
-│       ├── 06-responsive.jsonl
-│       ├── 07-mobile-ux.jsonl
-│       ├── 11-gestalt-perception.jsonl
-│       ├── 12-typography-deep.jsonl
-│       ├── 13-colour-theory.jsonl
-│       ├── 14-behavioural-design.jsonl
-│       ├── 15-art-history-part1.jsonl
-│       ├── 15-art-history-part2.jsonl
-│       ├── 16-design-research.jsonl
-│       ├── 17-ux-strategy.jsonl
-│       ├── 18-interaction-design.jsonl
-│       ├── 19-prototyping-testing.jsonl
-│       ├── 20-design-ops.jsonl
-│       └── 21-designer-toolkit.jsonl
-│
-├── skill-psychology/                      ← Deep UX psychology
-│   ├── SKILL.md
-│   └── lore/
-│       └── 22-deep-ux-psychology.jsonl
-│
-└── skill-industry/                        ← Ecommerce & crypto/fintech
-    ├── SKILL.md
-    └── lore/
-        ├── 23-ecommerce-ux.jsonl
-        └── 24-crypto-fintech-ux.jsonl
+├── skill-figma/                    → figma-lore
+│   └── lore/  00, 01, 03, 08, 09, 10
+├── skill-figma-autolayout/         → figma-autolayout-lore
+│   └── lore/  01, 01b, 01c
+├── skill-figma-prototyping/        → figma-prototyping-lore
+│   └── lore/  34 prototyping-core, 35 transitions-motion,
+│              36 advanced-prototyping, 37 figma-motion,
+│              38 motion-system-handoff, 39 prototype-recipes
+├── skill-design/                   → design-lore
+│   └── lore/  02, 04–07, 11–21
+├── skill-design-system/            → design-system-lore
+├── skill-layout/                   → layout-lore
+│   └── lore/  43 layout-systems
+├── skill-critique/                 → design-critique-lore
+│   └── lore/  40 heuristic-evaluation, 41 critique-rubrics,
+│              42 critique-practice
+├── skill-ai-ux/                    → ai-ux-lore
+│   └── lore/  44 ai-interaction-design, 45 ai-trust-alignment,
+│              46 ai-behaviour-evaluation, 47 ai-agent-orchestration,
+│              48 ai-prompt-architecture
+├── skill-psychology/               → design-lore-psychology
+├── skill-ecommerce/                → ecommerce-lore
+├── skill-shopify/                  → shopify-lore
+├── skill-industry/                 → design-lore-industry
+├── skill-builder-frontend/         → frontend-builder-lore
+└── skill-builder-fde/              → fde-builder-lore
 ```
 
 ---
@@ -218,6 +234,21 @@ conversation.
 | A/B tests, usability, wireframes | `skill-design/lore/19-prototyping-testing.jsonl` |
 | Critiques, sprints, handoff, QA | `skill-design/lore/20-design-ops.jsonl` |
 | Case studies, UX writing | `skill-design/lore/21-designer-toolkit.jsonl` |
+| Figma prototyping mechanics, triggers, actions, overlays | `skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl` |
+| Smart Animate, transitions, easing, springs | `skill-figma-prototyping/lore/35-figma-transitions-motion.jsonl` |
+| Prototype variables, conditionals, expressions | `skill-figma-prototyping/lore/36-figma-advanced-prototyping.jsonl` |
+| Figma Motion timeline, keyframes, motion API | `skill-figma-prototyping/lore/37-figma-motion.jsonl` |
+| Motion tokens, reduced motion, motion handoff | `skill-figma-prototyping/lore/38-motion-system-handoff.jsonl` |
+| Step-by-step prototype recipes | `skill-figma-prototyping/lore/39-prototype-recipes.jsonl` |
+| Heuristic evaluation, severity, protocol | `skill-critique/lore/40-heuristic-evaluation.jsonl` |
+| Critique rubrics per dimension | `skill-critique/lore/41-critique-rubrics.jsonl` |
+| Critique facilitation, rationale, defending decisions | `skill-critique/lore/42-critique-practice.jsonl` |
+| Grids, measure, whitespace, page archetypes | `skill-layout/lore/43-layout-systems.jsonl` |
+| AI interaction design, latency, correction loops | `skill-ai-ux/lore/44-ai-interaction-design.jsonl` |
+| AI trust, transparency, refusal, harm | `skill-ai-ux/lore/45-ai-trust-alignment.jsonl` |
+| AI persona, voice, failure taxonomy, metrics | `skill-ai-ux/lore/46-ai-behaviour-evaluation.jsonl` |
+| Agent roles, handoffs, human-in-the-loop | `skill-ai-ux/lore/47-ai-agent-orchestration.jsonl` |
+| Prompt architecture as design | `skill-ai-ux/lore/48-ai-prompt-architecture.jsonl` |
 | Deep UX psychology, archetypes | `skill-psychology/lore/22-deep-ux-psychology.jsonl` |
 | Shopify, ecommerce, conversion | `skill-industry/lore/23-ecommerce-ux.jsonl` |
 | Crypto, fintech, wallets, DeFi | `skill-industry/lore/24-crypto-fintech-ux.jsonl` |
@@ -272,6 +303,14 @@ Norman Group research, and community work including:
 - Thaler & Sunstein — nudge theory
 - Josef Müller-Brockmann — grid systems and Swiss typography
 - [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills) — design research, UX strategy, interaction design, prototyping, design ops, and designer toolkit modules (MIT license)
+- [Owl-Listener/ai-design-skills](https://github.com/Owl-Listener/ai-design-skills) — the agentic-experience-design framing and source material for the AI UX modules 44–48 (MIT license)
+- [phuryn/pm-skills](https://github.com/phuryn/pm-skills) — the strategy red-team method, pre-mortem structure, and prioritisation framework references in module 42 (MIT license)
+- [Infrasity-Labs/dev-gtm-claude-skills](https://github.com/Infrasity-Labs/dev-gtm-claude-skills) — critique-dimension structure and motion-system token approach (MIT license)
+- Figma Help Center and Figma Developer Docs — prototyping triggers and actions, Smart Animate, easing and spring presets, expressions, variable modes, Figma Motion, and the `figma.motion` Plugin API
+- Ben Shneiderman — Eight Golden Rules; Gerhardt-Powals (1996) — cognitive engineering principles; Bruce Tognazzini — First Principles
+- Gary Klein (2007) — pre-mortem / prospective hindsight
+- Lee & See (2004) — appropriate reliance and calibrated trust
+- Dan Olsen — Opportunity Score (*The Lean Product Playbook*)
 
 ---
 

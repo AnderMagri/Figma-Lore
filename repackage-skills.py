@@ -12,16 +12,20 @@ import zipfile
 PROJECT = pathlib.Path("/Users/andermagri/Documents/GitHub/Skill-stack")
 
 SKILL_DIRS = {
-    "skill-design":           PROJECT / "skill-design",
-    "skill-design-system":    PROJECT / "skill-design-system",
-    "skill-figma":            PROJECT / "skill-figma",
-    "skill-figma-autolayout": PROJECT / "skill-figma-autolayout",
-    "skill-ecommerce":        PROJECT / "skill-ecommerce",
-    "skill-industry":         PROJECT / "skill-industry",
-    "skill-shopify":          PROJECT / "skill-shopify",
-    "skill-psychology":       PROJECT / "skill-psychology",
-    "skill-builder-frontend": PROJECT / "skill-builder-frontend",
-    "skill-builder-fde":      PROJECT / "skill-builder-fde",
+    "skill-design":            PROJECT / "skill-design",
+    "skill-design-system":     PROJECT / "skill-design-system",
+    "skill-figma":             PROJECT / "skill-figma",
+    "skill-figma-autolayout":  PROJECT / "skill-figma-autolayout",
+    "skill-figma-prototyping": PROJECT / "skill-figma-prototyping",
+    "skill-critique":          PROJECT / "skill-critique",
+    "skill-layout":            PROJECT / "skill-layout",
+    "skill-ai-ux":             PROJECT / "skill-ai-ux",
+    "skill-ecommerce":         PROJECT / "skill-ecommerce",
+    "skill-industry":          PROJECT / "skill-industry",
+    "skill-shopify":           PROJECT / "skill-shopify",
+    "skill-psychology":        PROJECT / "skill-psychology",
+    "skill-builder-frontend":  PROJECT / "skill-builder-frontend",
+    "skill-builder-fde":       PROJECT / "skill-builder-fde",
 }
 
 EXCLUDE_FILES = {".DS_Store"}
