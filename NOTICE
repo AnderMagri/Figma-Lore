@@ -1,0 +1,64 @@
+# NOTICE
+
+Skill-stack is an internal knowledge base. It is not licensed for
+redistribution outside the team; ask before sharing it further.
+
+Parts of this repository are derived from the MIT-licensed projects below.
+Their copyright and permission notices are reproduced here as the MIT licence
+requires. Where an entry draws on one of them, the entry's `source` field says
+so.
+
+--------------------------------------------------------------------------------
+
+Owl-Listener/designer-skills — https://github.com/Owl-Listener/designer-skills
+  Modules: design research, UX strategy, interaction design, prototyping &
+  testing, design ops, designer toolkit (16-21).
+
+Owl-Listener/ai-design-skills — https://github.com/Owl-Listener/ai-design-skills
+  Modules: AI UX — interaction design, trust & alignment, behaviour &
+  evaluation, agent orchestration, prompt architecture (44-48).
+
+  Both: Copyright (c) 2026 MC Dean
+
+phuryn/pm-skills — https://github.com/phuryn/pm-skills
+  Strategy red-team method, pre-mortem structure, prioritisation framework
+  references (module 42).
+
+  Copyright (c) 2026 Pawel Huryn
+
+Infrasity-Labs/dev-gtm-claude-skills — https://github.com/Infrasity-Labs/dev-gtm-claude-skills
+  Critique-dimension structure (module 41), motion-system token approach
+  (module 38), spacing/icon/token-audit/design-debt/component-spec material
+  (modules 49-50).
+
+  Copyright (c) 2026 Infrasity
+
+--------------------------------------------------------------------------------
+
+The MIT Licence, applying to the four projects named above:
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+Other material is summarised from public documentation and research and is cited
+per entry in the `source` field: Figma Help Center and Developer Docs, Apple
+Human Interface Guidelines, Google Material Design 3, Shopify developer
+documentation, W3C WCAG and DTCG, Nielsen Norman Group, and the researchers
+credited in README.md.

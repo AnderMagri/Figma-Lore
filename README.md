@@ -121,12 +121,63 @@ Biophilic/Organic Design
 
 ---
 
+## For Your Team
+
+This repo is shared internally. Nothing needs installing or uploading — the
+skills are symlinked from the repo, so `git pull` is the whole update process.
+
+```bash
+git clone git@github.com:AnderMagri/Skill-stack.git
+cd Skill-stack
+./install.sh
+```
+
+Then restart Claude Code. All 14 skills load in every project on that machine
+and trigger automatically — no `/command` needed.
+
+```bash
+./install.sh --list       # show what would be linked, change nothing
+./install.sh --uninstall  # remove only this repo's links, repo untouched
+```
+
+`install.sh` is idempotent and refuses to clobber anything: it skips a name if a
+real directory is already there, or if the link points somewhere outside this
+repo. It reads each skill's name from its `SKILL.md` frontmatter, so renaming a
+skill renames its link on the next run.
+
+**Context cost.** All 14 descriptions total roughly 3,000 tokens, loaded in
+every session (~1.5% of a 200K window). To trim, delete individual links from
+`~/.claude/skills/` — that removes the skill without touching the repo.
+
+**Using them in claude.ai or the desktop chat instead?** There's no filesystem
+there, so upload the `.skill` packages from the repo root (see *Installing the
+Skills* below). Note that this creates an independent copy which will not track
+your git pulls.
+
+**Two skills are personalised.** `forward-deployed-engineer` and
+`frontend-engineer` are written for one person's learning path and address them
+by name. Skip them, or genericise before sharing.
+
+**Before committing changes**, run the validator — it catches schema drift, ID
+collisions, and `SKILL.md` module indexes that no longer match what's on disk:
+
+```bash
+python3 lore.py validate
+```
+
+See *Finding Things* below for `INDEX.tsv` and `lore.py`. See `NOTICE` for the
+upstream MIT attributions this repo carries.
+
+---
+
 ## Repo Structure
 
 ```
 Skill-stack/
 │
 ├── README.md                       ← you are here
+├── NOTICE                          ← upstream MIT attributions
+├── install.sh                      ← symlink skills into ~/.claude/skills/
 ├── INDEX.tsv                       ← every entry, greppable (see below)
 ├── lore.py                         ← index / get / search / validate
 ├── repackage-skills.py             ← PostToolUse hook: reindexes + rebuilds .skill
