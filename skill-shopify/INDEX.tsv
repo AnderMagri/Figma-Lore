@@ -1,0 +1,41 @@
+# skill-shopify entry index — grep this before reading a module
+# id	file	title	topic	tags
+sh-001	lore/25-shopify-theme-design.jsonl	Shopify Theme Design Principles — Merchant Experience	shopify-theme-design-principles-merchant	shopify,theme,design-principles,merchant,sections,blocks,atomic-design
+sh-002	lore/25-shopify-theme-design.jsonl	Shopify Theme Design Principles — Customer Experience	shopify-theme-design-principles-customer	shopify,theme,design-principles,customer,accessibility,navigation,checkout
+sh-003	lore/25-shopify-theme-design.jsonl	Shopify Subscription UX — Product Form Components	shopify-subscription-product-form	shopify,subscriptions,selling-plan,product-form,price,figma
+sh-004	lore/25-shopify-theme-design.jsonl	Shopify Subscription UX — Selling Plan Selection & Options	shopify-subscription-selling-plan-selection	shopify,subscriptions,selling-plan,selection,radio,options,variants
+sh-005	lore/25-shopify-theme-design.jsonl	Shopify Subscription UX — Details, Cart, Orders & Multi-Currency	shopify-subscription-details-cart-currency	shopify,subscriptions,selling-plan,cart,currency,orders,policy
+sh-006	lore/25-shopify-theme-design.jsonl	Shopify Pre-order & TBYB UX — Product Form Components	shopify-preorder-tbyb-product-form	shopify,preorder,tbyb,try-before-you-buy,selling-plan,product-form,deposit
+sh-007	lore/25-shopify-theme-design.jsonl	Shopify Pre-order & TBYB UX — Cart, Orders & Naming	shopify-preorder-tbyb-cart-orders	shopify,preorder,tbyb,cart,orders,naming,checkout-charge,currency
+sh-008	lore/26-shopify-theme-architecture.jsonl	Shopify Theme Architecture — Directory Structure & Hierarchy	shopify-theme-directory-structure	shopify,architecture,directory,structure,hierarchy,liquid
+sh-009	lore/26-shopify-theme-architecture.jsonl	Shopify Theme Layouts — Base Templates & Required Objects	shopify-layouts	shopify,layout,theme-liquid,header,footer,structure
+sh-010	lore/26-shopify-theme-architecture.jsonl	Shopify Theme Templates — Types, JSON vs Liquid & Naming	shopify-templates	shopify,templates,json,liquid,naming,page-types
+sh-011	lore/26-shopify-theme-architecture.jsonl	Shopify Sections — Reusable Content Modules, Schema & Rendering	shopify-sections	shopify,sections,schema,presets,blocks,rendering
+sh-012	lore/26-shopify-theme-architecture.jsonl	Shopify Blocks — Theme Blocks, Section Blocks, App Blocks & Nesting	shopify-blocks	shopify,blocks,theme-blocks,section-blocks,app-blocks,nesting,snippets
+sh-013	lore/27-shopify-best-practices.jsonl	Shopify Theme Performance — JavaScript, Assets, Liquid & Testing	shopify-performance-best-practices	shopify,performance,javascript,lighthouse,cdn,lazy-load,responsive-images
+sh-014	lore/27-shopify-best-practices.jsonl	Shopify Theme Accessibility — WCAG, Keyboard, Colour, Media & Components	shopify-accessibility-best-practices	shopify,accessibility,wcag,keyboard,contrast,aria,focus,touch-targets
+sh-015	lore/27-shopify-best-practices.jsonl	Shopify Sections & Blocks Best Practices — Modularity, Settings & Metafields	shopify-sections-blocks-best-practices	shopify,sections,blocks,best-practices,metafields,settings,modularity
+sh-016	lore/28-shopify-pricing-payments.jsonl	Shopify Discounts — Display Patterns, Line Items & Cart Level	shopify-discounts-display	shopify,discounts,pricing,strikethrough,cart,line-item
+sh-017	lore/28-shopify-pricing-payments.jsonl	Shopify Shop Pay Installments — Banner Placement & Implementation	shopify-installments	shopify,installments,shop-pay,bnpl,pricing,banner
+sh-018	lore/29-shopify-product-merchandising.jsonl	Shopify Product Variants — Options, Selectors, Deep Linking & UX	shopify-product-variants	shopify,variants,options,selectors,deep-linking,media,recommendations
+sh-019	lore/30-shopify-navigation-search.jsonl	Shopify Store Navigation — Menus, Nesting & Implementation	shopify-navigation	shopify,navigation,menus,header,footer,mega-menu,linklists
+sh-020	lore/30-shopify-navigation-search.jsonl	Shopify Storefront Search — Query Parameters, Predictive Search & Results	shopify-search	shopify,search,predictive,query,sort,results
+sh-021	lore/30-shopify-navigation-search.jsonl	Shopify Storefront Filtering — Methods, Types & UX Patterns	shopify-filtering	shopify,filtering,storefront-filtering,collection,price,variants,sidebar
+sh-022	lore/31-shopify-horizon-design-system.jsonl	Shopify Horizon Theme — Design System Architecture Overview	horizon-design-system-overview	shopify,horizon,design-system,architecture,overview,liquid,blocks
+sh-023	lore/31-shopify-horizon-design-system.jsonl	Shopify Horizon — Token Architecture & CSS Custom Properties	horizon-token-architecture	shopify,horizon,tokens,css-properties,variables,colours,typography,spacing,animation
+sh-024	lore/31-shopify-horizon-design-system.jsonl	Shopify Horizon — Colour System & Scheme Architecture	horizon-colour-system	shopify,horizon,colour,schemes,brightness,opacity,dark-mode,tokens
+sh-025	lore/31-shopify-horizon-design-system.jsonl	Shopify Horizon — Typography System & Fluid Scaling	horizon-typography-system	shopify,horizon,typography,fluid,clamp,headings,fonts,scaling
+sh-026	lore/31-shopify-horizon-design-system.jsonl	Shopify Horizon — Spacing Scale, Layout System & Responsive Scaling	horizon-spacing-layout-system	shopify,horizon,spacing,layout,gap,flex,responsive,page-width,scaling
+sh-027	lore/31-shopify-horizon-design-system.jsonl	Shopify Horizon — Block-First Component Architecture & Naming	horizon-component-architecture	shopify,horizon,blocks,sections,components,naming,architecture,hierarchy
+sh-028	lore/31-shopify-horizon-design-system.jsonl	Shopify Horizon — Settings Schema & Merchant Configuration	horizon-settings-schema	shopify,horizon,settings,schema,configuration,tokens,variables,merchant
+sh-029	lore/32-shopify-design-feasibility.jsonl	Shopify Design Feasibility — Framework for Reviewing UI Elements	shopify-design-feasibility-framework	shopify,design-review,feasibility,native,liquid,custom,review-framework
+sh-030	lore/32-shopify-design-feasibility.jsonl	Shopify Filter & Navigation Elements — Native vs Liquid vs Custom	shopify-feasibility-filters-navigation	shopify,filtering,navigation,search,feasibility,native,liquid,storefront-filtering
+sh-031	lore/32-shopify-design-feasibility.jsonl	Shopify Product & Collection Page Elements — Native vs Liquid vs Custom	shopify-feasibility-product-collection	shopify,product-page,collection-page,feasibility,variants,media,recommendations
+sh-032	lore/32-shopify-design-feasibility.jsonl	Shopify Global & Checkout UX Elements — Native vs Liquid vs Custom	shopify-feasibility-global-ux	shopify,checkout,global,announcements,currency,feasibility,shopify-plus,hard-limits
+sh-033	lore/33-shopify-dev-handoff.jsonl	Shopify Dev Handoff — Figma Frame to Shopify File Mapping	shopify-dev-handoff-frame-mapping	shopify,dev-handoff,figma-mapping,file-structure,sections,blocks,templates
+sh-034	lore/33-shopify-dev-handoff.jsonl	Shopify Dev Handoff — Annotating Settings Schema for Developers	shopify-dev-handoff-settings-schema	shopify,dev-handoff,settings-schema,merchant-config,annotations,figma
+sh-035	lore/33-shopify-dev-handoff.jsonl	Shopify Dev Handoff — Variant Selector Annotation Guide	shopify-dev-handoff-variant-selectors	shopify,dev-handoff,variants,swatches,selectors,pills,subscription,accessibility
+sh-036	lore/33-shopify-dev-handoff.jsonl	Shopify Dev Handoff — Metafield Annotation for Designers	shopify-dev-handoff-metafields	shopify,dev-handoff,metafields,annotations,namespace,type,empty-state
+sh-037	lore/33-shopify-dev-handoff.jsonl	Shopify Dev Handoff — Token Naming & Responsive Breakpoints	shopify-dev-handoff-tokens-responsive	shopify,dev-handoff,tokens,css-custom-properties,responsive,breakpoints,figma
+sh-038	lore/33-shopify-dev-handoff.jsonl	Shopify Dev Handoff — Edge Cases & Liquid Conditional States Designers Must Provide	shopify-dev-handoff-edge-cases	shopify,dev-handoff,edge-cases,empty-states,liquid-conditionals,component-variants,sold-out
+sh-039	lore/33-shopify-dev-handoff.jsonl	Shopify Dev Handoff — App Block Slots, Constraints & Handoff Checklist	shopify-dev-handoff-app-blocks	shopify,dev-handoff,app-blocks,checklist,handoff,sections,accessibility,feasibility

@@ -30,9 +30,12 @@ process — everything that applies regardless of which design tool you use.
 
 ## How to Use This Skill
 
-1. Identify the relevant module(s) from the index below
-2. Read the applicable JSONL file using the view tool
-3. Apply the entries — each entry has id, tags, title, and content
+1. **Grep `INDEX.tsv` first** — one tab-separated line per entry
+   (`id · file · title · topic · tags`). Find the ids you need there instead of
+   reading a whole module.
+2. Read only the entries you need from the file the index names
+3. Every entry has: `id`, `topic`, `title`, `content`, `tags`, and optionally
+   `source`, `example`, `meta` (hard numbers — specs, dp/pt values, ratios)
 4. For complex tasks, consult multiple modules
 
 ---

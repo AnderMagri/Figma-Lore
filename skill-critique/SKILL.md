@@ -32,12 +32,14 @@ critique as a working discipline.
 
 ## How to Use This Skill
 
-1. For a full review, run `41 (cr-001)` as the pass order, pulling in the
+1. **Grep `INDEX.tsv` first** to locate entries by title/topic/tag without
+   reading whole modules
+2. For a full review, run `41 (cr-001)` as the pass order, pulling in the
    relevant dimension entries as you go
-2. For a formal evaluation, run `40 (he-013)` as the protocol and
+3. For a formal evaluation, run `40 (he-013)` as the protocol and
    `40 (he-014)` as the finding format
-3. For a specific dimension, go straight to that entry in module 41
-4. For the meeting, the write-up, or the argument, use module 42
+4. For a specific dimension, go straight to that entry in module 41
+5. For the meeting, the write-up, or the argument, use module 42
 
 ---
 

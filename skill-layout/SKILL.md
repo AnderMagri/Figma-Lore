@@ -30,12 +30,14 @@ behaviour, and the anatomy of the page types you actually build.
 
 ## How to Use This Skill
 
-1. For a new page, start from the archetype (ly-009 → ly-014), then apply the
+1. **Grep `INDEX.tsv` first** to locate entries by title/topic/tag without
+   reading whole modules
+2. For a new page, start from the archetype (ly-009 → ly-014), then apply the
    structural entries (ly-002 → ly-006)
-2. For an existing layout that feels wrong, run ly-015 (anti-patterns) first —
+3. For an existing layout that feels wrong, run ly-015 (anti-patterns) first —
    it names most problems in one pass
-3. Before handoff, run ly-016
-4. Pair with `design-critique-lore` (cr-002, cr-003, cr-006, cr-007) to review
+4. Before handoff, run ly-016
+5. Pair with `design-critique-lore` (cr-002, cr-003, cr-006, cr-007) to review
 
 ---
 

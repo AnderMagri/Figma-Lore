@@ -1,0 +1,84 @@
+# skill-design-system entry index — grep this before reading a module
+# id	file	title	topic	tags
+ds-001	lore/02-design-system.jsonl	Three-Layer Token Model Overview	token-architecture	tokens,architecture,primitives,semantics,components
+ds-002	lore/02-design-system.jsonl	Primitive Tokens	token-architecture	tokens,primitives,raw-values
+ds-003	lore/02-design-system.jsonl	Semantic Tokens	token-architecture	tokens,semantics,aliases,theming
+ds-004	lore/02-design-system.jsonl	Component Tokens	token-architecture	tokens,components,application-specific
+ds-005	lore/02-design-system.jsonl	Token Layer Rules	token-architecture	tokens,rules,best-practices
+ds-006	lore/02-design-system.jsonl	Variable Types in Figma	variables	variables,types,color,number,string,boolean
+ds-007	lore/02-design-system.jsonl	Variable Alias Mechanism	variables	variables,aliases,referencing,token-layering
+ds-008	lore/02-design-system.jsonl	Variable Collections	variables	variables,collections,organization
+ds-009	lore/02-design-system.jsonl	Variable Modes	variables	variables,modes,theming,responsive
+ds-010	lore/02-design-system.jsonl	Applying and Inheriting Modes	variables	variables,modes,inheritance,frames
+ds-011	lore/02-design-system.jsonl	Light/Dark Mode Setup Steps	theming	theming,light-mode,dark-mode,setup
+ds-012	lore/02-design-system.jsonl	Light/Dark Mode Design Rules	theming	theming,dark-mode,contrast,accessibility
+ds-013	lore/02-design-system.jsonl	Multi-Brand System Setup	theming	theming,multi-brand,white-label
+ds-014	lore/02-design-system.jsonl	When to Use Styles vs Variables	styles-vs-variables	styles,variables,decision,comparison
+ds-015	lore/02-design-system.jsonl	Color Styles	color	styles,color,fills,gradients
+ds-016	lore/02-design-system.jsonl	Text Styles	typography	styles,typography,text,font
+ds-017	lore/02-design-system.jsonl	Typography Line Height and Spacing	typography	typography,line-height,letter-spacing,paragraph
+ds-018	lore/02-design-system.jsonl	Effect Styles — Shadows and Elevation	effects	styles,effects,shadows,elevation
+ds-019	lore/02-design-system.jsonl	Elevation Scale Design	effects	elevation,shadows,z-index,depth
+ds-020	lore/02-design-system.jsonl	Grid Styles and Breakpoints	grids	styles,grids,layout,responsive,columns
+ds-021	lore/02-design-system.jsonl	Variable Scoping	variables	variables,scoping,properties,organization
+ds-022	lore/02-design-system.jsonl	Variable Scoping Best Practices	variables	variables,scoping,best-practices
+ds-023	lore/02-design-system.jsonl	Token Naming Conventions	naming	naming,conventions,tokens,organization
+ds-024	lore/02-design-system.jsonl	Naming Rules and Anti-Patterns	naming	naming,rules,anti-patterns
+ds-025	lore/02-design-system.jsonl	Library Publishing Workflow	library	library,publishing,updates,sharing
+ds-026	lore/02-design-system.jsonl	Library Organization and Structure	library	library,organization,files,structure
+ds-027	lore/02-design-system.jsonl	Design System Governance Model	governance	governance,ownership,process,contribution
+ds-028	lore/02-design-system.jsonl	Design System Auditing	governance	governance,audit,quality,consistency
+ds-029	lore/02-design-system.jsonl	Spacing Scale System	spacing	spacing,scale,variables,layout
+ds-030	lore/02-design-system.jsonl	Spacing Application Patterns	spacing	spacing,padding,gap,auto-layout
+ds-031	lore/02-design-system.jsonl	Color Palette Structure	color	color,palette,primitives,shades
+ds-032	lore/02-design-system.jsonl	Semantic Color Mapping	color	color,semantic,mapping,theming
+ds-033	lore/02-design-system.jsonl	Component Token Examples	components	tokens,components,button,input,card
+ds-034	lore/02-design-system.jsonl	Theme Switching Implementation	theming	theming,modes,switching,frames
+ds-035	lore/02-design-system.jsonl	Typography Variable Strategy	typography	typography,variables,styles,hybrid
+ds-036	lore/02-design-system.jsonl	Creating Variables in Figma	variables	variables,creation,workflow,figma-ui
+ds-037	lore/02-design-system.jsonl	Variable Groups via Slash Naming	variables	variables,groups,naming,organization
+ds-038	lore/02-design-system.jsonl	Color Contrast Requirements	accessibility	accessibility,contrast,wcag,a11y
+ds-039	lore/02-design-system.jsonl	Border Radius Scale	border-radius	border-radius,radius,scale,variables
+ds-040	lore/02-design-system.jsonl	Icon and Touch Target Sizing	sizing	sizing,icons,touch-targets,accessibility
+ds-041	lore/02-design-system.jsonl	Opacity Scale	opacity	opacity,transparency,variables
+ds-042	lore/02-design-system.jsonl	Library Versioning and Updates	library	library,versioning,changelog,updates
+ds-043	lore/02-design-system.jsonl	Density Modes (Compact/Comfortable)	theming	theming,density,compact,comfortable,modes
+ds-044	lore/02-design-system.jsonl	Boolean Variables for Component Configuration	variables	variables,boolean,visibility,feature-flags
+ds-045	lore/02-design-system.jsonl	Design System Maturity Checklist	design-system	maturity,checklist,completeness,audit
+ds-046	lore/02-design-system.jsonl	Typography Variables — Setup Workflow (Variables + Styles Together)	typography	typography,variables,text-styles,workflow,font-size,line-height,font-family,font-weight
+ds-047	lore/02-design-system.jsonl	Responsive Typography Modes — Desktop and Mobile in a Single Collection	typography	typography,modes,responsive,desktop,mobile,breakpoint,variables,font-size
+ds-048	lore/02-design-system.jsonl	Typography Variable Types and Naming — String vs Number, T-Shirt Scale	typography	typography,variables,naming,string,number,t-shirt,scale,font-family,font-weight
+ca-001	lore/colour-advanced.jsonl	OKLCH — The Modern Colour Space for Design Systems	oklch	oklch,colour-space,perceptual,modern,css-color-4,oklab
+ca-002	lore/colour-advanced.jsonl	OKLCH vs HSL — Why the Difference Matters	oklch	oklch,hsl,comparison,perceptual,uniform,lightness,colour-scale
+ca-003	lore/colour-advanced.jsonl	Building Colour Scales with OKLCH — Step by Step	oklch	oklch,colour-scale,palette,construction,steps,perceptual,chroma
+ca-004	lore/colour-advanced.jsonl	OKLCH in Figma and CSS — Practical Usage	oklch	oklch,figma,css,css-color-4,implementation,variables,handoff
+ca-005	lore/colour-advanced.jsonl	Dark Mode Strategies — Dark Elevated vs Dark Deep	colour-system	dark-mode,dark-elevated,dark-deep,strategy,surface,elevation
+ca-006	lore/colour-advanced.jsonl	Linear Progression Palette — 48-Step Neutral Scale	colour-system	colour-system,neutral,48-step,linear,lightness,increments,palette
+ca-007	lore/colour-advanced.jsonl	Accent Palette Architecture — 16 Colours × 9 Shades	colour-system	colour-system,accent,palette,architecture,shades,brand,semantic
+ca-008	lore/colour-advanced.jsonl	Shade Contrast Rules — Which Shade for Which Purpose	colour-system	colour-system,contrast,shades,wcag,interactive,border,tint,text
+ca-009	lore/colour-advanced.jsonl	60-30-10 Rule Applied to Design System Tokens	colour-system	colour-system,60-30-10,rule,composition,tokens,cadence,surface,accent
+ca-010	lore/colour-advanced.jsonl	Utility Colours — Opacity and Theme-Dependent Values	colour-system	colour-system,utility,opacity,overlay,tint,theme,transparency
+ct-007	lore/colour-system.jsonl	Colour Systems — Primitives, Semantics, and Components	colour-in-design-systems	colour-system,design-tokens,semantic,primitive,dark-mode,white-label
+ct-008	lore/colour-system.jsonl	Building a UI Colour Palette — Steps and Principles	colour-palette-construction	palette-construction,colour-scale,semantic-colour,surface,wcag
+ct-009	lore/colour-system.jsonl	Colour in Dark Mode — More Than Just Inversion	colour-dark-mode	dark-mode,colour,surface-elevation,saturation,tokens,material-design,apple-hig
+ct-004	lore/colour-system.jsonl	Colour Contrast for Accessibility and Readability	colour-contrast-accessibility	contrast,wcag,accessibility,colour-blindness,readability
+ct-011	lore/colour-system.jsonl	Colour in Branding — Owning a Colour	colour-branding	branding,colour,recognition,brand-identity,cadence,60-30-10
+do-002	lore/governance.jsonl	Design QA Checklist — Verifying Implementation Accuracy	design-qa-checklist	qa,checklist,implementation,verification,cross-platform,design-ops
+do-003	lore/governance.jsonl	Design Review Process — Quality Gates Without Bottlenecks	design-review-process	review-process,gates,quality,approval,workflow,design-ops
+do-005	lore/governance.jsonl	Developer Handoff — Complete Implementation Specifications	handoff-spec	handoff,developer,specification,tokens,responsive,accessibility,design-ops
+do-007	lore/governance.jsonl	Design Version Control — Files, Libraries, and Tokens	version-control-design	version-control,semantic-versioning,branching,changelog,libraries,design-ops
+nc-001	lore/naming-conventions.jsonl	W3C DTCG Format — The Universal Token Standard	naming	dtcg,w3c,standard,json,format,token-studio,style-dictionary
+nc-002	lore/naming-conventions.jsonl	Neutral Colour Naming — Fills, Strokes, Alt Model	naming	naming,neutral,fills,strokes,alt,overlay,background,palette
+nc-003	lore/naming-conventions.jsonl	State Naming Conventions — Interactive States	naming	naming,states,hover,active,focus,disabled,selected,pressed
+nc-004	lore/naming-conventions.jsonl	Token Scale Conventions — Numeric vs T-Shirt vs Named	naming	naming,scale,numeric,t-shirt,xs,xl,100-900,convention
+nc-005	lore/naming-conventions.jsonl	Component Token Naming Patterns	naming	naming,component-tokens,button,input,card,slots
+nc-006	lore/naming-conventions.jsonl	Variable Collection and Mode Naming	naming	naming,collections,modes,figma,organization,hierarchy
+nc-007	lore/naming-conventions.jsonl	Boolean Variable Naming Patterns	naming	naming,boolean,visibility,show,has,feature-flag
+nc-008	lore/naming-conventions.jsonl	Grid and Layout Token Naming	naming	naming,grid,columns,gutter,margin,breakpoint,layout
+nc-009	lore/naming-conventions.jsonl	Slash Hierarchy Depth and Grouping Strategy	naming	naming,slash,hierarchy,depth,groups,organization,figma
+ty-006	lore/typography-system.jsonl	Type Scale — Building a Systematic Hierarchy	type-scale	type-scale,hierarchy,modular-scale,golden-ratio,design-systems
+ty-009	lore/typography-system.jsonl	Font Pairing — Principles and Strategy	type-pairing	font-pairing,typography,hierarchy,serif,sans-serif,design-systems
+ty-010	lore/typography-system.jsonl	Variable Fonts — The Future of Type in UI	variable-fonts	variable-fonts,performance,animation,figma,type-technology
+ty-011	lore/typography-system.jsonl	Type and Accessibility — Contrast, Size, and Legibility	type-contrast-accessibility	accessibility,wcag,contrast,legibility,type-size,dyslexia
+ty-014	lore/typography-system.jsonl	Typography in Design Systems — Tokens and Scale	type-in-ui-systems	design-systems,tokens,typography,naming,figma,semantic
+ty-015	lore/typography-system.jsonl	Text Style Naming — Bold and Weight Variants with Nested Slash Hierarchy	text-style-naming-bold-variants	text-styles,naming,bold,semibold,weight,variables,typography,design-systems,slash-naming

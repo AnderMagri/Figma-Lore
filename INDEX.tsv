@@ -1,0 +1,1009 @@
+# Design Lore entry index (all skills) — regenerate with `python3 lore.py index`
+# id	prefix	skill	file	title	topic	tags
+ax-001	ax	ai-ux	skill-ai-ux/lore/44-ai-interaction-design.jsonl	Agentic Experience Design — What Changes When the System Is Probabilistic	agentic-experience-design	ai,agentic,interaction-design,fundamentals
+ax-002	ax	ai-ux	skill-ai-ux/lore/44-ai-interaction-design.jsonl	Mixed-Initiative Flow — Who Leads and How Control Transfers	mixed-initiative	ai,mixed-initiative,control,interaction-design,agentic
+ax-003	ax	ai-ux	skill-ai-ux/lore/44-ai-interaction-design.jsonl	Capability Discoverability — Solving the Blank Box Problem	capability-discoverability	ai,discoverability,progressive-disclosure,onboarding,mental-models
+ax-004	ax	ai-ux	skill-ai-ux/lore/44-ai-interaction-design.jsonl	Designing the Wait — Latency as a First-Class State	latency-and-waiting	ai,latency,loading,streaming,perceived-performance
+ax-005	ax	ai-ux	skill-ai-ux/lore/44-ai-interaction-design.jsonl	Correction Loops — Designing for Being Wrong	correction-and-feedback	ai,feedback,correction,editability,metrics
+ax-006	ax	ai-ux	skill-ai-ux/lore/44-ai-interaction-design.jsonl	Generative UI — Designing Rules Instead of Screens	generative-ui	ai,generative-ui,components,design-system,constraints
+ax-007	ax	ai-ux	skill-ai-ux/lore/44-ai-interaction-design.jsonl	Context Design — What the System Knows and What the User Thinks It Knows	context-window-design	ai,context,memory,privacy,transparency
+ax-008	ax	ai-ux	skill-ai-ux/lore/44-ai-interaction-design.jsonl	Frustration Detection and Conversational Repair	frustration-and-repair	ai,frustration,repair,conversation,error-recovery
+at-001	at	ai-ux	skill-ai-ux/lore/45-ai-trust-alignment.jsonl	Trust Calibration — Neither Overtrust Nor Undertrust	trust-calibration	ai,trust,calibration,confidence,sycophancy
+at-002	at	ai-ux	skill-ai-ux/lore/45-ai-trust-alignment.jsonl	The Trust Calibration Matrix — Language by Stakes and Confidence	trust-matrix	ai,trust,confidence,copy,ux-writing,rubric
+at-003	at	ai-ux	skill-ai-ux/lore/45-ai-trust-alignment.jsonl	Transparency Patterns — Showing the Work	transparency-patterns	ai,transparency,citations,sources,tool-use,agentic
+at-004	at	ai-ux	skill-ai-ux/lore/45-ai-trust-alignment.jsonl	Guardrail and Refusal Design	guardrails-and-refusal	ai,guardrails,refusal,policy,error-messages
+at-005	at	ai-ux	skill-ai-ux/lore/45-ai-trust-alignment.jsonl	Consent and Agency — Keeping the Human in Charge	consent-and-agency	ai,consent,agency,privacy,autonomy,ethics
+at-006	at	ai-ux	skill-ai-ux/lore/45-ai-trust-alignment.jsonl	Harm Anticipation — Finding the Failure Modes Before Launch	harm-anticipation	ai,harm,risk,safety,ethics,evaluation
+at-007	at	ai-ux	skill-ai-ux/lore/45-ai-trust-alignment.jsonl	Escalation Design — Knowing When to Hand Off	escalation-design	ai,escalation,handoff,support,human-in-the-loop
+at-008	at	ai-ux	skill-ai-ux/lore/45-ai-trust-alignment.jsonl	Bias in AI Interfaces — What Design Can Actually Address	bias-and-fairness	ai,bias,fairness,inclusive-design,forms,ethics
+ab-001	ab	ai-ux	skill-ai-ux/lore/46-ai-behaviour-evaluation.jsonl	Persona Architecture — Designing How the System Shows Up	persona-architecture	ai,persona,voice,tone,behaviour
+ab-002	ab	ai-ux	skill-ai-ux/lore/46-ai-behaviour-evaluation.jsonl	Tone Calibration — Matching the Moment	tone-calibration	ai,tone,voice,ux-writing,localisation
+ab-003	ab	ai-ux	skill-ai-ux/lore/46-ai-behaviour-evaluation.jsonl	Error Personality — How It Behaves When It Is Wrong	error-personality	ai,errors,trust,persona,copy,evaluation
+ab-004	ab	ai-ux	skill-ai-ux/lore/46-ai-behaviour-evaluation.jsonl	Behavioural Consistency — Being the Same System Twice	behavioural-consistency	ai,consistency,output-format,evaluation,persona
+ab-005	ab	ai-ux	skill-ai-ux/lore/46-ai-behaviour-evaluation.jsonl	Failure Taxonomy — Naming What Goes Wrong	failure-taxonomy	ai,failure-taxonomy,evaluation,quality,metrics
+ab-006	ab	ai-ux	skill-ai-ux/lore/46-ai-behaviour-evaluation.jsonl	Output Quality Rubrics — Making 'Good' Checkable	output-quality-rubrics	ai,rubrics,evaluation,quality,metrics
+ab-007	ab	ai-ux	skill-ai-ux/lore/46-ai-behaviour-evaluation.jsonl	Measuring an AI Feature — Signals That Mean Something	ai-metrics	ai,metrics,evaluation,heart,analytics
+ao-001	ao	ai-ux	skill-ai-ux/lore/47-ai-agent-orchestration.jsonl	Agent Role Design — Dividing the Work	agent-role-design	ai,agents,orchestration,architecture,roles
+ao-002	ao	ai-ux	skill-ai-ux/lore/47-ai-agent-orchestration.jsonl	Task Decomposition — Splitting Work Well	task-decomposition	ai,agents,decomposition,orchestration,pipeline
+ao-003	ao	ai-ux	skill-ai-ux/lore/47-ai-agent-orchestration.jsonl	Handoff Protocols — Where Multi-Agent Systems Fail	handoff-protocols	ai,agents,handoff,protocols,reliability
+ao-004	ao	ai-ux	skill-ai-ux/lore/47-ai-agent-orchestration.jsonl	Human-in-the-Loop — Placing the Checkpoints	human-in-the-loop	ai,human-in-the-loop,approval,agents,safety
+ao-005	ao	ai-ux	skill-ai-ux/lore/47-ai-agent-orchestration.jsonl	State Management and Observability in Agentic Systems	state-and-observability	ai,agents,state,observability,trace,transparency
+ao-006	ao	ai-ux	skill-ai-ux/lore/47-ai-agent-orchestration.jsonl	Failure Recovery in Agentic Systems	failure-recovery	ai,agents,failure-recovery,reliability,transactions
+ao-007	ao	ai-ux	skill-ai-ux/lore/47-ai-agent-orchestration.jsonl	Agentic System Anti-Patterns	agentic-antipatterns	ai,agents,anti-patterns,critique,orchestration
+pa-001	pa	ai-ux	skill-ai-ux/lore/48-ai-prompt-architecture.jsonl	Why the Prompt Is a Design Surface	why-designers-write-prompts	ai,prompts,design,collaboration,system-prompt
+pa-002	pa	ai-ux	skill-ai-ux/lore/48-ai-prompt-architecture.jsonl	System Prompt Structure	system-prompt-structure	ai,system-prompt,structure,prompts,reference
+pa-003	pa	ai-ux	skill-ai-ux/lore/48-ai-prompt-architecture.jsonl	Constraint Specification — Making 'Good' Enforceable	constraint-specification	ai,constraints,prompts,output-format,ux-writing
+pa-004	pa	ai-ux	skill-ai-ux/lore/48-ai-prompt-architecture.jsonl	Examples and Few-Shot Patterns	few-shot-and-examples	ai,few-shot,examples,prompts,persona,evaluation
+pa-005	pa	ai-ux	skill-ai-ux/lore/48-ai-prompt-architecture.jsonl	Context Engineering — What to Put in the Window	context-engineering	ai,context,retrieval,rag,prompt-injection,memory
+pa-006	pa	ai-ux	skill-ai-ux/lore/48-ai-prompt-architecture.jsonl	Reasoning Structure — When to Ask for Steps	chain-of-thought-and-structure	ai,reasoning,chain-of-thought,latency,transparency,agentic
+pa-007	pa	ai-ux	skill-ai-ux/lore/48-ai-prompt-architecture.jsonl	Prompt Versioning and Change Management	prompt-versioning	ai,prompts,versioning,process,evaluation,governance
+he-001	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Heuristic Evaluation — What It Is and What It Is Not	heuristic-evaluation-overview	heuristic-evaluation,usability,method,nielsen
+he-002	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Nielsen 1 — Visibility of System Status	nielsen-1-visibility	heuristic-evaluation,nielsen,feedback,system-status,crypto,shopify,ai
+he-003	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Nielsen 2 — Match Between System and the Real World	nielsen-2-real-world	heuristic-evaluation,nielsen,language,ux-writing,crypto,ai
+he-004	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Nielsen 3 — User Control and Freedom	nielsen-3-control-freedom	heuristic-evaluation,nielsen,undo,destructive-actions,crypto
+he-005	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Nielsen 4 — Consistency and Standards	nielsen-4-consistency	heuristic-evaluation,nielsen,consistency,jakobs-law,design-system
+he-006	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Nielsen 5 — Error Prevention	nielsen-5-error-prevention	heuristic-evaluation,nielsen,error-prevention,forms,validation,shopify
+he-007	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Nielsen 6 — Recognition Rather Than Recall	nielsen-6-recognition	heuristic-evaluation,nielsen,recognition,memory,ai,crypto
+he-008	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Nielsen 7 — Flexibility and Efficiency of Use	nielsen-7-flexibility	heuristic-evaluation,nielsen,efficiency,keyboard,power-users,ai
+he-009	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Nielsen 8 — Aesthetic and Minimalist Design	nielsen-8-minimalist	heuristic-evaluation,nielsen,minimalism,hierarchy,visual-design
+he-010	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Nielsen 9 — Help Users Recognise, Diagnose, and Recover From Errors	nielsen-9-error-recovery	heuristic-evaluation,nielsen,error-messages,ux-writing,crypto,ai
+he-011	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Nielsen 10 — Help and Documentation	nielsen-10-help	heuristic-evaluation,nielsen,help,documentation,onboarding,ai
+he-012	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Severity Ratings — Making Findings Actionable	severity-ratings	heuristic-evaluation,severity,prioritisation,method
+he-013	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Running a Heuristic Evaluation — Full Protocol	running-an-evaluation	heuristic-evaluation,protocol,method,process
+he-014	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Finding Format — How to Write a Usability Finding	finding-format	heuristic-evaluation,reporting,findings,communication
+he-015	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Beyond Nielsen — Other Heuristic Sets Worth Using	other-heuristic-sets	heuristic-evaluation,shneiderman,gerhardt-powals,wcag,heart,frameworks
+he-016	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	AI-Specific Heuristics — Evaluating Probabilistic Interfaces	ai-heuristics	heuristic-evaluation,ai,trust,evaluation,agentic
+he-017	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Commerce-Specific Heuristics	ecommerce-heuristics	heuristic-evaluation,ecommerce,shopify,conversion,trust
+he-018	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Crypto and Fintech-Specific Heuristics	crypto-heuristics	heuristic-evaluation,crypto,web3,fintech,trust,security
+he-019	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Accessibility as a Heuristic Pass	accessibility-heuristics	heuristic-evaluation,accessibility,wcag,contrast,focus
+he-020	he	critique	skill-critique/lore/40-heuristic-evaluation.jsonl	Running a Heuristic Evaluation on a Figma File	heuristic-evaluation-in-figma	heuristic-evaluation,figma,method,review,design-review
+cr-001	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	How to Critique a Screen — The Standard Pass	critique-method	critique,method,review,process
+cr-002	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Critique — Composition and Layout	critique-composition	critique,composition,layout,grid,gestalt
+cr-003	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Critique — Visual Hierarchy	critique-visual-hierarchy	critique,visual-hierarchy,typography,emphasis
+cr-004	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Critique — Typography	critique-typography	critique,typography,type-scale,measure,readability
+cr-005	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Critique — Colour	critique-colour	critique,colour,contrast,dark-mode,tokens,accessibility
+cr-006	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Critique — Spacing and Rhythm	critique-spacing	critique,spacing,rhythm,tokens,gestalt,auto-layout
+cr-007	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Critique — Information Density	critique-density	critique,information-density,progressive-disclosure,dashboards,cognitive-load
+cr-008	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Critique — Affordance and Interactivity	critique-affordance	critique,affordance,interaction-design,states,touch-targets,accessibility
+cr-009	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Critique — Copy and UX Writing	critique-copy	critique,ux-writing,copy,microcopy,error-messages,ai
+cr-010	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Critique — Brand Consistency	critique-brand-consistency	critique,brand,icons,consistency,design-system,shopify
+cr-011	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Critique — Responsive and Cross-Device Behaviour	critique-responsive	critique,responsive,breakpoints,mobile,tables,shopify
+cr-012	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Critique — State Completeness	critique-states	critique,states,empty-state,error-states,loading,method
+cr-013	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Critique — Task Efficiency and Conversion	critique-task-efficiency	critique,conversion,task-efficiency,forms,shopify,crypto
+cr-014	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Critique — Data Display and Numbers	critique-data-display	critique,data-visualisation,numbers,tables,crypto,fintech
+cr-015	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Critique — Motion	critique-motion-dimension	critique,motion,animation,performance,accessibility
+cr-016	cr	critique	skill-critique/lore/41-critique-rubrics.jsonl	Turning a Critique Into a Plan	critique-scoring	critique,prioritisation,process,design-ops,communication
+cx-001	cx	critique	skill-critique/lore/42-critique-practice.jsonl	Running a Design Critique — Structure and Rules	critique-facilitation	critique,facilitation,design-ops,process,feedback
+cx-002	cx	critique	skill-critique/lore/42-critique-practice.jsonl	Feedback Language That Lands	feedback-language	critique,feedback,communication,language
+cx-003	cx	critique	skill-critique/lore/42-critique-practice.jsonl	Design Rationale — Making Decisions Defensible	design-rationale	critique,design-rationale,documentation,decision-making
+cx-004	cx	critique	skill-critique/lore/42-critique-practice.jsonl	Red-Teaming Your Own Design	red-team-your-design	critique,red-team,assumptions,research,decision-making
+cx-005	cx	critique	skill-critique/lore/42-critique-practice.jsonl	Pre-Mortem — Imagining the Failure First	pre-mortem	critique,pre-mortem,risk,process,team
+cx-006	cx	critique	skill-critique/lore/42-critique-practice.jsonl	Defending a Design Decision Without Being Defensive	defending-decisions	critique,stakeholders,communication,negotiation,influence
+cx-007	cx	critique	skill-critique/lore/42-critique-practice.jsonl	Framing Design Decisions in Product Terms	product-framing	critique,product,metrics,heart,rice,prioritisation,stakeholders
+cx-008	cx	critique	skill-critique/lore/42-critique-practice.jsonl	Critiquing AI-Generated Design Work	critiquing-ai-generated-design	critique,ai,generated-design,review,quality
+cx-009	cx	critique	skill-critique/lore/42-critique-practice.jsonl	Design Review Cadence — Quality Gates Without Bottlenecks	critique-cadence	critique,design-ops,review-process,cadence,governance
+cx-010	cx	critique	skill-critique/lore/42-critique-practice.jsonl	Self-Critique — Reviewing Your Own Work	self-critique	critique,self-critique,method,technique
+ds-001	ds	design	skill-design/lore/02-design-system.jsonl	Three-Layer Token Model Overview	token-architecture	tokens,architecture,primitives,semantics,components
+ds-002	ds	design	skill-design/lore/02-design-system.jsonl	Primitive Tokens	token-architecture	tokens,primitives,raw-values
+ds-003	ds	design	skill-design/lore/02-design-system.jsonl	Semantic Tokens	token-architecture	tokens,semantics,aliases,theming
+ds-004	ds	design	skill-design/lore/02-design-system.jsonl	Component Tokens	token-architecture	tokens,components,application-specific
+ds-005	ds	design	skill-design/lore/02-design-system.jsonl	Token Layer Rules	token-architecture	tokens,rules,best-practices
+ds-006	ds	design	skill-design/lore/02-design-system.jsonl	Variable Types in Figma	variables	variables,types,color,number,string,boolean
+ds-007	ds	design	skill-design/lore/02-design-system.jsonl	Variable Alias Mechanism	variables	variables,aliases,referencing,token-layering
+ds-008	ds	design	skill-design/lore/02-design-system.jsonl	Variable Collections	variables	variables,collections,organization
+ds-009	ds	design	skill-design/lore/02-design-system.jsonl	Variable Modes	variables	variables,modes,theming,responsive
+ds-010	ds	design	skill-design/lore/02-design-system.jsonl	Applying and Inheriting Modes	variables	variables,modes,inheritance,frames
+ds-011	ds	design	skill-design/lore/02-design-system.jsonl	Light/Dark Mode Setup Steps	theming	theming,light-mode,dark-mode,setup
+ds-012	ds	design	skill-design/lore/02-design-system.jsonl	Light/Dark Mode Design Rules	theming	theming,dark-mode,contrast,accessibility
+ds-013	ds	design	skill-design/lore/02-design-system.jsonl	Multi-Brand System Setup	theming	theming,multi-brand,white-label
+ds-014	ds	design	skill-design/lore/02-design-system.jsonl	When to Use Styles vs Variables	styles-vs-variables	styles,variables,decision,comparison
+ds-015	ds	design	skill-design/lore/02-design-system.jsonl	Color Styles	color	styles,color,fills,gradients
+ds-016	ds	design	skill-design/lore/02-design-system.jsonl	Text Styles	typography	styles,typography,text,font
+ds-017	ds	design	skill-design/lore/02-design-system.jsonl	Typography Line Height and Spacing	typography	typography,line-height,letter-spacing,paragraph
+ds-018	ds	design	skill-design/lore/02-design-system.jsonl	Effect Styles — Shadows and Elevation	effects	styles,effects,shadows,elevation
+ds-019	ds	design	skill-design/lore/02-design-system.jsonl	Elevation Scale Design	effects	elevation,shadows,z-index,depth
+ds-020	ds	design	skill-design/lore/02-design-system.jsonl	Grid Styles and Breakpoints	grids	styles,grids,layout,responsive,columns
+ds-021	ds	design	skill-design/lore/02-design-system.jsonl	Variable Scoping	variables	variables,scoping,properties,organization
+ds-022	ds	design	skill-design/lore/02-design-system.jsonl	Variable Scoping Best Practices	variables	variables,scoping,best-practices
+ds-023	ds	design	skill-design/lore/02-design-system.jsonl	Token Naming Conventions	naming	naming,conventions,tokens,organization
+ds-024	ds	design	skill-design/lore/02-design-system.jsonl	Naming Rules and Anti-Patterns	naming	naming,rules,anti-patterns
+ds-025	ds	design	skill-design/lore/02-design-system.jsonl	Library Publishing Workflow	library	library,publishing,updates,sharing
+ds-026	ds	design	skill-design/lore/02-design-system.jsonl	Library Organization and Structure	library	library,organization,files,structure
+ds-027	ds	design	skill-design/lore/02-design-system.jsonl	Design System Governance Model	governance	governance,ownership,process,contribution
+ds-028	ds	design	skill-design/lore/02-design-system.jsonl	Design System Auditing	governance	governance,audit,quality,consistency
+ds-029	ds	design	skill-design/lore/02-design-system.jsonl	Spacing Scale System	spacing	spacing,scale,variables,layout
+ds-030	ds	design	skill-design/lore/02-design-system.jsonl	Spacing Application Patterns	spacing	spacing,padding,gap,auto-layout
+ds-031	ds	design	skill-design/lore/02-design-system.jsonl	Color Palette Structure	color	color,palette,primitives,shades
+ds-032	ds	design	skill-design/lore/02-design-system.jsonl	Semantic Color Mapping	color	color,semantic,mapping,theming
+ds-033	ds	design	skill-design/lore/02-design-system.jsonl	Component Token Examples	components	tokens,components,button,input,card
+ds-034	ds	design	skill-design/lore/02-design-system.jsonl	Theme Switching Implementation	theming	theming,modes,switching,frames
+ds-035	ds	design	skill-design/lore/02-design-system.jsonl	Typography Variable Strategy	typography	typography,variables,styles,hybrid
+ds-036	ds	design	skill-design/lore/02-design-system.jsonl	Creating Variables in Figma	variables	variables,creation,workflow,figma-ui
+ds-037	ds	design	skill-design/lore/02-design-system.jsonl	Variable Groups via Slash Naming	variables	variables,groups,naming,organization
+ds-038	ds	design	skill-design/lore/02-design-system.jsonl	Color Contrast Requirements	accessibility	accessibility,contrast,wcag,a11y
+ds-039	ds	design	skill-design/lore/02-design-system.jsonl	Border Radius Scale	border-radius	border-radius,radius,scale,variables
+ds-040	ds	design	skill-design/lore/02-design-system.jsonl	Icon and Touch Target Sizing	sizing	sizing,icons,touch-targets,accessibility
+ds-041	ds	design	skill-design/lore/02-design-system.jsonl	Opacity Scale	opacity	opacity,transparency,variables
+ds-042	ds	design	skill-design/lore/02-design-system.jsonl	Library Versioning and Updates	library	library,versioning,changelog,updates
+ds-043	ds	design	skill-design/lore/02-design-system.jsonl	Density Modes (Compact/Comfortable)	theming	theming,density,compact,comfortable,modes
+ds-044	ds	design	skill-design/lore/02-design-system.jsonl	Boolean Variables for Component Configuration	variables	variables,boolean,visibility,feature-flags
+ds-045	ds	design	skill-design/lore/02-design-system.jsonl	Design System Maturity Checklist	design-system	maturity,checklist,completeness,audit
+ds-046	ds	design	skill-design/lore/02-design-system.jsonl	Typography Variables — Setup Workflow (Variables + Styles Together)	typography	typography,variables,text-styles,workflow,font-size,line-height,font-family,font-weight
+ds-047	ds	design	skill-design/lore/02-design-system.jsonl	Responsive Typography Modes — Desktop and Mobile in a Single Collection	typography	typography,modes,responsive,desktop,mobile,breakpoint,variables,font-size
+ds-048	ds	design	skill-design/lore/02-design-system.jsonl	Typography Variable Types and Naming — String vs Number, T-Shirt Scale	typography	typography,variables,naming,string,number,t-shirt,scale,font-family,font-weight
+ios-001	ios	design	skill-design/lore/04-ios-design.jsonl	iPhone 16 Pro Max screen size	device-screens	iphone,screen-size,device,16-pro-max
+ios-002	ios	design	skill-design/lore/04-ios-design.jsonl	iPhone 16 Pro screen size	device-screens	iphone,screen-size,device,16-pro
+ios-003	ios	design	skill-design/lore/04-ios-design.jsonl	iPhone 16 Plus screen size	device-screens	iphone,screen-size,device,16-plus
+ios-004	ios	design	skill-design/lore/04-ios-design.jsonl	iPhone 16 and iPhone 15 standard screen size	device-screens	iphone,screen-size,device,16,15
+ios-005	ios	design	skill-design/lore/04-ios-design.jsonl	iPhone 15 Pro Max and 14 Pro Max screen size	device-screens	iphone,screen-size,device,15-pro-max,14-pro-max
+ios-006	ios	design	skill-design/lore/04-ios-design.jsonl	iPhone 14 Plus and iPhone 14 screen sizes	device-screens	iphone,screen-size,device,14-plus,14
+ios-007	ios	design	skill-design/lore/04-ios-design.jsonl	iPhone SE 3rd gen screen size	device-screens	iphone,screen-size,device,se,legacy
+ios-008	ios	design	skill-design/lore/04-ios-design.jsonl	iPad screen sizes	device-screens	ipad,screen-size,device,tablet
+ios-009	ios	design	skill-design/lore/04-ios-design.jsonl	Primary artboard rule	device-screens	rule,artboard,figma,design
+ios-010	ios	design	skill-design/lore/04-ios-design.jsonl	Safe area insets for iPhone 16 Pro models	safe-areas	safe-area,insets,16-pro,16-pro-max,dynamic-island
+ios-011	ios	design	skill-design/lore/04-ios-design.jsonl	Safe area insets for iPhone 16/15/14 Pro	safe-areas	safe-area,insets,15,16,14-pro
+ios-012	ios	design	skill-design/lore/04-ios-design.jsonl	Safe area rules	safe-areas	safe-area,rule,interactive,edge-to-edge
+ios-013	ios	design	skill-design/lore/04-ios-design.jsonl	Dynamic Island dimensions and behavior	dynamic-island	dynamic-island,notch,status-bar,live-activities
+ios-014	ios	design	skill-design/lore/04-ios-design.jsonl	Navigation bar dimensions	navigation	navigation-bar,nav-bar,large-title,header
+ios-015	ios	design	skill-design/lore/04-ios-design.jsonl	Tab bar dimensions	navigation	tab-bar,bottom-nav,home-indicator
+ios-016	ios	design	skill-design/lore/04-ios-design.jsonl	Home indicator, toolbar, and search bar	navigation	home-indicator,toolbar,search-bar
+ios-017	ios	design	skill-design/lore/04-ios-design.jsonl	Minimum touch target sizes	touch-targets	touch-target,tap,accessibility,hig
+ios-018	ios	design	skill-design/lore/04-ios-design.jsonl	SF Pro type scale — Large Title through Title 3	typography	typography,sf-pro,font,large-title,title
+ios-019	ios	design	skill-design/lore/04-ios-design.jsonl	SF Pro type scale — Headline and Body	typography	typography,sf-pro,font,headline,body
+ios-020	ios	design	skill-design/lore/04-ios-design.jsonl	SF Pro type scale — Subheadline through Caption	typography	typography,sf-pro,font,subheadline,footnote,caption
+ios-021	ios	design	skill-design/lore/04-ios-design.jsonl	SF Pro font families and Dynamic Type	typography	typography,sf-pro,dynamic-type,accessibility,font-family
+ios-022	ios	design	skill-design/lore/04-ios-design.jsonl	SF Symbols overview and usage	sf-symbols	sf-symbols,icons,symbols,system-icons
+ios-023	ios	design	skill-design/lore/04-ios-design.jsonl	8pt grid system and content margins	grid	grid,spacing,layout,margins,8pt
+ios-024	ios	design	skill-design/lore/04-ios-design.jsonl	Section spacing and list insets	grid	grid,spacing,section,list,padding
+ios-025	ios	design	skill-design/lore/04-ios-design.jsonl	Standard corner radii for iOS components	corner-radius	corner-radius,rounded,squircle,buttons,cards
+ios-026	ios	design	skill-design/lore/04-ios-design.jsonl	App icon and tab bar icon corner radius	corner-radius	corner-radius,app-icon,tab-bar,squircle
+ios-027	ios	design	skill-design/lore/04-ios-design.jsonl	iOS system colors	color	color,system-colors,hig,palette
+ios-028	ios	design	skill-design/lore/04-ios-design.jsonl	iOS semantic and background colors	color	color,semantic,background,label,separator
+ios-029	ios	design	skill-design/lore/04-ios-design.jsonl	Grouped background colors	color	color,grouped-background,settings,table-view
+ios-030	ios	design	skill-design/lore/04-ios-design.jsonl	Dark mode design principles	dark-mode	dark-mode,appearance,oled,contrast
+ios-031	ios	design	skill-design/lore/04-ios-design.jsonl	Dark mode text, colors, and shadows	dark-mode	dark-mode,text,shadows,wcag,contrast
+ios-032	ios	design	skill-design/lore/04-ios-design.jsonl	Bottom sheet and modal presentations	sheets	bottom-sheet,modal,sheet,detents,presentation
+ios-033	ios	design	skill-design/lore/04-ios-design.jsonl	Modal and popover presentations	sheets	modal,popover,page-sheet,full-screen
+ios-034	ios	design	skill-design/lore/04-ios-design.jsonl	List and table view row heights	lists	list,table-view,row-height,cell,separator
+ios-035	ios	design	skill-design/lore/04-ios-design.jsonl	List styles and swipe actions	lists	list,grouped,inset-grouped,swipe,settings
+ios-036	ios	design	skill-design/lore/04-ios-design.jsonl	Pull to refresh and infinite scroll	patterns	pull-to-refresh,infinite-scroll,loading,spinner
+ios-037	ios	design	skill-design/lore/04-ios-design.jsonl	Action sheets and alerts	patterns	action-sheet,alert,dialog,modal
+ios-038	ios	design	skill-design/lore/04-ios-design.jsonl	Context menus and haptic feedback	patterns	context-menu,long-press,haptics,3d-touch
+ios-039	ios	design	skill-design/lore/04-ios-design.jsonl	Figma artboard and grid setup for iOS	figma-setup	figma,artboard,grid,setup,columns
+ios-040	ios	design	skill-design/lore/04-ios-design.jsonl	Figma export settings for iOS	figma-setup	figma,export,retina,assets,scale
+ios-041	ios	design	skill-design/lore/04-ios-design.jsonl	Navigation patterns and hierarchy	navigation	navigation,hierarchy,drill-down,flat
+ios-042	ios	design	skill-design/lore/04-ios-design.jsonl	Thumb zone and reachability	touch-targets	thumb-zone,reachability,ergonomics,one-handed
+ios-043	ios	design	skill-design/lore/04-ios-design.jsonl	iOS color usage rules	color	color,accessibility,semantic,rule
+ios-044	ios	design	skill-design/lore/04-ios-design.jsonl	SF Symbols sizing and custom symbols	sf-symbols	sf-symbols,sizing,custom,template
+ios-045	ios	design	skill-design/lore/04-ios-design.jsonl	Search patterns in iOS	patterns	search,search-bar,suggestions,scope
+ios-046	ios	design	skill-design/lore/04-ios-design.jsonl	Onboarding and empty states	patterns	onboarding,empty-state,welcome,first-run
+ios-047	ios	design	skill-design/lore/04-ios-design.jsonl	Keyboard dimensions and behavior	layout	keyboard,input,text-field,height
+ios-048	ios	design	skill-design/lore/04-ios-design.jsonl	Status bar styles and behavior	layout	status-bar,time,battery,signal
+ios-049	ios	design	skill-design/lore/04-ios-design.jsonl	iOS animation and motion principles	animation	animation,motion,transition,spring
+ios-050	ios	design	skill-design/lore/04-ios-design.jsonl	iOS accessibility design requirements	accessibility	accessibility,a11y,voiceover,dynamic-type,contrast
+an-001	an	design	skill-design/lore/05-android-design.jsonl	Compact Phone Screen Size	device-screens	screen-size,phone,compact,dp
+an-002	an	design	skill-design/lore/05-android-design.jsonl	Standard Phone Screen Size — Primary Design Target	device-screens	screen-size,phone,pixel,primary
+an-003	an	design	skill-design/lore/05-android-design.jsonl	Tablet Screen Sizes	device-screens	screen-size,tablet,dp
+an-004	an	design	skill-design/lore/05-android-design.jsonl	Foldable Device Screen Sizes	device-screens	screen-size,foldable,pixel-fold
+an-005	an	design	skill-design/lore/05-android-design.jsonl	Density Buckets for Asset Export	device-screens	density,dpi,export,assets
+an-006	an	design	skill-design/lore/05-android-design.jsonl	Compact Width Window Size Class	window-size-classes	responsive,window-class,compact,layout
+an-007	an	design	skill-design/lore/05-android-design.jsonl	Medium Width Window Size Class	window-size-classes	responsive,window-class,medium,layout
+an-008	an	design	skill-design/lore/05-android-design.jsonl	Expanded Width Window Size Class	window-size-classes	responsive,window-class,expanded,layout
+an-009	an	design	skill-design/lore/05-android-design.jsonl	Height Window Size Classes	window-size-classes	responsive,window-class,height
+an-010	an	design	skill-design/lore/05-android-design.jsonl	Bottom Navigation Bar	navigation	navigation,bottom-nav,m3,compact
+an-011	an	design	skill-design/lore/05-android-design.jsonl	Navigation Rail	navigation	navigation,rail,m3,medium
+an-012	an	design	skill-design/lore/05-android-design.jsonl	Navigation Drawer	navigation	navigation,drawer,m3,expanded
+an-013	an	design	skill-design/lore/05-android-design.jsonl	Top App Bar — Small	navigation	app-bar,top-bar,m3,small
+an-014	an	design	skill-design/lore/05-android-design.jsonl	Top App Bar — Medium and Large	navigation	app-bar,top-bar,m3,collapsing
+an-015	an	design	skill-design/lore/05-android-design.jsonl	Navigation Rules	navigation	navigation,rules,responsive
+an-016	an	design	skill-design/lore/05-android-design.jsonl	Minimum Touch Target Sizes	touch-targets	touch,accessibility,interaction,dp
+an-017	an	design	skill-design/lore/05-android-design.jsonl	FAB Touch Target Sizes	touch-targets	fab,touch,button,m3
+an-018	an	design	skill-design/lore/05-android-design.jsonl	Display Type Scale	typography	typography,type-scale,display,m3
+an-019	an	design	skill-design/lore/05-android-design.jsonl	Headline Type Scale	typography	typography,type-scale,headline,m3
+an-020	an	design	skill-design/lore/05-android-design.jsonl	Title Type Scale	typography	typography,type-scale,title,m3
+an-021	an	design	skill-design/lore/05-android-design.jsonl	Body Type Scale	typography	typography,type-scale,body,m3
+an-022	an	design	skill-design/lore/05-android-design.jsonl	Label Type Scale	typography	typography,type-scale,label,m3
+an-023	an	design	skill-design/lore/05-android-design.jsonl	Typography Unit Rules	typography	typography,sp,dp,units,accessibility
+an-024	an	design	skill-design/lore/05-android-design.jsonl	Material 3 Color System — Key Colors and Tonal Palettes	color	color,m3,hct,tonal-palette
+an-025	an	design	skill-design/lore/05-android-design.jsonl	Material 3 Light Theme Token Mapping	color	color,m3,light-theme,tokens
+an-026	an	design	skill-design/lore/05-android-design.jsonl	Material 3 Dark Theme Token Mapping	color	color,m3,dark-theme,tokens
+an-027	an	design	skill-design/lore/05-android-design.jsonl	Material 3 Color Roles	color	color,m3,roles,semantic
+an-028	an	design	skill-design/lore/05-android-design.jsonl	Dynamic Color / Material You	color	color,dynamic-color,material-you,android-12
+an-029	an	design	skill-design/lore/05-android-design.jsonl	Material 3 Shape Scale	shape	shape,corner-radius,m3,tokens
+an-030	an	design	skill-design/lore/05-android-design.jsonl	Component Shape Assignments	shape	shape,components,corner-radius,m3
+an-031	an	design	skill-design/lore/05-android-design.jsonl	Material 3 Elevation Levels	elevation	elevation,shadow,m3,levels
+an-032	an	design	skill-design/lore/05-android-design.jsonl	Tonal Elevation and Surface Tint	elevation	elevation,tonal,surface-tint,m3
+an-033	an	design	skill-design/lore/05-android-design.jsonl	Baseline Grid and Standard Spacing	grid-spacing	grid,spacing,layout,dp
+an-034	an	design	skill-design/lore/05-android-design.jsonl	Content Margins by Window Size	grid-spacing	grid,margins,responsive,layout
+an-035	an	design	skill-design/lore/05-android-design.jsonl	List Item Heights	grid-spacing	list,spacing,height,dp
+an-036	an	design	skill-design/lore/05-android-design.jsonl	Button Specs — Filled, Outlined, Text	components	button,m3,components,specs
+an-037	an	design	skill-design/lore/05-android-design.jsonl	Card Specs	components	card,m3,components,specs
+an-038	an	design	skill-design/lore/05-android-design.jsonl	Chip Specs	components	chip,m3,components,specs
+an-039	an	design	skill-design/lore/05-android-design.jsonl	Dialog Specs	components	dialog,m3,components,specs
+an-040	an	design	skill-design/lore/05-android-design.jsonl	Switch, Checkbox, Snackbar Specs	components	switch,checkbox,snackbar,m3,specs
+an-041	an	design	skill-design/lore/05-android-design.jsonl	Bottom Sheet Specs	components	bottom-sheet,m3,components,specs
+an-042	an	design	skill-design/lore/05-android-design.jsonl	Text Field Specs	components	text-field,input,m3,components,specs
+an-043	an	design	skill-design/lore/05-android-design.jsonl	Tabs Specs	components	tabs,m3,components,specs
+an-044	an	design	skill-design/lore/05-android-design.jsonl	Material 3 Expressive Design (2025)	expressive	m3-expressive,2025,personality,motion
+an-045	an	design	skill-design/lore/05-android-design.jsonl	Predictive Back Gesture	gestures	gesture,back,navigation,android-14
+an-046	an	design	skill-design/lore/05-android-design.jsonl	Edge-to-Edge Design	edge-to-edge	edge-to-edge,system-bars,insets,android-15
+an-047	an	design	skill-design/lore/05-android-design.jsonl	Figma Artboard and Grid Setup for Android	figma-setup	figma,artboard,grid,setup
+an-048	an	design	skill-design/lore/05-android-design.jsonl	Figma Asset Export for Android	figma-setup	figma,export,density,assets
+an-049	an	design	skill-design/lore/05-android-design.jsonl	Figma Plugins and Resources for Android Design	figma-setup	figma,plugins,material-theme-builder,resources
+an-050	an	design	skill-design/lore/05-android-design.jsonl	Android Accessibility Design Requirements	accessibility	accessibility,a11y,contrast,touch
+an-051	an	design	skill-design/lore/05-android-design.jsonl	Extended FAB and FAB Placement	components	fab,extended-fab,m3,placement
+an-052	an	design	skill-design/lore/05-android-design.jsonl	Search Bar Specs	components	search,search-bar,m3,components
+rs-001	rs	design	skill-design/lore/06-responsive.jsonl	Mobile small breakpoint	breakpoints	breakpoint,mobile,320,374
+rs-002	rs	design	skill-design/lore/06-responsive.jsonl	Mobile standard breakpoint	breakpoints	breakpoint,mobile,375,413
+rs-003	rs	design	skill-design/lore/06-responsive.jsonl	Mobile large breakpoint	breakpoints	breakpoint,mobile,414,479
+rs-004	rs	design	skill-design/lore/06-responsive.jsonl	Tablet portrait breakpoint	breakpoints	breakpoint,tablet,600,839,portrait
+rs-005	rs	design	skill-design/lore/06-responsive.jsonl	Tablet landscape breakpoint	breakpoints	breakpoint,tablet,840,1023,landscape
+rs-006	rs	design	skill-design/lore/06-responsive.jsonl	Desktop small breakpoint	breakpoints	breakpoint,desktop,1024,1279,laptop
+rs-007	rs	design	skill-design/lore/06-responsive.jsonl	Desktop standard and large breakpoints	breakpoints	breakpoint,desktop,1280,1440,1920
+rs-008	rs	design	skill-design/lore/06-responsive.jsonl	Mobile-first design progression	breakpoints	breakpoint,mobile-first,strategy,workflow
+rs-009	rs	design	skill-design/lore/06-responsive.jsonl	Platform window and size classes	breakpoints	breakpoint,material3,apple,size-class
+rs-010	rs	design	skill-design/lore/06-responsive.jsonl	Figma constraints fundamentals	constraints	constraints,resize,pin,stretch
+rs-011	rs	design	skill-design/lore/06-responsive.jsonl	Constraints behavior and combinations	constraints	constraints,stretch,center,scale
+rs-012	rs	design	skill-design/lore/06-responsive.jsonl	Constraints vs auto layout rules	constraints	constraints,auto-layout,disabled,sizing
+rs-013	rs	design	skill-design/lore/06-responsive.jsonl	Fluid width pattern	auto-layout-patterns	auto-layout,fluid,fill,responsive,pattern
+rs-014	rs	design	skill-design/lore/06-responsive.jsonl	Wrap layout pattern	auto-layout-patterns	auto-layout,wrap,reflow,cards,grid,pattern
+rs-015	rs	design	skill-design/lore/06-responsive.jsonl	Sidebar plus main content pattern	auto-layout-patterns	auto-layout,sidebar,main,layout,pattern
+rs-016	rs	design	skill-design/lore/06-responsive.jsonl	Stacking and reflow pattern	auto-layout-patterns	auto-layout,stacking,vertical,horizontal,responsive,pattern
+rs-017	rs	design	skill-design/lore/06-responsive.jsonl	Flexible card grid pattern	auto-layout-patterns	auto-layout,grid,cards,min-width,wrap,pattern
+rs-018	rs	design	skill-design/lore/06-responsive.jsonl	Responsive component strategies	responsive-components	component,responsive,variant,auto-layout,strategy
+rs-019	rs	design	skill-design/lore/06-responsive.jsonl	Responsive variables setup	responsive-variables	variables,modes,responsive,spacing,2025
+rs-020	rs	design	skill-design/lore/06-responsive.jsonl	Responsive variables best practices	responsive-variables	variables,modes,responsive,rules,strategy
+rs-021	rs	design	skill-design/lore/06-responsive.jsonl	Pixel density and export scales	pixel-density	export,density,retina,dpi,resolution
+rs-022	rs	design	skill-design/lore/06-responsive.jsonl	Export rules for web and native	pixel-density	export,web,native,srcset,icon,pixel-perfect
+rs-023	rs	design	skill-design/lore/06-responsive.jsonl	Fluid typography across breakpoints	typography	typography,font-size,scale,responsive,line-length
+rs-024	rs	design	skill-design/lore/06-responsive.jsonl	Responsive grid systems by breakpoint	grid-systems	grid,columns,margin,gutter,responsive
+rs-025	rs	design	skill-design/lore/06-responsive.jsonl	Grid consistency rules	grid-systems	grid,gutter,margin,spacing,rules
+rs-026	rs	design	skill-design/lore/06-responsive.jsonl	Adaptive vs responsive design in Figma	adaptive-vs-responsive	adaptive,responsive,strategy,layout,approach
+rs-027	rs	design	skill-design/lore/06-responsive.jsonl	Testing responsive designs in Figma	testing	testing,resize,breakpoint,artboard,prototype
+rs-028	rs	design	skill-design/lore/06-responsive.jsonl	Adaptive text and max-width pattern	auto-layout-patterns	auto-layout,text,max-width,min-width,readability,pattern
+rs-029	rs	design	skill-design/lore/06-responsive.jsonl	Grid auto layout with fractional tracks	auto-layout-patterns	auto-layout,grid,fractional,columns,reflow,pattern
+rs-030	rs	design	skill-design/lore/06-responsive.jsonl	Responsive component rules and maintenance	responsive-components	component,responsive,maintenance,variants,rules
+ux-001	ux	design	skill-design/lore/07-mobile-ux.jsonl	Bottom Navigation Bar	navigation	navigation,bottom-nav,tab-bar,ios,android
+ux-002	ux	design	skill-design/lore/07-mobile-ux.jsonl	Horizontal Tab Bar	navigation	tabs,filtering,scrollable,content-categories
+ux-003	ux	design	skill-design/lore/07-mobile-ux.jsonl	Hamburger Menu / Navigation Drawer	navigation	hamburger,drawer,side-nav,menu
+ux-004	ux	design	skill-design/lore/07-mobile-ux.jsonl	Navigation Stack (Push/Pop)	navigation	navigation-stack,hierarchy,back-button,deep-linking
+ux-005	ux	design	skill-design/lore/07-mobile-ux.jsonl	Floating Action Button (FAB)	navigation	fab,primary-action,material,android
+ux-006	ux	design	skill-design/lore/07-mobile-ux.jsonl	Contextual Action Toolbar	navigation	contextual-actions,selection-mode,toolbar,multi-select
+ux-007	ux	design	skill-design/lore/07-mobile-ux.jsonl	Thumb Zone - Easy Reach (Green)	thumb-zone	thumb-zone,ergonomics,reachability,one-handed
+ux-008	ux	design	skill-design/lore/07-mobile-ux.jsonl	Thumb Zone - Stretch and Hard Reach	thumb-zone	thumb-zone,ergonomics,hard-reach,ux-placement
+ux-009	ux	design	skill-design/lore/07-mobile-ux.jsonl	Tap and Double-Tap Gestures	gestures	gestures,tap,double-tap,interaction
+ux-010	ux	design	skill-design/lore/07-mobile-ux.jsonl	Long Press Gesture	gestures	gestures,long-press,context-menu,haptic
+ux-011	ux	design	skill-design/lore/07-mobile-ux.jsonl	Horizontal Swipe Gestures	gestures	gestures,swipe,swipe-to-delete,page-navigation
+ux-012	ux	design	skill-design/lore/07-mobile-ux.jsonl	Vertical Swipe and Pull-to-Refresh	gestures	gestures,scroll,pull-to-refresh,dismiss
+ux-013	ux	design	skill-design/lore/07-mobile-ux.jsonl	Pinch and System Edge Gestures	gestures	gestures,pinch,zoom,edge-swipe,system-gestures
+ux-014	ux	design	skill-design/lore/07-mobile-ux.jsonl	Gesture Discoverability Rules	gestures	gestures,discoverability,hints,affordance
+ux-015	ux	design	skill-design/lore/07-mobile-ux.jsonl	Color Contrast Requirements (WCAG 2.1 AA)	accessibility	accessibility,wcag,contrast,color
+ux-016	ux	design	skill-design/lore/07-mobile-ux.jsonl	Touch Targets and Spacing	accessibility	accessibility,touch-target,tap-area,spacing
+ux-017	ux	design	skill-design/lore/07-mobile-ux.jsonl	Screen Reader and Focus Management	accessibility	accessibility,screen-reader,voiceover,talkback,focus
+ux-018	ux	design	skill-design/lore/07-mobile-ux.jsonl	Text Scaling and Motion Preferences	accessibility	accessibility,dynamic-type,font-scaling,reduce-motion
+ux-019	ux	design	skill-design/lore/07-mobile-ux.jsonl	Skeleton Screens	loading	loading,skeleton,shimmer,placeholder,perceived-performance
+ux-020	ux	design	skill-design/lore/07-mobile-ux.jsonl	Spinners, Progress Bars, and Optimistic UI	loading	loading,spinner,progress-bar,optimistic-ui,pull-to-refresh
+ux-021	ux	design	skill-design/lore/07-mobile-ux.jsonl	Lazy Loading and Content Loading Strategy	loading	loading,lazy-loading,infinite-scroll,pagination
+ux-022	ux	design	skill-design/lore/07-mobile-ux.jsonl	Empty States: First Use, No Results, Error	empty-states	empty-state,first-use,no-results,onboarding,illustration
+ux-023	ux	design	skill-design/lore/07-mobile-ux.jsonl	Empty States: Deleted, Cleared, and Offline	empty-states	empty-state,undo,offline,cached-content
+ux-024	ux	design	skill-design/lore/07-mobile-ux.jsonl	Inline Validation and Field Errors	error-handling	errors,validation,inline,form-errors,field-state
+ux-025	ux	design	skill-design/lore/07-mobile-ux.jsonl	Toast, Snackbar, Banner, and Full-Screen Errors	error-handling	errors,toast,snackbar,banner,error-screen,retry
+ux-026	ux	design	skill-design/lore/07-mobile-ux.jsonl	Progressive Disclosure and Coach Marks	onboarding	onboarding,progressive-disclosure,coach-marks,tooltip,first-run
+ux-027	ux	design	skill-design/lore/07-mobile-ux.jsonl	Walkthrough and Permission Priming	onboarding	onboarding,walkthrough,permissions,carousel,value-prop
+ux-028	ux	design	skill-design/lore/07-mobile-ux.jsonl	Mobile Form Layout and Input Design	forms	forms,input,layout,single-column,label
+ux-029	ux	design	skill-design/lore/07-mobile-ux.jsonl	Keyboard Types and Form Submission	forms	forms,keyboard,autofill,submit-button,input-type
+ux-030	ux	design	skill-design/lore/07-mobile-ux.jsonl	Keyboard Handling and Input Visibility	keyboard	keyboard,scroll,input-visibility,dismiss,safe-area
+ux-031	ux	design	skill-design/lore/07-mobile-ux.jsonl	Dark Mode Design Principles	dark-mode	dark-mode,theme,system-preference,surfaces
+ux-032	ux	design	skill-design/lore/07-mobile-ux.jsonl	Dark Mode: Colors, Images, and Assets	dark-mode	dark-mode,images,color-adjustment,desaturation
+ux-033	ux	design	skill-design/lore/07-mobile-ux.jsonl	Offline-First and Cache Strategy	offline	offline,cache,performance,background-sync,queue
+ux-034	ux	design	skill-design/lore/07-mobile-ux.jsonl	Perceived Performance and Image Optimization	offline	performance,perceived-performance,images,progressive-loading,transitions
+ux-035	ux	design	skill-design/lore/07-mobile-ux.jsonl	Accessibility Testing Checklist	accessibility	accessibility,testing,checklist,wcag,audit
+gp-001	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Gestalt Psychology — The Foundation of Visual Perception	gestalt-overview	gestalt,perception,visual-design,psychology
+gp-002	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Gestalt: Law of Proximity	law-of-proximity	proximity,grouping,layout,whitespace
+gp-003	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Gestalt: Law of Similarity	law-of-similarity	similarity,visual-hierarchy,consistency,buttons
+gp-004	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Gestalt: Law of Closure	law-of-closure	closure,icons,progressive-disclosure,visual-completion
+gp-005	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Gestalt: Law of Continuity	law-of-continuity	continuity,alignment,eye-flow,grid,scanning
+gp-006	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Gestalt: Law of Figure/Ground	law-of-figure-ground	figure-ground,contrast,modals,depth,dark-mode
+gp-007	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Gestalt: Law of Symmetry	law-of-symmetry	symmetry,asymmetry,balance,composition,trust
+gp-008	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Gestalt: Law of Common Fate	law-of-common-fate	animation,motion,grouping,transitions,micro-interactions
+gp-009	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Gestalt: Law of Prägnanz (Good Form)	law-of-prägnanz	simplicity,minimalism,cognitive-load,visual-design,prägnanz
+gp-010	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Gestalt Applied to Typography	gestalt-in-typography	typography,gestalt,hierarchy,readability,scanning
+gp-011	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Preattentive Attributes — What Users See Before They Think	visual-perception-preattentive	preattentive,colour,size,attention,scanning,hierarchy
+gp-012	gp	design	skill-design/lore/11-gestalt-perception.jsonl	F-Pattern and Z-Pattern — How Users Scan Interfaces	visual-perception-scanning	f-pattern,z-pattern,scanning,eye-tracking,layout
+gp-013	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Heuristic Evaluation — Expert UI Review Against Nielsen's 10 Laws	heuristic-evaluation	heuristic-evaluation,usability,nielsen,expert-review,ux-research
+gp-014	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Running a Heuristic Evaluation in Practice	heuristic-evaluation-process	heuristic-evaluation,process,ux-research,team,severity
+gp-015	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Severity Ratings in Heuristic Evaluations	heuristic-evaluation-severity	heuristic-evaluation,severity,prioritisation,ux-research
+gp-016	gp	design	skill-design/lore/11-gestalt-perception.jsonl	Colour Perception and Psychology in UI	perception-colour-psychology	colour,perception,psychology,accessibility,cultural-context
+ty-001	ty	design	skill-design/lore/12-typography-deep.jsonl	Type Anatomy — The Vocabulary of Letterforms	type-anatomy	type-anatomy,typography,letterforms,readability,fundamentals
+ty-002	ty	design	skill-design/lore/12-typography-deep.jsonl	Type Classification — Understanding the Major Families	type-classification	type-classification,serif,sans-serif,slab,monospace,display,variable-fonts
+ty-003	ty	design	skill-design/lore/12-typography-deep.jsonl	Optical vs Mechanical Spacing — Why Type Feels Wrong	type-optical-vs-mechanical	optical-spacing,kerning,mechanical-spacing,type-design,perception
+ty-004	ty	design	skill-design/lore/12-typography-deep.jsonl	Kerning — The Art of Letter Spacing	kerning	kerning,letter-spacing,type-design,display-type,optical
+ty-005	ty	design	skill-design/lore/12-typography-deep.jsonl	Tracking and Leading — Horizontal and Vertical Space	tracking-leading	tracking,leading,line-height,letter-spacing,readability,body-text
+ty-006	ty	design	skill-design/lore/12-typography-deep.jsonl	Type Scale — Building a Systematic Hierarchy	type-scale	type-scale,hierarchy,modular-scale,golden-ratio,design-systems
+ty-007	ty	design	skill-design/lore/12-typography-deep.jsonl	Type Alignment — Left, Right, Centre, Justified	type-alignment	alignment,left-align,justified,centred,readability,layout
+ty-008	ty	design	skill-design/lore/12-typography-deep.jsonl	Measure — The Optimal Line Length	type-measure	measure,line-length,readability,column-width,mobile-typography
+ty-009	ty	design	skill-design/lore/12-typography-deep.jsonl	Font Pairing — Principles and Strategy	type-pairing	font-pairing,typography,hierarchy,serif,sans-serif,design-systems
+ty-010	ty	design	skill-design/lore/12-typography-deep.jsonl	Variable Fonts — The Future of Type in UI	variable-fonts	variable-fonts,performance,animation,figma,type-technology
+ty-011	ty	design	skill-design/lore/12-typography-deep.jsonl	Type and Accessibility — Contrast, Size, and Legibility	type-contrast-accessibility	accessibility,wcag,contrast,legibility,type-size,dyslexia
+ty-012	ty	design	skill-design/lore/12-typography-deep.jsonl	Type Rendering — How Screens Affect Typography	type-on-screen-rendering	screen-rendering,anti-aliasing,hinting,retina,hid-pi,type-technology
+ty-013	ty	design	skill-design/lore/12-typography-deep.jsonl	Type Personality — How Fonts Communicate Emotion	type-emotion	type-personality,emotion,brand,typeface-selection,communication
+ty-014	ty	design	skill-design/lore/12-typography-deep.jsonl	Typography in Design Systems — Tokens and Scale	type-in-ui-systems	design-systems,tokens,typography,naming,figma,semantic
+ty-015	ty	design	skill-design/lore/12-typography-deep.jsonl	Text Style Naming — Bold and Weight Variants with Nested Slash Hierarchy	text-style-naming-bold-variants	text-styles,naming,bold,semibold,weight,variables,typography,design-systems,slash-naming
+ct-001	ct	design	skill-design/lore/13-colour-theory.jsonl	Colour Theory Foundations — Hue, Saturation, Lightness	colour-theory-basics	colour-theory,hsl,hsb,hue,saturation,lightness,fundamentals
+ct-002	ct	design	skill-design/lore/13-colour-theory.jsonl	Colour Harmonies — Relationships That Work	colour-wheel-harmonies	colour-harmony,complementary,analogous,monochromatic,colour-wheel
+ct-003	ct	design	skill-design/lore/13-colour-theory.jsonl	Colour Temperature — Warm, Cool, and Neutral	colour-temperature	colour-temperature,warm,cool,neutral,perception,UI-application
+ct-004	ct	design	skill-design/lore/13-colour-theory.jsonl	Colour Contrast for Accessibility and Readability	colour-contrast-accessibility	contrast,wcag,accessibility,colour-blindness,readability
+ct-005	ct	design	skill-design/lore/13-colour-theory.jsonl	Simultaneous Contrast — How Colours Change Each Other	colour-perception-simultaneous-contrast	simultaneous-contrast,colour-perception,context,dark-mode,colour-evaluation
+ct-006	ct	design	skill-design/lore/13-colour-theory.jsonl	Colour Psychology — What Each Hue Communicates	colour-psychology-by-hue	colour-psychology,hue,brand,emotion,culture,communication
+ct-007	ct	design	skill-design/lore/13-colour-theory.jsonl	Colour Systems — Primitives, Semantics, and Components	colour-in-design-systems	colour-system,design-tokens,semantic,primitive,dark-mode,white-label
+ct-008	ct	design	skill-design/lore/13-colour-theory.jsonl	Building a UI Colour Palette — Steps and Principles	colour-palette-construction	palette-construction,colour-scale,semantic-colour,surface,wcag
+ct-009	ct	design	skill-design/lore/13-colour-theory.jsonl	Colour in Dark Mode — More Than Just Inversion	colour-dark-mode	dark-mode,colour,surface-elevation,saturation,tokens,material-design,apple-hig
+ct-010	ct	design	skill-design/lore/13-colour-theory.jsonl	Colour and Light — Physical Principles Applied to UI	colour-and-light	light,colour-physics,shadows,elevation,neumorphism,realism
+ct-011	ct	design	skill-design/lore/13-colour-theory.jsonl	Colour in Branding — Owning a Colour	colour-branding	branding,colour,recognition,brand-identity,cadence,60-30-10
+ct-012	ct	design	skill-design/lore/13-colour-theory.jsonl	Colour Across Cultures — Global UI Considerations	colour-cultural-context	culture,colour,globalisation,localisation,international,accessibility
+bd-001	bd	design	skill-design/lore/14-behavioural-design.jsonl	Mental Models — Designing for What Users Already Know	mental-models	mental-models,cognitive-psychology,ux,learning-curve,familiarity
+bd-002	bd	design	skill-design/lore/14-behavioural-design.jsonl	Cognitive Load — The Brain's Processing Budget	cognitive-load	cognitive-load,decision-fatigue,progressive-disclosure,ux,simplicity
+bd-003	bd	design	skill-design/lore/14-behavioural-design.jsonl	Hick's Law — Fewer Choices, Faster Decisions	hicks-law	hicks-law,decision-making,navigation,choices,cognitive-load,ux-laws
+bd-004	bd	design	skill-design/lore/14-behavioural-design.jsonl	Fitts's Law — Size and Distance Define Click Effort	fitts-law	fitts-law,touch-target,click-area,interaction,mobile,ux-laws
+bd-005	bd	design	skill-design/lore/14-behavioural-design.jsonl	Jakob's Law — Users Spend Most Time on Other Sites	jakobs-law	jakobs-law,convention,patterns,familiarity,ux-laws,learning-cost
+bd-006	bd	design	skill-design/lore/14-behavioural-design.jsonl	Miller's Law — Working Memory Has a Limit	millers-law	millers-law,working-memory,chunking,cognitive-load,information-architecture,ux-laws
+bd-007	bd	design	skill-design/lore/14-behavioural-design.jsonl	Anchoring Bias — The First Number Wins	anchoring-bias	anchoring,cognitive-bias,pricing,persuasion,ux,psychology
+bd-008	bd	design	skill-design/lore/14-behavioural-design.jsonl	Peak-End Rule — Memory is Not an Average	peak-end-rule	peak-end-rule,memory,kahneman,emotional-design,success-states,onboarding
+bd-009	bd	design	skill-design/lore/14-behavioural-design.jsonl	Endowment Effect — Ownership Increases Perceived Value	endowment-effect	endowment-effect,ownership,onboarding,conversion,retention,behavioural-design
+bd-010	bd	design	skill-design/lore/14-behavioural-design.jsonl	Variable Reward Schedules — The Slot Machine Pattern	variable-rewards	variable-rewards,engagement,dark-patterns,ethics,skinner,habit-design
+bd-011	bd	design	skill-design/lore/14-behavioural-design.jsonl	Dark Patterns — Design That Works Against Users	dark-patterns	dark-patterns,ethics,deception,manipulation,UX,legal,brignull
+bd-012	bd	design	skill-design/lore/14-behavioural-design.jsonl	Ethical Nudges — Designing for Better Decisions	behavioural-design-nudges	nudge-theory,defaults,behavioural-design,ethics,social-proof,decision-architecture
+bd-013	bd	design	skill-design/lore/14-behavioural-design.jsonl	Emotional Design — Norman's Three Levels	emotional-design	emotional-design,don-norman,visceral,behavioural,reflective,brand-loyalty
+ah-001	ah	design	skill-design/lore/15-art-history-part1.jsonl	Renaissance (1400–1600) — Harmony, Proportion, and the Golden Ratio	renaissance	renaissance,golden-ratio,composition,perspective,history,art-influence
+ah-002	ah	design	skill-design/lore/15-art-history-part1.jsonl	Baroque (1600–1750) — Drama, Contrast, and Emotional Intensity	baroque	baroque,contrast,drama,luxury,dark-mode,history,art-influence
+ah-003	ah	design	skill-design/lore/15-art-history-part1.jsonl	Art Nouveau (1890–1910) — Organic Lines and Nature as Ornament	art-nouveau	art-nouveau,organic,botanical,curves,decoration,mucha,wellness-brand,history
+ah-004	ah	design	skill-design/lore/15-art-history-part1.jsonl	Bauhaus (1919–1933) — The DNA of Modern UI Design	bauhaus	bauhaus,modernism,flat-design,grid,typography,history,ui-foundations,fundamental
+ah-005	ah	design	skill-design/lore/15-art-history-part1.jsonl	De Stijl & Constructivism (1917–1930) — The Geometry of Purpose	de-stijl-constructivism	de-stijl,constructivism,mondrian,grid,geometry,history,editorial,layout
+ah-006	ah	design	skill-design/lore/15-art-history-part1.jsonl	Art Deco (1920s–1930s) — Luxury, Geometry, and Glamour	art-deco	art-deco,luxury,geometry,gold,gatsby,branding,glamour,history
+ah-007	ah	design	skill-design/lore/15-art-history-part1.jsonl	Swiss International Style (1950s–) — The Grammar of Modern Typography	swiss-international-style	swiss-style,international-typography,helvetica,grid,modernism,wayfinding,history,fundamental
+ah-008	ah	design	skill-design/lore/15-art-history-part1.jsonl	Pop Art (1950s–1960s) — Consumer Culture as Visual Language	pop-art	pop-art,warhol,lichtenstein,bold,flat,consumer,illustration,history
+ah-009	ah	design	skill-design/lore/15-art-history-part1.jsonl	Surrealism (1920s–1940s) — Dreamlogic in Visual Communication	surrealism	surrealism,dali,magritte,dreamlike,illustration,editorial,disruptive-brand,history
+ah-010	ah	design	skill-design/lore/15-art-history-part1.jsonl	Atomic Age & Space Age (1945–1970) — Optimism in the Future	atomic-space-age	atomic-age,space-age,retro,midcentury,googie,nostalgia,vintage-branding,history
+ah-011	ah	design	skill-design/lore/15-art-history-part1.jsonl	Psychedelic / Acid Art (1960s–1970s) — Perception Pushed to Breaking Point	psychedelic-acid	psychedelic,acid,60s,70s,counterculture,saturated,festival,streetwear,history
+ah-012	ah	design	skill-design/lore/15-art-history-part1.jsonl	1970s Design Aesthetic — Warmth, Organic Forms, and Folk Revival	70s-styles	70s,retro,earth-tones,organic,folk,wellness,cooper-black,nostalgia,history
+ah-013	ah	design	skill-design/lore/15-art-history-part1.jsonl	Punk / Zine Culture (1976–1980s) — Anti-Design as Design	punk-zine	punk,zine,diy,anti-design,brutalism,streetwear,independent,history
+ah-014	ah	design	skill-design/lore/15-art-history-part1.jsonl	Memphis Group (1981–1988) — Joyful Geometric Chaos	memphis-group	memphis,postmodern,geometric,bold,sottsass,pattern,spotify,history,revival
+ah-015	ah	design	skill-design/lore/15-art-history-part1.jsonl	Hyperrealism — More Real Than a Photograph	hyperrealism	hyperrealism,3d,rendering,product-photography,luxury,realism,apple,history
+ah-016	ah	design	skill-design/lore/15-art-history-part1.jsonl	Grunge / 90s Digital Aesthetic — Beautiful Imperfection	grunge-90s	grunge,90s,david-carson,grain,texture,imperfection,lo-fi,history,revival
+ah-017	ah	design	skill-design/lore/15-art-history-part2.jsonl	Manga & Anime Aesthetics — Japanese Visual Storytelling	manga-anime	manga,anime,japanese,illustration,mascot,character-design,ghibli,history
+ah-018	ah	design	skill-design/lore/15-art-history-part2.jsonl	Kawaii Culture — The Design Power of Cute	kawaii	kawaii,cute,japanese,sanrio,murakami,mascot,rounded,brand-character,history
+ah-019	ah	design	skill-design/lore/15-art-history-part2.jsonl	Yami Kawaii — The Dark Side of Cute	yami-kawaii-dark-cute	yami-kawaii,dark-cute,mental-health,japanese,harajuku,contrast,aesthetic,illustration
+ah-020	ah	design	skill-design/lore/15-art-history-part2.jsonl	Vaporwave — Internet Nostalgia as Visual Philosophy	vaporwave	vaporwave,synthwave,retrowave,nostalgia,80s,japanese,neon,gradient,digital-culture
+ah-021	ah	design	skill-design/lore/15-art-history-part2.jsonl	Cyberpunk — High Tech, Low Life as Aesthetic	cyberpunk	cyberpunk,blade-runner,neon,dark,futurism,gaming,tech-brand,aesthetic,history
+ah-022	ah	design	skill-design/lore/15-art-history-part2.jsonl	Pixel Art — Constraint as Aesthetic	pixel-art	pixel-art,retro-gaming,8-bit,16-bit,dithering,indie-games,nostalgia,constraint
+ah-023	ah	design	skill-design/lore/15-art-history-part2.jsonl	Glitch Art — Corruption as Beauty	glitch-art	glitch-art,digital-error,chromatic-aberration,vhs,distortion,hyperpop,aesthetic,history
+ah-024	ah	design	skill-design/lore/15-art-history-part2.jsonl	Skeuomorphism — When Digital Pretended to Be Physical	skeuomorphism	skeuomorphism,apple,ios,physical-metaphor,history,ui-evolution,mental-models
+ah-025	ah	design	skill-design/lore/15-art-history-part2.jsonl	Flat Design — The Skeuomorphism Backlash	flat-design	flat-design,metro,ios7,material-design,history,ui-evolution,reaction
+ah-026	ah	design	skill-design/lore/15-art-history-part2.jsonl	Material Design — Google's Physics-Based System	material-design	material-design,google,design-system,elevation,motion,android,history,fundamental
+ah-027	ah	design	skill-design/lore/15-art-history-part2.jsonl	Neumorphism — The Beautiful Dead End	neumorphism	neumorphism,soft-ui,failure,contrast,accessibility,ui-evolution,history,lesson
+ah-028	ah	design	skill-design/lore/15-art-history-part2.jsonl	Glassmorphism — Frosted Glass and the Depth Layer	glassmorphism	glassmorphism,frosted-glass,backdrop-blur,apple,depth,premium,ui-trend
+ah-029	ah	design	skill-design/lore/15-art-history-part2.jsonl	Web Brutalism — Raw, Honest, and Anti-Polished	brutalism-web	brutalism,anti-design,raw,typography,web-design,authenticity,editorial
+ah-030	ah	design	skill-design/lore/15-art-history-part2.jsonl	Minimalism — The Discipline of Subtraction	minimalism	minimalism,dieter-rams,braun,apple,whitespace,philosophy,subtraction,fundamental
+ah-031	ah	design	skill-design/lore/15-art-history-part2.jsonl	Retrowave / Synthwave — The 80s Future That Never Was	retrowave-synthwave	retrowave,synthwave,80s,neon,grid,nostalgia,gaming,music,lo-fi
+ah-032	ah	design	skill-design/lore/15-art-history-part2.jsonl	Contemporary Japanese Digital Aesthetics — Showa Revival and Solarpunk	japanese-new-styles	japanese,showa,city-pop,solarpunk,ghibli,contemporary,mori-girl,aesthetic
+ah-033	ah	design	skill-design/lore/15-art-history-part2.jsonl	Maximalism — More Is More	maximalism	maximalism,abundance,decoration,spotify,editorial,illustration,gen-z,pattern
+ah-034	ah	design	skill-design/lore/15-art-history-part2.jsonl	3D Illustration — The Dominant Digital Visual Trend	3d-illustration-trend	3d-illustration,blender,soft-3d,claymation,saas,trend,character-design,motion
+ah-035	ah	design	skill-design/lore/15-art-history-part2.jsonl	Neo-Brutalism (Digital) — Bold, Honest, Designed Rawness	neo-brutalism	neo-brutalism,bold,outlines,shadow,fintech,developer-tools,linear,current-trend
+ah-036	ah	design	skill-design/lore/15-art-history-part2.jsonl	Bento Grid Layout — The Current UI Trend	bento-grid	bento-grid,layout,apple,marketing,modular,current-trend,figma
+ah-037	ah	design	skill-design/lore/15-art-history-part2.jsonl	Biophilic / Organic Design — Nature-Informed UI	biophilic-organic	biophilic,organic,nature,wellness,sustainable,botanical,texture,current-trend
+ah-038	ah	design	skill-design/lore/15-art-history-part2.jsonl	How to Apply Art History to UI Design Decisions	applying-art-history	art-history,application,framework,brand-identity,emotional-design,synthesis,fundamental
+dr-001	dr	design	skill-design/lore/16-design-research.jsonl	Affinity Diagrams — Bottom-Up Qualitative Synthesis	affinity-diagram	affinity-diagram,synthesis,qualitative,research,themes,clustering
+dr-002	dr	design	skill-design/lore/16-design-research.jsonl	Card Sort Analysis — Informing Information Architecture	card-sort-analysis	card-sort,information-architecture,navigation,mental-models,ux-research
+dr-003	dr	design	skill-design/lore/16-design-research.jsonl	Diary Studies — Longitudinal Behaviour in Context	diary-study	diary-study,longitudinal,context,behaviour,ux-research,ethnography
+dr-004	dr	design	skill-design/lore/16-design-research.jsonl	Empathy Maps — Externalising User Understanding	empathy-map	empathy-map,synthesis,collaboration,user-understanding,dave-gray
+dr-005	dr	design	skill-design/lore/16-design-research.jsonl	User Interview Scripts — Structured Qualitative Conversations	interview-script	interview,qualitative,research,script,probing,ux-research
+dr-006	dr	design	skill-design/lore/16-design-research.jsonl	Jobs-to-Be-Done — Motivation-Centred Design	jobs-to-be-done	jtbd,jobs-to-be-done,motivation,christensen,ulwick,product-strategy
+dr-007	dr	design	skill-design/lore/16-design-research.jsonl	Journey Maps — End-to-End Experience Visualisation	journey-map	journey-map,experience,touchpoints,emotions,stages,ux-research
+dr-008	dr	design	skill-design/lore/16-design-research.jsonl	Interview Synthesis — From Transcript to Actionable Insights	interview-synthesis	synthesis,interview,analysis,insights,quotes,ux-research
+dr-009	dr	design	skill-design/lore/16-design-research.jsonl	Usability Test Plans — Measuring Design Effectiveness	usability-test-plan	usability-testing,test-plan,metrics,tasks,facilitation,ux-research
+dr-010	dr	design	skill-design/lore/16-design-research.jsonl	User Personas — Research-Grounded Archetypes	user-persona	persona,user-research,archetypes,alan-cooper,behavioural-patterns,segmentation
+us-001	us	design	skill-design/lore/17-ux-strategy.jsonl	Competitive Analysis — Systematic UX Benchmarking	competitive-analysis	competitive-analysis,benchmarking,ux-strategy,feature-matrix,opportunity-map
+us-002	us	design	skill-design/lore/17-ux-strategy.jsonl	Design Briefs — Defining the Problem Space	design-brief	design-brief,problem-definition,scope,constraints,project-planning,ux-strategy
+us-003	us	design	skill-design/lore/17-ux-strategy.jsonl	Design Principles — Decision-Making Guardrails	design-principles	design-principles,decision-making,values,trade-offs,team-alignment,ux-strategy
+us-004	us	design	skill-design/lore/17-ux-strategy.jsonl	Experience Maps — Systems-Level UX Visualisation	experience-map	experience-map,ecosystem,touchpoints,channels,omnichannel,service-design
+us-005	us	design	skill-design/lore/17-ux-strategy.jsonl	UX Metrics — Connecting Design to Measurable Outcomes	ux-metrics	metrics,kpis,heart-framework,measurement,sus,nps,ux-strategy
+us-006	us	design	skill-design/lore/17-ux-strategy.jsonl	North Star Vision — Inspiring Alignment Through Future State	north-star-vision	north-star,vision,strategy,alignment,pillars,long-term,ux-strategy
+us-007	us	design	skill-design/lore/17-ux-strategy.jsonl	Opportunity Frameworks — Prioritising Design Investments	opportunity-framework	opportunity,prioritisation,rice,kano,impact-effort,roadmap,ux-strategy
+us-008	us	design	skill-design/lore/17-ux-strategy.jsonl	Stakeholder Alignment — Navigating Influence and Decisions	stakeholder-alignment	stakeholders,alignment,raci,communication,decision-framework,ux-strategy
+ix-001	ix	design	skill-design/lore/18-interaction-design.jsonl	UI Animation Principles — Purposeful Motion Design	animation-principles	animation,motion,easing,duration,performance,prefers-reduced-motion,interaction-design
+ix-002	ix	design	skill-design/lore/18-interaction-design.jsonl	Error Handling UX — Prevention, Detection, Recovery	error-handling-ux	error-handling,validation,recovery,error-messages,forms,ux-patterns,interaction-design
+ix-003	ix	design	skill-design/lore/18-interaction-design.jsonl	System Feedback Patterns — Keeping Users Informed	feedback-patterns	feedback,confirmation,toast,notifications,status,acknowledgement,interaction-design
+ix-004	ix	design	skill-design/lore/18-interaction-design.jsonl	Gesture Patterns — Touch and Pointer Interaction Design	gesture-patterns	gestures,touch,swipe,pinch,drag,mobile,accessibility,interaction-design
+ix-005	ix	design	skill-design/lore/18-interaction-design.jsonl	Loading States — Perceived Performance Design	loading-states	loading,skeleton,progressive,optimistic-ui,perceived-performance,interaction-design
+ix-006	ix	design	skill-design/lore/18-interaction-design.jsonl	Micro-Interaction Specification — Trigger, Rules, Feedback, Loops	micro-interaction-spec	micro-interactions,trigger,feedback,dan-saffer,specification,interaction-design
+ix-007	ix	design	skill-design/lore/18-interaction-design.jsonl	State Machines — Modelling Predictable UI Behaviour	state-machine	state-machine,states,transitions,xstate,finite-state,predictability,interaction-design
+pt-001	pt	design	skill-design/lore/19-prototyping-testing.jsonl	A/B Test Design — Rigorous Design Experimentation	ab-test-design	ab-testing,experimentation,hypothesis,statistics,metrics,prototyping-testing
+pt-002	pt	design	skill-design/lore/19-prototyping-testing.jsonl	Accessibility Testing — Systematic Assistive Technology Evaluation	accessibility-test-plan	accessibility,wcag,screen-reader,assistive-technology,voiceover,nvda,prototyping-testing
+pt-003	pt	design	skill-design/lore/19-prototyping-testing.jsonl	Click Tests — Measuring Navigation Findability	click-test	click-test,first-click,navigation,findability,heat-map,prototyping-testing
+pt-004	pt	design	skill-design/lore/19-prototyping-testing.jsonl	Heuristic Evaluation — Expert Review Against Nielsen's 10	heuristic-evaluation	heuristic-evaluation,nielsen,usability,expert-review,severity,prototyping-testing
+pt-005	pt	design	skill-design/lore/19-prototyping-testing.jsonl	Prototype Strategy — Matching Fidelity to the Question	prototype-strategy	prototyping,fidelity,wireframes,mockups,wizard-of-oz,prototyping-testing
+pt-006	pt	design	skill-design/lore/19-prototyping-testing.jsonl	Test Scenarios — Revealing Genuine User Behaviour	test-scenario	test-scenarios,usability,tasks,observation,facilitation,prototyping-testing
+pt-007	pt	design	skill-design/lore/19-prototyping-testing.jsonl	User Flow Diagrams — Mapping Paths and Decisions	user-flow-diagram	user-flow,flow-diagram,decision-tree,happy-path,error-path,prototyping-testing
+pt-008	pt	design	skill-design/lore/19-prototyping-testing.jsonl	Wireframe Specifications — Content Priority and Behaviour	wireframe-spec	wireframes,specification,content-priority,annotation,responsive,prototyping-testing
+do-001	do	design	skill-design/lore/20-design-ops.jsonl	Design Critique — Structured Feedback for Better Work	design-critique	critique,feedback,design-review,collaboration,team,design-ops
+do-002	do	design	skill-design/lore/20-design-ops.jsonl	Design QA Checklist — Verifying Implementation Accuracy	design-qa-checklist	qa,checklist,implementation,verification,cross-platform,design-ops
+do-003	do	design	skill-design/lore/20-design-ops.jsonl	Design Review Process — Quality Gates Without Bottlenecks	design-review-process	review-process,gates,quality,approval,workflow,design-ops
+do-004	do	design	skill-design/lore/20-design-ops.jsonl	Design Sprints — Challenge to Tested Prototype in Five Days	design-sprint	design-sprint,jake-knapp,google-ventures,prototype,testing,rapid,design-ops
+do-005	do	design	skill-design/lore/20-design-ops.jsonl	Developer Handoff — Complete Implementation Specifications	handoff-spec	handoff,developer,specification,tokens,responsive,accessibility,design-ops
+do-006	do	design	skill-design/lore/20-design-ops.jsonl	Design Team Workflows — Rituals, Tools, and Collaboration	team-workflow	workflow,rituals,collaboration,tools,team,process,design-ops
+do-007	do	design	skill-design/lore/20-design-ops.jsonl	Design Version Control — Files, Libraries, and Tokens	version-control-design	version-control,semantic-versioning,branching,changelog,libraries,design-ops
+dt-001	dt	design	skill-design/lore/21-designer-toolkit.jsonl	Design Case Studies — Portfolio Storytelling	case-study	case-study,portfolio,storytelling,impact,process,designer-toolkit
+dt-002	dt	design	skill-design/lore/21-designer-toolkit.jsonl	Design Rationale — Connecting Decisions to Evidence	design-rationale	rationale,decision-making,documentation,evidence,trade-offs,designer-toolkit
+dt-003	dt	design	skill-design/lore/21-designer-toolkit.jsonl	Design System Adoption — Driving Consistent Usage	design-system-adoption	design-system,adoption,migration,documentation,governance,designer-toolkit
+dt-004	dt	design	skill-design/lore/21-designer-toolkit.jsonl	Design Token Audit — Consistency and Coverage Analysis	design-token-audit	token-audit,design-tokens,consistency,coverage,lint,designer-toolkit
+dt-005	dt	design	skill-design/lore/21-designer-toolkit.jsonl	Design Presentations — Communicating and Persuading	presentation-deck	presentation,communication,stakeholders,persuasion,storytelling,designer-toolkit
+dt-006	dt	design	skill-design/lore/21-designer-toolkit.jsonl	UX Writing — Interface Copy That Guides Users	ux-writing	ux-writing,microcopy,error-messages,empty-states,cta,voice-tone,designer-toolkit
+dt-007	dt	design	skill-design/lore/21-designer-toolkit.jsonl	Data Visualisation — Chart Selection and Accessible Design	data-visualization	data-visualization,charts,tufte,colour,accessibility,responsive,designer-toolkit
+dt-008	dt	design	skill-design/lore/21-designer-toolkit.jsonl	Illustration Style Systems — Visual Language and Rules	illustration-style	illustration,style-guide,visual-language,character-design,consistency,designer-toolkit
+dt-009	dt	design	skill-design/lore/21-designer-toolkit.jsonl	Visual Hierarchy — Guiding Attention Through Design	visual-hierarchy	visual-hierarchy,attention,contrast,spacing,weight,scanning,designer-toolkit
+ds-001	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Three-Layer Token Model Overview	token-architecture	tokens,architecture,primitives,semantics,components
+ds-002	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Primitive Tokens	token-architecture	tokens,primitives,raw-values
+ds-003	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Semantic Tokens	token-architecture	tokens,semantics,aliases,theming
+ds-004	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Component Tokens	token-architecture	tokens,components,application-specific
+ds-005	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Token Layer Rules	token-architecture	tokens,rules,best-practices
+ds-006	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Variable Types in Figma	variables	variables,types,color,number,string,boolean
+ds-007	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Variable Alias Mechanism	variables	variables,aliases,referencing,token-layering
+ds-008	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Variable Collections	variables	variables,collections,organization
+ds-009	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Variable Modes	variables	variables,modes,theming,responsive
+ds-010	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Applying and Inheriting Modes	variables	variables,modes,inheritance,frames
+ds-011	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Light/Dark Mode Setup Steps	theming	theming,light-mode,dark-mode,setup
+ds-012	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Light/Dark Mode Design Rules	theming	theming,dark-mode,contrast,accessibility
+ds-013	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Multi-Brand System Setup	theming	theming,multi-brand,white-label
+ds-014	ds	design-system	skill-design-system/lore/02-design-system.jsonl	When to Use Styles vs Variables	styles-vs-variables	styles,variables,decision,comparison
+ds-015	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Color Styles	color	styles,color,fills,gradients
+ds-016	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Text Styles	typography	styles,typography,text,font
+ds-017	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Typography Line Height and Spacing	typography	typography,line-height,letter-spacing,paragraph
+ds-018	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Effect Styles — Shadows and Elevation	effects	styles,effects,shadows,elevation
+ds-019	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Elevation Scale Design	effects	elevation,shadows,z-index,depth
+ds-020	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Grid Styles and Breakpoints	grids	styles,grids,layout,responsive,columns
+ds-021	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Variable Scoping	variables	variables,scoping,properties,organization
+ds-022	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Variable Scoping Best Practices	variables	variables,scoping,best-practices
+ds-023	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Token Naming Conventions	naming	naming,conventions,tokens,organization
+ds-024	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Naming Rules and Anti-Patterns	naming	naming,rules,anti-patterns
+ds-025	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Library Publishing Workflow	library	library,publishing,updates,sharing
+ds-026	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Library Organization and Structure	library	library,organization,files,structure
+ds-027	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Design System Governance Model	governance	governance,ownership,process,contribution
+ds-028	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Design System Auditing	governance	governance,audit,quality,consistency
+ds-029	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Spacing Scale System	spacing	spacing,scale,variables,layout
+ds-030	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Spacing Application Patterns	spacing	spacing,padding,gap,auto-layout
+ds-031	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Color Palette Structure	color	color,palette,primitives,shades
+ds-032	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Semantic Color Mapping	color	color,semantic,mapping,theming
+ds-033	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Component Token Examples	components	tokens,components,button,input,card
+ds-034	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Theme Switching Implementation	theming	theming,modes,switching,frames
+ds-035	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Typography Variable Strategy	typography	typography,variables,styles,hybrid
+ds-036	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Creating Variables in Figma	variables	variables,creation,workflow,figma-ui
+ds-037	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Variable Groups via Slash Naming	variables	variables,groups,naming,organization
+ds-038	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Color Contrast Requirements	accessibility	accessibility,contrast,wcag,a11y
+ds-039	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Border Radius Scale	border-radius	border-radius,radius,scale,variables
+ds-040	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Icon and Touch Target Sizing	sizing	sizing,icons,touch-targets,accessibility
+ds-041	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Opacity Scale	opacity	opacity,transparency,variables
+ds-042	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Library Versioning and Updates	library	library,versioning,changelog,updates
+ds-043	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Density Modes (Compact/Comfortable)	theming	theming,density,compact,comfortable,modes
+ds-044	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Boolean Variables for Component Configuration	variables	variables,boolean,visibility,feature-flags
+ds-045	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Design System Maturity Checklist	design-system	maturity,checklist,completeness,audit
+ds-046	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Typography Variables — Setup Workflow (Variables + Styles Together)	typography	typography,variables,text-styles,workflow,font-size,line-height,font-family,font-weight
+ds-047	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Responsive Typography Modes — Desktop and Mobile in a Single Collection	typography	typography,modes,responsive,desktop,mobile,breakpoint,variables,font-size
+ds-048	ds	design-system	skill-design-system/lore/02-design-system.jsonl	Typography Variable Types and Naming — String vs Number, T-Shirt Scale	typography	typography,variables,naming,string,number,t-shirt,scale,font-family,font-weight
+ca-001	ca	design-system	skill-design-system/lore/colour-advanced.jsonl	OKLCH — The Modern Colour Space for Design Systems	oklch	oklch,colour-space,perceptual,modern,css-color-4,oklab
+ca-002	ca	design-system	skill-design-system/lore/colour-advanced.jsonl	OKLCH vs HSL — Why the Difference Matters	oklch	oklch,hsl,comparison,perceptual,uniform,lightness,colour-scale
+ca-003	ca	design-system	skill-design-system/lore/colour-advanced.jsonl	Building Colour Scales with OKLCH — Step by Step	oklch	oklch,colour-scale,palette,construction,steps,perceptual,chroma
+ca-004	ca	design-system	skill-design-system/lore/colour-advanced.jsonl	OKLCH in Figma and CSS — Practical Usage	oklch	oklch,figma,css,css-color-4,implementation,variables,handoff
+ca-005	ca	design-system	skill-design-system/lore/colour-advanced.jsonl	Dark Mode Strategies — Dark Elevated vs Dark Deep	colour-system	dark-mode,dark-elevated,dark-deep,strategy,surface,elevation
+ca-006	ca	design-system	skill-design-system/lore/colour-advanced.jsonl	Linear Progression Palette — 48-Step Neutral Scale	colour-system	colour-system,neutral,48-step,linear,lightness,increments,palette
+ca-007	ca	design-system	skill-design-system/lore/colour-advanced.jsonl	Accent Palette Architecture — 16 Colours × 9 Shades	colour-system	colour-system,accent,palette,architecture,shades,brand,semantic
+ca-008	ca	design-system	skill-design-system/lore/colour-advanced.jsonl	Shade Contrast Rules — Which Shade for Which Purpose	colour-system	colour-system,contrast,shades,wcag,interactive,border,tint,text
+ca-009	ca	design-system	skill-design-system/lore/colour-advanced.jsonl	60-30-10 Rule Applied to Design System Tokens	colour-system	colour-system,60-30-10,rule,composition,tokens,cadence,surface,accent
+ca-010	ca	design-system	skill-design-system/lore/colour-advanced.jsonl	Utility Colours — Opacity and Theme-Dependent Values	colour-system	colour-system,utility,opacity,overlay,tint,theme,transparency
+ct-007	ct	design-system	skill-design-system/lore/colour-system.jsonl	Colour Systems — Primitives, Semantics, and Components	colour-in-design-systems	colour-system,design-tokens,semantic,primitive,dark-mode,white-label
+ct-008	ct	design-system	skill-design-system/lore/colour-system.jsonl	Building a UI Colour Palette — Steps and Principles	colour-palette-construction	palette-construction,colour-scale,semantic-colour,surface,wcag
+ct-009	ct	design-system	skill-design-system/lore/colour-system.jsonl	Colour in Dark Mode — More Than Just Inversion	colour-dark-mode	dark-mode,colour,surface-elevation,saturation,tokens,material-design,apple-hig
+ct-004	ct	design-system	skill-design-system/lore/colour-system.jsonl	Colour Contrast for Accessibility and Readability	colour-contrast-accessibility	contrast,wcag,accessibility,colour-blindness,readability
+ct-011	ct	design-system	skill-design-system/lore/colour-system.jsonl	Colour in Branding — Owning a Colour	colour-branding	branding,colour,recognition,brand-identity,cadence,60-30-10
+do-002	do	design-system	skill-design-system/lore/governance.jsonl	Design QA Checklist — Verifying Implementation Accuracy	design-qa-checklist	qa,checklist,implementation,verification,cross-platform,design-ops
+do-003	do	design-system	skill-design-system/lore/governance.jsonl	Design Review Process — Quality Gates Without Bottlenecks	design-review-process	review-process,gates,quality,approval,workflow,design-ops
+do-005	do	design-system	skill-design-system/lore/governance.jsonl	Developer Handoff — Complete Implementation Specifications	handoff-spec	handoff,developer,specification,tokens,responsive,accessibility,design-ops
+do-007	do	design-system	skill-design-system/lore/governance.jsonl	Design Version Control — Files, Libraries, and Tokens	version-control-design	version-control,semantic-versioning,branching,changelog,libraries,design-ops
+nc-001	nc	design-system	skill-design-system/lore/naming-conventions.jsonl	W3C DTCG Format — The Universal Token Standard	naming	dtcg,w3c,standard,json,format,token-studio,style-dictionary
+nc-002	nc	design-system	skill-design-system/lore/naming-conventions.jsonl	Neutral Colour Naming — Fills, Strokes, Alt Model	naming	naming,neutral,fills,strokes,alt,overlay,background,palette
+nc-003	nc	design-system	skill-design-system/lore/naming-conventions.jsonl	State Naming Conventions — Interactive States	naming	naming,states,hover,active,focus,disabled,selected,pressed
+nc-004	nc	design-system	skill-design-system/lore/naming-conventions.jsonl	Token Scale Conventions — Numeric vs T-Shirt vs Named	naming	naming,scale,numeric,t-shirt,xs,xl,100-900,convention
+nc-005	nc	design-system	skill-design-system/lore/naming-conventions.jsonl	Component Token Naming Patterns	naming	naming,component-tokens,button,input,card,slots
+nc-006	nc	design-system	skill-design-system/lore/naming-conventions.jsonl	Variable Collection and Mode Naming	naming	naming,collections,modes,figma,organization,hierarchy
+nc-007	nc	design-system	skill-design-system/lore/naming-conventions.jsonl	Boolean Variable Naming Patterns	naming	naming,boolean,visibility,show,has,feature-flag
+nc-008	nc	design-system	skill-design-system/lore/naming-conventions.jsonl	Grid and Layout Token Naming	naming	naming,grid,columns,gutter,margin,breakpoint,layout
+nc-009	nc	design-system	skill-design-system/lore/naming-conventions.jsonl	Slash Hierarchy Depth and Grouping Strategy	naming	naming,slash,hierarchy,depth,groups,organization,figma
+ty-006	ty	design-system	skill-design-system/lore/typography-system.jsonl	Type Scale — Building a Systematic Hierarchy	type-scale	type-scale,hierarchy,modular-scale,golden-ratio,design-systems
+ty-009	ty	design-system	skill-design-system/lore/typography-system.jsonl	Font Pairing — Principles and Strategy	type-pairing	font-pairing,typography,hierarchy,serif,sans-serif,design-systems
+ty-010	ty	design-system	skill-design-system/lore/typography-system.jsonl	Variable Fonts — The Future of Type in UI	variable-fonts	variable-fonts,performance,animation,figma,type-technology
+ty-011	ty	design-system	skill-design-system/lore/typography-system.jsonl	Type and Accessibility — Contrast, Size, and Legibility	type-contrast-accessibility	accessibility,wcag,contrast,legibility,type-size,dyslexia
+ty-014	ty	design-system	skill-design-system/lore/typography-system.jsonl	Typography in Design Systems — Tokens and Scale	type-in-ui-systems	design-systems,tokens,typography,naming,figma,semantic
+ty-015	ty	design-system	skill-design-system/lore/typography-system.jsonl	Text Style Naming — Bold and Weight Variants with Nested Slash Hierarchy	text-style-naming-bold-variants	text-styles,naming,bold,semibold,weight,variables,typography,design-systems,slash-naming
+ec-001	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Shopify & Ecommerce Conversion Rate Benchmarks 2025–2026	ecommerce-conversion-benchmarks	ecommerce,shopify,conversion,benchmarks,cro,mobile
+ec-002	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Shopify Product Page Anatomy — Required Elements & Hierarchy	product-page-anatomy	product-page,shopify,anatomy,atc,conversion,mobile
+ec-003	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Add to Cart Button — UX Rules & Placement	atc-button-ux	atc,button,conversion,shopify,mobile,ux
+ec-004	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Shopify Checkout Flow — UX Best Practices & Abandonment Reduction	checkout-flow-ux	checkout,abandonment,shopify,conversion,trust,ux
+ec-005	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Conversion Psychology for Ecommerce — Cialdini Applied to Shopify	conversion-psychology-ecommerce	psychology,conversion,cialdini,social-proof,scarcity,shopify
+ec-006	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Mobile Commerce UX — Shopify Mobile Patterns & Thumb Zones	mobile-commerce-ux	mobile,commerce,shopify,thumb-zone,ux,touch,sticky-atc
+ec-007	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Shopify Custom Page Architecture — Section Order & Conversion Flow	shopify-page-architecture	shopify,sections,homepage,hierarchy,ux,structure,custom-pages
+ec-008	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Trust Signals — Hierarchy, Placement & Effectiveness for Ecommerce	trust-signals-ecommerce	trust,social-proof,reviews,ecommerce,shopify,conversion
+ec-009	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Shopify Collection Page UX — Navigation, Filtering & Product Grid	collection-page-ux	collection,shopify,grid,filtering,navigation,ux
+ec-010	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Shopify Custom Page Performance — Speed, Scripts & UX Impact	shopify-performance	shopify,performance,speed,scripts,custom-pages,lcp,cls
+ec-011	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Shopify Breakpoints — Custom Page Layout System	shopify-breakpoints	shopify,breakpoints,grid,responsive,custom-pages,figma
+ec-012	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Shopify Grid — Figma Column Setup per Breakpoint	shopify-grid-figma	shopify,grid,figma,columns,breakpoints,product-grid,dimensions
+ec-013	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Shopify Mobile Frame in Figma — Header, Safe Areas & Fixed Elements	shopify-mobile-frame-setup	shopify,mobile,figma,header,safe-area,sticky-atc,thumb-zone,fixed-elements
+ec-014	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Shopify Desktop Frame in Figma — Header, Container & Layout Structure	shopify-desktop-frame-setup	shopify,desktop,figma,header,container,footer,layout,1440,1200
+ec-016	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Shopify App Ecosystem — Essential Apps by Category & UX Impact	shopify-app-ecosystem	shopify,apps,ecosystem,reviews,loyalty,email,upsell,search,page-builder,performance
+ec-015	ec	ecommerce	skill-ecommerce/lore/23-ecommerce-ux.jsonl	Shopify Custom Page Design System Readiness Checklist	shopify-ds-readiness	shopify,design-system,checklist,readiness,components,custom-pages
+fc-001	fc	figma	skill-figma/lore/00-figma-core.jsonl	Frame fundamentals	frames	frame,container,artboard
+fc-002	fc	figma	skill-figma/lore/00-figma-core.jsonl	Frame sizing modes	frames	frame,sizing,hug,fill,fixed
+fc-003	fc	figma	skill-figma/lore/00-figma-core.jsonl	Top-level frames as artboards	frames	frame,artboard,canvas,prototype
+fc-004	fc	figma	skill-figma/lore/00-figma-core.jsonl	Frame clip content	frames	frame,clip,overflow
+fc-005	fc	figma	skill-figma/lore/00-figma-core.jsonl	Group fundamentals	groups	group,organize,lightweight
+fc-006	fc	figma	skill-figma/lore/00-figma-core.jsonl	Group vs Frame decision	groups	group,frame,convert
+fc-007	fc	figma	skill-figma/lore/00-figma-core.jsonl	Section fundamentals	sections	section,canvas,organize
+fc-008	fc	figma	skill-figma/lore/00-figma-core.jsonl	Section best practices	sections	section,organization,handoff
+fc-009	fc	figma	skill-figma/lore/00-figma-core.jsonl	Layer order and z-index	layers	layers,z-index,order,panel
+fc-010	fc	figma	skill-figma/lore/00-figma-core.jsonl	Layer naming and management	layers	layers,naming,lock,hide
+fc-011	fc	figma	skill-figma/lore/00-figma-core.jsonl	Selection techniques	selection	selection,deep-select,multi-select
+fc-012	fc	figma	skill-figma/lore/00-figma-core.jsonl	Select matching and smart selection	selection	selection,match,smart-selection
+fc-013	fc	figma	skill-figma/lore/00-figma-core.jsonl	Alignment and distribution	alignment	align,distribute,spacing
+fc-014	fc	figma	skill-figma/lore/00-figma-core.jsonl	Constraint system	constraints	constraints,responsive,resize
+fc-015	fc	figma	skill-figma/lore/00-figma-core.jsonl	Constraint rules and auto layout interaction	constraints	constraints,auto-layout,stretch
+fc-016	fc	figma	skill-figma/lore/00-figma-core.jsonl	Boolean operations	boolean	boolean,union,subtract,intersect,exclude
+fc-017	fc	figma	skill-figma/lore/00-figma-core.jsonl	Boolean flatten and editing	boolean	boolean,flatten,path,vector
+fc-018	fc	figma	skill-figma/lore/00-figma-core.jsonl	Mask fundamentals	masks	mask,clip,alpha
+fc-019	fc	figma	skill-figma/lore/00-figma-core.jsonl	Mask types and outline mask	masks	mask,outline,alpha,vector
+fc-020	fc	figma	skill-figma/lore/00-figma-core.jsonl	Export formats and settings	export	export,png,jpg,svg,pdf
+fc-021	fc	figma	skill-figma/lore/00-figma-core.jsonl	Export multipliers and platform conventions	export	export,retina,density,ios,android
+fc-022	fc	figma	skill-figma/lore/00-figma-core.jsonl	Prototype connections and triggers	prototyping	prototype,link,trigger,interaction
+fc-023	fc	figma	skill-figma/lore/00-figma-core.jsonl	Prototype actions and transitions	prototyping	prototype,action,navigate,overlay,transition
+fc-024	fc	figma	skill-figma/lore/00-figma-core.jsonl	Prototype easing and overflow scrolling	prototyping	prototype,easing,scroll,fixed
+fc-025	fc	figma	skill-figma/lore/00-figma-core.jsonl	Dev Mode inspection	devmode	devmode,inspect,css,handoff,code
+fc-026	fc	figma	skill-figma/lore/00-figma-core.jsonl	Dev Mode components and annotations	devmode	devmode,component,annotation,token,variable
+fc-027	fc	figma	skill-figma/lore/00-figma-core.jsonl	Essential tool shortcuts	shortcuts	shortcuts,tools,keyboard
+fc-028	fc	figma	skill-figma/lore/00-figma-core.jsonl	Essential navigation and property shortcuts	shortcuts	shortcuts,zoom,copy,paste,properties
+fc-029	fc	figma	skill-figma/lore/00-figma-core.jsonl	Fill types and properties	fills	fill,color,gradient,image
+fc-030	fc	figma	skill-figma/lore/00-figma-core.jsonl	Blend modes and opacity	fills	fill,blend-mode,opacity
+fc-031	fc	figma	skill-figma/lore/00-figma-core.jsonl	Stroke properties	strokes	stroke,border,dash,alignment
+fc-032	fc	figma	skill-figma/lore/00-figma-core.jsonl	Shadow effects	effects	effects,shadow,drop-shadow,inner-shadow
+fc-033	fc	figma	skill-figma/lore/00-figma-core.jsonl	Blur effects	effects	effects,blur,background-blur,glassmorphism
+fc-034	fc	figma	skill-figma/lore/00-figma-core.jsonl	Text properties and sizing	text	text,font,typography,sizing
+fc-035	fc	figma	skill-figma/lore/00-figma-core.jsonl	Text decoration and OpenType features	text	text,decoration,opentype,transform
+fc-036	fc	figma	skill-figma/lore/00-figma-core.jsonl	Frame layout grids	frames	frame,grid,columns,rows
+fc-037	fc	figma	skill-figma/lore/00-figma-core.jsonl	SVG export best practices	export	export,svg,development,icons
+fc-038	fc	figma	skill-figma/lore/00-figma-core.jsonl	Precision transforms	selection	selection,transform,move,resize,rotate
+fc-039	fc	figma	skill-figma/lore/00-figma-core.jsonl	Smart animate and component interactions	prototyping	prototype,smart-animate,interactive,component
+fc-040	fc	figma	skill-figma/lore/00-figma-core.jsonl	Dev Mode measurements and spacing	devmode	devmode,measurement,spacing,redline
+fc-041	fc	figma	skill-figma/lore/00-figma-core.jsonl	Layer operations and hierarchy	layers	layers,hierarchy,nesting,component
+al-001	al	figma	skill-figma/lore/01-auto-layout.jsonl	Add Auto Layout	fundamentals	shortcut,add,create
+al-002	al	figma	skill-figma/lore/01-auto-layout.jsonl	Remove Auto Layout	fundamentals	remove,delete
+al-003	al	figma	skill-figma/lore/01-auto-layout.jsonl	Auto Layout Core Concept	fundamentals	concept,overview
+al-004	al	figma	skill-figma/lore/01-auto-layout.jsonl	Auto Layout vs Constraints	fundamentals	constraints,difference
+al-005	al	figma	skill-figma/lore/01-auto-layout.jsonl	Horizontal Direction	direction	direction,horizontal,row
+al-006	al	figma	skill-figma/lore/01-auto-layout.jsonl	Vertical Direction	direction	direction,vertical,column
+al-007	al	figma	skill-figma/lore/01-auto-layout.jsonl	Wrap Mode	direction	direction,wrap,responsive
+al-008	al	figma	skill-figma/lore/01-auto-layout.jsonl	Grid Layout Mode (2025)	direction	grid,2025,direction,tracks
+al-009	al	figma	skill-figma/lore/01-auto-layout.jsonl	Packed Spacing (Default)	spacing	spacing,gap,packed
+al-010	al	figma	skill-figma/lore/01-auto-layout.jsonl	Space Between	spacing	spacing,distribute,space-between,auto
+al-011	al	figma	skill-figma/lore/01-auto-layout.jsonl	Negative Spacing and Individual Override	spacing	spacing,negative,overlap,override
+al-012	al	figma	skill-figma/lore/01-auto-layout.jsonl	Hug Contents	sizing	sizing,hug,shrink
+al-013	al	figma	skill-figma/lore/01-auto-layout.jsonl	Fill Container	sizing	sizing,fill,stretch,responsive
+al-014	al	figma	skill-figma/lore/01-auto-layout.jsonl	Fixed Size	sizing	sizing,fixed,pixels
+al-015	al	figma	skill-figma/lore/01-auto-layout.jsonl	Hug + Fill Combination Pattern	sizing	sizing,hug,fill,pattern,responsive
+al-016	al	figma	skill-figma/lore/01-auto-layout.jsonl	Min and Max Width/Height	sizing	sizing,min,max,constraints,responsive
+al-017	al	figma	skill-figma/lore/01-auto-layout.jsonl	Padding Configuration	padding	padding,spacing,uniform,independent
+al-018	al	figma	skill-figma/lore/01-auto-layout.jsonl	9-Point Alignment Grid	alignment	alignment,position,justify,center
+al-019	al	figma	skill-figma/lore/01-auto-layout.jsonl	Align Self Override	alignment	alignment,self,override,individual
+al-020	al	figma	skill-figma/lore/01-auto-layout.jsonl	Text Baseline Alignment	alignment	alignment,baseline,text,typography
+al-021	al	figma	skill-figma/lore/01-auto-layout.jsonl	Absolute Position Within Auto Layout	absolute-position	absolute,position,float,overlay
+al-022	al	figma	skill-figma/lore/01-auto-layout.jsonl	Navbar Pattern	patterns	pattern,navbar,navigation,header
+al-023	al	figma	skill-figma/lore/01-auto-layout.jsonl	Card Component Pattern	patterns	pattern,card,component
+al-024	al	figma	skill-figma/lore/01-auto-layout.jsonl	Form Layout Pattern	patterns	pattern,form,input,label
+al-025	al	figma	skill-figma/lore/01-auto-layout.jsonl	Sidebar Layout Pattern	patterns	pattern,sidebar,layout,page
+al-026	al	figma	skill-figma/lore/01-auto-layout.jsonl	Header-Content-Footer Pattern	patterns	pattern,page,layout,sticky-footer
+al-027	al	figma	skill-figma/lore/01-auto-layout.jsonl	Grid Tracks and Fractional Units	grid	grid,tracks,fr,columns,rows
+al-028	al	figma	skill-figma/lore/01-auto-layout.jsonl	Grid Cell Spanning	grid	grid,span,merge,colspan
+al-029	al	figma	skill-figma/lore/01-auto-layout.jsonl	Freeform Layout Mode	freeform	freeform,free,position,2025
+al-030	al	figma	skill-figma/lore/01-auto-layout.jsonl	Responsive Wrap Pattern	responsive	responsive,wrap,mobile,desktop,breakpoint
+al-031	al	figma	skill-figma/lore/01-auto-layout.jsonl	Adaptive Text Container	responsive	responsive,text,min-max,flexible
+al-032	al	figma	skill-figma/lore/01-auto-layout.jsonl	Common Spacing Values	values	values,spacing,padding,gap,tokens
+al-033	al	figma	skill-figma/lore/01-auto-layout.jsonl	Rules: Groups, Spacers, and Fixed Sizes	tips	rules,groups,spacers,fixed,best-practice
+al-034	al	figma	skill-figma/lore/01-auto-layout.jsonl	Shortcuts and Quick Actions	tips	tips,shortcuts,tricks,efficiency
+al-035	al	figma	skill-figma/lore/01-auto-layout.jsonl	Negative Gap and Overlap Techniques	tips	tips,negative,overlap,stacking,avatars
+al-036	al	figma	skill-figma/lore/01-auto-layout.jsonl	Responsive-First Layout Philosophy (Default Build Standard)	philosophy	philosophy,responsive,default,standard,build,cascade,resize,style
+al-037	al	figma	skill-figma/lore/01-auto-layout.jsonl	Text Sizing Rule: Fill Container, Never Fixed	philosophy	philosophy,text,fill,sizing,rule,responsive,style
+al-038	al	figma	skill-figma/lore/01-auto-layout.jsonl	Resize Cascade Checklist — Verify Before Handoff	philosophy	philosophy,checklist,resize,verify,handoff,responsive,style
+cp-001	cp	figma	skill-figma/lore/03-components.jsonl	Create Component Shortcut	creating	create,shortcut,basics
+cp-002	cp	figma	skill-figma/lore/03-components.jsonl	Main Component Identity	creating	main,source-of-truth,icon
+cp-003	cp	figma	skill-figma/lore/03-components.jsonl	Instance Creation	creating	instance,copy,drag
+cp-004	cp	figma	skill-figma/lore/03-components.jsonl	Build Components from Frames	creating	rule,frame,auto-layout,best-practice
+cp-005	cp	figma	skill-figma/lore/03-components.jsonl	Set Layout Before Converting	creating	rule,constraints,auto-layout,preparation
+cp-006	cp	figma	skill-figma/lore/03-components.jsonl	Self-Contained Components	creating	rule,padding,background,sizing
+cp-007	cp	figma	skill-figma/lore/03-components.jsonl	Boolean Property	properties	boolean,visibility,toggle,show-hide
+cp-008	cp	figma	skill-figma/lore/03-components.jsonl	Text Property	properties	text,content,editing,expose
+cp-009	cp	figma	skill-figma/lore/03-components.jsonl	Instance Swap Property	properties	instance-swap,nested,swap,preferred-values
+cp-010	cp	figma	skill-figma/lore/03-components.jsonl	Variant Property	properties	variant,property,component-set
+cp-011	cp	figma	skill-figma/lore/03-components.jsonl	Variants Overview	variants	variants,component-set,versions
+cp-012	cp	figma	skill-figma/lore/03-components.jsonl	Creating Variants	variants	variants,create,combine
+cp-013	cp	figma	skill-figma/lore/03-components.jsonl	Variant Property Naming	variants	variants,naming,properties,dimensions
+cp-014	cp	figma	skill-figma/lore/03-components.jsonl	Plan Variants Before Building	variants	rule,variants,planning,explosion
+cp-015	cp	figma	skill-figma/lore/03-components.jsonl	Consistent Variant Property Names	variants	rule,variants,naming,consistency
+cp-016	cp	figma	skill-figma/lore/03-components.jsonl	Variant Interaction Prototyping	variants	variants,prototyping,change-to,interaction
+cp-017	cp	figma	skill-figma/lore/03-components.jsonl	Component Set Container	component-sets	component-set,container,variants
+cp-018	cp	figma	skill-figma/lore/03-components.jsonl	Reorganize Variants	component-sets	component-set,reorganize,grid,layout
+cp-019	cp	figma	skill-figma/lore/03-components.jsonl	Reduce Variants with Variables	component-sets	rule,variants,variables,color,optimization
+cp-020	cp	figma	skill-figma/lore/03-components.jsonl	Max Variant Count	component-sets	rule,variants,limit,restructuring
+cp-021	cp	figma	skill-figma/lore/03-components.jsonl	Nested Components Overview	nested	nested,composition,reusable,micro-components
+cp-022	cp	figma	skill-figma/lore/03-components.jsonl	Nested Component Examples	nested	nested,example,button,card
+cp-023	cp	figma	skill-figma/lore/03-components.jsonl	Expose Nested Properties	nested	nested,expose,parent,properties
+cp-024	cp	figma	skill-figma/lore/03-components.jsonl	Atomic Design Build Order	nested	rule,atomic,molecules,organisms,architecture
+cp-025	cp	figma	skill-figma/lore/03-components.jsonl	Compound Components	compound	compound,composition,navigation,form
+cp-026	cp	figma	skill-figma/lore/03-components.jsonl	Expose Only Needed Properties	compound	compound,properties,expose,simplicity
+cp-027	cp	figma	skill-figma/lore/03-components.jsonl	Slots Overview	slots	slots,placeholder,custom-content,2025
+cp-028	cp	figma	skill-figma/lore/03-components.jsonl	Slot Constraints and Use Cases	slots	slots,constraints,flexibility,boundaries
+cp-029	cp	figma	skill-figma/lore/03-components.jsonl	Instance Overrides	overrides	overrides,instance,changes,customization
+cp-030	cp	figma	skill-figma/lore/03-components.jsonl	Non-Overridable Properties	overrides	overrides,limitations,structure
+cp-031	cp	figma	skill-figma/lore/03-components.jsonl	Reset and Push Overrides	overrides	overrides,reset,push,main
+cp-032	cp	figma	skill-figma/lore/03-components.jsonl	Detach Instance	detaching	detach,instance,unlink,shortcut
+cp-033	cp	figma	skill-figma/lore/03-components.jsonl	When to Detach	detaching	detach,rule,best-practice,avoid
+cp-034	cp	figma	skill-figma/lore/03-components.jsonl	Slash Hierarchy Naming	naming	naming,hierarchy,slash,assets-panel
+cp-035	cp	figma	skill-figma/lore/03-components.jsonl	Naming Rules	naming	naming,rule,convention,PascalCase
+cp-036	cp	figma	skill-figma/lore/03-components.jsonl	Preferred Values for Instance Swap	preferred-values	preferred-values,instance-swap,limit,options
+cp-037	cp	figma	skill-figma/lore/03-components.jsonl	Component Descriptions	documentation	documentation,description,markdown,dev-mode
+cp-038	cp	figma	skill-figma/lore/03-components.jsonl	Interactive State Variants	advanced	advanced,states,hover,focus,disabled
+cp-039	cp	figma	skill-figma/lore/03-components.jsonl	Responsive and Loading Variants	advanced	advanced,responsive,skeleton,loading,empty,error
+cp-040	cp	figma	skill-figma/lore/03-components.jsonl	Component-Level Variables	advanced	advanced,variables,theme,binding
+cp-041	cp	figma	skill-figma/lore/03-components.jsonl	One Component Per Concern	architecture	rule,architecture,separation,single-responsibility
+cp-042	cp	figma	skill-figma/lore/03-components.jsonl	Auto Layout and Resize Rules	architecture	rule,architecture,auto-layout,resize,fill,hug
+cp-043	cp	figma	skill-figma/lore/03-components.jsonl	Internal Spacing and Variables	architecture	rule,architecture,padding,spacing,variables,hardcode
+og-001	og	figma	skill-figma/lore/08-organization.jsonl	Single-Library Approach	file-structure	library,file-structure,small-teams
+og-002	og	figma	skill-figma/lore/08-organization.jsonl	Multi-Library Approach	file-structure	library,file-structure,large-teams,architecture
+og-003	og	figma	skill-figma/lore/08-organization.jsonl	Recommended Multi-Library Structure	file-structure	library,architecture,dependency-chain,layers
+og-004	og	figma	skill-figma/lore/08-organization.jsonl	File Naming Convention	file-structure	naming,files,consistency
+og-005	og	figma	skill-figma/lore/08-organization.jsonl	File Performance Rule	file-structure	performance,layers,file-size,rule
+og-006	og	figma	skill-figma/lore/08-organization.jsonl	Library Page Structure	page-organization	pages,cover,getting-started,organization
+og-007	og	figma	skill-figma/lore/08-organization.jsonl	Page Naming with Emoji Prefixes	page-organization	pages,naming,emoji,scanning
+og-008	og	figma	skill-figma/lore/08-organization.jsonl	Section Usage on Canvas	sections	sections,grouping,canvas,organization
+og-009	og	figma	skill-figma/lore/08-organization.jsonl	Section Color Coding	sections	sections,color-coding,status,visual
+og-010	og	figma	skill-figma/lore/08-organization.jsonl	Layer Naming Rules	naming	naming,layers,hygiene,rule
+og-011	og	figma	skill-figma/lore/08-organization.jsonl	Component Naming Hierarchy	naming	naming,components,slash,assets-panel
+og-012	og	figma	skill-figma/lore/08-organization.jsonl	Variable and Style Naming	naming	naming,variables,styles,conventions
+og-013	og	figma	skill-figma/lore/08-organization.jsonl	Frame and Artboard Naming	naming	naming,frames,screens,states
+og-014	og	figma	skill-figma/lore/08-organization.jsonl	Library Publishing and Enabling	multi-library	library,publishing,enabling,consumers
+og-015	og	figma	skill-figma/lore/08-organization.jsonl	Dependency Chain Rules	multi-library	library,dependencies,circular,architecture,rule
+og-016	og	figma	skill-figma/lore/08-organization.jsonl	Library Versioning	multi-library	library,versioning,independent,releases
+og-017	og	figma	skill-figma/lore/08-organization.jsonl	Grouping Components by Function	component-library	components,grouping,function,categories
+og-018	og	figma	skill-figma/lore/08-organization.jsonl	Grouping Components by Atomic Level	component-library	components,grouping,atomic-design,atoms,molecules,organisms
+og-019	og	figma	skill-figma/lore/08-organization.jsonl	Hiding Internal Components	component-library	components,internal,helper,hiding,private
+og-020	og	figma	skill-figma/lore/08-organization.jsonl	Design Debt Audit	design-debt	design-debt,audit,detached,unnamed,hardcoded
+og-021	og	figma	skill-figma/lore/08-organization.jsonl	Design Debt Metrics	design-debt	design-debt,metrics,tracking,kpi
+og-022	og	figma	skill-figma/lore/08-organization.jsonl	Developer Handoff Best Practices	handoff	handoff,dev-mode,specs,annotations
+og-023	og	figma	skill-figma/lore/08-organization.jsonl	Figma Branching Workflow	version-control	branching,version-control,merge,review
+og-024	og	figma	skill-figma/lore/08-organization.jsonl	Version History Best Practices	version-control	version-history,saving,naming,restore
+og-025	og	figma	skill-figma/lore/08-organization.jsonl	Contribution and Review Process	governance	governance,contribution,review,approval,publishing
+og-026	og	figma	skill-figma/lore/08-organization.jsonl	Breaking Changes and Communication	governance	governance,breaking-changes,migration,communication,changelog
+og-027	og	figma	skill-figma/lore/08-organization.jsonl	Component Documentation Layout	documentation	documentation,component-page,layout,do-dont
+au-001	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Find Detached Instances	detached-instances	audit,detached,instances,debt
+au-002	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Reconnect Detached Instances Script	detached-instances	audit,detached,fix,instances
+au-003	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Find Unused Components	unused-components	audit,unused,components,cleanup
+au-004	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Find Duplicate/Mergeable Components	duplicate-components	audit,duplicates,merge,components
+au-005	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Find Unnamed/Default Layers	naming	audit,naming,layers,cleanup
+au-006	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Find Hardcoded Colors Not Using Variables	hardcoded-values	audit,hardcoded,colors,variables,tokens
+au-007	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Find Hardcoded Spacing Not Using Variables	hardcoded-values	audit,hardcoded,spacing,variables,tokens
+au-008	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Find Hardcoded Typography Not Using Styles	hardcoded-values	audit,hardcoded,typography,styles
+au-009	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Check Consistent Corner Radius	consistency	audit,corner-radius,consistency
+au-010	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Check Consistent Elevation/Shadow	consistency	audit,shadows,elevation,consistency
+au-011	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Audit Component Variant Explosion	structure	audit,variants,explosion,optimization
+au-012	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Audit Nested Component Depth	structure	audit,nesting,depth,performance
+au-013	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Audit Auto Layout Coverage	structure	audit,auto-layout,structure
+au-014	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Audit Variable Coverage	variables	audit,variables,coverage,tokens
+au-015	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Audit Variable Organization	variables	audit,variables,organization,collections
+au-016	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Generate Audit Report Template	report	audit,report,template,summary
+au-017	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Health Score Calculation	report	audit,score,health,metrics
+au-018	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Merge Similar Components Strategy	optimization	audit,merge,components,optimization
+au-019	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Reduce Variant Count Strategy	optimization	audit,variants,reduction,optimization
+au-020	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Flatten Deep Nesting Strategy	optimization	audit,nesting,flatten,optimization
+au-021	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Migrate Styles to Variables	migration	audit,migration,styles,variables
+au-022	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Add Missing Component Properties	migration	audit,properties,components,migration
+au-023	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Pre-Publish Audit Checklist	checklist	audit,checklist,publish,quality
+au-024	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Quarterly Audit Cadence	checklist	audit,schedule,governance,cadence
+au-025	au	figma	skill-figma/lore/09-audit-optimization.jsonl	Full File Scan Script Template	scripts	audit,script,scan,template
+ex-001	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Available Figma Execution Tools	tools-overview	tools,overview,mcp
+ex-002	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	figma_execute — The Power Tool	tools-overview	figma-execute,javascript,plugin-api
+ex-003	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Tool Selection Decision Tree	tools-overview	tools,decision,selection
+ex-004	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Simple Button Component	recipe-component	recipe,button,component,create
+ex-005	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Button with Icon + Variants	recipe-component	recipe,button,icon,variants,component-set
+ex-006	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Component with States	recipe-component	recipe,states,hover,disabled,variants
+ex-007	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Input Field Component	recipe-component	recipe,input,form,component
+ex-008	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Card Component	recipe-component	recipe,card,component,compound
+ex-009	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Navigation Bar	recipe-component	recipe,navbar,navigation,component
+ex-010	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Icon Button	recipe-component	recipe,icon-button,component
+ex-011	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Full Color Token System	recipe-variables	recipe,colors,tokens,variables,light-dark
+ex-012	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Spacing Token System	recipe-variables	recipe,spacing,tokens,variables
+ex-013	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Border Radius Tokens	recipe-variables	recipe,radius,tokens,variables
+ex-014	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Typography Styles	recipe-variables	recipe,typography,styles,text
+ex-015	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Setup Design Tokens in One Shot	recipe-variables	recipe,tokens,setup,one-shot
+ex-016	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Bootstrap Complete Design System	recipe-ds	recipe,design-system,full,bootstrap
+ex-017	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Component Page Layout	recipe-ds	recipe,page,organization,layout
+ex-018	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Responsive Component	recipe-advanced	recipe,responsive,component,breakpoints
+ex-019	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Component with Slots	recipe-advanced	recipe,slots,composable,2025
+ex-020	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Data Table Component	recipe-advanced	recipe,table,data,component,advanced
+ex-021	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Bulk Instance Creation	recipe-advanced	recipe,bulk,instances,populate
+ex-022	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Clone and Modify Existing Component	recipe-advanced	recipe,clone,modify,extend
+ex-023	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create iOS Screen Template	recipe-ios	recipe,ios,screen,template
+ex-024	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Android Screen Template	recipe-android	recipe,android,screen,template
+ex-025	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Interactive Component Prototype	recipe-prototype	recipe,prototype,interaction,states
+ex-026	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Gotcha: Component Instance Text Editing	gotchas	gotcha,instance,text,silent-failure
+ex-027	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Gotcha: Font Loading in figma_execute	gotchas	gotcha,fonts,loading,async
+ex-028	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Gotcha: Color Format in figma_execute vs Tools	gotchas	gotcha,colors,format,hex,rgb
+ex-029	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Gotcha: Z-Order and appendChild	gotchas	gotcha,z-order,layers,append
+ex-030	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Gotcha: figma_execute Timeout and Batching	gotchas	gotcha,timeout,batch,performance
+ex-031	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Gotcha: createComponent vs createComponentFromNode	gotchas	gotcha,component,creation,api
+ex-032	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Visual Validation Workflow	validation	validation,screenshot,verify
+ex-033	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Component Testing Checklist	validation	validation,testing,component,checklist
+ex-034	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Workflow: Learning From Reference File	workflow	workflow,reference,learn,extract
+ex-035	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Workflow: DS Audit End-to-End	workflow	workflow,audit,end-to-end
+ex-036	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Batch Rename Layers in Component	recipe-naming	recipe,rename,layers,naming,cleanup
+ex-037	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Rename Layers Following Convention	recipe-naming	recipe,rename,convention,semantic
+ex-038	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Rename Layers During Component Creation	recipe-naming	recipe,rename,creation,workflow
+ex-039	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	MANDATORY: Section-First Workflow	recipe-sections	recipe,sections,organization,mandatory,workflow
+ex-040	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Section Naming and Emoji Convention	recipe-sections	recipe,sections,naming,emoji,convention
+ex-041	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Create Section with figma_execute	recipe-sections	recipe,sections,create,figma-execute
+ex-042	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Section Grid Layout Strategy	recipe-sections	recipe,sections,layout,grid,spacing
+ex-043	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Color Swatches Inside Section	recipe-sections	recipe,sections,colors,swatches,display
+ex-044	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Typography Samples Inside Section	recipe-sections	recipe,sections,typography,display,samples
+ex-045	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Recipe: Component Labels Inside Sections	recipe-sections	recipe,sections,labels,annotation
+ex-046	ex	figma	skill-figma/lore/10-execution-recipes.jsonl	Updated DS Bootstrap Sequence (Section-First)	recipe-sections	recipe,design-system,bootstrap,sections,mandatory
+al-001	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Add Auto Layout	fundamentals	shortcut,add,create
+al-002	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Remove Auto Layout	fundamentals	remove,delete
+al-003	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Auto Layout Core Concept	fundamentals	concept,overview
+al-004	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Auto Layout vs Constraints	fundamentals	constraints,difference
+al-005	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Horizontal Direction	direction	direction,horizontal,row
+al-006	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Vertical Direction	direction	direction,vertical,column
+al-007	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Wrap Mode	direction	direction,wrap,responsive
+al-008	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Grid Layout Mode (2025)	direction	grid,2025,direction,tracks
+al-009	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Packed Spacing (Default)	spacing	spacing,gap,packed
+al-010	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Space Between	spacing	spacing,distribute,space-between,auto
+al-011	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Negative Spacing and Individual Override	spacing	spacing,negative,overlap,override
+al-012	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Hug Contents	sizing	sizing,hug,shrink
+al-013	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Fill Container	sizing	sizing,fill,stretch,responsive
+al-014	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Fixed Size	sizing	sizing,fixed,pixels
+al-015	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Hug + Fill Combination Pattern	sizing	sizing,hug,fill,pattern,responsive
+al-016	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Min and Max Width/Height	sizing	sizing,min,max,constraints,responsive
+al-017	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Padding Configuration	padding	padding,spacing,uniform,independent
+al-018	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	9-Point Alignment Grid	alignment	alignment,position,justify,center
+al-019	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Align Self Override	alignment	alignment,self,override,individual
+al-020	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Text Baseline Alignment	alignment	alignment,baseline,text,typography
+al-021	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Absolute Position Within Auto Layout	absolute-position	absolute,position,float,overlay
+al-022	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Navbar Pattern	patterns	pattern,navbar,navigation,header
+al-023	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Card Component Pattern	patterns	pattern,card,component
+al-024	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Form Layout Pattern	patterns	pattern,form,input,label
+al-025	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Sidebar Layout Pattern	patterns	pattern,sidebar,layout,page
+al-026	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Header-Content-Footer Pattern	patterns	pattern,page,layout,sticky-footer
+al-027	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Grid Tracks and Fractional Units	grid	grid,tracks,fr,columns,rows
+al-028	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Grid Cell Spanning	grid	grid,span,merge,colspan
+al-029	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Freeform Layout Mode	freeform	freeform,free,position,2025
+al-030	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Responsive Wrap Pattern	responsive	responsive,wrap,mobile,desktop,breakpoint
+al-031	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Adaptive Text Container	responsive	responsive,text,min-max,flexible
+al-032	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Common Spacing Values	values	values,spacing,padding,gap,tokens
+al-033	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Rules: Groups, Spacers, and Fixed Sizes	tips	rules,groups,spacers,fixed,best-practice
+al-034	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Shortcuts and Quick Actions	tips	tips,shortcuts,tricks,efficiency
+al-035	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Negative Gap and Overlap Techniques	tips	tips,negative,overlap,stacking,avatars
+al-036	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Responsive-First Layout Philosophy (Default Build Standard)	philosophy	philosophy,responsive,default,standard,build,cascade,resize,style
+al-037	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Text Sizing Rule: Fill Container, Never Fixed	philosophy	philosophy,text,fill,sizing,rule,responsive,style
+al-038	al	figma-autolayout	skill-figma-autolayout/lore/01-auto-layout.jsonl	Resize Cascade Checklist — Verify Before Handoff	philosophy	philosophy,checklist,resize,verify,handoff,responsive,style
+al-039	al	figma-autolayout	skill-figma-autolayout/lore/01b-autolayout-advanced.jsonl	Redundant Nesting — Detection and Elimination	optimization	optimization,nesting,redundant,flatten,best-practice
+al-040	al	figma-autolayout	skill-figma-autolayout/lore/01b-autolayout-advanced.jsonl	Auto Layout Hierarchy Optimization — Flatten Where Possible	optimization	optimization,hierarchy,flatten,performance,layers
+al-041	al	figma-autolayout	skill-figma-autolayout/lore/01b-autolayout-advanced.jsonl	Single-Child Frame Anti-Pattern	optimization	optimization,single-child,anti-pattern,nesting,redundant
+al-042	al	figma-autolayout	skill-figma-autolayout/lore/01b-autolayout-advanced.jsonl	Avoiding Same-Direction Nested Auto Layouts	optimization	optimization,direction,nesting,same-direction,flatten
+al-043	al	figma-autolayout	skill-figma-autolayout/lore/01b-autolayout-advanced.jsonl	Dev Mode Output — How AL Choices Affect Generated CSS	optimization	optimization,dev-mode,css,code,handoff
+al-044	al	figma-autolayout	skill-figma-autolayout/lore/01b-autolayout-advanced.jsonl	Common Auto Layout Mistakes — Diagnosis and Fixes	optimization	optimization,mistakes,fixes,debugging,anti-patterns
+al-045	al	figma-autolayout	skill-figma-autolayout/lore/01b-autolayout-advanced.jsonl	Slots in Figma — How They Work	slots	slots,2025,components,placeholder,custom-content
+al-046	al	figma-autolayout	skill-figma-autolayout/lore/01b-autolayout-advanced.jsonl	Slots and Auto Layout — Sizing and Interaction	slots	slots,2025,auto-layout,sizing,fill,hug
+al-047	al	figma-autolayout	skill-figma-autolayout/lore/01b-autolayout-advanced.jsonl	Slots vs Instance Swap Properties — When to Use Each	slots	slots,instance-swap,components,properties,decision
+al-048	al	figma-autolayout	skill-figma-autolayout/lore/01b-autolayout-advanced.jsonl	Building a Component with a Slot — Step-by-Step	slots	slots,2025,recipe,workflow,components
+al-049	al	figma-autolayout	skill-figma-autolayout/lore/01c-component-recipes.jsonl	Button AL Structure — All Variants Optimized	recipe	button,recipe,component,sizing,padding,icon,full-width
+al-050	al	figma-autolayout	skill-figma-autolayout/lore/01c-component-recipes.jsonl	Input Field AL Structure — Input Frame Only	recipe	input,recipe,component,sizing,placeholder,icon,field
+al-051	al	figma-autolayout	skill-figma-autolayout/lore/01c-component-recipes.jsonl	Form Field Group — Label + Input + Helper Text	recipe	form,field,label,helper,error,recipe,group,vertical
+al-052	al	figma-autolayout	skill-figma-autolayout/lore/01c-component-recipes.jsonl	Checkbox and Radio Button AL Structure	recipe	checkbox,radio,recipe,component,label,selection,control
+al-053	al	figma-autolayout	skill-figma-autolayout/lore/01c-component-recipes.jsonl	Badge, Tag, and Chip AL Structure	recipe	badge,tag,chip,recipe,component,pill,sizing
+al-054	al	figma-autolayout	skill-figma-autolayout/lore/01c-component-recipes.jsonl	List Item AL Structure — Icon + Content + Action	recipe	list,list-item,recipe,component,avatar,trailing,action
+al-055	al	figma-autolayout	skill-figma-autolayout/lore/01c-component-recipes.jsonl	Modal and Dialog AL Structure	recipe	modal,dialog,recipe,component,overlay,scroll,header,footer
+al-056	al	figma-autolayout	skill-figma-autolayout/lore/01c-component-recipes.jsonl	Icon Button AL Structure	recipe	icon-button,recipe,component,touch-target,fixed,sizing
+al-057	al	figma-autolayout	skill-figma-autolayout/lore/01c-component-recipes.jsonl	Alert and Banner AL Structure	recipe	alert,banner,notification,recipe,component,icon,action
+al-058	al	figma-autolayout	skill-figma-autolayout/lore/01c-component-recipes.jsonl	Toggle / Switch AL Structure	recipe	toggle,switch,recipe,component,boolean,interactive
+al-059	al	figma-autolayout	skill-figma-autolayout/lore/01c-component-recipes.jsonl	Bottom Navigation Bar — Mobile AL Structure	recipe	bottom-nav,navigation,mobile,recipe,tab-bar,ios,android
+al-060	al	figma-autolayout	skill-figma-autolayout/lore/01c-component-recipes.jsonl	Avatar with Status Badge — Absolute Position Pattern	recipe	avatar,badge,status,absolute,recipe,component,overlap
+fp-001	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Figma's Prototyping Model — Hotspot, Connection, Destination	prototyping-model	figma,prototyping,interactions,fundamentals
+fp-002	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Flows and Starting Points — Structuring a Prototype	flows-starting-points	figma,prototyping,flows,starting-points,organisation
+fp-003	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Complete Trigger Reference — All 12 Figma Prototype Triggers	triggers-complete	figma,prototyping,triggers,reference
+fp-004	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Choosing the Right Trigger — Decision Rules	trigger-selection	figma,prototyping,triggers,interaction-design,decision-rules
+fp-005	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Complete Action Reference — All 15 Figma Prototype Actions	actions-complete	figma,prototyping,actions,reference
+fp-006	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Navigate To vs Change To — The Most Consequential Choice	navigate-vs-change-to	figma,prototyping,actions,interactive-components,handoff
+fp-007	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Prototype History, Back, and Swap Overlay	history-and-back	figma,prototyping,history,overlays,back
+fp-008	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Overlays — Positions, Backgrounds, and Dismissal	overlays	figma,prototyping,overlays,modals,bottom-sheet
+fp-009	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Overlay or Navigate? A Decision Rule	overlay-vs-navigate	figma,prototyping,overlays,navigation,decision-rules
+fp-010	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Scroll and Overflow Behaviour	scroll-overflow	figma,prototyping,scroll,overflow,carousel
+fp-011	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Scroll With Parent, Fixed, and Sticky	scroll-position	figma,prototyping,fixed,sticky,scroll
+fp-012	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Preserve Scroll Position — And When It Lies	preserve-scroll	figma,prototyping,scroll,state,shopify
+fp-013	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Scroll To — In-Page Navigation	scroll-to	figma,prototyping,scroll-to,anchor-navigation,landing-page
+fp-014	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Prototype Device, Orientation, and Background	device-background	figma,prototyping,device,presentation,responsive
+fp-015	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Presentation View and Sharing Prototypes	presentation-view	figma,prototyping,presentation,sharing,testing
+fp-016	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Video and Audio in Prototypes	video-audio	figma,prototyping,video,media,shopify
+fp-017	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Animated GIFs and Imported Motion	gifs-and-lottie	figma,prototyping,gif,lottie,motion
+fp-018	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Prototype Performance — Keeping It Playable	prototype-performance	figma,prototyping,performance,optimisation,testing
+fp-019	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Hotspot Craft — Size, Invisibility, and Placement	hotspot-craft	figma,prototyping,hotspots,touch-targets,components
+fp-020	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Connection Hygiene and Prototype Maintenance	connection-hygiene	figma,prototyping,maintenance,hygiene,organisation
+fp-021	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Prototype Fidelity — Match the Build to the Question	fidelity-ladder	prototyping,fidelity,research,strategy
+fp-022	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Prototype the Riskiest Assumption First	riskiest-assumption	prototyping,strategy,research,risk
+fp-023	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Prototypes in Usability Testing — What Breaks	testing-with-prototypes	prototyping,usability-testing,research,methods
+fp-024	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Prototype Anti-Patterns	prototype-antipatterns	figma,prototyping,anti-patterns,critique
+fp-025	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Accessibility in Prototypes — What You Can and Cannot Test	prototype-accessibility	figma,prototyping,accessibility,wcag,annotations
+fp-026	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Handing Off a Prototype — What Engineers Actually Need	prototype-handoff	figma,prototyping,handoff,dev-mode,specification
+fp-027	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Interactions in Library Components	library-interactions	figma,prototyping,components,libraries,design-system
+fp-028	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Prototype QA Checklist — Before You Share It	prototype-qa-checklist	figma,prototyping,qa,checklist
+fp-029	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	When to Stop Prototyping in Figma	when-to-leave-figma	prototyping,strategy,code,limits
+fp-030	fp	figma-prototyping	skill-figma-prototyping/lore/34-figma-prototyping-core.jsonl	Prototypes for Stakeholders vs Prototypes for Testing	stakeholder-prototypes	prototyping,stakeholders,testing,strategy
+ft-001	ft	figma-prototyping	skill-figma-prototyping/lore/35-figma-transitions-motion.jsonl	Complete Transition Reference — All Figma Prototype Animations	transitions-complete	figma,prototyping,transitions,animation,reference
+ft-002	ft	figma-prototyping	skill-figma-prototyping/lore/35-figma-transitions-motion.jsonl	Which Transition Means What	transition-semantics	prototyping,transitions,interaction-design,craft
+ft-003	ft	figma-prototyping	skill-figma-prototyping/lore/35-figma-transitions-motion.jsonl	Smart Animate — How Matching Actually Works	smart-animate-matching	figma,smart-animate,transitions,layer-naming
+ft-004	ft	figma-prototyping	skill-figma-prototyping/lore/35-figma-transitions-motion.jsonl	Smart Animate — Supported and Unsupported Properties	smart-animate-properties	figma,smart-animate,properties,limitations
+ft-005	ft	figma-prototyping	skill-figma-prototyping/lore/35-figma-transitions-motion.jsonl	Easing Presets — All Eight Bezier Curves	easing-presets	figma,easing,animation,motion,reference
+ft-006	ft	figma-prototyping	skill-figma-prototyping/lore/35-figma-transitions-motion.jsonl	Spring Animations — Presets and Custom Physics	spring-presets	figma,spring,easing,animation,motion,handoff
+ft-007	ft	figma-prototyping	skill-figma-prototyping/lore/35-figma-transitions-motion.jsonl	Duration — Numbers That Actually Work	duration-craft	animation,duration,motion,craft
+ft-008	ft	figma-prototyping	skill-figma-prototyping/lore/35-figma-transitions-motion.jsonl	Smart Animate Recipes — Common Effects	smart-animate-recipes	figma,smart-animate,recipes,patterns
+ft-009	ft	figma-prototyping	skill-figma-prototyping/lore/35-figma-transitions-motion.jsonl	Debugging a Transition That Won't Animate	transition-debugging	figma,smart-animate,debugging,troubleshooting
+ft-010	ft	figma-prototyping	skill-figma-prototyping/lore/35-figma-transitions-motion.jsonl	Motion Restraint — When Not to Animate	motion-restraint	motion,interaction-design,restraint,critique
+ft-011	ft	figma-prototyping	skill-figma-prototyping/lore/35-figma-transitions-motion.jsonl	Choreography — Coordinating Multiple Elements	choreography	motion,choreography,stagger,animation
+ft-012	ft	figma-prototyping	skill-figma-prototyping/lore/35-figma-transitions-motion.jsonl	Motion Expectations by Platform	cross-platform-motion	motion,platform,ios,android,web,shopify,crypto
+fa-001	fa	figma-prototyping	skill-figma-prototyping/lore/36-figma-advanced-prototyping.jsonl	Advanced Prototyping — Variables, Conditionals, Expressions	advanced-prototyping-overview	figma,variables,conditionals,expressions,prototyping
+fa-002	fa	figma-prototyping	skill-figma-prototyping/lore/36-figma-advanced-prototyping.jsonl	Variable Types and What Each Is For	variable-types	figma,variables,types,binding,tokens
+fa-003	fa	figma-prototyping	skill-figma-prototyping/lore/36-figma-advanced-prototyping.jsonl	The Set Variable Action	set-variable	figma,variables,set-variable,expressions
+fa-004	fa	figma-prototyping	skill-figma-prototyping/lore/36-figma-advanced-prototyping.jsonl	Expression Syntax — Complete Reference	expressions-syntax	figma,expressions,syntax,reference,variables
+fa-005	fa	figma-prototyping	skill-figma-prototyping/lore/36-figma-advanced-prototyping.jsonl	Conditionals — If/Else Branching in Prototypes	conditionals	figma,conditionals,logic,validation,prototyping
+fa-006	fa	figma-prototyping	skill-figma-prototyping/lore/36-figma-advanced-prototyping.jsonl	Variable Modes in Prototypes — Theming and Locale Switching	variable-modes-prototypes	figma,variable-modes,theming,dark-mode,design-system,localisation
+fa-007	fa	figma-prototyping	skill-figma-prototyping/lore/36-figma-advanced-prototyping.jsonl	Interactive Components — Building Stateful Components	interactive-components	figma,interactive-components,variants,components,state
+fa-008	fa	figma-prototyping	skill-figma-prototyping/lore/36-figma-advanced-prototyping.jsonl	Variables + Interactive Components — The Combination That Scales	variables-plus-components	figma,variables,interactive-components,patterns,shopify,crypto
+fa-009	fa	figma-prototyping	skill-figma-prototyping/lore/36-figma-advanced-prototyping.jsonl	Prototyping Real Text Input	text-input-prototypes	figma,variables,forms,text-input,validation,testing
+fa-010	fa	figma-prototyping	skill-figma-prototyping/lore/36-figma-advanced-prototyping.jsonl	Modelling State Before You Build	state-modelling	figma,variables,state-machine,modelling,handoff
+fa-011	fa	figma-prototyping	skill-figma-prototyping/lore/36-figma-advanced-prototyping.jsonl	Advanced Prototype Recipes — Variables and Conditionals	advanced-prototype-recipes	figma,recipes,variables,conditionals,shopify,crypto
+fa-012	fa	figma-prototyping	skill-figma-prototyping/lore/36-figma-advanced-prototyping.jsonl	Where Variables and Conditionals Run Out	advanced-prototype-limits	figma,variables,limits,code,strategy
+fm-001	fm	figma-prototyping	skill-figma-prototyping/lore/37-figma-motion.jsonl	Figma Motion — Native Timeline Animation in Figma Design	figma-motion-overview	figma,figma-motion,timeline,animation,keyframes
+fm-002	fm	figma-prototyping	skill-figma-prototyping/lore/37-figma-motion.jsonl	The Motion Timeline — Mechanics	motion-timeline	figma,figma-motion,timeline,keyframes,collaboration
+fm-003	fm	figma-prototyping	skill-figma-prototyping/lore/37-figma-motion.jsonl	Animation Styles — Motion as a Reusable Style	animation-styles	figma,figma-motion,animation-styles,design-system,motion-tokens,variables
+fm-004	fm	figma-prototyping	skill-figma-prototyping/lore/37-figma-motion.jsonl	Figma Motion or Prototyping? A Decision Rule	motion-vs-prototyping	figma,figma-motion,prototyping,workflow,decision-rules
+fm-005	fm	figma-prototyping	skill-figma-prototyping/lore/37-figma-motion.jsonl	Figma Motion — Export and Developer Handoff	motion-export-handoff	figma,figma-motion,handoff,dev-mode,export,mcp
+fm-006	fm	figma-prototyping	skill-figma-prototyping/lore/37-figma-motion.jsonl	Figma Motion Plugin API — Automating Animation	motion-plugin-api	figma,figma-motion,plugin-api,automation,reference
+fm-007	fm	figma-prototyping	skill-figma-prototyping/lore/37-figma-motion.jsonl	Authoring an Animation in Figma Motion — Practical Order	motion-authoring-workflow	figma,figma-motion,workflow,craft,process
+fm-008	fm	figma-prototyping	skill-figma-prototyping/lore/37-figma-motion.jsonl	Using the Figma Agent for Motion	motion-agent	figma,figma-motion,ai,agent,workflow
+fm-009	fm	figma-prototyping	skill-figma-prototyping/lore/37-figma-motion.jsonl	Motion and Interaction in Figma Sites	motion-figma-sites	figma,figma-sites,web,scroll-animation,marketing-site
+fm-010	fm	figma-prototyping	skill-figma-prototyping/lore/37-figma-motion.jsonl	Reviewing Motion — What to Look For	motion-review	motion,critique,review,accessibility
+ms-001	ms	figma-prototyping	skill-figma-prototyping/lore/38-motion-system-handoff.jsonl	Motion as a Token Layer, Not a Collection of Animations	motion-system-why	motion,design-system,tokens,governance
+ms-002	ms	figma-prototyping	skill-figma-prototyping/lore/38-motion-system-handoff.jsonl	Duration Tokens — A Working Scale	duration-tokens	motion,duration,tokens,design-system
+ms-003	ms	figma-prototyping	skill-figma-prototyping/lore/38-motion-system-handoff.jsonl	Easing Tokens — Named Curves and Their Semantics	easing-tokens	motion,easing,tokens,design-system,figma
+ms-004	ms	figma-prototyping	skill-figma-prototyping/lore/38-motion-system-handoff.jsonl	Reduced Motion — A System-Level Requirement	reduced-motion	motion,accessibility,reduced-motion,wcag,tokens
+ms-005	ms	figma-prototyping	skill-figma-prototyping/lore/38-motion-system-handoff.jsonl	Motion Performance — What Is Cheap and What Is Not	motion-performance	motion,performance,web,core-web-vitals,engineering
+ms-006	ms	figma-prototyping	skill-figma-prototyping/lore/38-motion-system-handoff.jsonl	Mapping Figma Motion to Code	motion-code-mapping	motion,code,css,framer-motion,handoff,shopify
+ms-007	ms	figma-prototyping	skill-figma-prototyping/lore/38-motion-system-handoff.jsonl	Motion Spec Template — What to Hand Over	motion-spec-template	motion,handoff,specification,documentation,template
+ms-008	ms	figma-prototyping	skill-figma-prototyping/lore/38-motion-system-handoff.jsonl	Motion Personality — Making Motion Say Something	motion-personality	motion,brand,personality,shopify,crypto,ai
+ms-009	ms	figma-prototyping	skill-figma-prototyping/lore/38-motion-system-handoff.jsonl	Motion Critique Checklist	motion-critique-checklist	motion,critique,checklist,accessibility,review
+pr-001	pr	figma-prototyping	skill-figma-prototyping/lore/39-prototype-recipes.jsonl	Recipe — Draggable Bottom Sheet with Detents	recipe-bottom-sheet	figma,recipe,bottom-sheet,overlay,mobile,drag
+pr-002	pr	figma-prototyping	skill-figma-prototyping/lore/39-prototype-recipes.jsonl	Recipe — Toast with Auto-Dismiss	recipe-toast	figma,recipe,toast,after-delay,notification
+pr-003	pr	figma-prototyping	skill-figma-prototyping/lore/39-prototype-recipes.jsonl	Recipe — Shopify PDP Variant Picker with Live Price and Availability	recipe-shopify-pdp	figma,recipe,shopify,pdp,variants,variables,ecommerce
+pr-004	pr	figma-prototyping	skill-figma-prototyping/lore/39-prototype-recipes.jsonl	Recipe — Cart Drawer That Stays Consistent Everywhere	recipe-cart-drawer	figma,recipe,shopify,cart,overlay,variables,ecommerce
+pr-005	pr	figma-prototyping	skill-figma-prototyping/lore/39-prototype-recipes.jsonl	Recipe — Filter Panel with Applied State and Preserved Scroll	recipe-filters	figma,recipe,shopify,filters,scroll,preserve-scroll,ecommerce
+pr-006	pr	figma-prototyping	skill-figma-prototyping/lore/39-prototype-recipes.jsonl	Recipe — Multi-Step Form with Real Validation States	recipe-multistep-form	figma,recipe,forms,validation,variables,conditionals
+pr-007	pr	figma-prototyping	skill-figma-prototyping/lore/39-prototype-recipes.jsonl	Recipe — Wallet Connect Flow with Signing States	recipe-wallet-connect	figma,recipe,crypto,web3,wallet,transaction,overlay
+pr-008	pr	figma-prototyping	skill-figma-prototyping/lore/39-prototype-recipes.jsonl	Recipe — AI Feature with Honest Latency and Failure	recipe-ai-response	figma,recipe,ai,latency,error-states,prototyping
+pr-009	pr	figma-prototyping	skill-figma-prototyping/lore/39-prototype-recipes.jsonl	Recipe — Live Theme Toggle Across a Whole Prototype	recipe-theme-toggle	figma,recipe,variable-modes,dark-mode,design-system,theming
+pr-010	pr	figma-prototyping	skill-figma-prototyping/lore/39-prototype-recipes.jsonl	Recipe — Skeleton to Content Transition	recipe-skeleton-loading	figma,recipe,loading,skeleton,smart-animate,performance
+pr-011	pr	figma-prototyping	skill-figma-prototyping/lore/39-prototype-recipes.jsonl	Recipe — Onboarding Carousel with Drag and Progress	recipe-onboarding-carousel	figma,recipe,onboarding,carousel,push,drag,mobile
+pr-012	pr	figma-prototyping	skill-figma-prototyping/lore/39-prototype-recipes.jsonl	Recipe — Building a Complete State Inventory Frame Set	recipe-state-inventory	figma,recipe,states,empty-state,error-states,critique,method
+cf-001	cf	industry	skill-industry/lore/24-crypto-fintech-ux.jsonl	Crypto & Web3 UX — Core Challenges & Design Philosophy	crypto-ux-core-challenges	crypto,web3,ux,philosophy,challenges,trust
+cf-002	cf	industry	skill-industry/lore/24-crypto-fintech-ux.jsonl	Crypto Platform Onboarding — KYC, Verification & First-Run UX	crypto-onboarding-ux	onboarding,kyc,crypto,verification,first-run,ux
+cf-003	cf	industry	skill-industry/lore/24-crypto-fintech-ux.jsonl	Crypto Exchange Trading Interface — UX Patterns & Information Hierarchy	crypto-exchange-trading-ux	exchange,trading,ux,order-book,chart,crypto
+cf-004	cf	industry	skill-industry/lore/24-crypto-fintech-ux.jsonl	Crypto Wallet UX — Self-Custody, Seed Phrases & Key Management	crypto-wallet-ux	wallet,seed-phrase,self-custody,defi,ux,security
+cf-005	cf	industry	skill-industry/lore/24-crypto-fintech-ux.jsonl	Fiat On-Ramp & Off-Ramp UX — Converting Between Fiat and Crypto	onramp-offramp-ux	on-ramp,off-ramp,fiat,crypto,ux,payments,conversion
+cf-006	cf	industry	skill-industry/lore/24-crypto-fintech-ux.jsonl	DeFi Platform UX — Protocols, Liquidity & Decentralised Finance Interfaces	defi-ux-patterns	defi,protocols,gas,slippage,ux,web3,liquidity
+cf-007	cf	industry	skill-industry/lore/24-crypto-fintech-ux.jsonl	Fintech App UX — Banking, Payments & Financial Dashboard Design	fintech-app-ux	fintech,banking,payments,dashboard,ux,trust,onboarding
+cf-008	cf	industry	skill-industry/lore/24-crypto-fintech-ux.jsonl	Investment & Portfolio Platform UX — Data Display, Risk Communication & Trust	investment-portfolio-ux	investment,portfolio,ux,data-visualisation,risk,fintech
+cf-009	cf	industry	skill-industry/lore/24-crypto-fintech-ux.jsonl	Credit Card & Card Product UX — Fintech Card Interface Patterns	credit-card-ux	credit-card,card-ux,fintech,revolut,apple-card,rewards,spending
+cf-010	cf	industry	skill-industry/lore/24-crypto-fintech-ux.jsonl	Crypto & Fintech Trust Signals — Security UX & Building User Confidence	crypto-trust-security-ux	trust,security,crypto,fintech,compliance,ux,ftx
+cf-011	cf	industry	skill-industry/lore/24-crypto-fintech-ux.jsonl	Crypto & Fintech Error States — High-Stakes Error Design	crypto-error-states	error-states,ux,crypto,fintech,error-prevention,feedback
+cf-012	cf	industry	skill-industry/lore/24-crypto-fintech-ux.jsonl	WalletConnect & dApp Connection UX — Web3 Authentication Patterns	defi-wallet-connect-ux	walletconnect,defi,web3,authentication,ux,dapp,connection
+ly-001	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Layout First Principles — What a Layout Is Doing	layout-first-principles	layout,composition,first-principles,hierarchy
+ly-002	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Grid Systems — Choosing and Specifying One	grid-systems	layout,grid,columns,responsive,figma
+ly-003	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Measure, Rhythm, and Reading	measure-and-reading	layout,typography,measure,rhythm,spacing,readability
+ly-004	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Whitespace — Active, Not Leftover	whitespace	layout,whitespace,density,emphasis,composition
+ly-005	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Alignment and Optical Adjustment	alignment-and-optics	layout,alignment,optical,icons,typography,craft
+ly-006	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Responsive Strategy — Deciding How Layouts Change	responsive-strategy	layout,responsive,breakpoints,mobile,tables
+ly-007	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Above the Fold — What It Is Actually For	above-the-fold	layout,above-the-fold,landing-page,conversion,hero
+ly-008	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Section Rhythm — Structuring a Long Page	section-rhythm	layout,landing-page,sections,rhythm,marketing-site,conversion
+ly-009	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Page Archetype — Landing and Marketing Page	archetype-landing	layout,landing-page,archetype,marketing-site,conversion
+ly-010	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Page Archetype — Product Detail Page	archetype-pdp	layout,pdp,archetype,ecommerce,shopify,conversion
+ly-011	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Page Archetype — Collection, Search, and Results	archetype-collection	layout,collection,search,archetype,ecommerce,shopify
+ly-012	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Page Archetype — Dashboard and Data View	archetype-dashboard	layout,dashboard,archetype,data-visualisation,density,fintech
+ly-013	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Page Archetype — Forms and Multi-Step Flows	archetype-forms	layout,forms,archetype,validation,conversion
+ly-014	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Page Archetype — Application Shell and Navigation	archetype-app-shell	layout,navigation,app-shell,archetype,information-architecture
+ly-015	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Layout Anti-Patterns	layout-antipatterns	layout,anti-patterns,critique,composition
+ly-016	ly	layout	skill-layout/lore/43-layout-systems.jsonl	Designing Layouts That Survive Implementation	layout-for-implementation	layout,handoff,auto-layout,implementation,tokens,shopify
+dp-001	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Russian Activity Theory — From Perception to Purposeful Action	activity-theory-overview	activity-theory,russian-psychology,vygotsky,leontiev,tool-mediation,deep-ux
+dp-002	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Vygotsky's Zone of Proximal Development — Designing Scaffolding That Disappears	vygotsky-zpd	vygotsky,zpd,scaffolding,onboarding,learning,progressive-disclosure,deep-ux
+dp-003	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Leontiev's Activity Hierarchy — Motive, Goal, and the Invisible Click	leontiev-hierarchy	leontiev,activity-hierarchy,motive,goal,operation,deep-ux
+dp-004	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Luria's Functional Systems — The Brain as Collaborative Architecture	luria-functional-systems	luria,functional-systems,accessibility,distributed-cognition,system-design,deep-ux
+dp-005	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Bakhtin's Dialogism — The Interface as Living Conversation	bakhtin-dialogism	bakhtin,dialogism,polyphony,conversation,ux-writing,chatbot,deep-ux
+dp-006	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Engeström's Expansive Learning — Designing for Contradictions	engestrom-expansive	engestrom,activity-system,contradictions,expansive-learning,enterprise-ux,organisational,deep-ux
+dp-007	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Jung's Archetypes — The Unconscious Patterns Behind Brand and Product Identity	jung-archetypes	jung,archetypes,brand,personality,collective-unconscious,identity,deep-ux
+dp-008	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Jung's Shadow and Persona — Designing for What Users Won't Admit	jung-shadow-persona	jung,shadow,persona,ethics,dark-patterns,unconscious,self-reported-data,deep-ux
+dp-009	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Jung's Collective Unconscious — Why Some Symbols Need No Explanation	jung-collective-unconscious	jung,collective-unconscious,symbols,icons,metaphor,universal,skeuomorphism,deep-ux
+dp-010	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Husserl's Intentionality — Consciousness Is Always Consciousness OF Something	husserl-intentionality	husserl,intentionality,phenomenology,bracketing,lifeworld,observation,deep-ux
+dp-011	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Heidegger's Ready-to-Hand — The Invisible Interface Is the Perfect Interface	heidegger-readiness	heidegger,ready-to-hand,present-at-hand,invisibility,phenomenology,flow,deep-ux
+dp-012	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Merleau-Ponty's Embodied Cognition — The Body Knows Before the Mind	merleau-ponty-embodiment	merleau-ponty,embodiment,body-schema,perception,gestures,haptics,deep-ux
+dp-013	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Don Ihde's Four Human-Technology Relations — How We Bond with Interfaces	ihde-technology-relations	ihde,technology-relations,embodiment,hermeneutic,alterity,background,philosophy-of-technology,deep-ux
+dp-014	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Peirce's Semiotics — Icon, Index, Symbol: The Three Lives of a Sign	peirce-semiotics	peirce,semiotics,icon,index,symbol,signs,interpretation,deep-ux
+dp-015	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Saussure and Barthes — Arbitrary Signs, Myths, and Hidden Meanings in UI	saussure-barthes-semiotics	saussure,barthes,semiotics,signifier,signified,mythology,connotation,denotation,deep-ux
+dp-016	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Freud's Drives and Defence Mechanisms — The Unconscious Logic of User Behaviour	freud-drives-defence	freud,id-ego-superego,pleasure-principle,defence-mechanisms,unconscious,drives,deep-ux
+dp-017	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Lacan's Mirror Stage and Desire — Identity, Social Media, and the Gaze	lacan-mirror-desire	lacan,mirror-stage,desire,gaze,social-media,identity,méconnaissance,deep-ux
+dp-018	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Winnicott's Transitional Objects — Why People Bond with Digital Products	winnicott-transitional	winnicott,transitional-object,potential-space,play,attachment,good-enough,deep-ux
+dp-019	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Gibson's Affordances — What the Environment Offers, Not What the Designer Intends	gibson-affordances	gibson,affordances,ecological-psychology,perception,signifiers,emergent-behaviour,deep-ux
+dp-020	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Csikszentmihalyi's Flow — The Psychology of Optimal Experience	csikszentmihalyi-flow	csikszentmihalyi,flow,optimal-experience,engagement,challenge-skill,intrinsic-motivation,deep-ux
+dp-021	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Deci & Ryan's Self-Determination Theory — Autonomy, Competence, Relatedness	deci-ryan-sdt	self-determination,autonomy,competence,relatedness,intrinsic-motivation,gamification,deep-ux
+dp-022	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Maslow's Hierarchy Applied to Digital Products	maslow-digital	maslow,hierarchy,needs,product-design,trust,delight,meaning,deep-ux
+dp-023	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Sartre and Kierkegaard — The Anxiety of Choice in Interface Design	sartre-kierkegaard-anxiety	sartre,kierkegaard,anxiety,freedom,choice,blank-canvas,defaults,templates,deep-ux
+dp-024	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Campbell's Hero's Journey — Onboarding as Mythic Transformation	campbell-heros-journey	campbell,heros-journey,monomyth,onboarding,narrative,aha-moment,transformation,deep-ux
+dp-025	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Bateson's Ecology of Mind — Double Binds and System Thinking in UX	bateson-ecology	bateson,ecology-of-mind,double-bind,systems-thinking,cybernetics,contradiction,deep-ux
+dp-026	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Propp's Morphology — Narrative Functions in Product Flows	propp-narrative-structures	propp,narrative,morphology,fairy-tale,story-structure,user-journey,deep-ux
+dp-027	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Theory-Led UX Audit — Combining Multiple Psychological Lenses	theory-led-audit	theory-led-audit,framework,multi-lens,analysis,methodology,deep-ux
+dp-028	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Heidegger's Care Structure — Design as an Act of Concern	design-as-care	heidegger,care,sorge,thrownness,projection,existence,ethical-design,deep-ux
+dp-029	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Lefebvre's Reflexive Control — Making Users 'Choose' What You Designed	lefebvre-reflexive-control	lefebvre,reflexive-control,soviet-psychology,manipulation,persuasion,choice-architecture,ethics,deep-ux
+dp-030	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Pavlov's Conditioning — The Reflex Architecture of Digital Habits	pavlov-conditioning	pavlov,conditioning,skinner,variable-reward,habit,notification,reflex,dopamine,deep-ux
+dp-031	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Bernays and the Engineering of Consent — Irrational Desire as UX Foundation	bernays-engineering-consent	bernays,propaganda,public-relations,desire,identity,social-proof,third-party,ethics,deep-ux
+dp-032	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Lasswell's Communication Model — Controlling the Narrative in UX	lasswell-communication	lasswell,communication,propaganda,narrative,content-strategy,framing,channel,deep-ux
+dp-033	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Cialdini's Six Principles of Influence — The Complete UX Persuasion Toolkit	cialdini-influence	cialdini,influence,reciprocity,social-proof,scarcity,authority,persuasion,ethics,deep-ux
+dp-034	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Sun Tzu and Strategic Misdirection — Visual Hierarchy as Battlefield	sun-tzu-misdirection	sun-tzu,misdirection,visual-hierarchy,dark-patterns,deception,attention,ethics,deep-ux
+dp-035	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	The Persuasion Ethics Spectrum — From Care to Coercion	persuasion-ethics-spectrum	ethics,persuasion,spectrum,nudge,coercion,reflexive-control,dark-patterns,transparency,deep-ux
+dp-036	dp	psychology	skill-psychology/lore/22-deep-ux-psychology.jsonl	Expanded Theory-Led Audit — Adding Persuasion and Power Analysis	theory-led-audit-expanded	theory-led-audit,persuasion,ethics,power,conditioning,narrative,expanded-framework,deep-ux
+sh-001	sh	shopify	skill-shopify/lore/25-shopify-theme-design.jsonl	Shopify Theme Design Principles — Merchant Experience	shopify-theme-design-principles-merchant	shopify,theme,design-principles,merchant,sections,blocks,atomic-design
+sh-002	sh	shopify	skill-shopify/lore/25-shopify-theme-design.jsonl	Shopify Theme Design Principles — Customer Experience	shopify-theme-design-principles-customer	shopify,theme,design-principles,customer,accessibility,navigation,checkout
+sh-003	sh	shopify	skill-shopify/lore/25-shopify-theme-design.jsonl	Shopify Subscription UX — Product Form Components	shopify-subscription-product-form	shopify,subscriptions,selling-plan,product-form,price,figma
+sh-004	sh	shopify	skill-shopify/lore/25-shopify-theme-design.jsonl	Shopify Subscription UX — Selling Plan Selection & Options	shopify-subscription-selling-plan-selection	shopify,subscriptions,selling-plan,selection,radio,options,variants
+sh-005	sh	shopify	skill-shopify/lore/25-shopify-theme-design.jsonl	Shopify Subscription UX — Details, Cart, Orders & Multi-Currency	shopify-subscription-details-cart-currency	shopify,subscriptions,selling-plan,cart,currency,orders,policy
+sh-006	sh	shopify	skill-shopify/lore/25-shopify-theme-design.jsonl	Shopify Pre-order & TBYB UX — Product Form Components	shopify-preorder-tbyb-product-form	shopify,preorder,tbyb,try-before-you-buy,selling-plan,product-form,deposit
+sh-007	sh	shopify	skill-shopify/lore/25-shopify-theme-design.jsonl	Shopify Pre-order & TBYB UX — Cart, Orders & Naming	shopify-preorder-tbyb-cart-orders	shopify,preorder,tbyb,cart,orders,naming,checkout-charge,currency
+sh-008	sh	shopify	skill-shopify/lore/26-shopify-theme-architecture.jsonl	Shopify Theme Architecture — Directory Structure & Hierarchy	shopify-theme-directory-structure	shopify,architecture,directory,structure,hierarchy,liquid
+sh-009	sh	shopify	skill-shopify/lore/26-shopify-theme-architecture.jsonl	Shopify Theme Layouts — Base Templates & Required Objects	shopify-layouts	shopify,layout,theme-liquid,header,footer,structure
+sh-010	sh	shopify	skill-shopify/lore/26-shopify-theme-architecture.jsonl	Shopify Theme Templates — Types, JSON vs Liquid & Naming	shopify-templates	shopify,templates,json,liquid,naming,page-types
+sh-011	sh	shopify	skill-shopify/lore/26-shopify-theme-architecture.jsonl	Shopify Sections — Reusable Content Modules, Schema & Rendering	shopify-sections	shopify,sections,schema,presets,blocks,rendering
+sh-012	sh	shopify	skill-shopify/lore/26-shopify-theme-architecture.jsonl	Shopify Blocks — Theme Blocks, Section Blocks, App Blocks & Nesting	shopify-blocks	shopify,blocks,theme-blocks,section-blocks,app-blocks,nesting,snippets
+sh-013	sh	shopify	skill-shopify/lore/27-shopify-best-practices.jsonl	Shopify Theme Performance — JavaScript, Assets, Liquid & Testing	shopify-performance-best-practices	shopify,performance,javascript,lighthouse,cdn,lazy-load,responsive-images
+sh-014	sh	shopify	skill-shopify/lore/27-shopify-best-practices.jsonl	Shopify Theme Accessibility — WCAG, Keyboard, Colour, Media & Components	shopify-accessibility-best-practices	shopify,accessibility,wcag,keyboard,contrast,aria,focus,touch-targets
+sh-015	sh	shopify	skill-shopify/lore/27-shopify-best-practices.jsonl	Shopify Sections & Blocks Best Practices — Modularity, Settings & Metafields	shopify-sections-blocks-best-practices	shopify,sections,blocks,best-practices,metafields,settings,modularity
+sh-016	sh	shopify	skill-shopify/lore/28-shopify-pricing-payments.jsonl	Shopify Discounts — Display Patterns, Line Items & Cart Level	shopify-discounts-display	shopify,discounts,pricing,strikethrough,cart,line-item
+sh-017	sh	shopify	skill-shopify/lore/28-shopify-pricing-payments.jsonl	Shopify Shop Pay Installments — Banner Placement & Implementation	shopify-installments	shopify,installments,shop-pay,bnpl,pricing,banner
+sh-018	sh	shopify	skill-shopify/lore/29-shopify-product-merchandising.jsonl	Shopify Product Variants — Options, Selectors, Deep Linking & UX	shopify-product-variants	shopify,variants,options,selectors,deep-linking,media,recommendations
+sh-019	sh	shopify	skill-shopify/lore/30-shopify-navigation-search.jsonl	Shopify Store Navigation — Menus, Nesting & Implementation	shopify-navigation	shopify,navigation,menus,header,footer,mega-menu,linklists
+sh-020	sh	shopify	skill-shopify/lore/30-shopify-navigation-search.jsonl	Shopify Storefront Search — Query Parameters, Predictive Search & Results	shopify-search	shopify,search,predictive,query,sort,results
+sh-021	sh	shopify	skill-shopify/lore/30-shopify-navigation-search.jsonl	Shopify Storefront Filtering — Methods, Types & UX Patterns	shopify-filtering	shopify,filtering,storefront-filtering,collection,price,variants,sidebar
+sh-022	sh	shopify	skill-shopify/lore/31-shopify-horizon-design-system.jsonl	Shopify Horizon Theme — Design System Architecture Overview	horizon-design-system-overview	shopify,horizon,design-system,architecture,overview,liquid,blocks
+sh-023	sh	shopify	skill-shopify/lore/31-shopify-horizon-design-system.jsonl	Shopify Horizon — Token Architecture & CSS Custom Properties	horizon-token-architecture	shopify,horizon,tokens,css-properties,variables,colours,typography,spacing,animation
+sh-024	sh	shopify	skill-shopify/lore/31-shopify-horizon-design-system.jsonl	Shopify Horizon — Colour System & Scheme Architecture	horizon-colour-system	shopify,horizon,colour,schemes,brightness,opacity,dark-mode,tokens
+sh-025	sh	shopify	skill-shopify/lore/31-shopify-horizon-design-system.jsonl	Shopify Horizon — Typography System & Fluid Scaling	horizon-typography-system	shopify,horizon,typography,fluid,clamp,headings,fonts,scaling
+sh-026	sh	shopify	skill-shopify/lore/31-shopify-horizon-design-system.jsonl	Shopify Horizon — Spacing Scale, Layout System & Responsive Scaling	horizon-spacing-layout-system	shopify,horizon,spacing,layout,gap,flex,responsive,page-width,scaling
+sh-027	sh	shopify	skill-shopify/lore/31-shopify-horizon-design-system.jsonl	Shopify Horizon — Block-First Component Architecture & Naming	horizon-component-architecture	shopify,horizon,blocks,sections,components,naming,architecture,hierarchy
+sh-028	sh	shopify	skill-shopify/lore/31-shopify-horizon-design-system.jsonl	Shopify Horizon — Settings Schema & Merchant Configuration	horizon-settings-schema	shopify,horizon,settings,schema,configuration,tokens,variables,merchant
+sh-029	sh	shopify	skill-shopify/lore/32-shopify-design-feasibility.jsonl	Shopify Design Feasibility — Framework for Reviewing UI Elements	shopify-design-feasibility-framework	shopify,design-review,feasibility,native,liquid,custom,review-framework
+sh-030	sh	shopify	skill-shopify/lore/32-shopify-design-feasibility.jsonl	Shopify Filter & Navigation Elements — Native vs Liquid vs Custom	shopify-feasibility-filters-navigation	shopify,filtering,navigation,search,feasibility,native,liquid,storefront-filtering
+sh-031	sh	shopify	skill-shopify/lore/32-shopify-design-feasibility.jsonl	Shopify Product & Collection Page Elements — Native vs Liquid vs Custom	shopify-feasibility-product-collection	shopify,product-page,collection-page,feasibility,variants,media,recommendations
+sh-032	sh	shopify	skill-shopify/lore/32-shopify-design-feasibility.jsonl	Shopify Global & Checkout UX Elements — Native vs Liquid vs Custom	shopify-feasibility-global-ux	shopify,checkout,global,announcements,currency,feasibility,shopify-plus,hard-limits
+sh-033	sh	shopify	skill-shopify/lore/33-shopify-dev-handoff.jsonl	Shopify Dev Handoff — Figma Frame to Shopify File Mapping	shopify-dev-handoff-frame-mapping	shopify,dev-handoff,figma-mapping,file-structure,sections,blocks,templates
+sh-034	sh	shopify	skill-shopify/lore/33-shopify-dev-handoff.jsonl	Shopify Dev Handoff — Annotating Settings Schema for Developers	shopify-dev-handoff-settings-schema	shopify,dev-handoff,settings-schema,merchant-config,annotations,figma
+sh-035	sh	shopify	skill-shopify/lore/33-shopify-dev-handoff.jsonl	Shopify Dev Handoff — Variant Selector Annotation Guide	shopify-dev-handoff-variant-selectors	shopify,dev-handoff,variants,swatches,selectors,pills,subscription,accessibility
+sh-036	sh	shopify	skill-shopify/lore/33-shopify-dev-handoff.jsonl	Shopify Dev Handoff — Metafield Annotation for Designers	shopify-dev-handoff-metafields	shopify,dev-handoff,metafields,annotations,namespace,type,empty-state
+sh-037	sh	shopify	skill-shopify/lore/33-shopify-dev-handoff.jsonl	Shopify Dev Handoff — Token Naming & Responsive Breakpoints	shopify-dev-handoff-tokens-responsive	shopify,dev-handoff,tokens,css-custom-properties,responsive,breakpoints,figma
+sh-038	sh	shopify	skill-shopify/lore/33-shopify-dev-handoff.jsonl	Shopify Dev Handoff — Edge Cases & Liquid Conditional States Designers Must Provide	shopify-dev-handoff-edge-cases	shopify,dev-handoff,edge-cases,empty-states,liquid-conditionals,component-variants,sold-out
+sh-039	sh	shopify	skill-shopify/lore/33-shopify-dev-handoff.jsonl	Shopify Dev Handoff — App Block Slots, Constraints & Handoff Checklist	shopify-dev-handoff-app-blocks	shopify,dev-handoff,app-blocks,checklist,handoff,sections,accessibility,feasibility

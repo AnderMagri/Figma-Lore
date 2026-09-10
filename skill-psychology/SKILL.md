@@ -28,10 +28,12 @@ persuasion evaluation, or asks about specific theorists.
 
 ## How to Use This Skill
 
-1. Identify which theoretical school is most relevant to the question
-2. Read the applicable entries from the module
-3. Apply theories as analytical lenses, not prescriptive rules
-4. For comprehensive audits, combine multiple schools (see dp-027, dp-036)
+1. **Grep `INDEX.tsv` first** to locate entries by title/topic/tag without
+   reading whole modules
+2. Identify which theoretical school is most relevant to the question
+3. Read the applicable entries from the module
+4. Apply theories as analytical lenses, not prescriptive rules
+5. For comprehensive audits, combine multiple schools (see dp-027, dp-036)
 
 ---
 

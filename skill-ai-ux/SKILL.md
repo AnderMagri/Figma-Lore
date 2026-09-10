@@ -30,12 +30,14 @@ invisible, the latency is structural, and the failure states are the product.
 
 ## How to Use This Skill
 
-1. Designing a new AI feature → start at 44 (ax-001), then ax-004, ax-005
-2. Something feels untrustworthy → 45 (at-001, at-002)
-3. Writing the voice → 46 (ab-001, ab-002, ab-003)
-4. Multi-agent or workflow feature → 47
-5. Reviewing or improving the system prompt → 48
-6. Measuring whether it works → 46 (ab-005, ab-006, ab-007)
+1. **Grep `INDEX.tsv` first** to locate entries by title/topic/tag without
+   reading whole modules
+2. Designing a new AI feature → start at 44 (ax-001), then ax-004, ax-005
+3. Something feels untrustworthy → 45 (at-001, at-002)
+4. Writing the voice → 46 (ab-001, ab-002, ab-003)
+5. Multi-agent or workflow feature → 47
+6. Reviewing or improving the system prompt → 48
+7. Measuring whether it works → 46 (ab-005, ab-006, ab-007)
 
 ---
 

@@ -1,0 +1,48 @@
+# skill-critique entry index — grep this before reading a module
+# id	file	title	topic	tags
+he-001	lore/40-heuristic-evaluation.jsonl	Heuristic Evaluation — What It Is and What It Is Not	heuristic-evaluation-overview	heuristic-evaluation,usability,method,nielsen
+he-002	lore/40-heuristic-evaluation.jsonl	Nielsen 1 — Visibility of System Status	nielsen-1-visibility	heuristic-evaluation,nielsen,feedback,system-status,crypto,shopify,ai
+he-003	lore/40-heuristic-evaluation.jsonl	Nielsen 2 — Match Between System and the Real World	nielsen-2-real-world	heuristic-evaluation,nielsen,language,ux-writing,crypto,ai
+he-004	lore/40-heuristic-evaluation.jsonl	Nielsen 3 — User Control and Freedom	nielsen-3-control-freedom	heuristic-evaluation,nielsen,undo,destructive-actions,crypto
+he-005	lore/40-heuristic-evaluation.jsonl	Nielsen 4 — Consistency and Standards	nielsen-4-consistency	heuristic-evaluation,nielsen,consistency,jakobs-law,design-system
+he-006	lore/40-heuristic-evaluation.jsonl	Nielsen 5 — Error Prevention	nielsen-5-error-prevention	heuristic-evaluation,nielsen,error-prevention,forms,validation,shopify
+he-007	lore/40-heuristic-evaluation.jsonl	Nielsen 6 — Recognition Rather Than Recall	nielsen-6-recognition	heuristic-evaluation,nielsen,recognition,memory,ai,crypto
+he-008	lore/40-heuristic-evaluation.jsonl	Nielsen 7 — Flexibility and Efficiency of Use	nielsen-7-flexibility	heuristic-evaluation,nielsen,efficiency,keyboard,power-users,ai
+he-009	lore/40-heuristic-evaluation.jsonl	Nielsen 8 — Aesthetic and Minimalist Design	nielsen-8-minimalist	heuristic-evaluation,nielsen,minimalism,hierarchy,visual-design
+he-010	lore/40-heuristic-evaluation.jsonl	Nielsen 9 — Help Users Recognise, Diagnose, and Recover From Errors	nielsen-9-error-recovery	heuristic-evaluation,nielsen,error-messages,ux-writing,crypto,ai
+he-011	lore/40-heuristic-evaluation.jsonl	Nielsen 10 — Help and Documentation	nielsen-10-help	heuristic-evaluation,nielsen,help,documentation,onboarding,ai
+he-012	lore/40-heuristic-evaluation.jsonl	Severity Ratings — Making Findings Actionable	severity-ratings	heuristic-evaluation,severity,prioritisation,method
+he-013	lore/40-heuristic-evaluation.jsonl	Running a Heuristic Evaluation — Full Protocol	running-an-evaluation	heuristic-evaluation,protocol,method,process
+he-014	lore/40-heuristic-evaluation.jsonl	Finding Format — How to Write a Usability Finding	finding-format	heuristic-evaluation,reporting,findings,communication
+he-015	lore/40-heuristic-evaluation.jsonl	Beyond Nielsen — Other Heuristic Sets Worth Using	other-heuristic-sets	heuristic-evaluation,shneiderman,gerhardt-powals,wcag,heart,frameworks
+he-016	lore/40-heuristic-evaluation.jsonl	AI-Specific Heuristics — Evaluating Probabilistic Interfaces	ai-heuristics	heuristic-evaluation,ai,trust,evaluation,agentic
+he-017	lore/40-heuristic-evaluation.jsonl	Commerce-Specific Heuristics	ecommerce-heuristics	heuristic-evaluation,ecommerce,shopify,conversion,trust
+he-018	lore/40-heuristic-evaluation.jsonl	Crypto and Fintech-Specific Heuristics	crypto-heuristics	heuristic-evaluation,crypto,web3,fintech,trust,security
+he-019	lore/40-heuristic-evaluation.jsonl	Accessibility as a Heuristic Pass	accessibility-heuristics	heuristic-evaluation,accessibility,wcag,contrast,focus
+he-020	lore/40-heuristic-evaluation.jsonl	Running a Heuristic Evaluation on a Figma File	heuristic-evaluation-in-figma	heuristic-evaluation,figma,method,review,design-review
+cr-001	lore/41-critique-rubrics.jsonl	How to Critique a Screen — The Standard Pass	critique-method	critique,method,review,process
+cr-002	lore/41-critique-rubrics.jsonl	Critique — Composition and Layout	critique-composition	critique,composition,layout,grid,gestalt
+cr-003	lore/41-critique-rubrics.jsonl	Critique — Visual Hierarchy	critique-visual-hierarchy	critique,visual-hierarchy,typography,emphasis
+cr-004	lore/41-critique-rubrics.jsonl	Critique — Typography	critique-typography	critique,typography,type-scale,measure,readability
+cr-005	lore/41-critique-rubrics.jsonl	Critique — Colour	critique-colour	critique,colour,contrast,dark-mode,tokens,accessibility
+cr-006	lore/41-critique-rubrics.jsonl	Critique — Spacing and Rhythm	critique-spacing	critique,spacing,rhythm,tokens,gestalt,auto-layout
+cr-007	lore/41-critique-rubrics.jsonl	Critique — Information Density	critique-density	critique,information-density,progressive-disclosure,dashboards,cognitive-load
+cr-008	lore/41-critique-rubrics.jsonl	Critique — Affordance and Interactivity	critique-affordance	critique,affordance,interaction-design,states,touch-targets,accessibility
+cr-009	lore/41-critique-rubrics.jsonl	Critique — Copy and UX Writing	critique-copy	critique,ux-writing,copy,microcopy,error-messages,ai
+cr-010	lore/41-critique-rubrics.jsonl	Critique — Brand Consistency	critique-brand-consistency	critique,brand,icons,consistency,design-system,shopify
+cr-011	lore/41-critique-rubrics.jsonl	Critique — Responsive and Cross-Device Behaviour	critique-responsive	critique,responsive,breakpoints,mobile,tables,shopify
+cr-012	lore/41-critique-rubrics.jsonl	Critique — State Completeness	critique-states	critique,states,empty-state,error-states,loading,method
+cr-013	lore/41-critique-rubrics.jsonl	Critique — Task Efficiency and Conversion	critique-task-efficiency	critique,conversion,task-efficiency,forms,shopify,crypto
+cr-014	lore/41-critique-rubrics.jsonl	Critique — Data Display and Numbers	critique-data-display	critique,data-visualisation,numbers,tables,crypto,fintech
+cr-015	lore/41-critique-rubrics.jsonl	Critique — Motion	critique-motion-dimension	critique,motion,animation,performance,accessibility
+cr-016	lore/41-critique-rubrics.jsonl	Turning a Critique Into a Plan	critique-scoring	critique,prioritisation,process,design-ops,communication
+cx-001	lore/42-critique-practice.jsonl	Running a Design Critique — Structure and Rules	critique-facilitation	critique,facilitation,design-ops,process,feedback
+cx-002	lore/42-critique-practice.jsonl	Feedback Language That Lands	feedback-language	critique,feedback,communication,language
+cx-003	lore/42-critique-practice.jsonl	Design Rationale — Making Decisions Defensible	design-rationale	critique,design-rationale,documentation,decision-making
+cx-004	lore/42-critique-practice.jsonl	Red-Teaming Your Own Design	red-team-your-design	critique,red-team,assumptions,research,decision-making
+cx-005	lore/42-critique-practice.jsonl	Pre-Mortem — Imagining the Failure First	pre-mortem	critique,pre-mortem,risk,process,team
+cx-006	lore/42-critique-practice.jsonl	Defending a Design Decision Without Being Defensive	defending-decisions	critique,stakeholders,communication,negotiation,influence
+cx-007	lore/42-critique-practice.jsonl	Framing Design Decisions in Product Terms	product-framing	critique,product,metrics,heart,rice,prioritisation,stakeholders
+cx-008	lore/42-critique-practice.jsonl	Critiquing AI-Generated Design Work	critiquing-ai-generated-design	critique,ai,generated-design,review,quality
+cx-009	lore/42-critique-practice.jsonl	Design Review Cadence — Quality Gates Without Bottlenecks	critique-cadence	critique,design-ops,review-process,cadence,governance
+cx-010	lore/42-critique-practice.jsonl	Self-Critique — Reviewing Your Own Work	self-critique	critique,self-critique,method,technique

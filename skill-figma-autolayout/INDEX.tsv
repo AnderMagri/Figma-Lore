@@ -1,0 +1,62 @@
+# skill-figma-autolayout entry index — grep this before reading a module
+# id	file	title	topic	tags
+al-001	lore/01-auto-layout.jsonl	Add Auto Layout	fundamentals	shortcut,add,create
+al-002	lore/01-auto-layout.jsonl	Remove Auto Layout	fundamentals	remove,delete
+al-003	lore/01-auto-layout.jsonl	Auto Layout Core Concept	fundamentals	concept,overview
+al-004	lore/01-auto-layout.jsonl	Auto Layout vs Constraints	fundamentals	constraints,difference
+al-005	lore/01-auto-layout.jsonl	Horizontal Direction	direction	direction,horizontal,row
+al-006	lore/01-auto-layout.jsonl	Vertical Direction	direction	direction,vertical,column
+al-007	lore/01-auto-layout.jsonl	Wrap Mode	direction	direction,wrap,responsive
+al-008	lore/01-auto-layout.jsonl	Grid Layout Mode (2025)	direction	grid,2025,direction,tracks
+al-009	lore/01-auto-layout.jsonl	Packed Spacing (Default)	spacing	spacing,gap,packed
+al-010	lore/01-auto-layout.jsonl	Space Between	spacing	spacing,distribute,space-between,auto
+al-011	lore/01-auto-layout.jsonl	Negative Spacing and Individual Override	spacing	spacing,negative,overlap,override
+al-012	lore/01-auto-layout.jsonl	Hug Contents	sizing	sizing,hug,shrink
+al-013	lore/01-auto-layout.jsonl	Fill Container	sizing	sizing,fill,stretch,responsive
+al-014	lore/01-auto-layout.jsonl	Fixed Size	sizing	sizing,fixed,pixels
+al-015	lore/01-auto-layout.jsonl	Hug + Fill Combination Pattern	sizing	sizing,hug,fill,pattern,responsive
+al-016	lore/01-auto-layout.jsonl	Min and Max Width/Height	sizing	sizing,min,max,constraints,responsive
+al-017	lore/01-auto-layout.jsonl	Padding Configuration	padding	padding,spacing,uniform,independent
+al-018	lore/01-auto-layout.jsonl	9-Point Alignment Grid	alignment	alignment,position,justify,center
+al-019	lore/01-auto-layout.jsonl	Align Self Override	alignment	alignment,self,override,individual
+al-020	lore/01-auto-layout.jsonl	Text Baseline Alignment	alignment	alignment,baseline,text,typography
+al-021	lore/01-auto-layout.jsonl	Absolute Position Within Auto Layout	absolute-position	absolute,position,float,overlay
+al-022	lore/01-auto-layout.jsonl	Navbar Pattern	patterns	pattern,navbar,navigation,header
+al-023	lore/01-auto-layout.jsonl	Card Component Pattern	patterns	pattern,card,component
+al-024	lore/01-auto-layout.jsonl	Form Layout Pattern	patterns	pattern,form,input,label
+al-025	lore/01-auto-layout.jsonl	Sidebar Layout Pattern	patterns	pattern,sidebar,layout,page
+al-026	lore/01-auto-layout.jsonl	Header-Content-Footer Pattern	patterns	pattern,page,layout,sticky-footer
+al-027	lore/01-auto-layout.jsonl	Grid Tracks and Fractional Units	grid	grid,tracks,fr,columns,rows
+al-028	lore/01-auto-layout.jsonl	Grid Cell Spanning	grid	grid,span,merge,colspan
+al-029	lore/01-auto-layout.jsonl	Freeform Layout Mode	freeform	freeform,free,position,2025
+al-030	lore/01-auto-layout.jsonl	Responsive Wrap Pattern	responsive	responsive,wrap,mobile,desktop,breakpoint
+al-031	lore/01-auto-layout.jsonl	Adaptive Text Container	responsive	responsive,text,min-max,flexible
+al-032	lore/01-auto-layout.jsonl	Common Spacing Values	values	values,spacing,padding,gap,tokens
+al-033	lore/01-auto-layout.jsonl	Rules: Groups, Spacers, and Fixed Sizes	tips	rules,groups,spacers,fixed,best-practice
+al-034	lore/01-auto-layout.jsonl	Shortcuts and Quick Actions	tips	tips,shortcuts,tricks,efficiency
+al-035	lore/01-auto-layout.jsonl	Negative Gap and Overlap Techniques	tips	tips,negative,overlap,stacking,avatars
+al-036	lore/01-auto-layout.jsonl	Responsive-First Layout Philosophy (Default Build Standard)	philosophy	philosophy,responsive,default,standard,build,cascade,resize,style
+al-037	lore/01-auto-layout.jsonl	Text Sizing Rule: Fill Container, Never Fixed	philosophy	philosophy,text,fill,sizing,rule,responsive,style
+al-038	lore/01-auto-layout.jsonl	Resize Cascade Checklist — Verify Before Handoff	philosophy	philosophy,checklist,resize,verify,handoff,responsive,style
+al-039	lore/01b-autolayout-advanced.jsonl	Redundant Nesting — Detection and Elimination	optimization	optimization,nesting,redundant,flatten,best-practice
+al-040	lore/01b-autolayout-advanced.jsonl	Auto Layout Hierarchy Optimization — Flatten Where Possible	optimization	optimization,hierarchy,flatten,performance,layers
+al-041	lore/01b-autolayout-advanced.jsonl	Single-Child Frame Anti-Pattern	optimization	optimization,single-child,anti-pattern,nesting,redundant
+al-042	lore/01b-autolayout-advanced.jsonl	Avoiding Same-Direction Nested Auto Layouts	optimization	optimization,direction,nesting,same-direction,flatten
+al-043	lore/01b-autolayout-advanced.jsonl	Dev Mode Output — How AL Choices Affect Generated CSS	optimization	optimization,dev-mode,css,code,handoff
+al-044	lore/01b-autolayout-advanced.jsonl	Common Auto Layout Mistakes — Diagnosis and Fixes	optimization	optimization,mistakes,fixes,debugging,anti-patterns
+al-045	lore/01b-autolayout-advanced.jsonl	Slots in Figma — How They Work	slots	slots,2025,components,placeholder,custom-content
+al-046	lore/01b-autolayout-advanced.jsonl	Slots and Auto Layout — Sizing and Interaction	slots	slots,2025,auto-layout,sizing,fill,hug
+al-047	lore/01b-autolayout-advanced.jsonl	Slots vs Instance Swap Properties — When to Use Each	slots	slots,instance-swap,components,properties,decision
+al-048	lore/01b-autolayout-advanced.jsonl	Building a Component with a Slot — Step-by-Step	slots	slots,2025,recipe,workflow,components
+al-049	lore/01c-component-recipes.jsonl	Button AL Structure — All Variants Optimized	recipe	button,recipe,component,sizing,padding,icon,full-width
+al-050	lore/01c-component-recipes.jsonl	Input Field AL Structure — Input Frame Only	recipe	input,recipe,component,sizing,placeholder,icon,field
+al-051	lore/01c-component-recipes.jsonl	Form Field Group — Label + Input + Helper Text	recipe	form,field,label,helper,error,recipe,group,vertical
+al-052	lore/01c-component-recipes.jsonl	Checkbox and Radio Button AL Structure	recipe	checkbox,radio,recipe,component,label,selection,control
+al-053	lore/01c-component-recipes.jsonl	Badge, Tag, and Chip AL Structure	recipe	badge,tag,chip,recipe,component,pill,sizing
+al-054	lore/01c-component-recipes.jsonl	List Item AL Structure — Icon + Content + Action	recipe	list,list-item,recipe,component,avatar,trailing,action
+al-055	lore/01c-component-recipes.jsonl	Modal and Dialog AL Structure	recipe	modal,dialog,recipe,component,overlay,scroll,header,footer
+al-056	lore/01c-component-recipes.jsonl	Icon Button AL Structure	recipe	icon-button,recipe,component,touch-target,fixed,sizing
+al-057	lore/01c-component-recipes.jsonl	Alert and Banner AL Structure	recipe	alert,banner,notification,recipe,component,icon,action
+al-058	lore/01c-component-recipes.jsonl	Toggle / Switch AL Structure	recipe	toggle,switch,recipe,component,boolean,interactive
+al-059	lore/01c-component-recipes.jsonl	Bottom Navigation Bar — Mobile AL Structure	recipe	bottom-nav,navigation,mobile,recipe,tab-bar,ios,android
+al-060	lore/01c-component-recipes.jsonl	Avatar with Status Badge — Absolute Position Pattern	recipe	avatar,badge,status,absolute,recipe,component,overlap

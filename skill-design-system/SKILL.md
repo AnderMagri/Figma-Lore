@@ -25,12 +25,19 @@ Token architecture, variables, theming, colour, typography, governance, and audi
 > **design-lore-psychology**. For broad design theory and process, use **design-lore**.
 > For ecommerce and fintech UX, use **design-lore-industry**.
 
+> **Note on overlap.** `lore/02-design-system.jsonl` and parts of the colour,
+> typography and governance modules are mirrored from **design-lore**. Where
+> they overlap, design-lore is canonical — this skill is the focused extract.
+
 ## How to Use This Skill
 
-1. Identify the relevant module(s) from the index below
-2. Read the applicable JSONL file using the Read tool
-3. Apply the entries — each entry has id, tags, title (t or title), and content (d or content)
-4. For complex tasks, consult multiple modules
+1. **Grep `INDEX.tsv` first** to locate entries by title/topic/tag without
+   reading whole modules
+2. Identify the relevant module(s) from the index below
+3. Read the applicable JSONL file using the Read tool
+4. Apply the entries — every entry has `id`, `topic`, `title`, `content`, `tags`,
+   and optionally `source`, `example`, `meta` (hard numbers — specs, dp/pt, ratios)
+5. For complex tasks, consult multiple modules
 
 ---
 

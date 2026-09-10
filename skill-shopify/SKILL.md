@@ -30,10 +30,12 @@ navigation, and design principles for building storefronts in Figma.
 
 ## How to Use This Skill
 
-1. Identify the relevant entry from the index below
-2. Read the applicable JSONL entries
-3. Pay attention to FIGMA IMPLICATION notes at the end of each entry
-4. Cross-reference with ecommerce-lore for empirical conversion data
+1. **Grep `INDEX.tsv` first** to locate entries by title/topic/tag without
+   reading whole modules
+2. Identify the relevant entry from the index below
+3. Read the applicable JSONL entries
+4. Pay attention to FIGMA IMPLICATION notes at the end of each entry
+5. Cross-reference with ecommerce-lore for empirical conversion data
 
 ---
 

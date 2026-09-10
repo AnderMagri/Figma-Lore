@@ -24,11 +24,13 @@ platform-specific patterns.
 
 ## How to Use This Skill
 
-1. Identify the relevant entry from the index below
-2. Read the applicable JSONL entries
-3. Cross-reference with core design-lore modules when needed (e.g. mobile UX,
+1. **Grep `INDEX.tsv` first** to locate entries by title/topic/tag without
+   reading whole modules
+2. Identify the relevant entry from the index below
+3. Read the applicable JSONL entries
+4. Cross-reference with core design-lore modules when needed (e.g. mobile UX,
    behavioural design)
-4. Apply audit flags at the end of each entry to check for common failures
+5. Apply audit flags at the end of each entry to check for common failures
 
 ---
 

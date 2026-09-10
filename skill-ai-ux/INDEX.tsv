@@ -1,0 +1,39 @@
+# skill-ai-ux entry index — grep this before reading a module
+# id	file	title	topic	tags
+ax-001	lore/44-ai-interaction-design.jsonl	Agentic Experience Design — What Changes When the System Is Probabilistic	agentic-experience-design	ai,agentic,interaction-design,fundamentals
+ax-002	lore/44-ai-interaction-design.jsonl	Mixed-Initiative Flow — Who Leads and How Control Transfers	mixed-initiative	ai,mixed-initiative,control,interaction-design,agentic
+ax-003	lore/44-ai-interaction-design.jsonl	Capability Discoverability — Solving the Blank Box Problem	capability-discoverability	ai,discoverability,progressive-disclosure,onboarding,mental-models
+ax-004	lore/44-ai-interaction-design.jsonl	Designing the Wait — Latency as a First-Class State	latency-and-waiting	ai,latency,loading,streaming,perceived-performance
+ax-005	lore/44-ai-interaction-design.jsonl	Correction Loops — Designing for Being Wrong	correction-and-feedback	ai,feedback,correction,editability,metrics
+ax-006	lore/44-ai-interaction-design.jsonl	Generative UI — Designing Rules Instead of Screens	generative-ui	ai,generative-ui,components,design-system,constraints
+ax-007	lore/44-ai-interaction-design.jsonl	Context Design — What the System Knows and What the User Thinks It Knows	context-window-design	ai,context,memory,privacy,transparency
+ax-008	lore/44-ai-interaction-design.jsonl	Frustration Detection and Conversational Repair	frustration-and-repair	ai,frustration,repair,conversation,error-recovery
+at-001	lore/45-ai-trust-alignment.jsonl	Trust Calibration — Neither Overtrust Nor Undertrust	trust-calibration	ai,trust,calibration,confidence,sycophancy
+at-002	lore/45-ai-trust-alignment.jsonl	The Trust Calibration Matrix — Language by Stakes and Confidence	trust-matrix	ai,trust,confidence,copy,ux-writing,rubric
+at-003	lore/45-ai-trust-alignment.jsonl	Transparency Patterns — Showing the Work	transparency-patterns	ai,transparency,citations,sources,tool-use,agentic
+at-004	lore/45-ai-trust-alignment.jsonl	Guardrail and Refusal Design	guardrails-and-refusal	ai,guardrails,refusal,policy,error-messages
+at-005	lore/45-ai-trust-alignment.jsonl	Consent and Agency — Keeping the Human in Charge	consent-and-agency	ai,consent,agency,privacy,autonomy,ethics
+at-006	lore/45-ai-trust-alignment.jsonl	Harm Anticipation — Finding the Failure Modes Before Launch	harm-anticipation	ai,harm,risk,safety,ethics,evaluation
+at-007	lore/45-ai-trust-alignment.jsonl	Escalation Design — Knowing When to Hand Off	escalation-design	ai,escalation,handoff,support,human-in-the-loop
+at-008	lore/45-ai-trust-alignment.jsonl	Bias in AI Interfaces — What Design Can Actually Address	bias-and-fairness	ai,bias,fairness,inclusive-design,forms,ethics
+ab-001	lore/46-ai-behaviour-evaluation.jsonl	Persona Architecture — Designing How the System Shows Up	persona-architecture	ai,persona,voice,tone,behaviour
+ab-002	lore/46-ai-behaviour-evaluation.jsonl	Tone Calibration — Matching the Moment	tone-calibration	ai,tone,voice,ux-writing,localisation
+ab-003	lore/46-ai-behaviour-evaluation.jsonl	Error Personality — How It Behaves When It Is Wrong	error-personality	ai,errors,trust,persona,copy,evaluation
+ab-004	lore/46-ai-behaviour-evaluation.jsonl	Behavioural Consistency — Being the Same System Twice	behavioural-consistency	ai,consistency,output-format,evaluation,persona
+ab-005	lore/46-ai-behaviour-evaluation.jsonl	Failure Taxonomy — Naming What Goes Wrong	failure-taxonomy	ai,failure-taxonomy,evaluation,quality,metrics
+ab-006	lore/46-ai-behaviour-evaluation.jsonl	Output Quality Rubrics — Making 'Good' Checkable	output-quality-rubrics	ai,rubrics,evaluation,quality,metrics
+ab-007	lore/46-ai-behaviour-evaluation.jsonl	Measuring an AI Feature — Signals That Mean Something	ai-metrics	ai,metrics,evaluation,heart,analytics
+ao-001	lore/47-ai-agent-orchestration.jsonl	Agent Role Design — Dividing the Work	agent-role-design	ai,agents,orchestration,architecture,roles
+ao-002	lore/47-ai-agent-orchestration.jsonl	Task Decomposition — Splitting Work Well	task-decomposition	ai,agents,decomposition,orchestration,pipeline
+ao-003	lore/47-ai-agent-orchestration.jsonl	Handoff Protocols — Where Multi-Agent Systems Fail	handoff-protocols	ai,agents,handoff,protocols,reliability
+ao-004	lore/47-ai-agent-orchestration.jsonl	Human-in-the-Loop — Placing the Checkpoints	human-in-the-loop	ai,human-in-the-loop,approval,agents,safety
+ao-005	lore/47-ai-agent-orchestration.jsonl	State Management and Observability in Agentic Systems	state-and-observability	ai,agents,state,observability,trace,transparency
+ao-006	lore/47-ai-agent-orchestration.jsonl	Failure Recovery in Agentic Systems	failure-recovery	ai,agents,failure-recovery,reliability,transactions
+ao-007	lore/47-ai-agent-orchestration.jsonl	Agentic System Anti-Patterns	agentic-antipatterns	ai,agents,anti-patterns,critique,orchestration
+pa-001	lore/48-ai-prompt-architecture.jsonl	Why the Prompt Is a Design Surface	why-designers-write-prompts	ai,prompts,design,collaboration,system-prompt
+pa-002	lore/48-ai-prompt-architecture.jsonl	System Prompt Structure	system-prompt-structure	ai,system-prompt,structure,prompts,reference
+pa-003	lore/48-ai-prompt-architecture.jsonl	Constraint Specification — Making 'Good' Enforceable	constraint-specification	ai,constraints,prompts,output-format,ux-writing
+pa-004	lore/48-ai-prompt-architecture.jsonl	Examples and Few-Shot Patterns	few-shot-and-examples	ai,few-shot,examples,prompts,persona,evaluation
+pa-005	lore/48-ai-prompt-architecture.jsonl	Context Engineering — What to Put in the Window	context-engineering	ai,context,retrieval,rag,prompt-injection,memory
+pa-006	lore/48-ai-prompt-architecture.jsonl	Reasoning Structure — When to Ask for Steps	chain-of-thought-and-structure	ai,reasoning,chain-of-thought,latency,transparency,agentic
+pa-007	lore/48-ai-prompt-architecture.jsonl	Prompt Versioning and Change Management	prompt-versioning	ai,prompts,versioning,process,evaluation,governance

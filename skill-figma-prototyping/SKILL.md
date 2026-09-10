@@ -31,11 +31,13 @@ turn all of it into working prototypes.
 
 ## How to Use This Skill
 
-1. Identify the relevant module(s) from the index below
-2. Read the applicable JSONL file
-3. Apply the entries — each has id, topic, title, content, tags
-4. For build tasks, start from module 39 (recipes) and pull mechanics from 34–37
-5. For review tasks, start from module 38 (critique checklist) and 37 (fm-010)
+1. **Grep `INDEX.tsv` first** to locate entries by title/topic/tag without
+   reading whole modules
+2. Identify the relevant module(s) from the index below
+3. Read the applicable JSONL file
+4. Apply the entries — each has id, topic, title, content, tags
+5. For build tasks, start from module 39 (recipes) and pull mechanics from 34–37
+6. For review tasks, start from module 38 (critique checklist) and 37 (fm-010)
 
 ---
 

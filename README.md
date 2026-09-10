@@ -123,7 +123,9 @@ Biophilic/Organic Design
 Skill-stack/
 │
 ├── README.md                       ← you are here
-├── repackage-skills.py             ← PostToolUse hook: rebuilds .skill on edit
+├── INDEX.tsv                       ← every entry, greppable (see below)
+├── lore.py                         ← index / get / search / validate
+├── repackage-skills.py             ← PostToolUse hook: reindexes + rebuilds .skill
 │
 ├── skill-figma/                    → figma-lore
 │   └── lore/  00, 01, 03, 08, 09, 10
@@ -257,7 +259,7 @@ conversation.
 
 ## Lore Entry Format
 
-Each `.jsonl` file contains one JSON object per line:
+Every entry in every module uses the same schema — one JSON object per line:
 
 ```json
 {
@@ -266,9 +268,51 @@ Each `.jsonl` file contains one JSON object per line:
   "title": "Gestalt Psychology — The Foundation of Visual Perception",
   "content": "Full explanation with rules, values, and design guidance.",
   "tags": ["gestalt", "perception", "visual-design"],
-  "source": "optional citation"
+  "source": "optional citation",
+  "meta": { "optional": "hard numbers — specs, dp/pt values, ratios" }
 }
 ```
+
+`id`, `topic`, `title`, `content` and `tags` are required. `source`, `example`
+and `meta` are optional. `meta` is where the hard numbers live (iOS safe-area
+insets, Material dp values, WCAG ratios, type scales) and is searchable.
+
+---
+
+## Finding Things — INDEX.tsv and lore.py
+
+The corpus is ~1,000 entries / ~285k tokens across 59 files. Reading a whole
+module to find one fact costs 6–16k tokens, so every entry is indexed.
+
+- **`INDEX.tsv`** (repo root) — one tab-separated line per entry across all
+  skills: `id · prefix · skill · file · title · topic · tags`. Grep it, then
+  read only the entries it names.
+- **`skill-*/INDEX.tsv`** — the same thing scoped to one skill, shipped inside
+  each `.skill` package so an installed skill is greppable too.
+
+Both are regenerated automatically by the packaging hook. To do it by hand:
+
+```bash
+python3 lore.py index
+```
+
+`lore.py` also fetches and searches without reading whole files:
+
+```bash
+python3 lore.py get fp-012 ms-004          # print full entries by id
+python3 lore.py search "reduced motion"    # one line per match
+python3 lore.py search "44x44" -f meta     # search the hard numbers
+python3 lore.py search "spring" -s figma-prototyping
+python3 lore.py show "focus state" -n 3    # full content of matches
+python3 lore.py validate                   # schema, id/prefix collisions, stale ranges
+```
+
+`validate` is the guardrail worth running before any commit. It checks that
+every entry has the required fields, that no two unrelated modules share an id
+or an overlapping id range, that each `SKILL.md` module index matches what is
+actually on disk, and that the indexes are not stale. Modules deliberately
+mirrored between skills are reported as such rather than flagged.
+
 
 ---
 

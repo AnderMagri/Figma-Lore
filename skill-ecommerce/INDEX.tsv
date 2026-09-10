@@ -1,0 +1,18 @@
+# skill-ecommerce entry index — grep this before reading a module
+# id	file	title	topic	tags
+ec-001	lore/23-ecommerce-ux.jsonl	Shopify & Ecommerce Conversion Rate Benchmarks 2025–2026	ecommerce-conversion-benchmarks	ecommerce,shopify,conversion,benchmarks,cro,mobile
+ec-002	lore/23-ecommerce-ux.jsonl	Shopify Product Page Anatomy — Required Elements & Hierarchy	product-page-anatomy	product-page,shopify,anatomy,atc,conversion,mobile
+ec-003	lore/23-ecommerce-ux.jsonl	Add to Cart Button — UX Rules & Placement	atc-button-ux	atc,button,conversion,shopify,mobile,ux
+ec-004	lore/23-ecommerce-ux.jsonl	Shopify Checkout Flow — UX Best Practices & Abandonment Reduction	checkout-flow-ux	checkout,abandonment,shopify,conversion,trust,ux
+ec-005	lore/23-ecommerce-ux.jsonl	Conversion Psychology for Ecommerce — Cialdini Applied to Shopify	conversion-psychology-ecommerce	psychology,conversion,cialdini,social-proof,scarcity,shopify
+ec-006	lore/23-ecommerce-ux.jsonl	Mobile Commerce UX — Shopify Mobile Patterns & Thumb Zones	mobile-commerce-ux	mobile,commerce,shopify,thumb-zone,ux,touch,sticky-atc
+ec-007	lore/23-ecommerce-ux.jsonl	Shopify Custom Page Architecture — Section Order & Conversion Flow	shopify-page-architecture	shopify,sections,homepage,hierarchy,ux,structure,custom-pages
+ec-008	lore/23-ecommerce-ux.jsonl	Trust Signals — Hierarchy, Placement & Effectiveness for Ecommerce	trust-signals-ecommerce	trust,social-proof,reviews,ecommerce,shopify,conversion
+ec-009	lore/23-ecommerce-ux.jsonl	Shopify Collection Page UX — Navigation, Filtering & Product Grid	collection-page-ux	collection,shopify,grid,filtering,navigation,ux
+ec-010	lore/23-ecommerce-ux.jsonl	Shopify Custom Page Performance — Speed, Scripts & UX Impact	shopify-performance	shopify,performance,speed,scripts,custom-pages,lcp,cls
+ec-011	lore/23-ecommerce-ux.jsonl	Shopify Breakpoints — Custom Page Layout System	shopify-breakpoints	shopify,breakpoints,grid,responsive,custom-pages,figma
+ec-012	lore/23-ecommerce-ux.jsonl	Shopify Grid — Figma Column Setup per Breakpoint	shopify-grid-figma	shopify,grid,figma,columns,breakpoints,product-grid,dimensions
+ec-013	lore/23-ecommerce-ux.jsonl	Shopify Mobile Frame in Figma — Header, Safe Areas & Fixed Elements	shopify-mobile-frame-setup	shopify,mobile,figma,header,safe-area,sticky-atc,thumb-zone,fixed-elements
+ec-014	lore/23-ecommerce-ux.jsonl	Shopify Desktop Frame in Figma — Header, Container & Layout Structure	shopify-desktop-frame-setup	shopify,desktop,figma,header,container,footer,layout,1440,1200
+ec-016	lore/23-ecommerce-ux.jsonl	Shopify App Ecosystem — Essential Apps by Category & UX Impact	shopify-app-ecosystem	shopify,apps,ecosystem,reviews,loyalty,email,upsell,search,page-builder,performance
+ec-015	lore/23-ecommerce-ux.jsonl	Shopify Custom Page Design System Readiness Checklist	shopify-ds-readiness	shopify,design-system,checklist,readiness,components,custom-pages

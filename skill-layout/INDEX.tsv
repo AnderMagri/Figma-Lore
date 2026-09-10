@@ -1,0 +1,18 @@
+# skill-layout entry index — grep this before reading a module
+# id	file	title	topic	tags
+ly-001	lore/43-layout-systems.jsonl	Layout First Principles — What a Layout Is Doing	layout-first-principles	layout,composition,first-principles,hierarchy
+ly-002	lore/43-layout-systems.jsonl	Grid Systems — Choosing and Specifying One	grid-systems	layout,grid,columns,responsive,figma
+ly-003	lore/43-layout-systems.jsonl	Measure, Rhythm, and Reading	measure-and-reading	layout,typography,measure,rhythm,spacing,readability
+ly-004	lore/43-layout-systems.jsonl	Whitespace — Active, Not Leftover	whitespace	layout,whitespace,density,emphasis,composition
+ly-005	lore/43-layout-systems.jsonl	Alignment and Optical Adjustment	alignment-and-optics	layout,alignment,optical,icons,typography,craft
+ly-006	lore/43-layout-systems.jsonl	Responsive Strategy — Deciding How Layouts Change	responsive-strategy	layout,responsive,breakpoints,mobile,tables
+ly-007	lore/43-layout-systems.jsonl	Above the Fold — What It Is Actually For	above-the-fold	layout,above-the-fold,landing-page,conversion,hero
+ly-008	lore/43-layout-systems.jsonl	Section Rhythm — Structuring a Long Page	section-rhythm	layout,landing-page,sections,rhythm,marketing-site,conversion
+ly-009	lore/43-layout-systems.jsonl	Page Archetype — Landing and Marketing Page	archetype-landing	layout,landing-page,archetype,marketing-site,conversion
+ly-010	lore/43-layout-systems.jsonl	Page Archetype — Product Detail Page	archetype-pdp	layout,pdp,archetype,ecommerce,shopify,conversion
+ly-011	lore/43-layout-systems.jsonl	Page Archetype — Collection, Search, and Results	archetype-collection	layout,collection,search,archetype,ecommerce,shopify
+ly-012	lore/43-layout-systems.jsonl	Page Archetype — Dashboard and Data View	archetype-dashboard	layout,dashboard,archetype,data-visualisation,density,fintech
+ly-013	lore/43-layout-systems.jsonl	Page Archetype — Forms and Multi-Step Flows	archetype-forms	layout,forms,archetype,validation,conversion
+ly-014	lore/43-layout-systems.jsonl	Page Archetype — Application Shell and Navigation	archetype-app-shell	layout,navigation,app-shell,archetype,information-architecture
+ly-015	lore/43-layout-systems.jsonl	Layout Anti-Patterns	layout-antipatterns	layout,anti-patterns,critique,composition
+ly-016	lore/43-layout-systems.jsonl	Designing Layouts That Survive Implementation	layout-for-implementation	layout,handoff,auto-layout,implementation,tokens,shopify

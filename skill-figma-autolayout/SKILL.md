@@ -24,12 +24,19 @@ optimization, performance, and Figma 2025 features including slots.
 > theming), use **design-lore-systems**. For components (variants, properties,
 > naming), use **figma-lore**. For design theory and process, use **design-lore**.
 
+> **Note on overlap.** `lore/01-auto-layout.jsonl` (al-001 → al-038) is mirrored
+> from **figma-lore**, which is canonical for those entries. The advanced
+> (al-039 → al-048) and recipe (al-049 → al-060) modules are unique to this skill.
+
 ## How to Use This Skill
 
-1. Identify the relevant module(s) from the index below
-2. Read the applicable JSONL file using the Read tool
-3. Apply the entries — each entry has id, cat, t (title), tags, and d (content)
-4. For complex layout tasks, check both modules — advanced entries complement core entries
+1. **Grep `INDEX.tsv` first** to locate entries by title/topic/tag without
+   reading whole modules
+2. Identify the relevant module(s) from the index below
+3. Read the applicable JSONL file using the Read tool
+4. Apply the entries — every entry has `id`, `topic`, `title`, `content`, `tags`,
+   and optionally `source`, `example`, `meta` (hard numbers — specs, dp/pt, ratios)
+5. For complex layout tasks, check both modules — advanced entries complement core entries
 
 ---
 

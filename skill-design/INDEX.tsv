@@ -1,0 +1,360 @@
+# skill-design entry index — grep this before reading a module
+# id	file	title	topic	tags
+ds-001	lore/02-design-system.jsonl	Three-Layer Token Model Overview	token-architecture	tokens,architecture,primitives,semantics,components
+ds-002	lore/02-design-system.jsonl	Primitive Tokens	token-architecture	tokens,primitives,raw-values
+ds-003	lore/02-design-system.jsonl	Semantic Tokens	token-architecture	tokens,semantics,aliases,theming
+ds-004	lore/02-design-system.jsonl	Component Tokens	token-architecture	tokens,components,application-specific
+ds-005	lore/02-design-system.jsonl	Token Layer Rules	token-architecture	tokens,rules,best-practices
+ds-006	lore/02-design-system.jsonl	Variable Types in Figma	variables	variables,types,color,number,string,boolean
+ds-007	lore/02-design-system.jsonl	Variable Alias Mechanism	variables	variables,aliases,referencing,token-layering
+ds-008	lore/02-design-system.jsonl	Variable Collections	variables	variables,collections,organization
+ds-009	lore/02-design-system.jsonl	Variable Modes	variables	variables,modes,theming,responsive
+ds-010	lore/02-design-system.jsonl	Applying and Inheriting Modes	variables	variables,modes,inheritance,frames
+ds-011	lore/02-design-system.jsonl	Light/Dark Mode Setup Steps	theming	theming,light-mode,dark-mode,setup
+ds-012	lore/02-design-system.jsonl	Light/Dark Mode Design Rules	theming	theming,dark-mode,contrast,accessibility
+ds-013	lore/02-design-system.jsonl	Multi-Brand System Setup	theming	theming,multi-brand,white-label
+ds-014	lore/02-design-system.jsonl	When to Use Styles vs Variables	styles-vs-variables	styles,variables,decision,comparison
+ds-015	lore/02-design-system.jsonl	Color Styles	color	styles,color,fills,gradients
+ds-016	lore/02-design-system.jsonl	Text Styles	typography	styles,typography,text,font
+ds-017	lore/02-design-system.jsonl	Typography Line Height and Spacing	typography	typography,line-height,letter-spacing,paragraph
+ds-018	lore/02-design-system.jsonl	Effect Styles — Shadows and Elevation	effects	styles,effects,shadows,elevation
+ds-019	lore/02-design-system.jsonl	Elevation Scale Design	effects	elevation,shadows,z-index,depth
+ds-020	lore/02-design-system.jsonl	Grid Styles and Breakpoints	grids	styles,grids,layout,responsive,columns
+ds-021	lore/02-design-system.jsonl	Variable Scoping	variables	variables,scoping,properties,organization
+ds-022	lore/02-design-system.jsonl	Variable Scoping Best Practices	variables	variables,scoping,best-practices
+ds-023	lore/02-design-system.jsonl	Token Naming Conventions	naming	naming,conventions,tokens,organization
+ds-024	lore/02-design-system.jsonl	Naming Rules and Anti-Patterns	naming	naming,rules,anti-patterns
+ds-025	lore/02-design-system.jsonl	Library Publishing Workflow	library	library,publishing,updates,sharing
+ds-026	lore/02-design-system.jsonl	Library Organization and Structure	library	library,organization,files,structure
+ds-027	lore/02-design-system.jsonl	Design System Governance Model	governance	governance,ownership,process,contribution
+ds-028	lore/02-design-system.jsonl	Design System Auditing	governance	governance,audit,quality,consistency
+ds-029	lore/02-design-system.jsonl	Spacing Scale System	spacing	spacing,scale,variables,layout
+ds-030	lore/02-design-system.jsonl	Spacing Application Patterns	spacing	spacing,padding,gap,auto-layout
+ds-031	lore/02-design-system.jsonl	Color Palette Structure	color	color,palette,primitives,shades
+ds-032	lore/02-design-system.jsonl	Semantic Color Mapping	color	color,semantic,mapping,theming
+ds-033	lore/02-design-system.jsonl	Component Token Examples	components	tokens,components,button,input,card
+ds-034	lore/02-design-system.jsonl	Theme Switching Implementation	theming	theming,modes,switching,frames
+ds-035	lore/02-design-system.jsonl	Typography Variable Strategy	typography	typography,variables,styles,hybrid
+ds-036	lore/02-design-system.jsonl	Creating Variables in Figma	variables	variables,creation,workflow,figma-ui
+ds-037	lore/02-design-system.jsonl	Variable Groups via Slash Naming	variables	variables,groups,naming,organization
+ds-038	lore/02-design-system.jsonl	Color Contrast Requirements	accessibility	accessibility,contrast,wcag,a11y
+ds-039	lore/02-design-system.jsonl	Border Radius Scale	border-radius	border-radius,radius,scale,variables
+ds-040	lore/02-design-system.jsonl	Icon and Touch Target Sizing	sizing	sizing,icons,touch-targets,accessibility
+ds-041	lore/02-design-system.jsonl	Opacity Scale	opacity	opacity,transparency,variables
+ds-042	lore/02-design-system.jsonl	Library Versioning and Updates	library	library,versioning,changelog,updates
+ds-043	lore/02-design-system.jsonl	Density Modes (Compact/Comfortable)	theming	theming,density,compact,comfortable,modes
+ds-044	lore/02-design-system.jsonl	Boolean Variables for Component Configuration	variables	variables,boolean,visibility,feature-flags
+ds-045	lore/02-design-system.jsonl	Design System Maturity Checklist	design-system	maturity,checklist,completeness,audit
+ds-046	lore/02-design-system.jsonl	Typography Variables — Setup Workflow (Variables + Styles Together)	typography	typography,variables,text-styles,workflow,font-size,line-height,font-family,font-weight
+ds-047	lore/02-design-system.jsonl	Responsive Typography Modes — Desktop and Mobile in a Single Collection	typography	typography,modes,responsive,desktop,mobile,breakpoint,variables,font-size
+ds-048	lore/02-design-system.jsonl	Typography Variable Types and Naming — String vs Number, T-Shirt Scale	typography	typography,variables,naming,string,number,t-shirt,scale,font-family,font-weight
+ios-001	lore/04-ios-design.jsonl	iPhone 16 Pro Max screen size	device-screens	iphone,screen-size,device,16-pro-max
+ios-002	lore/04-ios-design.jsonl	iPhone 16 Pro screen size	device-screens	iphone,screen-size,device,16-pro
+ios-003	lore/04-ios-design.jsonl	iPhone 16 Plus screen size	device-screens	iphone,screen-size,device,16-plus
+ios-004	lore/04-ios-design.jsonl	iPhone 16 and iPhone 15 standard screen size	device-screens	iphone,screen-size,device,16,15
+ios-005	lore/04-ios-design.jsonl	iPhone 15 Pro Max and 14 Pro Max screen size	device-screens	iphone,screen-size,device,15-pro-max,14-pro-max
+ios-006	lore/04-ios-design.jsonl	iPhone 14 Plus and iPhone 14 screen sizes	device-screens	iphone,screen-size,device,14-plus,14
+ios-007	lore/04-ios-design.jsonl	iPhone SE 3rd gen screen size	device-screens	iphone,screen-size,device,se,legacy
+ios-008	lore/04-ios-design.jsonl	iPad screen sizes	device-screens	ipad,screen-size,device,tablet
+ios-009	lore/04-ios-design.jsonl	Primary artboard rule	device-screens	rule,artboard,figma,design
+ios-010	lore/04-ios-design.jsonl	Safe area insets for iPhone 16 Pro models	safe-areas	safe-area,insets,16-pro,16-pro-max,dynamic-island
+ios-011	lore/04-ios-design.jsonl	Safe area insets for iPhone 16/15/14 Pro	safe-areas	safe-area,insets,15,16,14-pro
+ios-012	lore/04-ios-design.jsonl	Safe area rules	safe-areas	safe-area,rule,interactive,edge-to-edge
+ios-013	lore/04-ios-design.jsonl	Dynamic Island dimensions and behavior	dynamic-island	dynamic-island,notch,status-bar,live-activities
+ios-014	lore/04-ios-design.jsonl	Navigation bar dimensions	navigation	navigation-bar,nav-bar,large-title,header
+ios-015	lore/04-ios-design.jsonl	Tab bar dimensions	navigation	tab-bar,bottom-nav,home-indicator
+ios-016	lore/04-ios-design.jsonl	Home indicator, toolbar, and search bar	navigation	home-indicator,toolbar,search-bar
+ios-017	lore/04-ios-design.jsonl	Minimum touch target sizes	touch-targets	touch-target,tap,accessibility,hig
+ios-018	lore/04-ios-design.jsonl	SF Pro type scale — Large Title through Title 3	typography	typography,sf-pro,font,large-title,title
+ios-019	lore/04-ios-design.jsonl	SF Pro type scale — Headline and Body	typography	typography,sf-pro,font,headline,body
+ios-020	lore/04-ios-design.jsonl	SF Pro type scale — Subheadline through Caption	typography	typography,sf-pro,font,subheadline,footnote,caption
+ios-021	lore/04-ios-design.jsonl	SF Pro font families and Dynamic Type	typography	typography,sf-pro,dynamic-type,accessibility,font-family
+ios-022	lore/04-ios-design.jsonl	SF Symbols overview and usage	sf-symbols	sf-symbols,icons,symbols,system-icons
+ios-023	lore/04-ios-design.jsonl	8pt grid system and content margins	grid	grid,spacing,layout,margins,8pt
+ios-024	lore/04-ios-design.jsonl	Section spacing and list insets	grid	grid,spacing,section,list,padding
+ios-025	lore/04-ios-design.jsonl	Standard corner radii for iOS components	corner-radius	corner-radius,rounded,squircle,buttons,cards
+ios-026	lore/04-ios-design.jsonl	App icon and tab bar icon corner radius	corner-radius	corner-radius,app-icon,tab-bar,squircle
+ios-027	lore/04-ios-design.jsonl	iOS system colors	color	color,system-colors,hig,palette
+ios-028	lore/04-ios-design.jsonl	iOS semantic and background colors	color	color,semantic,background,label,separator
+ios-029	lore/04-ios-design.jsonl	Grouped background colors	color	color,grouped-background,settings,table-view
+ios-030	lore/04-ios-design.jsonl	Dark mode design principles	dark-mode	dark-mode,appearance,oled,contrast
+ios-031	lore/04-ios-design.jsonl	Dark mode text, colors, and shadows	dark-mode	dark-mode,text,shadows,wcag,contrast
+ios-032	lore/04-ios-design.jsonl	Bottom sheet and modal presentations	sheets	bottom-sheet,modal,sheet,detents,presentation
+ios-033	lore/04-ios-design.jsonl	Modal and popover presentations	sheets	modal,popover,page-sheet,full-screen
+ios-034	lore/04-ios-design.jsonl	List and table view row heights	lists	list,table-view,row-height,cell,separator
+ios-035	lore/04-ios-design.jsonl	List styles and swipe actions	lists	list,grouped,inset-grouped,swipe,settings
+ios-036	lore/04-ios-design.jsonl	Pull to refresh and infinite scroll	patterns	pull-to-refresh,infinite-scroll,loading,spinner
+ios-037	lore/04-ios-design.jsonl	Action sheets and alerts	patterns	action-sheet,alert,dialog,modal
+ios-038	lore/04-ios-design.jsonl	Context menus and haptic feedback	patterns	context-menu,long-press,haptics,3d-touch
+ios-039	lore/04-ios-design.jsonl	Figma artboard and grid setup for iOS	figma-setup	figma,artboard,grid,setup,columns
+ios-040	lore/04-ios-design.jsonl	Figma export settings for iOS	figma-setup	figma,export,retina,assets,scale
+ios-041	lore/04-ios-design.jsonl	Navigation patterns and hierarchy	navigation	navigation,hierarchy,drill-down,flat
+ios-042	lore/04-ios-design.jsonl	Thumb zone and reachability	touch-targets	thumb-zone,reachability,ergonomics,one-handed
+ios-043	lore/04-ios-design.jsonl	iOS color usage rules	color	color,accessibility,semantic,rule
+ios-044	lore/04-ios-design.jsonl	SF Symbols sizing and custom symbols	sf-symbols	sf-symbols,sizing,custom,template
+ios-045	lore/04-ios-design.jsonl	Search patterns in iOS	patterns	search,search-bar,suggestions,scope
+ios-046	lore/04-ios-design.jsonl	Onboarding and empty states	patterns	onboarding,empty-state,welcome,first-run
+ios-047	lore/04-ios-design.jsonl	Keyboard dimensions and behavior	layout	keyboard,input,text-field,height
+ios-048	lore/04-ios-design.jsonl	Status bar styles and behavior	layout	status-bar,time,battery,signal
+ios-049	lore/04-ios-design.jsonl	iOS animation and motion principles	animation	animation,motion,transition,spring
+ios-050	lore/04-ios-design.jsonl	iOS accessibility design requirements	accessibility	accessibility,a11y,voiceover,dynamic-type,contrast
+an-001	lore/05-android-design.jsonl	Compact Phone Screen Size	device-screens	screen-size,phone,compact,dp
+an-002	lore/05-android-design.jsonl	Standard Phone Screen Size — Primary Design Target	device-screens	screen-size,phone,pixel,primary
+an-003	lore/05-android-design.jsonl	Tablet Screen Sizes	device-screens	screen-size,tablet,dp
+an-004	lore/05-android-design.jsonl	Foldable Device Screen Sizes	device-screens	screen-size,foldable,pixel-fold
+an-005	lore/05-android-design.jsonl	Density Buckets for Asset Export	device-screens	density,dpi,export,assets
+an-006	lore/05-android-design.jsonl	Compact Width Window Size Class	window-size-classes	responsive,window-class,compact,layout
+an-007	lore/05-android-design.jsonl	Medium Width Window Size Class	window-size-classes	responsive,window-class,medium,layout
+an-008	lore/05-android-design.jsonl	Expanded Width Window Size Class	window-size-classes	responsive,window-class,expanded,layout
+an-009	lore/05-android-design.jsonl	Height Window Size Classes	window-size-classes	responsive,window-class,height
+an-010	lore/05-android-design.jsonl	Bottom Navigation Bar	navigation	navigation,bottom-nav,m3,compact
+an-011	lore/05-android-design.jsonl	Navigation Rail	navigation	navigation,rail,m3,medium
+an-012	lore/05-android-design.jsonl	Navigation Drawer	navigation	navigation,drawer,m3,expanded
+an-013	lore/05-android-design.jsonl	Top App Bar — Small	navigation	app-bar,top-bar,m3,small
+an-014	lore/05-android-design.jsonl	Top App Bar — Medium and Large	navigation	app-bar,top-bar,m3,collapsing
+an-015	lore/05-android-design.jsonl	Navigation Rules	navigation	navigation,rules,responsive
+an-016	lore/05-android-design.jsonl	Minimum Touch Target Sizes	touch-targets	touch,accessibility,interaction,dp
+an-017	lore/05-android-design.jsonl	FAB Touch Target Sizes	touch-targets	fab,touch,button,m3
+an-018	lore/05-android-design.jsonl	Display Type Scale	typography	typography,type-scale,display,m3
+an-019	lore/05-android-design.jsonl	Headline Type Scale	typography	typography,type-scale,headline,m3
+an-020	lore/05-android-design.jsonl	Title Type Scale	typography	typography,type-scale,title,m3
+an-021	lore/05-android-design.jsonl	Body Type Scale	typography	typography,type-scale,body,m3
+an-022	lore/05-android-design.jsonl	Label Type Scale	typography	typography,type-scale,label,m3
+an-023	lore/05-android-design.jsonl	Typography Unit Rules	typography	typography,sp,dp,units,accessibility
+an-024	lore/05-android-design.jsonl	Material 3 Color System — Key Colors and Tonal Palettes	color	color,m3,hct,tonal-palette
+an-025	lore/05-android-design.jsonl	Material 3 Light Theme Token Mapping	color	color,m3,light-theme,tokens
+an-026	lore/05-android-design.jsonl	Material 3 Dark Theme Token Mapping	color	color,m3,dark-theme,tokens
+an-027	lore/05-android-design.jsonl	Material 3 Color Roles	color	color,m3,roles,semantic
+an-028	lore/05-android-design.jsonl	Dynamic Color / Material You	color	color,dynamic-color,material-you,android-12
+an-029	lore/05-android-design.jsonl	Material 3 Shape Scale	shape	shape,corner-radius,m3,tokens
+an-030	lore/05-android-design.jsonl	Component Shape Assignments	shape	shape,components,corner-radius,m3
+an-031	lore/05-android-design.jsonl	Material 3 Elevation Levels	elevation	elevation,shadow,m3,levels
+an-032	lore/05-android-design.jsonl	Tonal Elevation and Surface Tint	elevation	elevation,tonal,surface-tint,m3
+an-033	lore/05-android-design.jsonl	Baseline Grid and Standard Spacing	grid-spacing	grid,spacing,layout,dp
+an-034	lore/05-android-design.jsonl	Content Margins by Window Size	grid-spacing	grid,margins,responsive,layout
+an-035	lore/05-android-design.jsonl	List Item Heights	grid-spacing	list,spacing,height,dp
+an-036	lore/05-android-design.jsonl	Button Specs — Filled, Outlined, Text	components	button,m3,components,specs
+an-037	lore/05-android-design.jsonl	Card Specs	components	card,m3,components,specs
+an-038	lore/05-android-design.jsonl	Chip Specs	components	chip,m3,components,specs
+an-039	lore/05-android-design.jsonl	Dialog Specs	components	dialog,m3,components,specs
+an-040	lore/05-android-design.jsonl	Switch, Checkbox, Snackbar Specs	components	switch,checkbox,snackbar,m3,specs
+an-041	lore/05-android-design.jsonl	Bottom Sheet Specs	components	bottom-sheet,m3,components,specs
+an-042	lore/05-android-design.jsonl	Text Field Specs	components	text-field,input,m3,components,specs
+an-043	lore/05-android-design.jsonl	Tabs Specs	components	tabs,m3,components,specs
+an-044	lore/05-android-design.jsonl	Material 3 Expressive Design (2025)	expressive	m3-expressive,2025,personality,motion
+an-045	lore/05-android-design.jsonl	Predictive Back Gesture	gestures	gesture,back,navigation,android-14
+an-046	lore/05-android-design.jsonl	Edge-to-Edge Design	edge-to-edge	edge-to-edge,system-bars,insets,android-15
+an-047	lore/05-android-design.jsonl	Figma Artboard and Grid Setup for Android	figma-setup	figma,artboard,grid,setup
+an-048	lore/05-android-design.jsonl	Figma Asset Export for Android	figma-setup	figma,export,density,assets
+an-049	lore/05-android-design.jsonl	Figma Plugins and Resources for Android Design	figma-setup	figma,plugins,material-theme-builder,resources
+an-050	lore/05-android-design.jsonl	Android Accessibility Design Requirements	accessibility	accessibility,a11y,contrast,touch
+an-051	lore/05-android-design.jsonl	Extended FAB and FAB Placement	components	fab,extended-fab,m3,placement
+an-052	lore/05-android-design.jsonl	Search Bar Specs	components	search,search-bar,m3,components
+rs-001	lore/06-responsive.jsonl	Mobile small breakpoint	breakpoints	breakpoint,mobile,320,374
+rs-002	lore/06-responsive.jsonl	Mobile standard breakpoint	breakpoints	breakpoint,mobile,375,413
+rs-003	lore/06-responsive.jsonl	Mobile large breakpoint	breakpoints	breakpoint,mobile,414,479
+rs-004	lore/06-responsive.jsonl	Tablet portrait breakpoint	breakpoints	breakpoint,tablet,600,839,portrait
+rs-005	lore/06-responsive.jsonl	Tablet landscape breakpoint	breakpoints	breakpoint,tablet,840,1023,landscape
+rs-006	lore/06-responsive.jsonl	Desktop small breakpoint	breakpoints	breakpoint,desktop,1024,1279,laptop
+rs-007	lore/06-responsive.jsonl	Desktop standard and large breakpoints	breakpoints	breakpoint,desktop,1280,1440,1920
+rs-008	lore/06-responsive.jsonl	Mobile-first design progression	breakpoints	breakpoint,mobile-first,strategy,workflow
+rs-009	lore/06-responsive.jsonl	Platform window and size classes	breakpoints	breakpoint,material3,apple,size-class
+rs-010	lore/06-responsive.jsonl	Figma constraints fundamentals	constraints	constraints,resize,pin,stretch
+rs-011	lore/06-responsive.jsonl	Constraints behavior and combinations	constraints	constraints,stretch,center,scale
+rs-012	lore/06-responsive.jsonl	Constraints vs auto layout rules	constraints	constraints,auto-layout,disabled,sizing
+rs-013	lore/06-responsive.jsonl	Fluid width pattern	auto-layout-patterns	auto-layout,fluid,fill,responsive,pattern
+rs-014	lore/06-responsive.jsonl	Wrap layout pattern	auto-layout-patterns	auto-layout,wrap,reflow,cards,grid,pattern
+rs-015	lore/06-responsive.jsonl	Sidebar plus main content pattern	auto-layout-patterns	auto-layout,sidebar,main,layout,pattern
+rs-016	lore/06-responsive.jsonl	Stacking and reflow pattern	auto-layout-patterns	auto-layout,stacking,vertical,horizontal,responsive,pattern
+rs-017	lore/06-responsive.jsonl	Flexible card grid pattern	auto-layout-patterns	auto-layout,grid,cards,min-width,wrap,pattern
+rs-018	lore/06-responsive.jsonl	Responsive component strategies	responsive-components	component,responsive,variant,auto-layout,strategy
+rs-019	lore/06-responsive.jsonl	Responsive variables setup	responsive-variables	variables,modes,responsive,spacing,2025
+rs-020	lore/06-responsive.jsonl	Responsive variables best practices	responsive-variables	variables,modes,responsive,rules,strategy
+rs-021	lore/06-responsive.jsonl	Pixel density and export scales	pixel-density	export,density,retina,dpi,resolution
+rs-022	lore/06-responsive.jsonl	Export rules for web and native	pixel-density	export,web,native,srcset,icon,pixel-perfect
+rs-023	lore/06-responsive.jsonl	Fluid typography across breakpoints	typography	typography,font-size,scale,responsive,line-length
+rs-024	lore/06-responsive.jsonl	Responsive grid systems by breakpoint	grid-systems	grid,columns,margin,gutter,responsive
+rs-025	lore/06-responsive.jsonl	Grid consistency rules	grid-systems	grid,gutter,margin,spacing,rules
+rs-026	lore/06-responsive.jsonl	Adaptive vs responsive design in Figma	adaptive-vs-responsive	adaptive,responsive,strategy,layout,approach
+rs-027	lore/06-responsive.jsonl	Testing responsive designs in Figma	testing	testing,resize,breakpoint,artboard,prototype
+rs-028	lore/06-responsive.jsonl	Adaptive text and max-width pattern	auto-layout-patterns	auto-layout,text,max-width,min-width,readability,pattern
+rs-029	lore/06-responsive.jsonl	Grid auto layout with fractional tracks	auto-layout-patterns	auto-layout,grid,fractional,columns,reflow,pattern
+rs-030	lore/06-responsive.jsonl	Responsive component rules and maintenance	responsive-components	component,responsive,maintenance,variants,rules
+ux-001	lore/07-mobile-ux.jsonl	Bottom Navigation Bar	navigation	navigation,bottom-nav,tab-bar,ios,android
+ux-002	lore/07-mobile-ux.jsonl	Horizontal Tab Bar	navigation	tabs,filtering,scrollable,content-categories
+ux-003	lore/07-mobile-ux.jsonl	Hamburger Menu / Navigation Drawer	navigation	hamburger,drawer,side-nav,menu
+ux-004	lore/07-mobile-ux.jsonl	Navigation Stack (Push/Pop)	navigation	navigation-stack,hierarchy,back-button,deep-linking
+ux-005	lore/07-mobile-ux.jsonl	Floating Action Button (FAB)	navigation	fab,primary-action,material,android
+ux-006	lore/07-mobile-ux.jsonl	Contextual Action Toolbar	navigation	contextual-actions,selection-mode,toolbar,multi-select
+ux-007	lore/07-mobile-ux.jsonl	Thumb Zone - Easy Reach (Green)	thumb-zone	thumb-zone,ergonomics,reachability,one-handed
+ux-008	lore/07-mobile-ux.jsonl	Thumb Zone - Stretch and Hard Reach	thumb-zone	thumb-zone,ergonomics,hard-reach,ux-placement
+ux-009	lore/07-mobile-ux.jsonl	Tap and Double-Tap Gestures	gestures	gestures,tap,double-tap,interaction
+ux-010	lore/07-mobile-ux.jsonl	Long Press Gesture	gestures	gestures,long-press,context-menu,haptic
+ux-011	lore/07-mobile-ux.jsonl	Horizontal Swipe Gestures	gestures	gestures,swipe,swipe-to-delete,page-navigation
+ux-012	lore/07-mobile-ux.jsonl	Vertical Swipe and Pull-to-Refresh	gestures	gestures,scroll,pull-to-refresh,dismiss
+ux-013	lore/07-mobile-ux.jsonl	Pinch and System Edge Gestures	gestures	gestures,pinch,zoom,edge-swipe,system-gestures
+ux-014	lore/07-mobile-ux.jsonl	Gesture Discoverability Rules	gestures	gestures,discoverability,hints,affordance
+ux-015	lore/07-mobile-ux.jsonl	Color Contrast Requirements (WCAG 2.1 AA)	accessibility	accessibility,wcag,contrast,color
+ux-016	lore/07-mobile-ux.jsonl	Touch Targets and Spacing	accessibility	accessibility,touch-target,tap-area,spacing
+ux-017	lore/07-mobile-ux.jsonl	Screen Reader and Focus Management	accessibility	accessibility,screen-reader,voiceover,talkback,focus
+ux-018	lore/07-mobile-ux.jsonl	Text Scaling and Motion Preferences	accessibility	accessibility,dynamic-type,font-scaling,reduce-motion
+ux-019	lore/07-mobile-ux.jsonl	Skeleton Screens	loading	loading,skeleton,shimmer,placeholder,perceived-performance
+ux-020	lore/07-mobile-ux.jsonl	Spinners, Progress Bars, and Optimistic UI	loading	loading,spinner,progress-bar,optimistic-ui,pull-to-refresh
+ux-021	lore/07-mobile-ux.jsonl	Lazy Loading and Content Loading Strategy	loading	loading,lazy-loading,infinite-scroll,pagination
+ux-022	lore/07-mobile-ux.jsonl	Empty States: First Use, No Results, Error	empty-states	empty-state,first-use,no-results,onboarding,illustration
+ux-023	lore/07-mobile-ux.jsonl	Empty States: Deleted, Cleared, and Offline	empty-states	empty-state,undo,offline,cached-content
+ux-024	lore/07-mobile-ux.jsonl	Inline Validation and Field Errors	error-handling	errors,validation,inline,form-errors,field-state
+ux-025	lore/07-mobile-ux.jsonl	Toast, Snackbar, Banner, and Full-Screen Errors	error-handling	errors,toast,snackbar,banner,error-screen,retry
+ux-026	lore/07-mobile-ux.jsonl	Progressive Disclosure and Coach Marks	onboarding	onboarding,progressive-disclosure,coach-marks,tooltip,first-run
+ux-027	lore/07-mobile-ux.jsonl	Walkthrough and Permission Priming	onboarding	onboarding,walkthrough,permissions,carousel,value-prop
+ux-028	lore/07-mobile-ux.jsonl	Mobile Form Layout and Input Design	forms	forms,input,layout,single-column,label
+ux-029	lore/07-mobile-ux.jsonl	Keyboard Types and Form Submission	forms	forms,keyboard,autofill,submit-button,input-type
+ux-030	lore/07-mobile-ux.jsonl	Keyboard Handling and Input Visibility	keyboard	keyboard,scroll,input-visibility,dismiss,safe-area
+ux-031	lore/07-mobile-ux.jsonl	Dark Mode Design Principles	dark-mode	dark-mode,theme,system-preference,surfaces
+ux-032	lore/07-mobile-ux.jsonl	Dark Mode: Colors, Images, and Assets	dark-mode	dark-mode,images,color-adjustment,desaturation
+ux-033	lore/07-mobile-ux.jsonl	Offline-First and Cache Strategy	offline	offline,cache,performance,background-sync,queue
+ux-034	lore/07-mobile-ux.jsonl	Perceived Performance and Image Optimization	offline	performance,perceived-performance,images,progressive-loading,transitions
+ux-035	lore/07-mobile-ux.jsonl	Accessibility Testing Checklist	accessibility	accessibility,testing,checklist,wcag,audit
+gp-001	lore/11-gestalt-perception.jsonl	Gestalt Psychology — The Foundation of Visual Perception	gestalt-overview	gestalt,perception,visual-design,psychology
+gp-002	lore/11-gestalt-perception.jsonl	Gestalt: Law of Proximity	law-of-proximity	proximity,grouping,layout,whitespace
+gp-003	lore/11-gestalt-perception.jsonl	Gestalt: Law of Similarity	law-of-similarity	similarity,visual-hierarchy,consistency,buttons
+gp-004	lore/11-gestalt-perception.jsonl	Gestalt: Law of Closure	law-of-closure	closure,icons,progressive-disclosure,visual-completion
+gp-005	lore/11-gestalt-perception.jsonl	Gestalt: Law of Continuity	law-of-continuity	continuity,alignment,eye-flow,grid,scanning
+gp-006	lore/11-gestalt-perception.jsonl	Gestalt: Law of Figure/Ground	law-of-figure-ground	figure-ground,contrast,modals,depth,dark-mode
+gp-007	lore/11-gestalt-perception.jsonl	Gestalt: Law of Symmetry	law-of-symmetry	symmetry,asymmetry,balance,composition,trust
+gp-008	lore/11-gestalt-perception.jsonl	Gestalt: Law of Common Fate	law-of-common-fate	animation,motion,grouping,transitions,micro-interactions
+gp-009	lore/11-gestalt-perception.jsonl	Gestalt: Law of Prägnanz (Good Form)	law-of-prägnanz	simplicity,minimalism,cognitive-load,visual-design,prägnanz
+gp-010	lore/11-gestalt-perception.jsonl	Gestalt Applied to Typography	gestalt-in-typography	typography,gestalt,hierarchy,readability,scanning
+gp-011	lore/11-gestalt-perception.jsonl	Preattentive Attributes — What Users See Before They Think	visual-perception-preattentive	preattentive,colour,size,attention,scanning,hierarchy
+gp-012	lore/11-gestalt-perception.jsonl	F-Pattern and Z-Pattern — How Users Scan Interfaces	visual-perception-scanning	f-pattern,z-pattern,scanning,eye-tracking,layout
+gp-013	lore/11-gestalt-perception.jsonl	Heuristic Evaluation — Expert UI Review Against Nielsen's 10 Laws	heuristic-evaluation	heuristic-evaluation,usability,nielsen,expert-review,ux-research
+gp-014	lore/11-gestalt-perception.jsonl	Running a Heuristic Evaluation in Practice	heuristic-evaluation-process	heuristic-evaluation,process,ux-research,team,severity
+gp-015	lore/11-gestalt-perception.jsonl	Severity Ratings in Heuristic Evaluations	heuristic-evaluation-severity	heuristic-evaluation,severity,prioritisation,ux-research
+gp-016	lore/11-gestalt-perception.jsonl	Colour Perception and Psychology in UI	perception-colour-psychology	colour,perception,psychology,accessibility,cultural-context
+ty-001	lore/12-typography-deep.jsonl	Type Anatomy — The Vocabulary of Letterforms	type-anatomy	type-anatomy,typography,letterforms,readability,fundamentals
+ty-002	lore/12-typography-deep.jsonl	Type Classification — Understanding the Major Families	type-classification	type-classification,serif,sans-serif,slab,monospace,display,variable-fonts
+ty-003	lore/12-typography-deep.jsonl	Optical vs Mechanical Spacing — Why Type Feels Wrong	type-optical-vs-mechanical	optical-spacing,kerning,mechanical-spacing,type-design,perception
+ty-004	lore/12-typography-deep.jsonl	Kerning — The Art of Letter Spacing	kerning	kerning,letter-spacing,type-design,display-type,optical
+ty-005	lore/12-typography-deep.jsonl	Tracking and Leading — Horizontal and Vertical Space	tracking-leading	tracking,leading,line-height,letter-spacing,readability,body-text
+ty-006	lore/12-typography-deep.jsonl	Type Scale — Building a Systematic Hierarchy	type-scale	type-scale,hierarchy,modular-scale,golden-ratio,design-systems
+ty-007	lore/12-typography-deep.jsonl	Type Alignment — Left, Right, Centre, Justified	type-alignment	alignment,left-align,justified,centred,readability,layout
+ty-008	lore/12-typography-deep.jsonl	Measure — The Optimal Line Length	type-measure	measure,line-length,readability,column-width,mobile-typography
+ty-009	lore/12-typography-deep.jsonl	Font Pairing — Principles and Strategy	type-pairing	font-pairing,typography,hierarchy,serif,sans-serif,design-systems
+ty-010	lore/12-typography-deep.jsonl	Variable Fonts — The Future of Type in UI	variable-fonts	variable-fonts,performance,animation,figma,type-technology
+ty-011	lore/12-typography-deep.jsonl	Type and Accessibility — Contrast, Size, and Legibility	type-contrast-accessibility	accessibility,wcag,contrast,legibility,type-size,dyslexia
+ty-012	lore/12-typography-deep.jsonl	Type Rendering — How Screens Affect Typography	type-on-screen-rendering	screen-rendering,anti-aliasing,hinting,retina,hid-pi,type-technology
+ty-013	lore/12-typography-deep.jsonl	Type Personality — How Fonts Communicate Emotion	type-emotion	type-personality,emotion,brand,typeface-selection,communication
+ty-014	lore/12-typography-deep.jsonl	Typography in Design Systems — Tokens and Scale	type-in-ui-systems	design-systems,tokens,typography,naming,figma,semantic
+ty-015	lore/12-typography-deep.jsonl	Text Style Naming — Bold and Weight Variants with Nested Slash Hierarchy	text-style-naming-bold-variants	text-styles,naming,bold,semibold,weight,variables,typography,design-systems,slash-naming
+ct-001	lore/13-colour-theory.jsonl	Colour Theory Foundations — Hue, Saturation, Lightness	colour-theory-basics	colour-theory,hsl,hsb,hue,saturation,lightness,fundamentals
+ct-002	lore/13-colour-theory.jsonl	Colour Harmonies — Relationships That Work	colour-wheel-harmonies	colour-harmony,complementary,analogous,monochromatic,colour-wheel
+ct-003	lore/13-colour-theory.jsonl	Colour Temperature — Warm, Cool, and Neutral	colour-temperature	colour-temperature,warm,cool,neutral,perception,UI-application
+ct-004	lore/13-colour-theory.jsonl	Colour Contrast for Accessibility and Readability	colour-contrast-accessibility	contrast,wcag,accessibility,colour-blindness,readability
+ct-005	lore/13-colour-theory.jsonl	Simultaneous Contrast — How Colours Change Each Other	colour-perception-simultaneous-contrast	simultaneous-contrast,colour-perception,context,dark-mode,colour-evaluation
+ct-006	lore/13-colour-theory.jsonl	Colour Psychology — What Each Hue Communicates	colour-psychology-by-hue	colour-psychology,hue,brand,emotion,culture,communication
+ct-007	lore/13-colour-theory.jsonl	Colour Systems — Primitives, Semantics, and Components	colour-in-design-systems	colour-system,design-tokens,semantic,primitive,dark-mode,white-label
+ct-008	lore/13-colour-theory.jsonl	Building a UI Colour Palette — Steps and Principles	colour-palette-construction	palette-construction,colour-scale,semantic-colour,surface,wcag
+ct-009	lore/13-colour-theory.jsonl	Colour in Dark Mode — More Than Just Inversion	colour-dark-mode	dark-mode,colour,surface-elevation,saturation,tokens,material-design,apple-hig
+ct-010	lore/13-colour-theory.jsonl	Colour and Light — Physical Principles Applied to UI	colour-and-light	light,colour-physics,shadows,elevation,neumorphism,realism
+ct-011	lore/13-colour-theory.jsonl	Colour in Branding — Owning a Colour	colour-branding	branding,colour,recognition,brand-identity,cadence,60-30-10
+ct-012	lore/13-colour-theory.jsonl	Colour Across Cultures — Global UI Considerations	colour-cultural-context	culture,colour,globalisation,localisation,international,accessibility
+bd-001	lore/14-behavioural-design.jsonl	Mental Models — Designing for What Users Already Know	mental-models	mental-models,cognitive-psychology,ux,learning-curve,familiarity
+bd-002	lore/14-behavioural-design.jsonl	Cognitive Load — The Brain's Processing Budget	cognitive-load	cognitive-load,decision-fatigue,progressive-disclosure,ux,simplicity
+bd-003	lore/14-behavioural-design.jsonl	Hick's Law — Fewer Choices, Faster Decisions	hicks-law	hicks-law,decision-making,navigation,choices,cognitive-load,ux-laws
+bd-004	lore/14-behavioural-design.jsonl	Fitts's Law — Size and Distance Define Click Effort	fitts-law	fitts-law,touch-target,click-area,interaction,mobile,ux-laws
+bd-005	lore/14-behavioural-design.jsonl	Jakob's Law — Users Spend Most Time on Other Sites	jakobs-law	jakobs-law,convention,patterns,familiarity,ux-laws,learning-cost
+bd-006	lore/14-behavioural-design.jsonl	Miller's Law — Working Memory Has a Limit	millers-law	millers-law,working-memory,chunking,cognitive-load,information-architecture,ux-laws
+bd-007	lore/14-behavioural-design.jsonl	Anchoring Bias — The First Number Wins	anchoring-bias	anchoring,cognitive-bias,pricing,persuasion,ux,psychology
+bd-008	lore/14-behavioural-design.jsonl	Peak-End Rule — Memory is Not an Average	peak-end-rule	peak-end-rule,memory,kahneman,emotional-design,success-states,onboarding
+bd-009	lore/14-behavioural-design.jsonl	Endowment Effect — Ownership Increases Perceived Value	endowment-effect	endowment-effect,ownership,onboarding,conversion,retention,behavioural-design
+bd-010	lore/14-behavioural-design.jsonl	Variable Reward Schedules — The Slot Machine Pattern	variable-rewards	variable-rewards,engagement,dark-patterns,ethics,skinner,habit-design
+bd-011	lore/14-behavioural-design.jsonl	Dark Patterns — Design That Works Against Users	dark-patterns	dark-patterns,ethics,deception,manipulation,UX,legal,brignull
+bd-012	lore/14-behavioural-design.jsonl	Ethical Nudges — Designing for Better Decisions	behavioural-design-nudges	nudge-theory,defaults,behavioural-design,ethics,social-proof,decision-architecture
+bd-013	lore/14-behavioural-design.jsonl	Emotional Design — Norman's Three Levels	emotional-design	emotional-design,don-norman,visceral,behavioural,reflective,brand-loyalty
+ah-001	lore/15-art-history-part1.jsonl	Renaissance (1400–1600) — Harmony, Proportion, and the Golden Ratio	renaissance	renaissance,golden-ratio,composition,perspective,history,art-influence
+ah-002	lore/15-art-history-part1.jsonl	Baroque (1600–1750) — Drama, Contrast, and Emotional Intensity	baroque	baroque,contrast,drama,luxury,dark-mode,history,art-influence
+ah-003	lore/15-art-history-part1.jsonl	Art Nouveau (1890–1910) — Organic Lines and Nature as Ornament	art-nouveau	art-nouveau,organic,botanical,curves,decoration,mucha,wellness-brand,history
+ah-004	lore/15-art-history-part1.jsonl	Bauhaus (1919–1933) — The DNA of Modern UI Design	bauhaus	bauhaus,modernism,flat-design,grid,typography,history,ui-foundations,fundamental
+ah-005	lore/15-art-history-part1.jsonl	De Stijl & Constructivism (1917–1930) — The Geometry of Purpose	de-stijl-constructivism	de-stijl,constructivism,mondrian,grid,geometry,history,editorial,layout
+ah-006	lore/15-art-history-part1.jsonl	Art Deco (1920s–1930s) — Luxury, Geometry, and Glamour	art-deco	art-deco,luxury,geometry,gold,gatsby,branding,glamour,history
+ah-007	lore/15-art-history-part1.jsonl	Swiss International Style (1950s–) — The Grammar of Modern Typography	swiss-international-style	swiss-style,international-typography,helvetica,grid,modernism,wayfinding,history,fundamental
+ah-008	lore/15-art-history-part1.jsonl	Pop Art (1950s–1960s) — Consumer Culture as Visual Language	pop-art	pop-art,warhol,lichtenstein,bold,flat,consumer,illustration,history
+ah-009	lore/15-art-history-part1.jsonl	Surrealism (1920s–1940s) — Dreamlogic in Visual Communication	surrealism	surrealism,dali,magritte,dreamlike,illustration,editorial,disruptive-brand,history
+ah-010	lore/15-art-history-part1.jsonl	Atomic Age & Space Age (1945–1970) — Optimism in the Future	atomic-space-age	atomic-age,space-age,retro,midcentury,googie,nostalgia,vintage-branding,history
+ah-011	lore/15-art-history-part1.jsonl	Psychedelic / Acid Art (1960s–1970s) — Perception Pushed to Breaking Point	psychedelic-acid	psychedelic,acid,60s,70s,counterculture,saturated,festival,streetwear,history
+ah-012	lore/15-art-history-part1.jsonl	1970s Design Aesthetic — Warmth, Organic Forms, and Folk Revival	70s-styles	70s,retro,earth-tones,organic,folk,wellness,cooper-black,nostalgia,history
+ah-013	lore/15-art-history-part1.jsonl	Punk / Zine Culture (1976–1980s) — Anti-Design as Design	punk-zine	punk,zine,diy,anti-design,brutalism,streetwear,independent,history
+ah-014	lore/15-art-history-part1.jsonl	Memphis Group (1981–1988) — Joyful Geometric Chaos	memphis-group	memphis,postmodern,geometric,bold,sottsass,pattern,spotify,history,revival
+ah-015	lore/15-art-history-part1.jsonl	Hyperrealism — More Real Than a Photograph	hyperrealism	hyperrealism,3d,rendering,product-photography,luxury,realism,apple,history
+ah-016	lore/15-art-history-part1.jsonl	Grunge / 90s Digital Aesthetic — Beautiful Imperfection	grunge-90s	grunge,90s,david-carson,grain,texture,imperfection,lo-fi,history,revival
+ah-017	lore/15-art-history-part2.jsonl	Manga & Anime Aesthetics — Japanese Visual Storytelling	manga-anime	manga,anime,japanese,illustration,mascot,character-design,ghibli,history
+ah-018	lore/15-art-history-part2.jsonl	Kawaii Culture — The Design Power of Cute	kawaii	kawaii,cute,japanese,sanrio,murakami,mascot,rounded,brand-character,history
+ah-019	lore/15-art-history-part2.jsonl	Yami Kawaii — The Dark Side of Cute	yami-kawaii-dark-cute	yami-kawaii,dark-cute,mental-health,japanese,harajuku,contrast,aesthetic,illustration
+ah-020	lore/15-art-history-part2.jsonl	Vaporwave — Internet Nostalgia as Visual Philosophy	vaporwave	vaporwave,synthwave,retrowave,nostalgia,80s,japanese,neon,gradient,digital-culture
+ah-021	lore/15-art-history-part2.jsonl	Cyberpunk — High Tech, Low Life as Aesthetic	cyberpunk	cyberpunk,blade-runner,neon,dark,futurism,gaming,tech-brand,aesthetic,history
+ah-022	lore/15-art-history-part2.jsonl	Pixel Art — Constraint as Aesthetic	pixel-art	pixel-art,retro-gaming,8-bit,16-bit,dithering,indie-games,nostalgia,constraint
+ah-023	lore/15-art-history-part2.jsonl	Glitch Art — Corruption as Beauty	glitch-art	glitch-art,digital-error,chromatic-aberration,vhs,distortion,hyperpop,aesthetic,history
+ah-024	lore/15-art-history-part2.jsonl	Skeuomorphism — When Digital Pretended to Be Physical	skeuomorphism	skeuomorphism,apple,ios,physical-metaphor,history,ui-evolution,mental-models
+ah-025	lore/15-art-history-part2.jsonl	Flat Design — The Skeuomorphism Backlash	flat-design	flat-design,metro,ios7,material-design,history,ui-evolution,reaction
+ah-026	lore/15-art-history-part2.jsonl	Material Design — Google's Physics-Based System	material-design	material-design,google,design-system,elevation,motion,android,history,fundamental
+ah-027	lore/15-art-history-part2.jsonl	Neumorphism — The Beautiful Dead End	neumorphism	neumorphism,soft-ui,failure,contrast,accessibility,ui-evolution,history,lesson
+ah-028	lore/15-art-history-part2.jsonl	Glassmorphism — Frosted Glass and the Depth Layer	glassmorphism	glassmorphism,frosted-glass,backdrop-blur,apple,depth,premium,ui-trend
+ah-029	lore/15-art-history-part2.jsonl	Web Brutalism — Raw, Honest, and Anti-Polished	brutalism-web	brutalism,anti-design,raw,typography,web-design,authenticity,editorial
+ah-030	lore/15-art-history-part2.jsonl	Minimalism — The Discipline of Subtraction	minimalism	minimalism,dieter-rams,braun,apple,whitespace,philosophy,subtraction,fundamental
+ah-031	lore/15-art-history-part2.jsonl	Retrowave / Synthwave — The 80s Future That Never Was	retrowave-synthwave	retrowave,synthwave,80s,neon,grid,nostalgia,gaming,music,lo-fi
+ah-032	lore/15-art-history-part2.jsonl	Contemporary Japanese Digital Aesthetics — Showa Revival and Solarpunk	japanese-new-styles	japanese,showa,city-pop,solarpunk,ghibli,contemporary,mori-girl,aesthetic
+ah-033	lore/15-art-history-part2.jsonl	Maximalism — More Is More	maximalism	maximalism,abundance,decoration,spotify,editorial,illustration,gen-z,pattern
+ah-034	lore/15-art-history-part2.jsonl	3D Illustration — The Dominant Digital Visual Trend	3d-illustration-trend	3d-illustration,blender,soft-3d,claymation,saas,trend,character-design,motion
+ah-035	lore/15-art-history-part2.jsonl	Neo-Brutalism (Digital) — Bold, Honest, Designed Rawness	neo-brutalism	neo-brutalism,bold,outlines,shadow,fintech,developer-tools,linear,current-trend
+ah-036	lore/15-art-history-part2.jsonl	Bento Grid Layout — The Current UI Trend	bento-grid	bento-grid,layout,apple,marketing,modular,current-trend,figma
+ah-037	lore/15-art-history-part2.jsonl	Biophilic / Organic Design — Nature-Informed UI	biophilic-organic	biophilic,organic,nature,wellness,sustainable,botanical,texture,current-trend
+ah-038	lore/15-art-history-part2.jsonl	How to Apply Art History to UI Design Decisions	applying-art-history	art-history,application,framework,brand-identity,emotional-design,synthesis,fundamental
+dr-001	lore/16-design-research.jsonl	Affinity Diagrams — Bottom-Up Qualitative Synthesis	affinity-diagram	affinity-diagram,synthesis,qualitative,research,themes,clustering
+dr-002	lore/16-design-research.jsonl	Card Sort Analysis — Informing Information Architecture	card-sort-analysis	card-sort,information-architecture,navigation,mental-models,ux-research
+dr-003	lore/16-design-research.jsonl	Diary Studies — Longitudinal Behaviour in Context	diary-study	diary-study,longitudinal,context,behaviour,ux-research,ethnography
+dr-004	lore/16-design-research.jsonl	Empathy Maps — Externalising User Understanding	empathy-map	empathy-map,synthesis,collaboration,user-understanding,dave-gray
+dr-005	lore/16-design-research.jsonl	User Interview Scripts — Structured Qualitative Conversations	interview-script	interview,qualitative,research,script,probing,ux-research
+dr-006	lore/16-design-research.jsonl	Jobs-to-Be-Done — Motivation-Centred Design	jobs-to-be-done	jtbd,jobs-to-be-done,motivation,christensen,ulwick,product-strategy
+dr-007	lore/16-design-research.jsonl	Journey Maps — End-to-End Experience Visualisation	journey-map	journey-map,experience,touchpoints,emotions,stages,ux-research
+dr-008	lore/16-design-research.jsonl	Interview Synthesis — From Transcript to Actionable Insights	interview-synthesis	synthesis,interview,analysis,insights,quotes,ux-research
+dr-009	lore/16-design-research.jsonl	Usability Test Plans — Measuring Design Effectiveness	usability-test-plan	usability-testing,test-plan,metrics,tasks,facilitation,ux-research
+dr-010	lore/16-design-research.jsonl	User Personas — Research-Grounded Archetypes	user-persona	persona,user-research,archetypes,alan-cooper,behavioural-patterns,segmentation
+us-001	lore/17-ux-strategy.jsonl	Competitive Analysis — Systematic UX Benchmarking	competitive-analysis	competitive-analysis,benchmarking,ux-strategy,feature-matrix,opportunity-map
+us-002	lore/17-ux-strategy.jsonl	Design Briefs — Defining the Problem Space	design-brief	design-brief,problem-definition,scope,constraints,project-planning,ux-strategy
+us-003	lore/17-ux-strategy.jsonl	Design Principles — Decision-Making Guardrails	design-principles	design-principles,decision-making,values,trade-offs,team-alignment,ux-strategy
+us-004	lore/17-ux-strategy.jsonl	Experience Maps — Systems-Level UX Visualisation	experience-map	experience-map,ecosystem,touchpoints,channels,omnichannel,service-design
+us-005	lore/17-ux-strategy.jsonl	UX Metrics — Connecting Design to Measurable Outcomes	ux-metrics	metrics,kpis,heart-framework,measurement,sus,nps,ux-strategy
+us-006	lore/17-ux-strategy.jsonl	North Star Vision — Inspiring Alignment Through Future State	north-star-vision	north-star,vision,strategy,alignment,pillars,long-term,ux-strategy
+us-007	lore/17-ux-strategy.jsonl	Opportunity Frameworks — Prioritising Design Investments	opportunity-framework	opportunity,prioritisation,rice,kano,impact-effort,roadmap,ux-strategy
+us-008	lore/17-ux-strategy.jsonl	Stakeholder Alignment — Navigating Influence and Decisions	stakeholder-alignment	stakeholders,alignment,raci,communication,decision-framework,ux-strategy
+ix-001	lore/18-interaction-design.jsonl	UI Animation Principles — Purposeful Motion Design	animation-principles	animation,motion,easing,duration,performance,prefers-reduced-motion,interaction-design
+ix-002	lore/18-interaction-design.jsonl	Error Handling UX — Prevention, Detection, Recovery	error-handling-ux	error-handling,validation,recovery,error-messages,forms,ux-patterns,interaction-design
+ix-003	lore/18-interaction-design.jsonl	System Feedback Patterns — Keeping Users Informed	feedback-patterns	feedback,confirmation,toast,notifications,status,acknowledgement,interaction-design
+ix-004	lore/18-interaction-design.jsonl	Gesture Patterns — Touch and Pointer Interaction Design	gesture-patterns	gestures,touch,swipe,pinch,drag,mobile,accessibility,interaction-design
+ix-005	lore/18-interaction-design.jsonl	Loading States — Perceived Performance Design	loading-states	loading,skeleton,progressive,optimistic-ui,perceived-performance,interaction-design
+ix-006	lore/18-interaction-design.jsonl	Micro-Interaction Specification — Trigger, Rules, Feedback, Loops	micro-interaction-spec	micro-interactions,trigger,feedback,dan-saffer,specification,interaction-design
+ix-007	lore/18-interaction-design.jsonl	State Machines — Modelling Predictable UI Behaviour	state-machine	state-machine,states,transitions,xstate,finite-state,predictability,interaction-design
+pt-001	lore/19-prototyping-testing.jsonl	A/B Test Design — Rigorous Design Experimentation	ab-test-design	ab-testing,experimentation,hypothesis,statistics,metrics,prototyping-testing
+pt-002	lore/19-prototyping-testing.jsonl	Accessibility Testing — Systematic Assistive Technology Evaluation	accessibility-test-plan	accessibility,wcag,screen-reader,assistive-technology,voiceover,nvda,prototyping-testing
+pt-003	lore/19-prototyping-testing.jsonl	Click Tests — Measuring Navigation Findability	click-test	click-test,first-click,navigation,findability,heat-map,prototyping-testing
+pt-004	lore/19-prototyping-testing.jsonl	Heuristic Evaluation — Expert Review Against Nielsen's 10	heuristic-evaluation	heuristic-evaluation,nielsen,usability,expert-review,severity,prototyping-testing
+pt-005	lore/19-prototyping-testing.jsonl	Prototype Strategy — Matching Fidelity to the Question	prototype-strategy	prototyping,fidelity,wireframes,mockups,wizard-of-oz,prototyping-testing
+pt-006	lore/19-prototyping-testing.jsonl	Test Scenarios — Revealing Genuine User Behaviour	test-scenario	test-scenarios,usability,tasks,observation,facilitation,prototyping-testing
+pt-007	lore/19-prototyping-testing.jsonl	User Flow Diagrams — Mapping Paths and Decisions	user-flow-diagram	user-flow,flow-diagram,decision-tree,happy-path,error-path,prototyping-testing
+pt-008	lore/19-prototyping-testing.jsonl	Wireframe Specifications — Content Priority and Behaviour	wireframe-spec	wireframes,specification,content-priority,annotation,responsive,prototyping-testing
+do-001	lore/20-design-ops.jsonl	Design Critique — Structured Feedback for Better Work	design-critique	critique,feedback,design-review,collaboration,team,design-ops
+do-002	lore/20-design-ops.jsonl	Design QA Checklist — Verifying Implementation Accuracy	design-qa-checklist	qa,checklist,implementation,verification,cross-platform,design-ops
+do-003	lore/20-design-ops.jsonl	Design Review Process — Quality Gates Without Bottlenecks	design-review-process	review-process,gates,quality,approval,workflow,design-ops
+do-004	lore/20-design-ops.jsonl	Design Sprints — Challenge to Tested Prototype in Five Days	design-sprint	design-sprint,jake-knapp,google-ventures,prototype,testing,rapid,design-ops
+do-005	lore/20-design-ops.jsonl	Developer Handoff — Complete Implementation Specifications	handoff-spec	handoff,developer,specification,tokens,responsive,accessibility,design-ops
+do-006	lore/20-design-ops.jsonl	Design Team Workflows — Rituals, Tools, and Collaboration	team-workflow	workflow,rituals,collaboration,tools,team,process,design-ops
+do-007	lore/20-design-ops.jsonl	Design Version Control — Files, Libraries, and Tokens	version-control-design	version-control,semantic-versioning,branching,changelog,libraries,design-ops
+dt-001	lore/21-designer-toolkit.jsonl	Design Case Studies — Portfolio Storytelling	case-study	case-study,portfolio,storytelling,impact,process,designer-toolkit
+dt-002	lore/21-designer-toolkit.jsonl	Design Rationale — Connecting Decisions to Evidence	design-rationale	rationale,decision-making,documentation,evidence,trade-offs,designer-toolkit
+dt-003	lore/21-designer-toolkit.jsonl	Design System Adoption — Driving Consistent Usage	design-system-adoption	design-system,adoption,migration,documentation,governance,designer-toolkit
+dt-004	lore/21-designer-toolkit.jsonl	Design Token Audit — Consistency and Coverage Analysis	design-token-audit	token-audit,design-tokens,consistency,coverage,lint,designer-toolkit
+dt-005	lore/21-designer-toolkit.jsonl	Design Presentations — Communicating and Persuading	presentation-deck	presentation,communication,stakeholders,persuasion,storytelling,designer-toolkit
+dt-006	lore/21-designer-toolkit.jsonl	UX Writing — Interface Copy That Guides Users	ux-writing	ux-writing,microcopy,error-messages,empty-states,cta,voice-tone,designer-toolkit
+dt-007	lore/21-designer-toolkit.jsonl	Data Visualisation — Chart Selection and Accessible Design	data-visualization	data-visualization,charts,tufte,colour,accessibility,responsive,designer-toolkit
+dt-008	lore/21-designer-toolkit.jsonl	Illustration Style Systems — Visual Language and Rules	illustration-style	illustration,style-guide,visual-language,character-design,consistency,designer-toolkit
+dt-009	lore/21-designer-toolkit.jsonl	Visual Hierarchy — Guiding Attention Through Design	visual-hierarchy	visual-hierarchy,attention,contrast,spacing,weight,scanning,designer-toolkit

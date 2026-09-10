@@ -1,0 +1,14 @@
+# skill-industry entry index — grep this before reading a module
+# id	file	title	topic	tags
+cf-001	lore/24-crypto-fintech-ux.jsonl	Crypto & Web3 UX — Core Challenges & Design Philosophy	crypto-ux-core-challenges	crypto,web3,ux,philosophy,challenges,trust
+cf-002	lore/24-crypto-fintech-ux.jsonl	Crypto Platform Onboarding — KYC, Verification & First-Run UX	crypto-onboarding-ux	onboarding,kyc,crypto,verification,first-run,ux
+cf-003	lore/24-crypto-fintech-ux.jsonl	Crypto Exchange Trading Interface — UX Patterns & Information Hierarchy	crypto-exchange-trading-ux	exchange,trading,ux,order-book,chart,crypto
+cf-004	lore/24-crypto-fintech-ux.jsonl	Crypto Wallet UX — Self-Custody, Seed Phrases & Key Management	crypto-wallet-ux	wallet,seed-phrase,self-custody,defi,ux,security
+cf-005	lore/24-crypto-fintech-ux.jsonl	Fiat On-Ramp & Off-Ramp UX — Converting Between Fiat and Crypto	onramp-offramp-ux	on-ramp,off-ramp,fiat,crypto,ux,payments,conversion
+cf-006	lore/24-crypto-fintech-ux.jsonl	DeFi Platform UX — Protocols, Liquidity & Decentralised Finance Interfaces	defi-ux-patterns	defi,protocols,gas,slippage,ux,web3,liquidity
+cf-007	lore/24-crypto-fintech-ux.jsonl	Fintech App UX — Banking, Payments & Financial Dashboard Design	fintech-app-ux	fintech,banking,payments,dashboard,ux,trust,onboarding
+cf-008	lore/24-crypto-fintech-ux.jsonl	Investment & Portfolio Platform UX — Data Display, Risk Communication & Trust	investment-portfolio-ux	investment,portfolio,ux,data-visualisation,risk,fintech
+cf-009	lore/24-crypto-fintech-ux.jsonl	Credit Card & Card Product UX — Fintech Card Interface Patterns	credit-card-ux	credit-card,card-ux,fintech,revolut,apple-card,rewards,spending
+cf-010	lore/24-crypto-fintech-ux.jsonl	Crypto & Fintech Trust Signals — Security UX & Building User Confidence	crypto-trust-security-ux	trust,security,crypto,fintech,compliance,ux,ftx
+cf-011	lore/24-crypto-fintech-ux.jsonl	Crypto & Fintech Error States — High-Stakes Error Design	crypto-error-states	error-states,ux,crypto,fintech,error-prevention,feedback
+cf-012	lore/24-crypto-fintech-ux.jsonl	WalletConnect & dApp Connection UX — Web3 Authentication Patterns	defi-wallet-connect-ux	walletconnect,defi,web3,authentication,ux,dapp,connection

@@ -26,9 +26,12 @@ component architecture, file organisation, auditing, and step-by-step recipes.
 
 ## How to Use This Skill
 
-1. Identify the relevant module(s) from the index below
-2. Read the applicable JSONL file using the view tool
-3. Apply the entries — each entry has id, tags, title, and content
+1. **Grep `INDEX.tsv` first** — one tab-separated line per entry
+   (`id · file · title · topic · tags`). Find the ids you need there instead of
+   reading a whole module.
+2. Read only the entries you need from the file the index names
+3. Every entry has: `id`, `topic`, `title`, `content`, `tags`, and optionally
+   `source`, `example`, `meta` (hard numbers — specs, dp/pt values, ratios)
 4. For complex tasks, consult multiple modules
 
 ---
@@ -38,11 +41,11 @@ component architecture, file organisation, auditing, and step-by-step recipes.
 | File | Covers | Key IDs |
 |------|--------|---------|
 | lore/00-figma-core.jsonl | Frames, groups, layers, constraints, boolean ops, masks, export, shortcuts | fc-001 → fc-041 |
-| lore/01-auto-layout.jsonl | Auto layout direction, sizing, padding, alignment, patterns, responsive | al-001 → al-035 |
+| lore/01-auto-layout.jsonl | Auto layout direction, sizing, padding, alignment, patterns, responsive | al-001 → al-038 |
 | lore/03-components.jsonl | Component creation, variants, properties, slots, nesting, naming, architecture | cp-001 → cp-043 |
 | lore/08-organization.jsonl | File structure, library architecture, naming, versioning, governance, handoff | og-001 → og-027 |
 | lore/09-audit-optimization.jsonl | Detached instances, hardcoded values, audit scripts, health score | au-001 → au-025 |
-| lore/10-execution-recipes.jsonl | Step-by-step recipes for creating components, tokens, DS bootstrap, gotchas | ex-001 → ex-038 |
+| lore/10-execution-recipes.jsonl | Step-by-step recipes for creating components, tokens, DS bootstrap, gotchas | ex-001 → ex-046 |
 
 ---
 

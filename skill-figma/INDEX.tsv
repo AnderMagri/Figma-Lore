@@ -1,0 +1,222 @@
+# skill-figma entry index — grep this before reading a module
+# id	file	title	topic	tags
+fc-001	lore/00-figma-core.jsonl	Frame fundamentals	frames	frame,container,artboard
+fc-002	lore/00-figma-core.jsonl	Frame sizing modes	frames	frame,sizing,hug,fill,fixed
+fc-003	lore/00-figma-core.jsonl	Top-level frames as artboards	frames	frame,artboard,canvas,prototype
+fc-004	lore/00-figma-core.jsonl	Frame clip content	frames	frame,clip,overflow
+fc-005	lore/00-figma-core.jsonl	Group fundamentals	groups	group,organize,lightweight
+fc-006	lore/00-figma-core.jsonl	Group vs Frame decision	groups	group,frame,convert
+fc-007	lore/00-figma-core.jsonl	Section fundamentals	sections	section,canvas,organize
+fc-008	lore/00-figma-core.jsonl	Section best practices	sections	section,organization,handoff
+fc-009	lore/00-figma-core.jsonl	Layer order and z-index	layers	layers,z-index,order,panel
+fc-010	lore/00-figma-core.jsonl	Layer naming and management	layers	layers,naming,lock,hide
+fc-011	lore/00-figma-core.jsonl	Selection techniques	selection	selection,deep-select,multi-select
+fc-012	lore/00-figma-core.jsonl	Select matching and smart selection	selection	selection,match,smart-selection
+fc-013	lore/00-figma-core.jsonl	Alignment and distribution	alignment	align,distribute,spacing
+fc-014	lore/00-figma-core.jsonl	Constraint system	constraints	constraints,responsive,resize
+fc-015	lore/00-figma-core.jsonl	Constraint rules and auto layout interaction	constraints	constraints,auto-layout,stretch
+fc-016	lore/00-figma-core.jsonl	Boolean operations	boolean	boolean,union,subtract,intersect,exclude
+fc-017	lore/00-figma-core.jsonl	Boolean flatten and editing	boolean	boolean,flatten,path,vector
+fc-018	lore/00-figma-core.jsonl	Mask fundamentals	masks	mask,clip,alpha
+fc-019	lore/00-figma-core.jsonl	Mask types and outline mask	masks	mask,outline,alpha,vector
+fc-020	lore/00-figma-core.jsonl	Export formats and settings	export	export,png,jpg,svg,pdf
+fc-021	lore/00-figma-core.jsonl	Export multipliers and platform conventions	export	export,retina,density,ios,android
+fc-022	lore/00-figma-core.jsonl	Prototype connections and triggers	prototyping	prototype,link,trigger,interaction
+fc-023	lore/00-figma-core.jsonl	Prototype actions and transitions	prototyping	prototype,action,navigate,overlay,transition
+fc-024	lore/00-figma-core.jsonl	Prototype easing and overflow scrolling	prototyping	prototype,easing,scroll,fixed
+fc-025	lore/00-figma-core.jsonl	Dev Mode inspection	devmode	devmode,inspect,css,handoff,code
+fc-026	lore/00-figma-core.jsonl	Dev Mode components and annotations	devmode	devmode,component,annotation,token,variable
+fc-027	lore/00-figma-core.jsonl	Essential tool shortcuts	shortcuts	shortcuts,tools,keyboard
+fc-028	lore/00-figma-core.jsonl	Essential navigation and property shortcuts	shortcuts	shortcuts,zoom,copy,paste,properties
+fc-029	lore/00-figma-core.jsonl	Fill types and properties	fills	fill,color,gradient,image
+fc-030	lore/00-figma-core.jsonl	Blend modes and opacity	fills	fill,blend-mode,opacity
+fc-031	lore/00-figma-core.jsonl	Stroke properties	strokes	stroke,border,dash,alignment
+fc-032	lore/00-figma-core.jsonl	Shadow effects	effects	effects,shadow,drop-shadow,inner-shadow
+fc-033	lore/00-figma-core.jsonl	Blur effects	effects	effects,blur,background-blur,glassmorphism
+fc-034	lore/00-figma-core.jsonl	Text properties and sizing	text	text,font,typography,sizing
+fc-035	lore/00-figma-core.jsonl	Text decoration and OpenType features	text	text,decoration,opentype,transform
+fc-036	lore/00-figma-core.jsonl	Frame layout grids	frames	frame,grid,columns,rows
+fc-037	lore/00-figma-core.jsonl	SVG export best practices	export	export,svg,development,icons
+fc-038	lore/00-figma-core.jsonl	Precision transforms	selection	selection,transform,move,resize,rotate
+fc-039	lore/00-figma-core.jsonl	Smart animate and component interactions	prototyping	prototype,smart-animate,interactive,component
+fc-040	lore/00-figma-core.jsonl	Dev Mode measurements and spacing	devmode	devmode,measurement,spacing,redline
+fc-041	lore/00-figma-core.jsonl	Layer operations and hierarchy	layers	layers,hierarchy,nesting,component
+al-001	lore/01-auto-layout.jsonl	Add Auto Layout	fundamentals	shortcut,add,create
+al-002	lore/01-auto-layout.jsonl	Remove Auto Layout	fundamentals	remove,delete
+al-003	lore/01-auto-layout.jsonl	Auto Layout Core Concept	fundamentals	concept,overview
+al-004	lore/01-auto-layout.jsonl	Auto Layout vs Constraints	fundamentals	constraints,difference
+al-005	lore/01-auto-layout.jsonl	Horizontal Direction	direction	direction,horizontal,row
+al-006	lore/01-auto-layout.jsonl	Vertical Direction	direction	direction,vertical,column
+al-007	lore/01-auto-layout.jsonl	Wrap Mode	direction	direction,wrap,responsive
+al-008	lore/01-auto-layout.jsonl	Grid Layout Mode (2025)	direction	grid,2025,direction,tracks
+al-009	lore/01-auto-layout.jsonl	Packed Spacing (Default)	spacing	spacing,gap,packed
+al-010	lore/01-auto-layout.jsonl	Space Between	spacing	spacing,distribute,space-between,auto
+al-011	lore/01-auto-layout.jsonl	Negative Spacing and Individual Override	spacing	spacing,negative,overlap,override
+al-012	lore/01-auto-layout.jsonl	Hug Contents	sizing	sizing,hug,shrink
+al-013	lore/01-auto-layout.jsonl	Fill Container	sizing	sizing,fill,stretch,responsive
+al-014	lore/01-auto-layout.jsonl	Fixed Size	sizing	sizing,fixed,pixels
+al-015	lore/01-auto-layout.jsonl	Hug + Fill Combination Pattern	sizing	sizing,hug,fill,pattern,responsive
+al-016	lore/01-auto-layout.jsonl	Min and Max Width/Height	sizing	sizing,min,max,constraints,responsive
+al-017	lore/01-auto-layout.jsonl	Padding Configuration	padding	padding,spacing,uniform,independent
+al-018	lore/01-auto-layout.jsonl	9-Point Alignment Grid	alignment	alignment,position,justify,center
+al-019	lore/01-auto-layout.jsonl	Align Self Override	alignment	alignment,self,override,individual
+al-020	lore/01-auto-layout.jsonl	Text Baseline Alignment	alignment	alignment,baseline,text,typography
+al-021	lore/01-auto-layout.jsonl	Absolute Position Within Auto Layout	absolute-position	absolute,position,float,overlay
+al-022	lore/01-auto-layout.jsonl	Navbar Pattern	patterns	pattern,navbar,navigation,header
+al-023	lore/01-auto-layout.jsonl	Card Component Pattern	patterns	pattern,card,component
+al-024	lore/01-auto-layout.jsonl	Form Layout Pattern	patterns	pattern,form,input,label
+al-025	lore/01-auto-layout.jsonl	Sidebar Layout Pattern	patterns	pattern,sidebar,layout,page
+al-026	lore/01-auto-layout.jsonl	Header-Content-Footer Pattern	patterns	pattern,page,layout,sticky-footer
+al-027	lore/01-auto-layout.jsonl	Grid Tracks and Fractional Units	grid	grid,tracks,fr,columns,rows
+al-028	lore/01-auto-layout.jsonl	Grid Cell Spanning	grid	grid,span,merge,colspan
+al-029	lore/01-auto-layout.jsonl	Freeform Layout Mode	freeform	freeform,free,position,2025
+al-030	lore/01-auto-layout.jsonl	Responsive Wrap Pattern	responsive	responsive,wrap,mobile,desktop,breakpoint
+al-031	lore/01-auto-layout.jsonl	Adaptive Text Container	responsive	responsive,text,min-max,flexible
+al-032	lore/01-auto-layout.jsonl	Common Spacing Values	values	values,spacing,padding,gap,tokens
+al-033	lore/01-auto-layout.jsonl	Rules: Groups, Spacers, and Fixed Sizes	tips	rules,groups,spacers,fixed,best-practice
+al-034	lore/01-auto-layout.jsonl	Shortcuts and Quick Actions	tips	tips,shortcuts,tricks,efficiency
+al-035	lore/01-auto-layout.jsonl	Negative Gap and Overlap Techniques	tips	tips,negative,overlap,stacking,avatars
+al-036	lore/01-auto-layout.jsonl	Responsive-First Layout Philosophy (Default Build Standard)	philosophy	philosophy,responsive,default,standard,build,cascade,resize,style
+al-037	lore/01-auto-layout.jsonl	Text Sizing Rule: Fill Container, Never Fixed	philosophy	philosophy,text,fill,sizing,rule,responsive,style
+al-038	lore/01-auto-layout.jsonl	Resize Cascade Checklist — Verify Before Handoff	philosophy	philosophy,checklist,resize,verify,handoff,responsive,style
+cp-001	lore/03-components.jsonl	Create Component Shortcut	creating	create,shortcut,basics
+cp-002	lore/03-components.jsonl	Main Component Identity	creating	main,source-of-truth,icon
+cp-003	lore/03-components.jsonl	Instance Creation	creating	instance,copy,drag
+cp-004	lore/03-components.jsonl	Build Components from Frames	creating	rule,frame,auto-layout,best-practice
+cp-005	lore/03-components.jsonl	Set Layout Before Converting	creating	rule,constraints,auto-layout,preparation
+cp-006	lore/03-components.jsonl	Self-Contained Components	creating	rule,padding,background,sizing
+cp-007	lore/03-components.jsonl	Boolean Property	properties	boolean,visibility,toggle,show-hide
+cp-008	lore/03-components.jsonl	Text Property	properties	text,content,editing,expose
+cp-009	lore/03-components.jsonl	Instance Swap Property	properties	instance-swap,nested,swap,preferred-values
+cp-010	lore/03-components.jsonl	Variant Property	properties	variant,property,component-set
+cp-011	lore/03-components.jsonl	Variants Overview	variants	variants,component-set,versions
+cp-012	lore/03-components.jsonl	Creating Variants	variants	variants,create,combine
+cp-013	lore/03-components.jsonl	Variant Property Naming	variants	variants,naming,properties,dimensions
+cp-014	lore/03-components.jsonl	Plan Variants Before Building	variants	rule,variants,planning,explosion
+cp-015	lore/03-components.jsonl	Consistent Variant Property Names	variants	rule,variants,naming,consistency
+cp-016	lore/03-components.jsonl	Variant Interaction Prototyping	variants	variants,prototyping,change-to,interaction
+cp-017	lore/03-components.jsonl	Component Set Container	component-sets	component-set,container,variants
+cp-018	lore/03-components.jsonl	Reorganize Variants	component-sets	component-set,reorganize,grid,layout
+cp-019	lore/03-components.jsonl	Reduce Variants with Variables	component-sets	rule,variants,variables,color,optimization
+cp-020	lore/03-components.jsonl	Max Variant Count	component-sets	rule,variants,limit,restructuring
+cp-021	lore/03-components.jsonl	Nested Components Overview	nested	nested,composition,reusable,micro-components
+cp-022	lore/03-components.jsonl	Nested Component Examples	nested	nested,example,button,card
+cp-023	lore/03-components.jsonl	Expose Nested Properties	nested	nested,expose,parent,properties
+cp-024	lore/03-components.jsonl	Atomic Design Build Order	nested	rule,atomic,molecules,organisms,architecture
+cp-025	lore/03-components.jsonl	Compound Components	compound	compound,composition,navigation,form
+cp-026	lore/03-components.jsonl	Expose Only Needed Properties	compound	compound,properties,expose,simplicity
+cp-027	lore/03-components.jsonl	Slots Overview	slots	slots,placeholder,custom-content,2025
+cp-028	lore/03-components.jsonl	Slot Constraints and Use Cases	slots	slots,constraints,flexibility,boundaries
+cp-029	lore/03-components.jsonl	Instance Overrides	overrides	overrides,instance,changes,customization
+cp-030	lore/03-components.jsonl	Non-Overridable Properties	overrides	overrides,limitations,structure
+cp-031	lore/03-components.jsonl	Reset and Push Overrides	overrides	overrides,reset,push,main
+cp-032	lore/03-components.jsonl	Detach Instance	detaching	detach,instance,unlink,shortcut
+cp-033	lore/03-components.jsonl	When to Detach	detaching	detach,rule,best-practice,avoid
+cp-034	lore/03-components.jsonl	Slash Hierarchy Naming	naming	naming,hierarchy,slash,assets-panel
+cp-035	lore/03-components.jsonl	Naming Rules	naming	naming,rule,convention,PascalCase
+cp-036	lore/03-components.jsonl	Preferred Values for Instance Swap	preferred-values	preferred-values,instance-swap,limit,options
+cp-037	lore/03-components.jsonl	Component Descriptions	documentation	documentation,description,markdown,dev-mode
+cp-038	lore/03-components.jsonl	Interactive State Variants	advanced	advanced,states,hover,focus,disabled
+cp-039	lore/03-components.jsonl	Responsive and Loading Variants	advanced	advanced,responsive,skeleton,loading,empty,error
+cp-040	lore/03-components.jsonl	Component-Level Variables	advanced	advanced,variables,theme,binding
+cp-041	lore/03-components.jsonl	One Component Per Concern	architecture	rule,architecture,separation,single-responsibility
+cp-042	lore/03-components.jsonl	Auto Layout and Resize Rules	architecture	rule,architecture,auto-layout,resize,fill,hug
+cp-043	lore/03-components.jsonl	Internal Spacing and Variables	architecture	rule,architecture,padding,spacing,variables,hardcode
+og-001	lore/08-organization.jsonl	Single-Library Approach	file-structure	library,file-structure,small-teams
+og-002	lore/08-organization.jsonl	Multi-Library Approach	file-structure	library,file-structure,large-teams,architecture
+og-003	lore/08-organization.jsonl	Recommended Multi-Library Structure	file-structure	library,architecture,dependency-chain,layers
+og-004	lore/08-organization.jsonl	File Naming Convention	file-structure	naming,files,consistency
+og-005	lore/08-organization.jsonl	File Performance Rule	file-structure	performance,layers,file-size,rule
+og-006	lore/08-organization.jsonl	Library Page Structure	page-organization	pages,cover,getting-started,organization
+og-007	lore/08-organization.jsonl	Page Naming with Emoji Prefixes	page-organization	pages,naming,emoji,scanning
+og-008	lore/08-organization.jsonl	Section Usage on Canvas	sections	sections,grouping,canvas,organization
+og-009	lore/08-organization.jsonl	Section Color Coding	sections	sections,color-coding,status,visual
+og-010	lore/08-organization.jsonl	Layer Naming Rules	naming	naming,layers,hygiene,rule
+og-011	lore/08-organization.jsonl	Component Naming Hierarchy	naming	naming,components,slash,assets-panel
+og-012	lore/08-organization.jsonl	Variable and Style Naming	naming	naming,variables,styles,conventions
+og-013	lore/08-organization.jsonl	Frame and Artboard Naming	naming	naming,frames,screens,states
+og-014	lore/08-organization.jsonl	Library Publishing and Enabling	multi-library	library,publishing,enabling,consumers
+og-015	lore/08-organization.jsonl	Dependency Chain Rules	multi-library	library,dependencies,circular,architecture,rule
+og-016	lore/08-organization.jsonl	Library Versioning	multi-library	library,versioning,independent,releases
+og-017	lore/08-organization.jsonl	Grouping Components by Function	component-library	components,grouping,function,categories
+og-018	lore/08-organization.jsonl	Grouping Components by Atomic Level	component-library	components,grouping,atomic-design,atoms,molecules,organisms
+og-019	lore/08-organization.jsonl	Hiding Internal Components	component-library	components,internal,helper,hiding,private
+og-020	lore/08-organization.jsonl	Design Debt Audit	design-debt	design-debt,audit,detached,unnamed,hardcoded
+og-021	lore/08-organization.jsonl	Design Debt Metrics	design-debt	design-debt,metrics,tracking,kpi
+og-022	lore/08-organization.jsonl	Developer Handoff Best Practices	handoff	handoff,dev-mode,specs,annotations
+og-023	lore/08-organization.jsonl	Figma Branching Workflow	version-control	branching,version-control,merge,review
+og-024	lore/08-organization.jsonl	Version History Best Practices	version-control	version-history,saving,naming,restore
+og-025	lore/08-organization.jsonl	Contribution and Review Process	governance	governance,contribution,review,approval,publishing
+og-026	lore/08-organization.jsonl	Breaking Changes and Communication	governance	governance,breaking-changes,migration,communication,changelog
+og-027	lore/08-organization.jsonl	Component Documentation Layout	documentation	documentation,component-page,layout,do-dont
+au-001	lore/09-audit-optimization.jsonl	Find Detached Instances	detached-instances	audit,detached,instances,debt
+au-002	lore/09-audit-optimization.jsonl	Reconnect Detached Instances Script	detached-instances	audit,detached,fix,instances
+au-003	lore/09-audit-optimization.jsonl	Find Unused Components	unused-components	audit,unused,components,cleanup
+au-004	lore/09-audit-optimization.jsonl	Find Duplicate/Mergeable Components	duplicate-components	audit,duplicates,merge,components
+au-005	lore/09-audit-optimization.jsonl	Find Unnamed/Default Layers	naming	audit,naming,layers,cleanup
+au-006	lore/09-audit-optimization.jsonl	Find Hardcoded Colors Not Using Variables	hardcoded-values	audit,hardcoded,colors,variables,tokens
+au-007	lore/09-audit-optimization.jsonl	Find Hardcoded Spacing Not Using Variables	hardcoded-values	audit,hardcoded,spacing,variables,tokens
+au-008	lore/09-audit-optimization.jsonl	Find Hardcoded Typography Not Using Styles	hardcoded-values	audit,hardcoded,typography,styles
+au-009	lore/09-audit-optimization.jsonl	Check Consistent Corner Radius	consistency	audit,corner-radius,consistency
+au-010	lore/09-audit-optimization.jsonl	Check Consistent Elevation/Shadow	consistency	audit,shadows,elevation,consistency
+au-011	lore/09-audit-optimization.jsonl	Audit Component Variant Explosion	structure	audit,variants,explosion,optimization
+au-012	lore/09-audit-optimization.jsonl	Audit Nested Component Depth	structure	audit,nesting,depth,performance
+au-013	lore/09-audit-optimization.jsonl	Audit Auto Layout Coverage	structure	audit,auto-layout,structure
+au-014	lore/09-audit-optimization.jsonl	Audit Variable Coverage	variables	audit,variables,coverage,tokens
+au-015	lore/09-audit-optimization.jsonl	Audit Variable Organization	variables	audit,variables,organization,collections
+au-016	lore/09-audit-optimization.jsonl	Generate Audit Report Template	report	audit,report,template,summary
+au-017	lore/09-audit-optimization.jsonl	Health Score Calculation	report	audit,score,health,metrics
+au-018	lore/09-audit-optimization.jsonl	Merge Similar Components Strategy	optimization	audit,merge,components,optimization
+au-019	lore/09-audit-optimization.jsonl	Reduce Variant Count Strategy	optimization	audit,variants,reduction,optimization
+au-020	lore/09-audit-optimization.jsonl	Flatten Deep Nesting Strategy	optimization	audit,nesting,flatten,optimization
+au-021	lore/09-audit-optimization.jsonl	Migrate Styles to Variables	migration	audit,migration,styles,variables
+au-022	lore/09-audit-optimization.jsonl	Add Missing Component Properties	migration	audit,properties,components,migration
+au-023	lore/09-audit-optimization.jsonl	Pre-Publish Audit Checklist	checklist	audit,checklist,publish,quality
+au-024	lore/09-audit-optimization.jsonl	Quarterly Audit Cadence	checklist	audit,schedule,governance,cadence
+au-025	lore/09-audit-optimization.jsonl	Full File Scan Script Template	scripts	audit,script,scan,template
+ex-001	lore/10-execution-recipes.jsonl	Available Figma Execution Tools	tools-overview	tools,overview,mcp
+ex-002	lore/10-execution-recipes.jsonl	figma_execute — The Power Tool	tools-overview	figma-execute,javascript,plugin-api
+ex-003	lore/10-execution-recipes.jsonl	Tool Selection Decision Tree	tools-overview	tools,decision,selection
+ex-004	lore/10-execution-recipes.jsonl	Recipe: Create Simple Button Component	recipe-component	recipe,button,component,create
+ex-005	lore/10-execution-recipes.jsonl	Recipe: Create Button with Icon + Variants	recipe-component	recipe,button,icon,variants,component-set
+ex-006	lore/10-execution-recipes.jsonl	Recipe: Create Component with States	recipe-component	recipe,states,hover,disabled,variants
+ex-007	lore/10-execution-recipes.jsonl	Recipe: Create Input Field Component	recipe-component	recipe,input,form,component
+ex-008	lore/10-execution-recipes.jsonl	Recipe: Create Card Component	recipe-component	recipe,card,component,compound
+ex-009	lore/10-execution-recipes.jsonl	Recipe: Create Navigation Bar	recipe-component	recipe,navbar,navigation,component
+ex-010	lore/10-execution-recipes.jsonl	Recipe: Create Icon Button	recipe-component	recipe,icon-button,component
+ex-011	lore/10-execution-recipes.jsonl	Recipe: Create Full Color Token System	recipe-variables	recipe,colors,tokens,variables,light-dark
+ex-012	lore/10-execution-recipes.jsonl	Recipe: Create Spacing Token System	recipe-variables	recipe,spacing,tokens,variables
+ex-013	lore/10-execution-recipes.jsonl	Recipe: Create Border Radius Tokens	recipe-variables	recipe,radius,tokens,variables
+ex-014	lore/10-execution-recipes.jsonl	Recipe: Create Typography Styles	recipe-variables	recipe,typography,styles,text
+ex-015	lore/10-execution-recipes.jsonl	Recipe: Setup Design Tokens in One Shot	recipe-variables	recipe,tokens,setup,one-shot
+ex-016	lore/10-execution-recipes.jsonl	Recipe: Bootstrap Complete Design System	recipe-ds	recipe,design-system,full,bootstrap
+ex-017	lore/10-execution-recipes.jsonl	Recipe: Create Component Page Layout	recipe-ds	recipe,page,organization,layout
+ex-018	lore/10-execution-recipes.jsonl	Recipe: Create Responsive Component	recipe-advanced	recipe,responsive,component,breakpoints
+ex-019	lore/10-execution-recipes.jsonl	Recipe: Create Component with Slots	recipe-advanced	recipe,slots,composable,2025
+ex-020	lore/10-execution-recipes.jsonl	Recipe: Create Data Table Component	recipe-advanced	recipe,table,data,component,advanced
+ex-021	lore/10-execution-recipes.jsonl	Recipe: Bulk Instance Creation	recipe-advanced	recipe,bulk,instances,populate
+ex-022	lore/10-execution-recipes.jsonl	Recipe: Clone and Modify Existing Component	recipe-advanced	recipe,clone,modify,extend
+ex-023	lore/10-execution-recipes.jsonl	Recipe: Create iOS Screen Template	recipe-ios	recipe,ios,screen,template
+ex-024	lore/10-execution-recipes.jsonl	Recipe: Create Android Screen Template	recipe-android	recipe,android,screen,template
+ex-025	lore/10-execution-recipes.jsonl	Recipe: Interactive Component Prototype	recipe-prototype	recipe,prototype,interaction,states
+ex-026	lore/10-execution-recipes.jsonl	Gotcha: Component Instance Text Editing	gotchas	gotcha,instance,text,silent-failure
+ex-027	lore/10-execution-recipes.jsonl	Gotcha: Font Loading in figma_execute	gotchas	gotcha,fonts,loading,async
+ex-028	lore/10-execution-recipes.jsonl	Gotcha: Color Format in figma_execute vs Tools	gotchas	gotcha,colors,format,hex,rgb
+ex-029	lore/10-execution-recipes.jsonl	Gotcha: Z-Order and appendChild	gotchas	gotcha,z-order,layers,append
+ex-030	lore/10-execution-recipes.jsonl	Gotcha: figma_execute Timeout and Batching	gotchas	gotcha,timeout,batch,performance
+ex-031	lore/10-execution-recipes.jsonl	Gotcha: createComponent vs createComponentFromNode	gotchas	gotcha,component,creation,api
+ex-032	lore/10-execution-recipes.jsonl	Visual Validation Workflow	validation	validation,screenshot,verify
+ex-033	lore/10-execution-recipes.jsonl	Component Testing Checklist	validation	validation,testing,component,checklist
+ex-034	lore/10-execution-recipes.jsonl	Workflow: Learning From Reference File	workflow	workflow,reference,learn,extract
+ex-035	lore/10-execution-recipes.jsonl	Workflow: DS Audit End-to-End	workflow	workflow,audit,end-to-end
+ex-036	lore/10-execution-recipes.jsonl	Recipe: Batch Rename Layers in Component	recipe-naming	recipe,rename,layers,naming,cleanup
+ex-037	lore/10-execution-recipes.jsonl	Recipe: Rename Layers Following Convention	recipe-naming	recipe,rename,convention,semantic
+ex-038	lore/10-execution-recipes.jsonl	Recipe: Rename Layers During Component Creation	recipe-naming	recipe,rename,creation,workflow
+ex-039	lore/10-execution-recipes.jsonl	MANDATORY: Section-First Workflow	recipe-sections	recipe,sections,organization,mandatory,workflow
+ex-040	lore/10-execution-recipes.jsonl	Section Naming and Emoji Convention	recipe-sections	recipe,sections,naming,emoji,convention
+ex-041	lore/10-execution-recipes.jsonl	Recipe: Create Section with figma_execute	recipe-sections	recipe,sections,create,figma-execute
+ex-042	lore/10-execution-recipes.jsonl	Section Grid Layout Strategy	recipe-sections	recipe,sections,layout,grid,spacing
+ex-043	lore/10-execution-recipes.jsonl	Recipe: Color Swatches Inside Section	recipe-sections	recipe,sections,colors,swatches,display
+ex-044	lore/10-execution-recipes.jsonl	Recipe: Typography Samples Inside Section	recipe-sections	recipe,sections,typography,display,samples
+ex-045	lore/10-execution-recipes.jsonl	Recipe: Component Labels Inside Sections	recipe-sections	recipe,sections,labels,annotation
+ex-046	lore/10-execution-recipes.jsonl	Updated DS Bootstrap Sequence (Section-First)	recipe-sections	recipe,design-system,bootstrap,sections,mandatory

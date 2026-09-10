@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-Auto-repackage skill .skill file when lore files or SKILL.md change.
+Auto-repackage a skill's .skill file when its lore or SKILL.md changes, and
+regenerate the entry indexes so they never go stale.
 Called by Claude Code PostToolUse hook — reads hook JSON from stdin.
 """
 import fnmatch
 import json
 import pathlib
+import subprocess
 import sys
 import zipfile
 
@@ -55,6 +57,16 @@ def package_skill(skill_path: pathlib.Path) -> pathlib.Path:
     return out
 
 
+def rebuild_indexes() -> bool:
+    """Regenerate INDEX.tsv (root + per-skill) before packaging."""
+    try:
+        subprocess.run([sys.executable, str(PROJECT / "lore.py"), "index"],
+                       cwd=PROJECT, capture_output=True, check=True, timeout=60)
+        return True
+    except Exception:
+        return False
+
+
 def main():
     # Read hook payload from stdin
     try:
@@ -71,6 +83,8 @@ def main():
     if p.suffix not in (".jsonl", ".md") and p.name != "SKILL.md":
         sys.exit(0)
 
+    indexed = rebuild_indexes()
+
     packaged_any = False
     for skill_name, skill_dir in SKILL_DIRS.items():
         try:
@@ -78,8 +92,9 @@ def main():
         except ValueError:
             continue
         out = package_skill(skill_dir)
+        note = "" if indexed else " (index rebuild failed)"
         print(json.dumps({
-            "systemMessage": f"📦 {skill_name}.skill updated — ready to upload"
+            "systemMessage": f"📦 {skill_name}.skill updated{note} — ready to upload"
         }))
         packaged_any = True
 

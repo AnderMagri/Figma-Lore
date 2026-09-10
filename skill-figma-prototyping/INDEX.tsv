@@ -1,0 +1,87 @@
+# skill-figma-prototyping entry index — grep this before reading a module
+# id	file	title	topic	tags
+fp-001	lore/34-figma-prototyping-core.jsonl	Figma's Prototyping Model — Hotspot, Connection, Destination	prototyping-model	figma,prototyping,interactions,fundamentals
+fp-002	lore/34-figma-prototyping-core.jsonl	Flows and Starting Points — Structuring a Prototype	flows-starting-points	figma,prototyping,flows,starting-points,organisation
+fp-003	lore/34-figma-prototyping-core.jsonl	Complete Trigger Reference — All 12 Figma Prototype Triggers	triggers-complete	figma,prototyping,triggers,reference
+fp-004	lore/34-figma-prototyping-core.jsonl	Choosing the Right Trigger — Decision Rules	trigger-selection	figma,prototyping,triggers,interaction-design,decision-rules
+fp-005	lore/34-figma-prototyping-core.jsonl	Complete Action Reference — All 15 Figma Prototype Actions	actions-complete	figma,prototyping,actions,reference
+fp-006	lore/34-figma-prototyping-core.jsonl	Navigate To vs Change To — The Most Consequential Choice	navigate-vs-change-to	figma,prototyping,actions,interactive-components,handoff
+fp-007	lore/34-figma-prototyping-core.jsonl	Prototype History, Back, and Swap Overlay	history-and-back	figma,prototyping,history,overlays,back
+fp-008	lore/34-figma-prototyping-core.jsonl	Overlays — Positions, Backgrounds, and Dismissal	overlays	figma,prototyping,overlays,modals,bottom-sheet
+fp-009	lore/34-figma-prototyping-core.jsonl	Overlay or Navigate? A Decision Rule	overlay-vs-navigate	figma,prototyping,overlays,navigation,decision-rules
+fp-010	lore/34-figma-prototyping-core.jsonl	Scroll and Overflow Behaviour	scroll-overflow	figma,prototyping,scroll,overflow,carousel
+fp-011	lore/34-figma-prototyping-core.jsonl	Scroll With Parent, Fixed, and Sticky	scroll-position	figma,prototyping,fixed,sticky,scroll
+fp-012	lore/34-figma-prototyping-core.jsonl	Preserve Scroll Position — And When It Lies	preserve-scroll	figma,prototyping,scroll,state,shopify
+fp-013	lore/34-figma-prototyping-core.jsonl	Scroll To — In-Page Navigation	scroll-to	figma,prototyping,scroll-to,anchor-navigation,landing-page
+fp-014	lore/34-figma-prototyping-core.jsonl	Prototype Device, Orientation, and Background	device-background	figma,prototyping,device,presentation,responsive
+fp-015	lore/34-figma-prototyping-core.jsonl	Presentation View and Sharing Prototypes	presentation-view	figma,prototyping,presentation,sharing,testing
+fp-016	lore/34-figma-prototyping-core.jsonl	Video and Audio in Prototypes	video-audio	figma,prototyping,video,media,shopify
+fp-017	lore/34-figma-prototyping-core.jsonl	Animated GIFs and Imported Motion	gifs-and-lottie	figma,prototyping,gif,lottie,motion
+fp-018	lore/34-figma-prototyping-core.jsonl	Prototype Performance — Keeping It Playable	prototype-performance	figma,prototyping,performance,optimisation,testing
+fp-019	lore/34-figma-prototyping-core.jsonl	Hotspot Craft — Size, Invisibility, and Placement	hotspot-craft	figma,prototyping,hotspots,touch-targets,components
+fp-020	lore/34-figma-prototyping-core.jsonl	Connection Hygiene and Prototype Maintenance	connection-hygiene	figma,prototyping,maintenance,hygiene,organisation
+fp-021	lore/34-figma-prototyping-core.jsonl	Prototype Fidelity — Match the Build to the Question	fidelity-ladder	prototyping,fidelity,research,strategy
+fp-022	lore/34-figma-prototyping-core.jsonl	Prototype the Riskiest Assumption First	riskiest-assumption	prototyping,strategy,research,risk
+fp-023	lore/34-figma-prototyping-core.jsonl	Prototypes in Usability Testing — What Breaks	testing-with-prototypes	prototyping,usability-testing,research,methods
+fp-024	lore/34-figma-prototyping-core.jsonl	Prototype Anti-Patterns	prototype-antipatterns	figma,prototyping,anti-patterns,critique
+fp-025	lore/34-figma-prototyping-core.jsonl	Accessibility in Prototypes — What You Can and Cannot Test	prototype-accessibility	figma,prototyping,accessibility,wcag,annotations
+fp-026	lore/34-figma-prototyping-core.jsonl	Handing Off a Prototype — What Engineers Actually Need	prototype-handoff	figma,prototyping,handoff,dev-mode,specification
+fp-027	lore/34-figma-prototyping-core.jsonl	Interactions in Library Components	library-interactions	figma,prototyping,components,libraries,design-system
+fp-028	lore/34-figma-prototyping-core.jsonl	Prototype QA Checklist — Before You Share It	prototype-qa-checklist	figma,prototyping,qa,checklist
+fp-029	lore/34-figma-prototyping-core.jsonl	When to Stop Prototyping in Figma	when-to-leave-figma	prototyping,strategy,code,limits
+fp-030	lore/34-figma-prototyping-core.jsonl	Prototypes for Stakeholders vs Prototypes for Testing	stakeholder-prototypes	prototyping,stakeholders,testing,strategy
+ft-001	lore/35-figma-transitions-motion.jsonl	Complete Transition Reference — All Figma Prototype Animations	transitions-complete	figma,prototyping,transitions,animation,reference
+ft-002	lore/35-figma-transitions-motion.jsonl	Which Transition Means What	transition-semantics	prototyping,transitions,interaction-design,craft
+ft-003	lore/35-figma-transitions-motion.jsonl	Smart Animate — How Matching Actually Works	smart-animate-matching	figma,smart-animate,transitions,layer-naming
+ft-004	lore/35-figma-transitions-motion.jsonl	Smart Animate — Supported and Unsupported Properties	smart-animate-properties	figma,smart-animate,properties,limitations
+ft-005	lore/35-figma-transitions-motion.jsonl	Easing Presets — All Eight Bezier Curves	easing-presets	figma,easing,animation,motion,reference
+ft-006	lore/35-figma-transitions-motion.jsonl	Spring Animations — Presets and Custom Physics	spring-presets	figma,spring,easing,animation,motion,handoff
+ft-007	lore/35-figma-transitions-motion.jsonl	Duration — Numbers That Actually Work	duration-craft	animation,duration,motion,craft
+ft-008	lore/35-figma-transitions-motion.jsonl	Smart Animate Recipes — Common Effects	smart-animate-recipes	figma,smart-animate,recipes,patterns
+ft-009	lore/35-figma-transitions-motion.jsonl	Debugging a Transition That Won't Animate	transition-debugging	figma,smart-animate,debugging,troubleshooting
+ft-010	lore/35-figma-transitions-motion.jsonl	Motion Restraint — When Not to Animate	motion-restraint	motion,interaction-design,restraint,critique
+ft-011	lore/35-figma-transitions-motion.jsonl	Choreography — Coordinating Multiple Elements	choreography	motion,choreography,stagger,animation
+ft-012	lore/35-figma-transitions-motion.jsonl	Motion Expectations by Platform	cross-platform-motion	motion,platform,ios,android,web,shopify,crypto
+fa-001	lore/36-figma-advanced-prototyping.jsonl	Advanced Prototyping — Variables, Conditionals, Expressions	advanced-prototyping-overview	figma,variables,conditionals,expressions,prototyping
+fa-002	lore/36-figma-advanced-prototyping.jsonl	Variable Types and What Each Is For	variable-types	figma,variables,types,binding,tokens
+fa-003	lore/36-figma-advanced-prototyping.jsonl	The Set Variable Action	set-variable	figma,variables,set-variable,expressions
+fa-004	lore/36-figma-advanced-prototyping.jsonl	Expression Syntax — Complete Reference	expressions-syntax	figma,expressions,syntax,reference,variables
+fa-005	lore/36-figma-advanced-prototyping.jsonl	Conditionals — If/Else Branching in Prototypes	conditionals	figma,conditionals,logic,validation,prototyping
+fa-006	lore/36-figma-advanced-prototyping.jsonl	Variable Modes in Prototypes — Theming and Locale Switching	variable-modes-prototypes	figma,variable-modes,theming,dark-mode,design-system,localisation
+fa-007	lore/36-figma-advanced-prototyping.jsonl	Interactive Components — Building Stateful Components	interactive-components	figma,interactive-components,variants,components,state
+fa-008	lore/36-figma-advanced-prototyping.jsonl	Variables + Interactive Components — The Combination That Scales	variables-plus-components	figma,variables,interactive-components,patterns,shopify,crypto
+fa-009	lore/36-figma-advanced-prototyping.jsonl	Prototyping Real Text Input	text-input-prototypes	figma,variables,forms,text-input,validation,testing
+fa-010	lore/36-figma-advanced-prototyping.jsonl	Modelling State Before You Build	state-modelling	figma,variables,state-machine,modelling,handoff
+fa-011	lore/36-figma-advanced-prototyping.jsonl	Advanced Prototype Recipes — Variables and Conditionals	advanced-prototype-recipes	figma,recipes,variables,conditionals,shopify,crypto
+fa-012	lore/36-figma-advanced-prototyping.jsonl	Where Variables and Conditionals Run Out	advanced-prototype-limits	figma,variables,limits,code,strategy
+fm-001	lore/37-figma-motion.jsonl	Figma Motion — Native Timeline Animation in Figma Design	figma-motion-overview	figma,figma-motion,timeline,animation,keyframes
+fm-002	lore/37-figma-motion.jsonl	The Motion Timeline — Mechanics	motion-timeline	figma,figma-motion,timeline,keyframes,collaboration
+fm-003	lore/37-figma-motion.jsonl	Animation Styles — Motion as a Reusable Style	animation-styles	figma,figma-motion,animation-styles,design-system,motion-tokens,variables
+fm-004	lore/37-figma-motion.jsonl	Figma Motion or Prototyping? A Decision Rule	motion-vs-prototyping	figma,figma-motion,prototyping,workflow,decision-rules
+fm-005	lore/37-figma-motion.jsonl	Figma Motion — Export and Developer Handoff	motion-export-handoff	figma,figma-motion,handoff,dev-mode,export,mcp
+fm-006	lore/37-figma-motion.jsonl	Figma Motion Plugin API — Automating Animation	motion-plugin-api	figma,figma-motion,plugin-api,automation,reference
+fm-007	lore/37-figma-motion.jsonl	Authoring an Animation in Figma Motion — Practical Order	motion-authoring-workflow	figma,figma-motion,workflow,craft,process
+fm-008	lore/37-figma-motion.jsonl	Using the Figma Agent for Motion	motion-agent	figma,figma-motion,ai,agent,workflow
+fm-009	lore/37-figma-motion.jsonl	Motion and Interaction in Figma Sites	motion-figma-sites	figma,figma-sites,web,scroll-animation,marketing-site
+fm-010	lore/37-figma-motion.jsonl	Reviewing Motion — What to Look For	motion-review	motion,critique,review,accessibility
+ms-001	lore/38-motion-system-handoff.jsonl	Motion as a Token Layer, Not a Collection of Animations	motion-system-why	motion,design-system,tokens,governance
+ms-002	lore/38-motion-system-handoff.jsonl	Duration Tokens — A Working Scale	duration-tokens	motion,duration,tokens,design-system
+ms-003	lore/38-motion-system-handoff.jsonl	Easing Tokens — Named Curves and Their Semantics	easing-tokens	motion,easing,tokens,design-system,figma
+ms-004	lore/38-motion-system-handoff.jsonl	Reduced Motion — A System-Level Requirement	reduced-motion	motion,accessibility,reduced-motion,wcag,tokens
+ms-005	lore/38-motion-system-handoff.jsonl	Motion Performance — What Is Cheap and What Is Not	motion-performance	motion,performance,web,core-web-vitals,engineering
+ms-006	lore/38-motion-system-handoff.jsonl	Mapping Figma Motion to Code	motion-code-mapping	motion,code,css,framer-motion,handoff,shopify
+ms-007	lore/38-motion-system-handoff.jsonl	Motion Spec Template — What to Hand Over	motion-spec-template	motion,handoff,specification,documentation,template
+ms-008	lore/38-motion-system-handoff.jsonl	Motion Personality — Making Motion Say Something	motion-personality	motion,brand,personality,shopify,crypto,ai
+ms-009	lore/38-motion-system-handoff.jsonl	Motion Critique Checklist	motion-critique-checklist	motion,critique,checklist,accessibility,review
+pr-001	lore/39-prototype-recipes.jsonl	Recipe — Draggable Bottom Sheet with Detents	recipe-bottom-sheet	figma,recipe,bottom-sheet,overlay,mobile,drag
+pr-002	lore/39-prototype-recipes.jsonl	Recipe — Toast with Auto-Dismiss	recipe-toast	figma,recipe,toast,after-delay,notification
+pr-003	lore/39-prototype-recipes.jsonl	Recipe — Shopify PDP Variant Picker with Live Price and Availability	recipe-shopify-pdp	figma,recipe,shopify,pdp,variants,variables,ecommerce
+pr-004	lore/39-prototype-recipes.jsonl	Recipe — Cart Drawer That Stays Consistent Everywhere	recipe-cart-drawer	figma,recipe,shopify,cart,overlay,variables,ecommerce
+pr-005	lore/39-prototype-recipes.jsonl	Recipe — Filter Panel with Applied State and Preserved Scroll	recipe-filters	figma,recipe,shopify,filters,scroll,preserve-scroll,ecommerce
+pr-006	lore/39-prototype-recipes.jsonl	Recipe — Multi-Step Form with Real Validation States	recipe-multistep-form	figma,recipe,forms,validation,variables,conditionals
+pr-007	lore/39-prototype-recipes.jsonl	Recipe — Wallet Connect Flow with Signing States	recipe-wallet-connect	figma,recipe,crypto,web3,wallet,transaction,overlay
+pr-008	lore/39-prototype-recipes.jsonl	Recipe — AI Feature with Honest Latency and Failure	recipe-ai-response	figma,recipe,ai,latency,error-states,prototyping
+pr-009	lore/39-prototype-recipes.jsonl	Recipe — Live Theme Toggle Across a Whole Prototype	recipe-theme-toggle	figma,recipe,variable-modes,dark-mode,design-system,theming
+pr-010	lore/39-prototype-recipes.jsonl	Recipe — Skeleton to Content Transition	recipe-skeleton-loading	figma,recipe,loading,skeleton,smart-animate,performance
+pr-011	lore/39-prototype-recipes.jsonl	Recipe — Onboarding Carousel with Drag and Progress	recipe-onboarding-carousel	figma,recipe,onboarding,carousel,push,drag,mobile
+pr-012	lore/39-prototype-recipes.jsonl	Recipe — Building a Complete State Inventory Frame Set	recipe-state-inventory	figma,recipe,states,empty-state,error-states,critique,method
